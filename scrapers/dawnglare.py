@@ -115,11 +115,8 @@ def scrape() -> dict:
             packs = {"booster-box": 36, "half-booster-box": 18, "enhanced-booster-box": 36,
                      "etb": 9, "booster-bundle": 6}.get(product_type, 1)
 
-            # Skip Pokemon Center exclusives (much higher price, not representative)
+            # Skip Pokemon Center exclusives (premium pricing, not representative)
             if "pokemon center" in name.lower() and "exclusive" in name.lower():
-                continue
-            # Skip Dollar General, Costco, Sam's Club exclusives
-            if any(x in name.lower() for x in ["dollar general", "costco", "sam's club"]):
                 continue
 
             if sid not in results:

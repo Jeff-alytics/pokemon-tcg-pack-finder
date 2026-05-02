@@ -222,20 +222,16 @@ function verdict(score){
   return{label:'Skip',cls:'v-skip'};
 }
 
-function storeLinks(setName,suffix){
-  const q=encodeURIComponent(setName+' '+suffix);
-  const stores=[
+function searchLinks(setName){
+  const q=encodeURIComponent(setName+' pokemon tcg sealed');
+  return [
     {n:'TCGPlayer',u:`https://www.tcgplayer.com/search/pokemon/product?q=${q}&view=grid`},
     {n:'eBay',u:`https://www.ebay.com/sch/i.html?_nkw=${q}&_sacat=183454&LH_BIN=1&_sop=15`},
     {n:'Amazon',u:`https://www.amazon.com/s?k=${q}&i=toys-and-games`},
     {n:'Walmart',u:`https://www.walmart.com/search?q=${q}`},
     {n:'Target',u:`https://www.target.com/s?searchTerm=${q}`},
     {n:'GameStop',u:`https://www.gamestop.com/search/?q=${q}`},
-    {n:'Best Buy',u:`https://www.bestbuy.com/site/searchpage.jsp?st=${q}`},
-    {n:'GameNerdz',u:`https://www.gamenerdz.com/catalogsearch/result/?q=${encodeURIComponent('pokemon '+setName)}`},
-    {n:'Pokemon Center',u:`https://www.pokemoncenter.com/search?q=${encodeURIComponent(setName)}`},
-  ];
-  return stores.map(s=>`<a class="store-link" href="${s.u}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${s.n}</a>`).join('');
+  ].map(s=>`<a class="store-link" href="${s.u}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${s.n}</a>`).join('');
 }
 
 function render(){
@@ -271,11 +267,7 @@ function render(){
     }
 
     // Store search links by product type
-    const buyLinks=['booster pack sealed','booster box','elite trainer box','booster bundle'].map(type=>`
-      <div style="margin-bottom:6px;">
-        <span style="font-size:0.7rem;font-weight:600;color:var(--soft);display:inline-block;width:100px;">${type.replace('sealed','').trim()}</span>
-        ${storeLinks(s.name,type)}
-      </div>`).join('');
+    const searchLinksHtml=searchLinks(s.name);
 
     // Chase cards
     const chaseHtml=r.cc.map(c=>`
@@ -308,9 +300,9 @@ function render(){
       <div class="buy-section">
         <div class="buy-header">Prices &amp; Buy Links</div>
         ${productsHtml}
-        <div style="margin-top:10px;">
-          <div class="buy-header">Compare Prices At</div>
-          ${buyLinks}
+        <div style="margin-top:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:0.72rem;color:var(--mute);">Search for deals:</span>
+          ${searchLinksHtml}
         </div>
       </div>
 
