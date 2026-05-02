@@ -222,6 +222,78 @@ function verdict(score){
   return{label:'Skip',cls:'v-skip'};
 }
 
+function buildBuyOptions(r){
+  const s=r.s, name=s.name;
+  const q=encodeURIComponent(name+' pokemon tcg sealed');
+  // Collect all options: Dawnglare products + loose pack estimate
+  const options=[];
+
+  // Dawnglare products (real TCGPlayer prices)
+  r.dgProducts.forEach(d=>{
+    options.push({
+      label:d.label||d.product_type,
+      name:d.name,
+      price:d.price_usd,
+      packs:d.packs,
+      perPack:d.per_pack_usd,
+      url:d.url,
+      source:'TCGPlayer',
+    });
+  });
+
+  // Loose pack from sets.json estimate
+  if(s.pricing?.pack_price_usd){
+    options.push({
+      label:'Single Pack',
+      name:name+' Booster Pack',
+      price:s.pricing.pack_price_usd,
+      packs:1,
+      perPack:s.pricing.pack_price_usd,
+      url:`https://www.tcgplayer.com/search/pokemon/product?q=${encodeURIComponent(name+' booster pack')}&view=grid`,
+      source:'Est.',
+    });
+  }
+
+  // Sort by per-pack price
+  options.sort((a,b)=>a.perPack-b.perPack);
+
+  if(!options.length){
+    return `<div style="font-size:0.82rem;color:var(--mute);padding:6px 0;">No pricing data yet</div>
+      <div style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap;">${searchLinks(name)}</div>`;
+  }
+
+  // Best deal callout
+  const best=options[0];
+  let html=`<div style="background:rgba(22,163,74,0.06);border:1px solid var(--green);border-radius:8px;padding:10px 14px;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+    <div>
+      <span style="font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--green);">Best Deal</span><br>
+      <span style="font-weight:600;font-size:0.9rem;">${best.label}</span>
+      <span style="font-family:var(--mono);font-size:0.85rem;margin-left:6px;">$${best.price.toFixed(2)}</span>
+      <span style="font-family:var(--mono);font-size:0.75rem;color:var(--green);margin-left:4px;">($${best.perPack.toFixed(2)}/pack)</span>
+    </div>
+    ${best.url?`<a class="pr-buy" href="${best.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Buy on ${best.source}</a>`:''}
+  </div>`;
+
+  // All options
+  if(options.length>1){
+    html+=options.slice(1).map(o=>`
+      <div class="product-row">
+        <span class="pr-name">${o.label}</span>
+        <span class="pr-price">$${o.price.toFixed(2)}</span>
+        <span class="pr-perpk">$${o.perPack.toFixed(2)}/pk</span>
+        <span style="font-size:0.68rem;color:var(--mute)">${o.packs} packs</span>
+        ${o.url?`<a class="pr-buy" href="${o.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Buy</a>`:''}
+      </div>`).join('');
+  }
+
+  // Search other stores
+  html+=`<div style="margin-top:10px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+    <span style="font-size:0.7rem;color:var(--mute);">Compare:</span>${searchLinks(name)}
+  </div>`;
+
+  return html;
+}
+
 function searchLinks(setName){
   const q=encodeURIComponent(setName+' pokemon tcg sealed');
   return [
@@ -298,12 +370,8 @@ function render(){
       </div>
 
       <div class="buy-section">
-        <div class="buy-header">Prices &amp; Buy Links</div>
-        ${productsHtml}
-        <div style="margin-top:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-          <span style="font-size:0.72rem;color:var(--mute);">Search for deals:</span>
-          ${searchLinksHtml}
-        </div>
+        <div class="buy-header">How to Buy — Cheapest First</div>
+        ${buildBuyOptions(r)}
       </div>
 
       <div class="sc-detail">
