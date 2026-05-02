@@ -1407,8 +1407,9 @@ footer a:hover { color: var(--blue); }
               <p style="margin-top:8px;font-size:0.72rem;color:var(--text-mute);">Top chase: ${s.pullRate||'N/A'} &middot; Any chase: ${s.pullRates.any_chase_rare||'N/A'}</p>
             </div>
             <div>
-              <h4 style="font-family:var(--display);font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-soft);margin-bottom:10px;">Cheapest Listings</h4>
+              <h4 style="font-family:var(--display);font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-soft);margin-bottom:10px;">Where to Buy</h4>
               ${listingsHtml}
+              ${buildBuyLinks(s.name)}
               <h4 style="font-family:var(--display);font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-soft);margin:16px 0 10px;">Score Breakdown</h4>
               <div class="component-bars">
                 <div class="comp-row"><span class="comp-label">Cost</span><div class="comp-bar-bg"><div class="comp-bar-fill" style="width:${s.cs.ce}%;background:var(--blue)"></div></div><span class="comp-val">${s.cs.ce.toFixed(0)}</span></div>
@@ -1442,6 +1443,22 @@ footer a:hover { color: var(--blue); }
       all.push({title:tcgLinks[0].title,price_usd:0,url:tcgLinks[0].url,seller:'TCGPlayer (view)'});
     }
     return all.filter(l=>l.url).sort((a,b)=>(b.price_usd>0?0:1)-(a.price_usd>0?0:1) || a.price_usd-b.price_usd);
+  }
+
+  function buildBuyLinks(setName) {
+    const q = encodeURIComponent(setName + ' booster pack sealed');
+    const stores = [
+      {name:'TCGPlayer', url:`https://www.tcgplayer.com/search/pokemon/product?q=${q}&view=grid`},
+      {name:'eBay', url:`https://www.ebay.com/sch/i.html?_nkw=${q}&_sacat=183454&LH_BIN=1&_sop=15`},
+      {name:'Amazon', url:`https://www.amazon.com/s?k=${q}&i=toys-and-games`},
+      {name:'Walmart', url:`https://www.walmart.com/search?q=${q}`},
+      {name:'Target', url:`https://www.target.com/s?searchTerm=${q}`},
+      {name:'GameNerdz', url:`https://www.gamenerdz.com/catalogsearch/result/?q=${encodeURIComponent(setName+' pokemon')}`},
+      {name:'Pokemon Center', url:`https://www.pokemoncenter.com/search?q=${encodeURIComponent(setName)}`},
+    ];
+    return `<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;">${stores.map(s=>
+      `<a href="${s.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="font-size:0.72rem;padding:4px 10px;background:var(--surface-3);border:1px solid var(--border);border-radius:50px;color:var(--blue);text-decoration:none;font-weight:500;transition:all 0.15s;">${s.name} &rarr;</a>`
+    ).join('')}</div>`;
   }
 
   // ── Render: Chart ──────────────────────────────────────
