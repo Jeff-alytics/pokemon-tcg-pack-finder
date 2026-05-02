@@ -1468,6 +1468,8 @@ footer a:hover { color: var(--blue); }
       {name:'Walmart', url:`https://www.walmart.com/search?q=${q}`},
       {name:'Target', url:`https://www.target.com/s?searchTerm=${q}`},
       {name:'GameNerdz', url:`https://www.gamenerdz.com/catalogsearch/result/?q=${encodeURIComponent('pokemon '+setName+' '+q.split('+').pop())}`},
+      {name:'GameStop', url:`https://www.gamestop.com/search/?q=${q}&lang=default`},
+      {name:'Best Buy', url:`https://www.bestbuy.com/site/searchpage.jsp?st=${q}`},
       {name:'Pokemon Center', url:`https://www.pokemoncenter.com/search?q=${encodeURIComponent(setName)}`},
     ];
     return products.map(p => {
