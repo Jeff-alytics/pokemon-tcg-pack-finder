@@ -22,6 +22,7 @@ DATA_DIR = ROOT / "data"
 SETS_JSON = DATA_DIR / "sets.json"
 PRICES_JSON = DATA_DIR / "prices.json"
 SCORED_JSON = DATA_DIR / "scored.json"
+GRADED_JSON = DATA_DIR / "graded.json"
 CONFIG_JSON = ROOT / "config.json"
 
 
@@ -117,6 +118,15 @@ def run_scoring() -> list[dict]:
     return score_run(str(SETS_JSON), str(PRICES_JSON), str(CONFIG_JSON))
 
 
+def run_graded() -> dict:
+    """Run the graded price scraper."""
+    log.info("")
+    log.info("=" * 60)
+    log.info("Scraping graded card prices...")
+    log.info("=" * 60)
+    return _run_scraper("Graded Prices", "scrapers.graded_prices", str(SETS_JSON))
+
+
 def run_alerts():
     """Run the alert evaluation and email."""
     log.info("")
@@ -171,6 +181,17 @@ def main():
         },
         "sets": scored,
     })
+
+    # Run graded price scraper
+    if not args.score_only:
+        graded = run_graded()
+        save_json(GRADED_JSON, {
+            "_meta": {
+                "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+                "num_cards": len(graded),
+            },
+            "cards": graded,
+        })
 
     # Run alerts
     if not args.no_alerts:

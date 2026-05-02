@@ -527,12 +527,103 @@
     </div>
   </div>
 
+  <!-- Card Scanner -->
+  <div class="methodology" id="scannerSection" style="border-left:6px solid var(--accent-2);">
+    <h2>Card Value Scanner</h2>
+    <p style="color:var(--ink-soft);margin-bottom:16px;">
+      Look up any card's value — raw and graded. Type a card name or scan with your camera.
+    </p>
+
+    <div style="display:flex;gap:20px;flex-wrap:wrap;margin-bottom:20px;">
+      <!-- Quick Lookup -->
+      <div style="flex:1;min-width:280px;">
+        <h3>Quick Lookup</h3>
+        <div style="position:relative;">
+          <input type="text" id="cardSearchInput" placeholder="Type card name or number (e.g. Charizard ex 199/165)"
+            style="width:100%;padding:10px 14px;border:1px solid var(--border);font-family:var(--sans);font-size:0.9rem;background:var(--bg);color:var(--ink);outline:none;"
+            autocomplete="off">
+          <div id="cardSearchDropdown" style="display:none;position:absolute;top:100%;left:0;right:0;background:var(--surface);border:1px solid var(--border);border-top:none;max-height:240px;overflow-y:auto;z-index:100;"></div>
+        </div>
+        <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;" id="recentScans"></div>
+      </div>
+
+      <!-- Camera Scan -->
+      <div style="flex:1;min-width:280px;">
+        <h3>Camera Scan</h3>
+        <div id="cameraContainer" style="position:relative;background:#000;border-radius:4px;overflow:hidden;">
+          <video id="cameraFeed" autoplay playsinline muted style="width:100%;display:none;"></video>
+          <canvas id="cameraCanvas" style="display:none;"></canvas>
+          <div id="cameraPlaceholder" style="padding:40px 20px;text-align:center;color:#999;font-size:0.85rem;">
+            <div style="font-size:2rem;margin-bottom:8px;">&#128247;</div>
+            Point camera at the card number<br>(bottom of card, e.g. "199/165")
+          </div>
+        </div>
+        <div style="margin-top:8px;display:flex;gap:8px;">
+          <button id="cameraStartBtn" onclick="startCamera()" style="flex:1;padding:8px;background:var(--accent-2);color:#fff;border:none;cursor:pointer;font-family:var(--sans);font-size:0.82rem;font-weight:600;">
+            Start Camera
+          </button>
+          <button id="cameraCaptureBtn" onclick="captureAndScan()" disabled style="flex:1;padding:8px;background:var(--ink);color:#fff;border:none;cursor:pointer;font-family:var(--sans);font-size:0.82rem;font-weight:600;opacity:0.5;">
+            Scan Card
+          </button>
+        </div>
+        <p id="ocrStatus" style="font-size:0.78rem;color:var(--ink-mute);margin-top:6px;"></p>
+      </div>
+    </div>
+
+    <!-- Scanner Results -->
+    <div id="scannerResults" style="display:none;">
+      <div style="border-top:2px solid var(--ink);padding-top:16px;margin-top:8px;">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:12px;">
+          <h3 id="scanResultName" style="margin:0;"></h3>
+          <span id="scanResultNumber" style="font-family:var(--mono);color:var(--ink-mute);font-size:0.85rem;"></span>
+          <span id="scanResultSet" style="font-size:0.82rem;color:var(--ink-soft);"></span>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px;">
+          <!-- Raw -->
+          <div style="background:var(--bg);border:1px solid var(--border);padding:14px;text-align:center;">
+            <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-mute);margin-bottom:4px;">Raw (Ungraded)</div>
+            <div id="priceRaw" style="font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--ink);">—</div>
+            <div id="priceRawSales" style="font-size:0.72rem;color:var(--ink-mute);margin-top:2px;"></div>
+          </div>
+          <!-- PSA 9 -->
+          <div style="background:var(--bg);border:1px solid var(--border);padding:14px;text-align:center;">
+            <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-mute);margin-bottom:4px;">PSA 9</div>
+            <div id="pricePsa9" style="font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--ink);">—</div>
+            <div id="pricePsa9Sales" style="font-size:0.72rem;color:var(--ink-mute);margin-top:2px;"></div>
+          </div>
+          <!-- PSA 10 -->
+          <div style="background:#f0fdf4;border:2px solid var(--green);padding:14px;text-align:center;">
+            <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--green);margin-bottom:4px;">PSA 10</div>
+            <div id="pricePsa10" style="font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--green);">—</div>
+            <div id="pricePsa10Sales" style="font-size:0.72rem;color:var(--ink-mute);margin-top:2px;"></div>
+          </div>
+          <!-- BGS 9.5 -->
+          <div style="background:var(--bg);border:1px solid var(--border);padding:14px;text-align:center;">
+            <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-mute);margin-bottom:4px;">BGS 9.5</div>
+            <div id="priceBgs95" style="font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--ink);">—</div>
+            <div id="priceBgs95Sales" style="font-size:0.72rem;color:var(--ink-mute);margin-top:2px;"></div>
+          </div>
+        </div>
+
+        <!-- Grade Premium -->
+        <div id="gradePremiumBox" style="background:var(--bg);border:1px solid var(--border);padding:14px 18px;display:none;">
+          <div style="font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-mute);margin-bottom:6px;">Grade Premium Analysis</div>
+          <div id="gradePremiumText" style="font-size:0.88rem;color:var(--ink-soft);line-height:1.6;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <footer>
   <p>Pokémon TCG Pack Finder &middot; Data refreshed daily &middot;
      <a href="https://github.com/Jeff-alytics/pokemon-tcg-pack-finder">View on GitHub</a></p>
 </footer>
+
+<!-- Tesseract.js for OCR -->
+<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
 
 <script>
 (function() {
@@ -1125,6 +1216,261 @@
 
   // ── Init ───────────────────────────────────────────────
   loadData();
+})();
+
+// ══════════════════════════════════════════════════════════
+// Card Scanner (outside IIFE — needs global access for button onclick)
+// ══════════════════════════════════════════════════════════
+(function() {
+  'use strict';
+
+  let gradedData = {};
+  let cardIndex = [];   // Flat list of {set_id, set_name, card_name, card_number, key} for search
+  let cameraStream = null;
+  let tesseractWorker = null;
+
+  // Load graded.json + build card index from sets.json
+  async function loadScannerData() {
+    try {
+      const [gradedResp, setsResp] = await Promise.all([
+        fetch('data/graded.json').then(r => r.ok ? r.json() : { cards: {} }),
+        fetch('data/sets.json').then(r => r.json()),
+      ]);
+      gradedData = gradedResp.cards || {};
+
+      // Build searchable index from sets.json chase cards
+      (setsResp.sets || []).forEach(s => {
+        (s.top_chase_cards || []).forEach(c => {
+          cardIndex.push({
+            set_id: s.id,
+            set_name: s.name,
+            card_name: c.name,
+            card_number: c.card_number || '',
+            estimated_value_usd: c.estimated_value_usd || 0,
+            key: `${s.id}/${c.card_number || ''}`,
+            searchText: `${c.name} ${c.card_number || ''} ${s.name}`.toLowerCase(),
+          });
+        });
+      });
+    } catch (e) {
+      console.error('Scanner data load error:', e);
+    }
+  }
+
+  // Autocomplete search
+  const searchInput = document.getElementById('cardSearchInput');
+  const dropdown = document.getElementById('cardSearchDropdown');
+
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.toLowerCase().trim();
+    if (q.length < 2) { dropdown.style.display = 'none'; return; }
+
+    const matches = cardIndex
+      .filter(c => c.searchText.includes(q))
+      .slice(0, 8);
+
+    if (!matches.length) { dropdown.style.display = 'none'; return; }
+
+    dropdown.style.display = 'block';
+    dropdown.innerHTML = matches.map(c => `
+      <div style="padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--border);font-size:0.85rem;"
+           onmouseover="this.style.background='var(--row-alt)'" onmouseout="this.style.background=''"
+           data-key="${c.key}" data-name="${c.card_name}" data-number="${c.card_number}" data-set="${c.set_name}">
+        <strong>${c.card_name}</strong>
+        <span style="color:var(--ink-mute);font-family:var(--mono);font-size:0.78rem;">${c.card_number}</span>
+        <span style="color:var(--ink-mute);font-size:0.78rem;float:right;">${c.set_name}</span>
+      </div>
+    `).join('');
+  });
+
+  dropdown.addEventListener('click', (e) => {
+    const item = e.target.closest('[data-key]');
+    if (!item) return;
+    dropdown.style.display = 'none';
+    searchInput.value = `${item.dataset.name} ${item.dataset.number}`;
+    showCardResult(item.dataset.key, item.dataset.name, item.dataset.number, item.dataset.set);
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('#cardSearchInput') && !e.target.closest('#cardSearchDropdown')) {
+      dropdown.style.display = 'none';
+    }
+  });
+
+  // Display results for a card
+  function showCardResult(key, cardName, cardNumber, setName) {
+    const resultsDiv = document.getElementById('scannerResults');
+    document.getElementById('scanResultName').textContent = cardName;
+    document.getElementById('scanResultNumber').textContent = cardNumber;
+    document.getElementById('scanResultSet').textContent = setName;
+
+    const graded = gradedData[key]?.grades;
+
+    function showPrice(elId, salesElId, data) {
+      const el = document.getElementById(elId);
+      const salesEl = document.getElementById(salesElId);
+      if (data?.median_price_usd) {
+        el.textContent = `$${data.median_price_usd.toLocaleString()}`;
+        salesEl.textContent = `${data.num_sales} sales`;
+      } else {
+        // Fall back to estimated value for raw
+        const card = cardIndex.find(c => c.key === key);
+        if (elId === 'priceRaw' && card?.estimated_value_usd) {
+          el.textContent = `~$${card.estimated_value_usd.toLocaleString()}`;
+          salesEl.textContent = 'estimated (no sold data yet)';
+        } else {
+          el.textContent = '—';
+          salesEl.textContent = 'no data';
+        }
+      }
+    }
+
+    if (graded) {
+      showPrice('priceRaw', 'priceRawSales', graded.raw);
+      showPrice('pricePsa9', 'pricePsa9Sales', graded.psa_9);
+      showPrice('pricePsa10', 'pricePsa10Sales', graded.psa_10);
+      showPrice('priceBgs95', 'priceBgs95Sales', graded.bgs_9_5);
+
+      const premium = graded.grade_premium;
+      const premBox = document.getElementById('gradePremiumBox');
+      const premText = document.getElementById('gradePremiumText');
+      if (premium?.psa_10_vs_raw_multiplier) {
+        premBox.style.display = '';
+        const color = premium.worth_grading ? 'var(--green)' : 'var(--accent)';
+        premText.innerHTML = `
+          <strong style="color:${color};">${premium.worth_grading ? 'Worth grading' : 'Marginal'}</strong> &mdash;
+          PSA 10 trades at <strong>${premium.psa_10_vs_raw_multiplier}x</strong> raw price.
+          Grade premium: <strong style="font-family:var(--mono);">+$${premium.psa_10_vs_raw_dollar.toLocaleString()}</strong>.
+          <br><span style="font-size:0.8rem;color:var(--ink-mute);">
+            ${premium.worth_grading
+              ? 'Premium exceeds typical grading fees ($20-50). Worth submitting if card is mint condition.'
+              : 'Premium is close to or below grading fees. Only grade if you\'re confident in a PSA 10.'}
+          </span>
+        `;
+      } else {
+        premBox.style.display = '';
+        premText.textContent = premium?.note || 'Insufficient data to compute grade premium.';
+      }
+    } else {
+      // No graded data — show estimated values
+      showPrice('priceRaw', 'priceRawSales', null);
+      showPrice('pricePsa9', 'pricePsa9Sales', null);
+      showPrice('pricePsa10', 'pricePsa10Sales', null);
+      showPrice('priceBgs95', 'priceBgs95Sales', null);
+      const premBox = document.getElementById('gradePremiumBox');
+      premBox.style.display = '';
+      document.getElementById('gradePremiumText').textContent = 'Graded price data not yet available — run the pipeline to populate.';
+    }
+
+    resultsDiv.style.display = '';
+  }
+
+  // Camera functions (exposed globally for onclick)
+  window.startCamera = async function() {
+    const video = document.getElementById('cameraFeed');
+    const placeholder = document.getElementById('cameraPlaceholder');
+    const captureBtn = document.getElementById('cameraCaptureBtn');
+
+    try {
+      cameraStream = await navigator.mediaDevices.getUserMedia({
+        video: { facingMode: 'environment', width: { ideal: 1280 }, height: { ideal: 720 } }
+      });
+      video.srcObject = cameraStream;
+      video.style.display = 'block';
+      placeholder.style.display = 'none';
+      captureBtn.disabled = false;
+      captureBtn.style.opacity = '1';
+      document.getElementById('cameraStartBtn').textContent = 'Restart Camera';
+    } catch (e) {
+      document.getElementById('ocrStatus').textContent = 'Camera access denied or unavailable.';
+    }
+  };
+
+  window.captureAndScan = async function() {
+    const video = document.getElementById('cameraFeed');
+    const canvas = document.getElementById('cameraCanvas');
+    const status = document.getElementById('ocrStatus');
+
+    if (!video.srcObject) return;
+
+    // Capture frame
+    canvas.width = video.videoWidth;
+    canvas.height = video.videoHeight;
+    const ctx = canvas.getContext('2d');
+    ctx.drawImage(video, 0, 0);
+
+    // Crop to bottom 30% of image (where card number lives)
+    const cropY = Math.floor(canvas.height * 0.7);
+    const cropH = canvas.height - cropY;
+    const cropCanvas = document.createElement('canvas');
+    cropCanvas.width = canvas.width;
+    cropCanvas.height = cropH;
+    const cropCtx = cropCanvas.getContext('2d');
+    cropCtx.drawImage(canvas, 0, cropY, canvas.width, cropH, 0, 0, canvas.width, cropH);
+
+    // Enhance contrast for OCR
+    const imgData = cropCtx.getImageData(0, 0, cropCanvas.width, cropCanvas.height);
+    const d = imgData.data;
+    for (let i = 0; i < d.length; i += 4) {
+      const avg = (d[i] + d[i+1] + d[i+2]) / 3;
+      const bw = avg > 128 ? 255 : 0;
+      d[i] = d[i+1] = d[i+2] = bw;
+    }
+    cropCtx.putImageData(imgData, 0, 0);
+
+    status.textContent = 'Scanning... (loading OCR engine)';
+
+    try {
+      if (typeof Tesseract === 'undefined') {
+        status.textContent = 'Tesseract.js not loaded. Check internet connection.';
+        return;
+      }
+
+      const result = await Tesseract.recognize(cropCanvas.toDataURL(), 'eng', {
+        logger: m => {
+          if (m.status === 'recognizing text') {
+            status.textContent = `Scanning... ${Math.round((m.progress || 0) * 100)}%`;
+          }
+        }
+      });
+
+      const text = result.data.text;
+      status.textContent = `OCR result: "${text.trim()}"`;
+
+      // Try to find card number pattern (e.g., "199/165", "GG69/GG70")
+      const numberMatch = text.match(/(\d{1,3}\s*\/\s*\d{1,3}|GG\d{1,2}\s*\/\s*GG\d{1,2})/i);
+      if (numberMatch) {
+        const scannedNumber = numberMatch[1].replace(/\s/g, '');
+        status.textContent = `Found card number: ${scannedNumber}`;
+
+        // Look up in card index
+        const match = cardIndex.find(c => {
+          const cn = c.card_number.replace(/\s/g, '');
+          return cn === scannedNumber || cn.includes(scannedNumber);
+        });
+
+        if (match) {
+          searchInput.value = `${match.card_name} ${match.card_number}`;
+          showCardResult(match.key, match.card_name, match.card_number, match.set_name);
+          status.textContent = `Matched: ${match.card_name} (${match.card_number})`;
+        } else {
+          status.textContent = `Found ${scannedNumber} but no matching card in tracked sets. Try typing the name.`;
+        }
+      } else {
+        status.textContent = `Couldn't detect a card number. Try holding the card closer, or type the name above.`;
+      }
+    } catch (e) {
+      status.textContent = `OCR error: ${e.message}`;
+    }
+  };
+
+  // Cleanup camera on page unload
+  window.addEventListener('beforeunload', () => {
+    if (cameraStream) cameraStream.getTracks().forEach(t => t.stop());
+  });
+
+  // Init
+  loadScannerData();
 })();
 </script>
 </body>
