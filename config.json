@@ -1,0 +1,53 @@
+{
+  "scoring_weights": {
+    "cost_efficiency": 0.30,
+    "chase_magnitude": 0.30,
+    "pull_odds": 0.20,
+    "hit_density": 0.20
+  },
+  "scoring_notes": {
+    "cost_efficiency": "Lower price-per-pack scores higher (inverted, normalized)",
+    "chase_magnitude": "Higher top-card value scores higher",
+    "pull_odds": "Smaller '1 in N' rate scores higher (better odds = higher score)",
+    "hit_density": "More chase cards per total set size scores higher"
+  },
+  "thresholds": {
+    "high_value_card_usd": 50,
+    "price_drift_alert_pct": 50,
+    "default_pack_msrp_usd": 4.49
+  },
+  "alerts": {
+    "enabled": true,
+    "rules": [
+      {
+        "name": "pack_below_median",
+        "description": "Booster pack listed 20%+ below 30-day median sold price",
+        "type": "pct_below_median",
+        "threshold_pct": 20,
+        "product": "booster_pack"
+      },
+      {
+        "name": "pack_under_floor",
+        "description": "Any booster pack listing under $3.50",
+        "type": "absolute_floor",
+        "threshold_usd": 3.50,
+        "product": "booster_pack"
+      },
+      {
+        "name": "chase_single_below_median",
+        "description": "Chase single listed 25%+ below 30-day median sold price",
+        "type": "pct_below_median",
+        "threshold_pct": 25,
+        "product": "chase_single"
+      }
+    ],
+    "email": {
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": 587,
+      "use_tls": true,
+      "from_env": "ALERT_SMTP_USER",
+      "password_env": "ALERT_SMTP_PASS",
+      "recipient_env": "ALERT_EMAIL_TO"
+    }
+  }
+}

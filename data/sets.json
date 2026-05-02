@@ -1,0 +1,620 @@
+{
+  "_meta": {
+    "description": "Manually maintained metadata for tracked Pokémon TCG sets",
+    "last_edited": "2025-05-01",
+    "notes": "Pull rates are community estimates, not official. Prices for unreleased sets are pre-market projections."
+  },
+  "sets": [
+    {
+      "id": "crown-zenith",
+      "name": "Crown Zenith",
+      "set_code": "CRZ",
+      "release_date": "2023-01-20",
+      "total_cards": 230,
+      "base_cards": 160,
+      "secret_rares": 70,
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Out of print, secondary market only",
+      "top_chase_cards": [
+        {
+          "name": "Giratina VSTAR (Gold)",
+          "card_number": "GG69/GG70",
+          "estimated_value_usd": 85
+        },
+        {
+          "name": "Mewtwo VSTAR (Special Illustration Rare)",
+          "card_number": "GG44/GG70",
+          "estimated_value_usd": 90
+        },
+        {
+          "name": "Pikachu (Secret Rare)",
+          "card_number": "160/159",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Arceus VSTAR (Galarian Gallery)",
+          "card_number": "GG70/GG70",
+          "estimated_value_usd": 40
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 5",
+        "any_chase_rare": "1 in 125",
+        "top_chase_specific": "1 in 133",
+        "notes": "Galarian Gallery card ~1 in 3 packs. Gold/Secret ~1 in 125."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pokebeach.com/2023/02/crown-zenith-pull-rate-data",
+          "date_checked": "2025-04-28",
+          "notes": "Community data from ~1,900 packs"
+        }
+      ]
+    },
+    {
+      "id": "pokemon-151",
+      "name": "Pokémon 151",
+      "set_code": "MEW",
+      "release_date": "2023-09-22",
+      "total_cards": 207,
+      "base_cards": 165,
+      "secret_rares": 42,
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Out of print, elevated secondary market prices",
+      "top_chase_cards": [
+        {
+          "name": "Charizard ex (Special Illustration Rare)",
+          "card_number": "199/165",
+          "estimated_value_usd": 400
+        },
+        {
+          "name": "Blastoise ex (Special Illustration Rare)",
+          "card_number": "200/165",
+          "estimated_value_usd": 100
+        },
+        {
+          "name": "Venusaur ex (Special Illustration Rare)",
+          "card_number": "198/165",
+          "estimated_value_usd": 75
+        },
+        {
+          "name": "Mew ex (Special Illustration Rare)",
+          "card_number": "205/165",
+          "estimated_value_usd": 65
+        },
+        {
+          "name": "Alakazam ex (Special Illustration Rare)",
+          "card_number": "201/165",
+          "estimated_value_usd": 40
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 65",
+        "top_chase_specific": "1 in 450",
+        "notes": "Any IR ~1 in 13 packs. Any SIR ~1 in 65. Specific Charizard ex 199 ~1 in 450 (7 SIRs in set)."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardchill.com/pokemon-151-pull-rates",
+          "date_checked": "2025-04-28",
+          "notes": "Community aggregate, cross-referenced with PokeBeach"
+        }
+      ]
+    },
+    {
+      "id": "paldean-fates",
+      "name": "Paldean Fates",
+      "set_code": "PAF",
+      "release_date": "2024-01-26",
+      "total_cards": 245,
+      "base_cards": 91,
+      "secret_rares": 154,
+      "set_type": "special",
+      "in_print": true,
+      "in_print_note": "Limited reprints confirmed early 2025",
+      "top_chase_cards": [
+        {
+          "name": "Mew ex (Special Illustration Rare)",
+          "card_number": "232/091",
+          "estimated_value_usd": 650
+        },
+        {
+          "name": "Charizard ex (Special Illustration Rare)",
+          "card_number": "234/091",
+          "estimated_value_usd": 300
+        },
+        {
+          "name": "Iono (Special Illustration Rare)",
+          "card_number": "237/091",
+          "estimated_value_usd": 29
+        },
+        {
+          "name": "Snorlax (Illustration Rare)",
+          "card_number": "202/091",
+          "estimated_value_usd": 24
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 5",
+        "any_chase_rare": "1 in 58",
+        "top_chase_specific": "1 in 375",
+        "notes": "Any SIR ~1 in 58 packs. Specific Mew ex 232 ~1 in 375 (multiple SIRs)."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pokebeach.com/2024/02/paldean-fates-pull-rate-data",
+          "date_checked": "2025-04-28",
+          "notes": "Community data, confirmed SIR rate of ~1 in 58"
+        }
+      ]
+    },
+    {
+      "id": "twilight-masquerade",
+      "name": "Twilight Masquerade",
+      "set_code": "TWM",
+      "release_date": "2024-05-24",
+      "total_cards": 226,
+      "base_cards": 167,
+      "secret_rares": 59,
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Small reprints confirmed by distributors",
+      "top_chase_cards": [
+        {
+          "name": "Greninja ex (Special Illustration Rare)",
+          "card_number": "214/167",
+          "estimated_value_usd": 320
+        },
+        {
+          "name": "Bloodmoon Ursaluna ex (Special Illustration Rare)",
+          "card_number": "216/167",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Ogerpon ex (Teal Mask, SIR)",
+          "card_number": "213/167",
+          "estimated_value_usd": 18
+        },
+        {
+          "name": "Sinistcha ex (Special Illustration Rare)",
+          "card_number": "210/167",
+          "estimated_value_usd": 20
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 86",
+        "top_chase_specific": "1 in 600",
+        "notes": "Any SIR ~1 in 86 packs. Specific Greninja ex ~1 in 600 (6-8 SIRs in set)."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardchill.com/twilight-masquerade-pull-rates",
+          "date_checked": "2025-04-28",
+          "notes": "Community aggregate data"
+        }
+      ]
+    },
+    {
+      "id": "stellar-crown",
+      "name": "Stellar Crown",
+      "set_code": "SCR",
+      "release_date": "2024-09-13",
+      "total_cards": 175,
+      "base_cards": 142,
+      "secret_rares": 33,
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Still available at or near MSRP",
+      "top_chase_cards": [
+        {
+          "name": "Terapagos ex (Special Illustration Rare)",
+          "card_number": "170/142",
+          "estimated_value_usd": 70
+        },
+        {
+          "name": "Hydrapple ex (Special Illustration Rare)",
+          "card_number": "168/142",
+          "estimated_value_usd": 37
+        },
+        {
+          "name": "Bulbasaur (Illustration Rare)",
+          "card_number": "155/142",
+          "estimated_value_usd": 35
+        },
+        {
+          "name": "Lacey (Special Illustration Rare)",
+          "card_number": "171/142",
+          "estimated_value_usd": 30
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 70",
+        "top_chase_specific": "1 in 420",
+        "notes": "Any IR/SIR ~1 in 50 packs. Any SIR ~1 in 70. Specific Terapagos ~1 in 420 (6 SIRs)."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardchill.com/stellar-crown-pull-rates",
+          "date_checked": "2025-04-28",
+          "notes": "Community data from pack opening aggregation"
+        }
+      ]
+    },
+    {
+      "id": "surging-sparks",
+      "name": "Surging Sparks",
+      "set_code": "SSP",
+      "release_date": "2024-11-08",
+      "total_cards": 252,
+      "base_cards": 191,
+      "secret_rares": 61,
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Reprints confirmed by distributors",
+      "top_chase_cards": [
+        {
+          "name": "Pikachu ex (Special Illustration Rare)",
+          "card_number": "238/191",
+          "estimated_value_usd": 450
+        },
+        {
+          "name": "Latias ex (Special Illustration Rare)",
+          "card_number": "239/191",
+          "estimated_value_usd": 65
+        },
+        {
+          "name": "Pikachu ex (Hyper Rare)",
+          "card_number": "247/252",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Durant (Special Illustration Rare)",
+          "card_number": "235/191",
+          "estimated_value_usd": 25
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 60",
+        "top_chase_specific": "1 in 660",
+        "notes": "Any SIR ~1 in 60. Specific Pikachu ex 238 ~1 in 660 (11 SIRs in set)."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pokebeach.com/2024/11/surging-sparks-pull-rates",
+          "date_checked": "2025-04-28",
+          "notes": "Large sample community data"
+        }
+      ]
+    },
+    {
+      "id": "prismatic-evolutions",
+      "name": "Prismatic Evolutions",
+      "set_code": "PRE",
+      "release_date": "2025-01-17",
+      "total_cards": 180,
+      "base_cards": 131,
+      "secret_rares": 49,
+      "set_type": "special",
+      "in_print": true,
+      "in_print_note": "Actively in print, extremely high demand",
+      "top_chase_cards": [
+        {
+          "name": "Umbreon ex (Special Illustration Rare)",
+          "card_number": "161/131",
+          "estimated_value_usd": 1000
+        },
+        {
+          "name": "Sylveon ex (Special Illustration Rare)",
+          "card_number": "156/131",
+          "estimated_value_usd": 300
+        },
+        {
+          "name": "Leafeon ex (Special Illustration Rare)",
+          "card_number": "144/131",
+          "estimated_value_usd": 240
+        },
+        {
+          "name": "Eevee ex (Special Illustration Rare)",
+          "card_number": "162/131",
+          "estimated_value_usd": 100
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 5",
+        "any_chase_rare": "1 in 45",
+        "top_chase_specific": "1 in 380",
+        "notes": "Any SIR ~1 in 45 (notably easier than standard SV sets). Specific Umbreon ~1 in 380 (8 SIRs)."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pokebeach.com/2025/01/prismatic-evolutions-pull-rate-data",
+          "date_checked": "2025-04-28",
+          "notes": "Community data confirms ~2x easier SIR rate vs 2024 main sets"
+        }
+      ]
+    },
+    {
+      "id": "journey-together",
+      "name": "Journey Together",
+      "set_code": "JTG",
+      "release_date": "2025-03-28",
+      "total_cards": 190,
+      "base_cards": 159,
+      "secret_rares": 31,
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Recently released, actively in print",
+      "top_chase_cards": [
+        {
+          "name": "Lillie's Clefairy ex (Special Illustration Rare)",
+          "card_number": "184/159",
+          "estimated_value_usd": 200
+        },
+        {
+          "name": "N's Zoroark ex (Special Illustration Rare)",
+          "card_number": "185/159",
+          "estimated_value_usd": 130
+        },
+        {
+          "name": "Iono's Bellibolt ex (Special Illustration Rare)",
+          "card_number": "183/159",
+          "estimated_value_usd": 84
+        },
+        {
+          "name": "Hop's Zacian ex (Special Illustration Rare)",
+          "card_number": "186/159",
+          "estimated_value_usd": 55
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 75",
+        "top_chase_specific": "1 in 500",
+        "notes": "Any SIR ~1 in 75 packs. Specific Lillie's Clefairy ~1 in 500."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardchill.com/journey-together-pull-rates",
+          "date_checked": "2025-04-28",
+          "notes": "Early community data, SV-era pull rate norms"
+        }
+      ]
+    },
+    {
+      "id": "destined-rivals",
+      "name": "Destined Rivals",
+      "set_code": "DRI",
+      "release_date": "2025-05-30",
+      "total_cards": 244,
+      "base_cards": 182,
+      "secret_rares": 62,
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Upcoming release, pre-orders available",
+      "top_chase_cards": [
+        {
+          "name": "Team Rocket's Mewtwo ex (SIR)",
+          "card_number": "231/182",
+          "estimated_value_usd": 340
+        },
+        {
+          "name": "Cynthia's Garchomp ex (SIR)",
+          "card_number": "232/182",
+          "estimated_value_usd": 193
+        },
+        {
+          "name": "Ethan's Ho-Oh ex (SIR)",
+          "card_number": "230/182",
+          "estimated_value_usd": 162
+        },
+        {
+          "name": "Team Rocket's Moltres ex (SIR)",
+          "card_number": "229/182",
+          "estimated_value_usd": 148
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 95",
+        "top_chase_specific": "1 in 800",
+        "notes": "Reported as lowest pull rates in years. Any SIR ~1 in 95. Hyper Rare ~1 in 149."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pokebeach.com/2025/05/destined-rivals-pull-rates",
+          "date_checked": "2025-04-28",
+          "notes": "Japanese set data extrapolated; early English community reports"
+        }
+      ]
+    },
+    {
+      "id": "mega-evolution",
+      "name": "Mega Evolution",
+      "set_code": "MEG",
+      "release_date": "2025-09-26",
+      "total_cards": 188,
+      "base_cards": 132,
+      "secret_rares": 56,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Not yet released (Sep 2025)",
+      "top_chase_cards": [
+        {
+          "name": "Mega Lucario ex (Mega Hyper Rare)",
+          "card_number": "188/132",
+          "estimated_value_usd": 260
+        },
+        {
+          "name": "Mega Gardevoir ex (Mega Hyper Rare)",
+          "card_number": "187/132",
+          "estimated_value_usd": 240
+        },
+        {
+          "name": "Acerola's Mischief (SIR)",
+          "card_number": "183/132",
+          "estimated_value_usd": 100
+        },
+        {
+          "name": "Lillie's Determination (SIR)",
+          "card_number": "184/132",
+          "estimated_value_usd": 80
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 101",
+        "top_chase_specific": "1 in 2520",
+        "notes": "MHR (any) ~1 in 1260 — lowest in TCG history. Any SIR ~1 in 101. Any IR ~1 in 9."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pokebeach.com/2025/09/mega-evolution-pull-rates",
+          "date_checked": "2025-04-28",
+          "notes": "Japanese set data; TCGPlayer 5,000-pack study from JP release"
+        }
+      ]
+    },
+    {
+      "id": "ascended-heroes",
+      "name": "Ascended Heroes",
+      "set_code": "ASC",
+      "release_date": "2026-01-30",
+      "total_cards": 295,
+      "base_cards": 217,
+      "secret_rares": 78,
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Not yet released (Jan 2026)",
+      "top_chase_cards": [
+        {
+          "name": "Mega Gengar ex (SIR)",
+          "card_number": "284/217",
+          "estimated_value_usd": 1000
+        },
+        {
+          "name": "Pikachu ex (SIR)",
+          "card_number": "276/217",
+          "estimated_value_usd": 600
+        },
+        {
+          "name": "Mega Dragonite ex (SIR)",
+          "card_number": "290/217",
+          "estimated_value_usd": 690
+        },
+        {
+          "name": "Mega Charizard Y ex (MHR)",
+          "card_number": "294/217",
+          "estimated_value_usd": 445
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 5",
+        "any_chase_rare": "1 in 80",
+        "top_chase_specific": "1 in 1750",
+        "notes": "MHR (any) ~1 in 530 (2x better than ME base). Any SIR ~1 in 80. Largest English set ever (295 cards)."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pokebeach.com/2026/01/ascended-heroes-pull-rates",
+          "date_checked": "2025-04-28",
+          "notes": "Japanese release data; ~2,000 pack community study"
+        }
+      ]
+    },
+    {
+      "id": "perfect-order",
+      "name": "Perfect Order",
+      "set_code": "POR",
+      "release_date": "2026-03-27",
+      "total_cards": 124,
+      "base_cards": 88,
+      "secret_rares": 36,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Not yet released (Mar 2026)",
+      "top_chase_cards": [
+        {
+          "name": "Mega Zygarde ex (Mega Hyper Rare)",
+          "card_number": "124/088",
+          "estimated_value_usd": 200
+        },
+        {
+          "name": "Rosa's Encouragement (SIR)",
+          "card_number": "123/088",
+          "estimated_value_usd": 152
+        },
+        {
+          "name": "Meowth ex (SIR)",
+          "card_number": "121/088",
+          "estimated_value_usd": 140
+        },
+        {
+          "name": "Mega Zygarde ex (SIR)",
+          "card_number": "120/088",
+          "estimated_value_usd": 80
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 90",
+        "top_chase_specific": "1 in 1786",
+        "notes": "MHR ~1 in 1,786 (only 1 MHR in set — even rarer than ME base). Any SIR ~1 in 90."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pokebeach.com/2026/03/perfect-order-pull-rates",
+          "date_checked": "2025-04-28",
+          "notes": "Japanese release data, ME-era pull rate trends"
+        }
+      ]
+    },
+    {
+      "id": "chaos-rising",
+      "name": "Chaos Rising",
+      "set_code": "ME04",
+      "release_date": "2026-05-22",
+      "total_cards": 122,
+      "base_cards": 86,
+      "secret_rares": 36,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Not yet released (May 2026)",
+      "top_chase_cards": [
+        {
+          "name": "Mega Greninja ex (Mega Hyper Rare)",
+          "card_number": "122/086",
+          "estimated_value_usd": 250
+        },
+        {
+          "name": "Mega Greninja ex (SIR)",
+          "card_number": "114/086",
+          "estimated_value_usd": 150
+        },
+        {
+          "name": "Mega Pyroar ex (SIR)",
+          "card_number": "112/086",
+          "estimated_value_usd": 75
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 90",
+        "top_chase_specific": "1 in 1500",
+        "notes": "ESTIMATED — no English data yet. Based on ME-era trends (1 MHR per set, ~1 in 1,260-1,786 range)."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pokebeach.com/2026/05/chaos-rising-set-list",
+          "date_checked": "2025-04-28",
+          "notes": "Pre-release estimates from Japanese Ninja Spinner set data"
+        }
+      ]
+    }
+  ]
+}

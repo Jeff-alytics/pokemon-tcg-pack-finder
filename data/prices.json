@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "description": "Scraped pricing data — updated by the pipeline, not by hand",
+    "last_updated": null,
+    "scraper_version": "1.0.0"
+  },
+  "sealed_products": {},
+  "singles": {},
+  "ebay_sold": {}
+}

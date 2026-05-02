@@ -1,0 +1,101 @@
+name: Refresh TCG Pack Finder Data
+
+on:
+  schedule:
+    # Daily at 6:00 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "refresh"
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+          playwright install-deps
+
+      - name: Run build pipeline
+        env:
+          ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
+          ALERT_SMTP_PASS: ${{ secrets.ALERT_SMTP_PASS }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+        run: python build.py
+
+      - name: Check for price drift flag
+        id: drift
+        run: |
+          if [ -f .price_drift_flag ]; then
+            echo "drift_detected=true" >> $GITHUB_OUTPUT
+            echo "::warning::Price drift detected — review before merging"
+            cat .price_drift_flag
+          else
+            echo "drift_detected=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit updated data
+        if: steps.drift.outputs.drift_detected == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prices.json data/scored.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: refresh pricing data $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Flag drift for manual review
+        if: steps.drift.outputs.drift_detected == 'true'
+        run: |
+          echo "::error::Price drift exceeds threshold. Data NOT auto-committed."
+          echo "Review the drift warnings above and re-run manually if prices are correct."
+          echo ""
+          echo "To force-commit, run the workflow manually after verifying prices."
+          exit 1
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main  # Get the just-committed data
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
