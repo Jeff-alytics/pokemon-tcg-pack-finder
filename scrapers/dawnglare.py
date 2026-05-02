@@ -1,9 +1,9 @@
 """
 Dawnglare price scraper.
 
-pokemon.dawnglare.com has a clean table of sealed product prices (boxes,
-ETBs, half boxes) for every Pokemon TCG set with TCGPlayer buy links.
-One page, simple HTML, no JS rendering needed.
+pokemon.dawnglare.com has TCGPlayer market prices for sealed products.
+We grab: Booster Box, Half Booster Box, Enhanced Booster Box, ETB.
+Simple HTML, one request, no JS.
 """
 
 import json
@@ -17,15 +17,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 log = logging.getLogger(__name__)
 
 DAWNGLARE_URL = "https://pokemon.dawnglare.com/?p=boxprice"
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/120.0.0.0 Safari/537.36"
-    ),
-}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0"}
 
-# Keywords to match our set IDs from Dawnglare set names
 SET_KEYWORDS = {
     "crown-zenith": ["crown zenith"],
     "pokemon-151": ["151"],
@@ -42,110 +35,93 @@ SET_KEYWORDS = {
     "chaos-rising": ["chaos rising"],
 }
 
-# Classify product type from the name
-def _classify_product(name_lower: str) -> str | None:
-    if "half booster box" in name_lower:
-        return "half-booster-box"
-    if "enhanced booster box" in name_lower:
-        return "enhanced-booster-box"
-    if "booster box" in name_lower:
-        return "booster-box"
-    if "elite trainer box" in name_lower or "etb" in name_lower:
-        return "etb"
-    if "booster bundle" in name_lower:
-        return "booster-bundle"
-    return None
+# Products we care about and their pack counts
+PRODUCT_TYPES = {
+    "booster box": {"packs": 36, "label": "Booster Box"},
+    "half booster box": {"packs": 18, "label": "Half Booster Box"},
+    "enhanced booster box": {"packs": 36, "label": "Enhanced Booster Box"},
+    "elite trainer box": {"packs": 9, "label": "ETB"},
+    "booster bundle": {"packs": 6, "label": "Booster Bundle"},
+}
 
 
-def _match_set_id(name: str) -> str | None:
-    name_lower = name.lower()
-    for sid, keywords in SET_KEYWORDS.items():
-        if any(kw in name_lower for kw in keywords):
+def _match_set(name):
+    nl = name.lower()
+    for sid, kws in SET_KEYWORDS.items():
+        if any(kw in nl for kw in kws):
             return sid
     return None
 
 
-def scrape() -> dict:
-    """
-    Scrape Dawnglare. Returns dict keyed by set ID, each containing
-    a list of products with prices and buy links.
-    """
-    log.info("=== Dawnglare Prices ===")
-    results = {}
+def _match_product(name):
+    nl = name.lower()
+    # Skip Pokemon Center exclusives
+    if "pokemon center" in nl and "exclusive" in nl:
+        return None, None
+    # Order matters — check longer strings first
+    for key in ["half booster box", "enhanced booster box", "booster box",
+                "elite trainer box", "booster bundle"]:
+        if key in nl:
+            return key, PRODUCT_TYPES[key]
+    return None, None
 
+
+def scrape():
+    log.info("=== Dawnglare ===")
+    results = {}
     try:
         resp = requests.get(DAWNGLARE_URL, headers=HEADERS, timeout=20)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "lxml")
 
-        rows = soup.select("table tr")
-        log.info(f"Scanning {len(rows)} rows")
-
-        for row in rows:
+        for row in soup.select("table tr"):
             cells = row.select("td")
             if len(cells) < 2:
                 continue
-
             name = cells[0].get_text(strip=True)
-            price_text = cells[1].get_text(strip=True)
-
-            # Match to our tracked sets
-            sid = _match_set_id(name)
+            sid = _match_set(name)
             if not sid:
                 continue
-
-            # Extract price
-            price_match = re.search(r"\$?\s*([\d,]+\.?\d*)", price_text.replace(",", ""))
+            ptype, pinfo = _match_product(name)
+            if not ptype:
+                continue
+            price_match = re.search(r"\$?([\d,]+\.?\d*)", cells[1].get_text(strip=True).replace(",", ""))
             if not price_match:
                 continue
             price = float(price_match.group(1))
-            if price < 10:
+            if price < 20:
                 continue
 
-            # Classify product type
-            product_type = _classify_product(name.lower())
-            if not product_type:
-                continue
-
-            # Get buy link
             link = cells[0].select_one("a") or cells[1].select_one("a")
             url = link.get("href", "") if link else ""
 
-            # Determine packs in product
-            packs = {"booster-box": 36, "half-booster-box": 18, "enhanced-booster-box": 36,
-                     "etb": 9, "booster-bundle": 6}.get(product_type, 1)
-
-            # Skip Pokemon Center exclusives (premium pricing, not representative)
-            if "pokemon center" in name.lower() and "exclusive" in name.lower():
-                continue
-
             if sid not in results:
                 results[sid] = []
-
             results[sid].append({
                 "name": name,
-                "product_type": product_type,
+                "product_type": ptype,
+                "label": pinfo["label"],
                 "price_usd": round(price, 2),
-                "per_pack_usd": round(price / packs, 2),
-                "packs": packs,
+                "packs": pinfo["packs"],
+                "per_pack_usd": round(price / pinfo["packs"], 2),
                 "url": url,
-                "source": "Dawnglare (TCGPlayer)",
             })
+            log.info(f"  {name[:55]:55s} ${price:>8.2f}  ${price/pinfo['packs']:.2f}/pk")
 
-            log.info(f"  {name[:50]:50s} ${price:>10.2f}  (${price/packs:.2f}/pk)")
+    except Exception as e:
+        log.error(f"Dawnglare failed: {e}")
 
-    except requests.RequestException as e:
-        log.error(f"Dawnglare request failed: {e}")
+    # Sort each set's products by per-pack price
+    for sid in results:
+        results[sid].sort(key=lambda x: x["per_pack_usd"])
 
-    log.info(f"\nMatched {len(results)} tracked sets, {sum(len(v) for v in results.values())} total products")
+    log.info(f"Done: {len(results)} sets, {sum(len(v) for v in results.values())} products")
     return results
 
 
-def run(sets_json_path: str = "data/sets.json") -> dict:
-    """Entry point."""
+def run(sets_json_path="data/sets.json"):
     return scrape()
 
 
 if __name__ == "__main__":
-    results = run()
-    print(json.dumps(results, indent=2))
+    print(json.dumps(run(), indent=2))
