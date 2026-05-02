@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-02 15:32 UTC",
+    "last_updated": "2026-05-02 16:22 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -24,6 +24,35 @@
     "top_deals": []
   },
   "dawnglare": {
+    "prismatic-evolutions": [
+      {
+        "name": "Prismatic Evolutions Elite Trainer Box and Pokeball (Sam's Club)",
+        "product_type": "etb",
+        "price_usd": 249.95,
+        "per_pack_usd": 27.77,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644852/pokemon-miscellaneous-cards-and-products-prismatic-evolutions-elite-trainer-box-and-pokeball-sams-club",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Prismatic Evolutions Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 200.0,
+        "per_pack_usd": 22.22,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/593355/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Prismatic Evolutions Elite Trainer Box (Dollar General Exclusive)",
+        "product_type": "etb",
+        "price_usd": 213.79,
+        "per_pack_usd": 23.75,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/670607/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box-dollar-general-exclusive",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
     "crown-zenith": [
       {
         "name": "Crown Zenith Elite Trainer Box",
@@ -141,17 +170,6 @@
         "per_pack_usd": 11.06,
         "packs": 18,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/646039/pokemon-sv08-surging-sparks-surging-sparks-half-booster-box",
-        "source": "Dawnglare (TCGPlayer)"
-      }
-    ],
-    "prismatic-evolutions": [
-      {
-        "name": "Prismatic Evolutions Elite Trainer Box",
-        "product_type": "etb",
-        "price_usd": 200.0,
-        "per_pack_usd": 22.22,
-        "packs": 9,
-        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/593355/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box",
         "source": "Dawnglare (TCGPlayer)"
       }
     ],
