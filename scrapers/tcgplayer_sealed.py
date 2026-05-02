@@ -29,11 +29,12 @@ PRODUCT_LABELS = {
     "booster-box": "Booster Box",
 }
 
-# TCGPlayer search URL template — sealed Pokemon products for a given set
+# TCGPlayer sealed product search — uses the general search with sealed keyword filters
 SEARCH_URL = (
-    "https://www.tcgplayer.com/search/pokemon/{set_slug}"
-    "?productLineName=pokemon&setName={set_name_encoded}"
-    "&view=grid&ProductTypeName={product_type}"
+    "https://www.tcgplayer.com/search/pokemon/product"
+    "?productLineName=pokemon"
+    "&q={query}"
+    "&view=grid"
 )
 
 # Delay between page loads (seconds) — be respectful
@@ -62,16 +63,11 @@ class ProductPricing:
 
 
 def _build_search_url(set_name: str, product_type: str) -> str:
-    """Build a TCGPlayer search URL for a given set and product type."""
-    # TCGPlayer uses URL-friendly set slugs
-    set_slug = re.sub(r"[^a-z0-9]+", "-", set_name.lower()).strip("-")
-    set_name_encoded = set_name.replace(" ", "+")
-    product_type_label = PRODUCT_LABELS.get(product_type, product_type)
-    return SEARCH_URL.format(
-        set_slug=set_slug,
-        set_name_encoded=set_name_encoded,
-        product_type=product_type_label.replace(" ", "+"),
-    )
+    """Build a TCGPlayer search URL targeting sealed products."""
+    product_label = PRODUCT_LABELS.get(product_type, product_type)
+    # Explicitly search for sealed product by name + type
+    query = f"{set_name} {product_label} sealed".replace(" ", "+")
+    return SEARCH_URL.format(query=query)
 
 
 def _extract_price(text: str) -> float | None:
@@ -116,6 +112,19 @@ def scrape_set_product(page, set_name: str, product_type: str) -> ProductPricing
                 title_el = card.query_selector(".search-result__title, .product-card__title")
                 title = title_el.inner_text().strip() if title_el else "Unknown"
 
+                # Filter out individual cards, code cards, and non-sealed items
+                title_lower = title.lower()
+                if any(skip in title_lower for skip in [
+                    "code card", "online code", "ptcgo", "ptcgl",
+                    " - ", " v ", " ex ", " gx ", " vmax ", " vstar ",
+                ]):
+                    # Check if it's actually a sealed product keyword
+                    if not any(keep in title_lower for keep in [
+                        "booster", "pack", "box", "etb", "elite trainer",
+                        "bundle", "sealed", "collection", "tin",
+                    ]):
+                        continue
+
                 # Price — look for the market price or listing price
                 price_el = card.query_selector(
                     ".product-card__market-price__price, "
@@ -125,7 +134,7 @@ def scrape_set_product(page, set_name: str, product_type: str) -> ProductPricing
                 if not price_el:
                     continue
                 price = _extract_price(price_el.inner_text())
-                if price is None or price <= 0:
+                if price is None or price < 1.00:  # Sealed products are never under $1
                     continue
 
                 # URL
