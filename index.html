@@ -956,6 +956,22 @@ footer a:hover { color: var(--blue); }
     </div>
   </div>
 
+  <!-- Manual Price Overrides -->
+  <div class="ctrl-panel" style="margin-bottom:20px;">
+    <h3 style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;" onclick="document.getElementById('overridePanel').style.display=document.getElementById('overridePanel').style.display==='none'?'':'none';this.querySelector('.arrow').textContent=document.getElementById('overridePanel').style.display==='none'?'▸':'▾'">
+      TCGPlayer Price Overrides <span class="info-tip" data-tip="Click the TCGPlayer link, check the real price, type it here. Saves in your browser and recalculates scores instantly.">?</span>
+      <span class="arrow" style="font-size:0.9rem;">▸</span>
+    </h3>
+    <div id="overridePanel" style="display:none;margin-top:12px;">
+      <p style="font-size:0.78rem;color:var(--text-mute);margin-bottom:12px;">Click each link to check the price on TCGPlayer, then enter it below. Prices are saved in your browser.</p>
+      <div id="overrideRows" style="max-height:400px;overflow-y:auto;"></div>
+      <div style="margin-top:10px;display:flex;gap:8px;">
+        <button onclick="clearOverrides()" style="padding:6px 14px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--surface-2);color:var(--text-soft);font-family:var(--body);font-size:0.78rem;cursor:pointer;">Clear All Overrides</button>
+        <span id="overrideCount" style="font-size:0.75rem;color:var(--text-mute);align-self:center;"></span>
+      </div>
+    </div>
+  </div>
+
   <!-- Set Table -->
   <div class="table-wrap">
     <table class="set-table" id="setTable">
@@ -1246,6 +1262,7 @@ footer a:hover { color: var(--blue); }
     const tw = weights.cost_efficiency+weights.chase_magnitude+weights.pull_odds+weights.hit_density;
     const w = { cost_efficiency: tw>0?weights.cost_efficiency/tw:.25, chase_magnitude: tw>0?weights.chase_magnitude/tw:.25, pull_odds: tw>0?weights.pull_odds/tw:.25, hit_density: tw>0?weights.hit_density/tw:.25 };
     const msrp = 4.49, tcg = pricesData.tcgplayer||{}, ebay = pricesData.ebay||{}, gn = pricesData.gamenerdz||{}, amz = pricesData.amazon||{}, pc = pricesData.pokemoncenter||{};
+    const overrides = getOverrides();
 
     const raw = setsData.map(s => {
       const sid = s.id;
@@ -1256,8 +1273,10 @@ footer a:hover { color: var(--blue); }
       let pp = msrp, bestDealLabel = '';
       const tS = tcg[sid]||{}, eS = ebay[sid]||{};
       const chkPP = (price, packs, label, pt) => { const minP=PMIN[pt]||1; if(price&&price>=minP){const perP=price/packs;if(perP<pp){pp=perP;bestDealLabel=`${label} $${price.toFixed(2)} ($${perP.toFixed(2)}/pk)`;}} };
-      // TCGPlayer is link-only (scraped prices unreliable) — use GN, Amazon, eBay for prices
+      // Check manual overrides first (user-verified TCGPlayer prices)
       for (const [pt, pks] of Object.entries(PPACKS)) {
+        const oKey = `${sid}/${pt}`;
+        if (overrides[oKey]?.price) chkPP(overrides[oKey].price, pks, `TCGPlayer ${PLABELS[pt]}`, pt);
         (gn[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd&&p.in_stock!==false) chkPP(p.price_usd,pks,`GameNerdz ${PLABELS[pt]}`,pt);});
         (amz[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd) chkPP(p.price_usd,pks,`Amazon ${PLABELS[pt]}`,pt);});
       }
@@ -1427,7 +1446,69 @@ footer a:hover { color: var(--blue); }
   }
 
   // ── Compute & Render ───────────────────────────────────
-  function computeAndRender(){computeScores();renderTopPick();renderSetCards();renderChart();renderDeals();}
+  function computeAndRender(){computeScores();renderTopPick();renderOverrides();renderSetCards();renderChart();renderDeals();}
+
+  // ── Manual Price Overrides ─────────────────────────────
+  const OVERRIDE_KEY = 'tcg_pack_finder_overrides';
+  function getOverrides() { try { return JSON.parse(localStorage.getItem(OVERRIDE_KEY)||'{}'); } catch(e) { return {}; } }
+  function saveOverride(setId, productType, price) {
+    const o = getOverrides();
+    const key = `${setId}/${productType}`;
+    if (price && price > 0) { o[key] = { price, updated: new Date().toISOString().slice(0,10) }; }
+    else { delete o[key]; }
+    localStorage.setItem(OVERRIDE_KEY, JSON.stringify(o));
+    computeAndRender();
+  }
+  window.clearOverrides = function() { localStorage.removeItem(OVERRIDE_KEY); computeAndRender(); };
+
+  function renderOverrides() {
+    const container = document.getElementById('overrideRows');
+    if (!container) return;
+    const overrides = getOverrides();
+    const tcg = pricesData.tcgplayer || {};
+    const PTYPES = [
+      {key:'booster-pack', label:'Pack', packs:1},
+      {key:'elite-trainer-box', label:'ETB', packs:9},
+      {key:'booster-bundle', label:'Bundle', packs:6},
+      {key:'booster-box', label:'Box', packs:36}
+    ];
+
+    let html = '';
+    setsData.forEach(s => {
+      const sid = s.id;
+      const tcgSet = tcg[sid] || {};
+      let setHtml = '';
+      PTYPES.forEach(pt => {
+        const links = tcgSet[pt.key]?.links || [];
+        const link = links[0];
+        if (!link) return; // No TCGPlayer link found for this product type
+        const oKey = `${sid}/${pt.key}`;
+        const override = overrides[oKey];
+        const val = override ? override.price : '';
+        const perPack = override ? (override.price / pt.packs).toFixed(2) : '';
+        setHtml += `
+          <div style="display:flex;align-items:center;gap:8px;padding:4px 0;font-size:0.8rem;">
+            <span style="width:60px;color:var(--text-mute);font-size:0.7rem;">${pt.label}</span>
+            <a href="${link.url}" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:none;font-size:0.75rem;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${link.title.slice(0,45)}... &rarr;</a>
+            <span style="color:var(--text-mute);font-size:0.7rem;">$</span>
+            <input type="number" step="0.01" min="0" value="${val}" placeholder="—"
+              style="width:70px;padding:4px 6px;border:1px solid var(--border);border-radius:var(--radius-xs);font-family:var(--mono);font-size:0.78rem;background:var(--bg);color:var(--text);"
+              onchange="saveOverride('${sid}','${pt.key}',parseFloat(this.value)||0)">
+            ${perPack ? `<span style="font-family:var(--mono);font-size:0.68rem;color:var(--green);width:55px;">$${perPack}/pk</span>` : '<span style="width:55px;"></span>'}
+          </div>`;
+      });
+      if (setHtml) {
+        html += `<div style="margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border);">
+          <div style="font-weight:600;font-size:0.82rem;margin-bottom:4px;">${s.name} <span style="font-family:var(--mono);font-size:0.68rem;color:var(--text-mute);">${s.set_code||''}</span></div>
+          ${setHtml}
+        </div>`;
+      }
+    });
+    container.innerHTML = html || '<p style="color:var(--text-mute);font-size:0.8rem;">No TCGPlayer links found yet. Run the pipeline first.</p>';
+
+    const count = Object.keys(overrides).length;
+    document.getElementById('overrideCount').textContent = count ? `${count} override(s) active` : '';
+  }
 
   // ── Events ─────────────────────────────────────────────
   document.getElementById('filterChips').addEventListener('click',e=>{const c=e.target.closest('.chip');if(!c)return;document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));c.classList.add('active');currentFilter=c.dataset.filter;expandedCard=null;computeAndRender();});
