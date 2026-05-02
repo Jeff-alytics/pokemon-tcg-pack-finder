@@ -142,6 +142,7 @@ def main():
     parser.add_argument("--score-only", action="store_true", help="Re-score from existing prices.json")
     parser.add_argument("--dry-run", action="store_true", help="Scrape but don't overwrite prices.json")
     parser.add_argument("--no-alerts", action="store_true", help="Skip deal alert evaluation")
+    parser.add_argument("--with-graded", action="store_true", help="Include graded price scraper (slow, needs non-datacenter IP)")
     args = parser.parse_args()
 
     config = load_json(CONFIG_JSON)
@@ -182,8 +183,8 @@ def main():
         "sets": scored,
     })
 
-    # Run graded price scraper
-    if not args.score_only:
+    # Run graded price scraper (opt-in — eBay blocks datacenter IPs)
+    if args.with_graded:
         graded = run_graded()
         save_json(GRADED_JSON, {
             "_meta": {
@@ -192,6 +193,8 @@ def main():
             },
             "cards": graded,
         })
+    else:
+        log.info("\nSkipping graded scraper (use --with-graded to include, best run locally)")
 
     # Run alerts
     if not args.no_alerts:

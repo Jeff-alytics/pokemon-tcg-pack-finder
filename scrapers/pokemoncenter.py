@@ -26,8 +26,6 @@ SEARCH_URL = "https://www.pokemoncenter.com/search?q={query}&fh_location=pokemon
 PRODUCT_QUERIES = {
     "booster-pack": "{set_name} booster pack",
     "elite-trainer-box": "{set_name} elite trainer box",
-    "booster-bundle": "{set_name} booster bundle",
-    "booster-box": "{set_name} booster box",
 }
 
 
