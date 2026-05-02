@@ -241,7 +241,7 @@ function buildBuyOptions(r){
     });
   });
 
-  // Loose pack from sets.json estimate
+  // Loose pack from sets.json
   if(s.pricing?.pack_price_usd){
     options.push({
       label:'Single Pack',
@@ -250,7 +250,21 @@ function buildBuyOptions(r){
       packs:1,
       perPack:s.pricing.pack_price_usd,
       url:`https://www.tcgplayer.com/search/pokemon/product?q=${encodeURIComponent(name+' booster pack')}&view=grid`,
-      source:'Est.',
+      source:'TCGPlayer',
+    });
+  }
+  // Bundle from sets.json
+  if(s.pricing?.booster_bundle_price_usd){
+    const bp=s.pricing.booster_bundle_price_usd;
+    const bpk=s.pricing.booster_bundle_packs||6;
+    options.push({
+      label:'Booster Bundle ('+bpk+'pk)',
+      name:name+' Booster Bundle',
+      price:bp,
+      packs:bpk,
+      perPack:Math.round(bp/bpk*100)/100,
+      url:`https://www.tcgplayer.com/search/pokemon/product?q=${encodeURIComponent(name+' booster bundle')}&view=grid`,
+      source:'TCGPlayer',
     });
   }
 

@@ -172,7 +172,9 @@
         "etb_price_usd": 65.0,
         "price_note": "Limited reprint. No booster box product. Bundle (6pk) ~$149.",
         "price_date": "2026-05-02",
-        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks",
+        "booster_bundle_price_usd": 149.0,
+        "booster_bundle_packs": 6
       }
     },
     {
@@ -392,7 +394,9 @@
         "etb_price_usd": 65.0,
         "price_note": "Special set, no retail box. Bundle (6pk) ~$93.",
         "price_date": "2026-05-02",
-        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks",
+        "booster_bundle_price_usd": 93.0,
+        "booster_bundle_packs": 6
       }
     },
     {
@@ -612,7 +616,9 @@
         "etb_price_usd": 55.0,
         "price_note": "Special set, no booster box. Bundle (6pk) ~$86.",
         "price_date": "2026-05-02",
-        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks",
+        "booster_bundle_price_usd": 86.0,
+        "booster_bundle_packs": 6
       }
     },
     {
