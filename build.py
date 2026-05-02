@@ -143,6 +143,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Scrape but don't overwrite prices.json")
     parser.add_argument("--no-alerts", action="store_true", help="Skip deal alert evaluation")
     parser.add_argument("--with-graded", action="store_true", help="Include graded price scraper (slow, needs non-datacenter IP)")
+    parser.add_argument("--force", action="store_true", help="Skip price drift check (use after fixing scraper data)")
     args = parser.parse_args()
 
     config = load_json(CONFIG_JSON)
@@ -157,7 +158,9 @@ def main():
             return
 
         # Check for suspicious price drift
-        if PRICES_JSON.exists():
+        if args.force:
+            log.info("--force flag set, skipping drift check")
+        elif PRICES_JSON.exists():
             old_prices = load_json(PRICES_JSON)
             if old_prices.get("_meta", {}).get("last_updated"):
                 drift_warnings = check_price_drift(old_prices, new_prices, config)
