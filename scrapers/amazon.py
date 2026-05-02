@@ -108,16 +108,23 @@ def scrape_search(query: str, request_idx: int = 0) -> list[AmazonProduct]:
                 if "pokemon" not in title.lower() and "pokémon" not in title.lower():
                     continue
 
-                # URL
-                link_el = item.select_one("h2 a")
-                href = link_el.get("href", "") if link_el else ""
+                # URL — try multiple selectors
+                href = ""
+                for link_sel in ["h2 a", "a.a-link-normal.s-no-outline", "a.a-link-normal[href*='/dp/']", ".s-item a"]:
+                    link_el = item.select_one(link_sel)
+                    if link_el and link_el.get("href"):
+                        href = link_el.get("href", "")
+                        break
                 if href and not href.startswith("http"):
                     href = f"https://www.amazon.com{href}"
-                # Strip tracking params
+                # Clean to just the product URL
                 if "/dp/" in href:
                     asin_match = re.search(r"/dp/([A-Z0-9]{10})", href)
                     if asin_match:
                         href = f"https://www.amazon.com/dp/{asin_match.group(1)}"
+                # Fallback: link to search results
+                if not href:
+                    href = f"https://www.amazon.com/s?k={quote_plus(query)}&i=toys-and-games"
 
                 # Price — whole + fraction
                 price = None

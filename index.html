@@ -976,7 +976,7 @@ footer a:hover { color: var(--blue); }
   <div class="table-wrap">
     <table class="set-table" id="setTable">
       <thead><tr>
-        <th>#</th><th>Set</th><th>Score</th><th>Best $/Pack</th><th>Top Chase</th><th>EV/Pack</th><th>Packs to $50+</th><th>ETB ROI</th><th>Best Deal</th>
+        <th>#</th><th>Set</th><th>Value Score</th><th>Price/Pack</th><th>Best Card</th><th>Avg Return/Pack</th><th>Packs to Win Big</th><th>Best Deal</th>
       </tr></thead>
       <tbody id="setTableBody"></tbody>
     </table>
@@ -1377,11 +1377,10 @@ footer a:hover { color: var(--blue); }
         <td style="font-family:var(--mono);color:var(--text-mute);font-size:0.8rem;">${i+1}</td>
         <td><strong>${s.name}</strong> <span style="font-family:var(--mono);font-size:0.7rem;color:var(--text-mute);">${s.set_code}</span><br>${printBadge}${typeBadge}</td>
         <td><span style="font-family:var(--mono);font-weight:700;font-size:1rem;color:${scoreColor(s.score)}">${s.score.toFixed(1)}</span><div style="width:60px;height:4px;background:var(--surface-3);border-radius:2px;margin-top:4px;"><div style="height:100%;width:${s.score}%;background:${scoreColor(s.score)};border-radius:2px;"></div></div></td>
-        <td style="font-family:var(--mono);">$${s.pp.toFixed(2)}/pk${s.bestDealLabel ? `<br><span style="font-size:0.65rem;color:var(--text-mute);font-family:var(--body);">${s.bestDealLabel}</span>` : ''}</td>
+        <td style="font-family:var(--mono);">$${s.pp.toFixed(2)}${s.bestDealLabel ? `<br><span style="font-size:0.65rem;color:var(--text-mute);font-family:var(--body);">${s.bestDealLabel}</span>` : ''}</td>
         <td style="font-family:var(--mono);color:var(--gold);">$${s.tcv.toLocaleString()}</td>
         <td style="font-family:var(--mono);">$${s.ev.toFixed(2)}</td>
-        <td style="font-family:var(--mono);">${s.p50!=null?s.p50:'&mdash;'}</td>
-        <td style="font-family:var(--mono);color:${s.eRoi>=0?'var(--green)':'var(--red)'}">${s.eRoi.toFixed(1)}%</td>
+        <td style="font-family:var(--mono);">${s.p50!=null?s.p50+' packs':'&mdash;'}</td>
         <td>${dealCell}</td>`;
       tr.addEventListener('click',()=>{expandedCard=expandedCard===s.id?null:s.id;renderSetCards();});
       tbody.appendChild(tr);
@@ -1391,7 +1390,7 @@ footer a:hover { color: var(--blue); }
         const allListings=gatherListings(s.id);
         const listingsHtml=allListings.length?allListings.filter(l=>l.url).slice(0,6).map(l=>`<div class="listing-item"><span class="listing-title">${l.title||'Pack'}</span><span class="listing-source">${l.seller||''}</span><span class="listing-price">${l.price_usd>0?'$'+l.price_usd.toFixed(2):''}</span><a class="listing-link" href="${l.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${l.price_usd>0?'Buy':'View'}</a></div>`).join(''):'<p style="color:var(--text-mute);font-size:0.8rem;">No listings yet</p>';
         const dtr=document.createElement('tr');
-        dtr.innerHTML=`<td colspan="9" style="background:var(--surface-2);padding:20px 24px;">
+        dtr.innerHTML=`<td colspan="8" style="background:var(--surface-2);padding:20px 24px;">
           <div class="sc-detail-grid">
             <div>
               <h4 style="font-family:var(--display);font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-soft);margin-bottom:10px;">Chase Cards</h4>
