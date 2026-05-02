@@ -1230,7 +1230,7 @@ footer a:hover { color: var(--blue); }
       const u = pricesData._meta?.last_updated;
       document.getElementById('lastUpdated').textContent = u ? `Updated ${u}` : 'Estimated data';
       computeAndRender();
-    } catch(e) { console.error(e); document.getElementById('lastUpdated').textContent = 'Error'; }
+    } catch(e) { console.error(e); document.getElementById('lastUpdated').textContent = 'Error: ' + e.message; }
   }
 
   // ── Scoring ────────────────────────────────────────────
