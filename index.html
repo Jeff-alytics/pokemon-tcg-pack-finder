@@ -173,16 +173,10 @@ function compute(){
 
   const raw=setsData.map(s=>{
     const sid=s.id;
-    // Best per-pack price: start with sets.json baseline
-    const baseline=s.pricing?.pack_price_usd||4.49;
-    let pp=baseline, ppSource='Est.', ppProduct='pack';
-
-    // Check sets.json box/ETB
-    if(s.pricing?.booster_box_price_usd){const p=s.pricing.booster_box_price_usd/36;if(p<pp){pp=p;ppSource='Est. Box';ppProduct='box';}}
-    if(s.pricing?.etb_price_usd){const p=s.pricing.etb_price_usd/9;if(p<pp){pp=p;ppSource='Est. ETB';ppProduct='etb';}}
-
-    // Dawnglare products (real market data with buy links)
+    // Best per-pack price: Dawnglare (real market data) only, fall back to MSRP
     const dgProducts=dg[sid]||[];
+    let pp=4.49, ppSource='MSRP', ppProduct='pack';
+
     dgProducts.forEach(d=>{
       const min=PMIN[d.product_type]||1;
       if(d.price_usd>=min&&d.packs>0){
@@ -190,6 +184,11 @@ function compute(){
         if(perPk<pp){pp=perPk;ppSource=d.name;ppProduct=d.product_type;}
       }
     });
+
+    // If no Dawnglare data, use sets.json pack price as fallback (better than MSRP for OOP sets)
+    if(ppSource==='MSRP'&&s.pricing?.pack_price_usd&&s.pricing.pack_price_usd!==4.49){
+      pp=s.pricing.pack_price_usd;ppSource='Est. (no live data)';
+    }
 
     const cc=s.top_chase_cards||[];
     const tcv=Math.max(...cc.map(c=>c.estimated_value_usd||0),0);
@@ -300,7 +299,7 @@ function render(){
       </div>
 
       <div class="stats">
-        <div class="stat"><div class="stat-val">$${r.pp.toFixed(2)}</div><div class="stat-label">Best price/pack</div></div>
+        <div class="stat"><div class="stat-val">$${r.pp.toFixed(2)}</div><div class="stat-label">Best price/pack<br><span style="font-size:0.6rem;color:var(--mute)">${r.ppSource.length>25?r.ppSource.slice(0,25)+'...':r.ppSource}</span></div></div>
         <div class="stat"><div class="stat-val">$${r.tcv.toLocaleString()}</div><div class="stat-label">Best card value</div></div>
         <div class="stat"><div class="stat-val">$${r.ev.toFixed(2)}</div><div class="stat-label">Avg return/pack</div></div>
         <div class="stat"><div class="stat-val">${r.p50||'—'}</div><div class="stat-label">Packs to win big</div></div>
