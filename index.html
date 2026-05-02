@@ -1284,10 +1284,15 @@ footer a:hover { color: var(--blue); }
       const PPACKS = {'booster-pack':1,'booster-bundle':6,'elite-trainer-box':9,'booster-box':36};
       const PLABELS = {'booster-pack':'Pack','booster-bundle':'Bundle','elite-trainer-box':'ETB','booster-box':'Box'};
       const PMIN = {'booster-pack':1,'booster-bundle':15,'elite-trainer-box':20,'booster-box':40};
-      let pp = msrp, bestDealLabel = '';
+      // Start with baseline price from sets.json (manually verified)
+      const baseline = s.pricing?.pack_price_usd || msrp;
+      let pp = baseline, bestDealLabel = baseline !== msrp ? 'Estimated' : 'MSRP';
       const tS = tcg[sid]||{}, eS = ebay[sid]||{};
       const chkPP = (price, packs, label, pt) => { const minP=PMIN[pt]||1; if(price&&price>=minP){const perP=price/packs;if(perP<pp){pp=perP;bestDealLabel=`${label} $${price.toFixed(2)} ($${perP.toFixed(2)}/pk)`;}} };
-      // Check manual overrides first (user-verified TCGPlayer prices)
+      // Check booster box / ETB baseline prices too
+      if (s.pricing?.booster_box_price_usd) chkPP(s.pricing.booster_box_price_usd, 36, 'Est. Box', 'booster-box');
+      if (s.pricing?.etb_price_usd) chkPP(s.pricing.etb_price_usd, 9, 'Est. ETB', 'elite-trainer-box');
+      // Override with manual user prices and scraped data
       for (const [pt, pks] of Object.entries(PPACKS)) {
         const oKey = `${sid}/${pt}`;
         if (overrides[oKey]?.price) chkPP(overrides[oKey].price, pks, `TCGPlayer ${PLABELS[pt]}`, pt);
@@ -1358,7 +1363,11 @@ footer a:hover { color: var(--blue); }
     document.getElementById('topPickScore').textContent=t.score.toFixed(1);
     document.getElementById('topPickReason').textContent=t.reason||'';
     const d=document.getElementById('topPickDeal');
-    d.innerHTML=t.cheap?`Cheapest: <a href="${t.cheap.url||'#'}" target="_blank" rel="noopener">$${t.cheap.price_usd.toFixed(2)} on ${t.cheap.seller||'eBay'}</a>`:'';
+    if (t.cheap && t.cheap.url && t.cheap.price_usd > 0) {
+      d.innerHTML = `Cheapest: <a href="${t.cheap.url}" target="_blank" rel="noopener">$${t.cheap.price_usd.toFixed(2)} on ${t.cheap.seller||'eBay'}</a>`;
+    } else if (t.cheap && t.cheap.url) {
+      d.innerHTML = `<a href="${t.cheap.url}" target="_blank" rel="noopener">View on ${t.cheap.seller||'TCGPlayer'}</a>`;
+    } else { d.innerHTML = ''; }
   }
 
   // ── Render: Set Table ───────────────────────────────────
@@ -1560,8 +1569,13 @@ footer a:hover { color: var(--blue); }
   }
 
   function getBestPerPack(sid) {
-    // Find cheapest per-pack price across all product types
-    let bestPP = 4.49, bestProduct = 'booster-pack', bestTotal = 4.49, bestSource = '';
+    // Start with baseline from sets.json
+    const setData = calcSets.find(s => s.id === sid);
+    const baseline = setData?.pricing?.pack_price_usd || 4.49;
+    let bestPP = baseline, bestProduct = 'booster-pack', bestTotal = baseline, bestSource = '';
+    // Check box/ETB baselines
+    if (setData?.pricing?.booster_box_price_usd) { const p=setData.pricing.booster_box_price_usd/36; if(p<bestPP){bestPP=p;bestProduct='booster-box';bestTotal=setData.pricing.booster_box_price_usd;} }
+    if (setData?.pricing?.etb_price_usd) { const p=setData.pricing.etb_price_usd/9; if(p<bestPP){bestPP=p;bestProduct='elite-trainer-box';bestTotal=setData.pricing.etb_price_usd;} }
     for (const [pt, packs] of Object.entries(PACKS_PER)) {
       const price = getProductPrice(sid, pt);
       if (price) {
