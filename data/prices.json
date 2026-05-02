@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-02 11:58 UTC",
+    "last_updated": "2026-05-02 13:12 UTC",
     "scraper_version": "2.0.0",
     "sources": [
       "tcgplayer",
@@ -27,71 +27,92 @@
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 1329.34,
-        "low_price_usd": 115.0,
-        "mid_price_usd": 1359.99,
-        "high_price_usd": 3998.99,
-        "num_listings": 17,
+        "market_price_usd": 720.0,
+        "low_price_usd": 700.0,
+        "mid_price_usd": 700.0,
+        "high_price_usd": 750.0,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Stellar Crown Elite Trainer Box",
-            "price_usd": 115.0,
-            "url": "https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Costco Pokemon Collector 3-Pack: Crown Zenith ETB + Paldea Legends Tins",
+            "price_usd": 700.0,
+            "url": "https://www.tcgplayer.com/product/636312/pokemon-miscellaneous-cards-and-products-costco-pokemon-collector-3-pack-crown-zenith-etb-plus-paldea-legends-tins?page=1",
+            "seller": "Glad'sCards",
+            "condition": "Unopened"
           },
           {
-            "title": "Stellar Crown Pokemon Center Elite Trainer Box (Exclusive)",
-            "price_usd": 149.99,
-            "url": "https://www.tcgplayer.com/product/557340/pokemon-sv07-stellar-crown-stellar-crown-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Crown Zenith Elite Trainer Box",
-            "price_usd": 290.0,
-            "url": "https://www.tcgplayer.com/product/453470/pokemon-swsh-crown-zenith-crown-zenith-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Crown Zenith Pokemon Center Elite Trainer Box Plus",
-            "price_usd": 519.99,
-            "url": "https://www.tcgplayer.com/product/454246/pokemon-swsh-crown-zenith-crown-zenith-pokemon-center-elite-trainer-box-plus?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Costco Pokemon Collector 3-Pack: Crown Zenith ETB + Paldea Legends Tins",
+            "price_usd": 700.0,
+            "url": "https://www.tcgplayer.com/product/636312/pokemon-miscellaneous-cards-and-products-costco-pokemon-collector-3-pack-crown-zenith-etb-plus-paldea-legends-tins?page=1",
+            "seller": "Glad'sCards",
+            "condition": "Unopened"
           },
           {
             "title": "Costco Pokemon Collector 3-Pack: Crown Zenith ETB + Paldea Legends Tins",
             "price_usd": 700.0,
             "url": "https://www.tcgplayer.com/product/636312/pokemon-miscellaneous-cards-and-products-costco-pokemon-collector-3-pack-crown-zenith-etb-plus-paldea-legends-tins?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
+          },
+          {
+            "title": "Costco Pokemon Collector 3-Pack: Crown Zenith ETB + Paldea Legends Tins",
+            "price_usd": 750.0,
+            "url": "https://www.tcgplayer.com/product/636312/pokemon-miscellaneous-cards-and-products-costco-pokemon-collector-3-pack-crown-zenith-etb-plus-paldea-legends-tins?page=1",
+            "seller": "Living on A PRAYER",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Costco Pokemon Collector 3-Pack: Crown Zenith ETB + Paldea Legends Tins",
+            "price_usd": 750.0,
+            "url": "https://www.tcgplayer.com/product/636312/pokemon-miscellaneous-cards-and-products-costco-pokemon-collector-3-pack-crown-zenith-etb-plus-paldea-legends-tins?page=1",
+            "seller": "Living on A PRAYER",
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 3843.95,
+        "market_price_usd": 194.9,
         "low_price_usd": 188.9,
-        "mid_price_usd": 7499.0,
-        "high_price_usd": 7499.0,
-        "num_listings": 2,
+        "mid_price_usd": 198.9,
+        "high_price_usd": 198.9,
+        "num_listings": 5,
         "cheapest_listings": [
           {
             "title": "Crown Zenith Booster Bundle",
             "price_usd": 188.9,
             "url": "https://www.tcgplayer.com/product/527562/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "Ghostbreakstcg",
+            "condition": "Unopened"
           },
           {
-            "title": "Crown Zenith Booster Bundle Case",
-            "price_usd": 7499.0,
-            "url": "https://www.tcgplayer.com/product/609238/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle-case?page=1",
+            "title": "Crown Zenith Booster Bundle",
+            "price_usd": 188.9,
+            "url": "https://www.tcgplayer.com/product/527562/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle?page=1",
+            "seller": "Ghostbreakstcg",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Crown Zenith Booster Bundle",
+            "price_usd": 198.9,
+            "url": "https://www.tcgplayer.com/product/527562/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle?page=1",
+            "seller": "SlamboTCG",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Crown Zenith Booster Bundle",
+            "price_usd": 198.9,
+            "url": "https://www.tcgplayer.com/product/527562/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle?page=1",
+            "seller": "SlamboTCG",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Crown Zenith Booster Bundle",
+            "price_usd": 198.9,
+            "url": "https://www.tcgplayer.com/product/527562/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
@@ -110,186 +131,42 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 4235.5,
-        "low_price_usd": 2.99,
-        "mid_price_usd": 1750.0,
-        "high_price_usd": 18700.0,
-        "num_listings": 6,
-        "cheapest_listings": [
-          {
-            "title": "151 Booster Pack",
-            "price_usd": 2.99,
-            "url": "https://www.tcgplayer.com/product/504467/pokemon-sv-scarlet-and-violet-151-151-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Prismatic Evolutions Booster Bundle + Surprise Box Bundle (Sam's Club)",
-            "price_usd": 140.0,
-            "url": "https://www.tcgplayer.com/product/678555/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle-plus-surprise-box-bundle-sams-club?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "151 Booster Bundle",
-            "price_usd": 189.99,
-            "url": "https://www.tcgplayer.com/product/502000/pokemon-sv-scarlet-and-violet-151-151-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "151 Booster Bundle Display",
-            "price_usd": 1750.0,
-            "url": "https://www.tcgplayer.com/product/513405/pokemon-sv-scarlet-and-violet-151-151-booster-bundle-display?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "151 Booster Bundle Bulk Case",
-            "price_usd": 4630.0,
-            "url": "https://www.tcgplayer.com/product/530105/pokemon-sv-scarlet-and-violet-151-151-booster-bundle-bulk-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          }
-        ]
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 2460.56,
-        "low_price_usd": 373.0,
-        "mid_price_usd": 1949.0,
-        "high_price_usd": 6749.99,
-        "num_listings": 20,
-        "cheapest_listings": [
-          {
-            "title": "Celebrations Elite Trainer Box",
-            "price_usd": 373.0,
-            "url": "https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "151 Elite Trainer Box",
-            "price_usd": 644.95,
-            "url": "https://www.tcgplayer.com/product/503313/pokemon-sv-scarlet-and-violet-151-151-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Perfect Order Elite Trainer Box Case",
-            "price_usd": 674.99,
-            "url": "https://www.tcgplayer.com/product/672402/pokemon-me03-perfect-order-perfect-order-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Costco Pokemon Collector 3-Pack: Scarlet & Violet 151 ETB + Paldea Legends Tins",
-            "price_usd": 999.01,
-            "url": "https://www.tcgplayer.com/product/587750/pokemon-miscellaneous-cards-and-products-costco-pokemon-collector-3-pack-scarlet-and-violet-151-etb-plus-paldea-legends-tins?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Surging Sparks Elite Trainer Box Case",
-            "price_usd": 1125.99,
-            "url": "https://www.tcgplayer.com/product/565631/pokemon-sv08-surging-sparks-surging-sparks-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          }
-        ]
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 3556.91,
-        "low_price_usd": 189.99,
-        "mid_price_usd": 1774.0,
-        "high_price_usd": 18700.0,
-        "num_listings": 17,
-        "cheapest_listings": [
-          {
-            "title": "151 Booster Bundle",
-            "price_usd": 189.99,
-            "url": "https://www.tcgplayer.com/product/502000/pokemon-sv-scarlet-and-violet-151-151-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Perfect Order Booster Bundle Case",
-            "price_usd": 823.58,
-            "url": "https://www.tcgplayer.com/product/672397/pokemon-me03-perfect-order-perfect-order-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Journey Together Booster Bundle Case",
-            "price_usd": 996.97,
-            "url": "https://www.tcgplayer.com/product/625584/pokemon-sv09-journey-together-journey-together-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Shrouded Fable Booster Bundle Case",
-            "price_usd": 1149.99,
-            "url": "https://www.tcgplayer.com/product/635736/pokemon-sv-shrouded-fable-shrouded-fable-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Paldean Fates Booster Bundle Display",
-            "price_usd": 1225.67,
-            "url": "https://www.tcgplayer.com/product/530704/pokemon-sv-paldean-fates-paldean-fates-booster-bundle-display?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          }
-        ]
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
       },
       "booster-box": {
         "product_type": "booster-box",
         "product_label": "Booster Box",
-        "market_price_usd": 1878.9,
-        "low_price_usd": 1537.99,
-        "mid_price_usd": 1759.95,
-        "high_price_usd": 2769.0,
-        "num_listings": 7,
-        "cheapest_listings": [
-          {
-            "title": "Paradox Rift Booster Box Case",
-            "price_usd": 1537.99,
-            "url": "https://www.tcgplayer.com/product/512828/pokemon-sv04-paradox-rift-paradox-rift-booster-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Temporal Forces Booster Box Case",
-            "price_usd": 1699.99,
-            "url": "https://www.tcgplayer.com/product/537417/pokemon-sv05-temporal-forces-temporal-forces-booster-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Surging Sparks Booster Box Case",
-            "price_usd": 1749.99,
-            "url": "https://www.tcgplayer.com/product/580708/pokemon-sv08-surging-sparks-surging-sparks-booster-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Stellar Crown Booster Box Case",
-            "price_usd": 1759.95,
-            "url": "https://www.tcgplayer.com/product/557365/pokemon-sv07-stellar-crown-stellar-crown-booster-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Journey Together Booster Box Case",
-            "price_usd": 1785.42,
-            "url": "https://www.tcgplayer.com/product/614449/pokemon-sv09-journey-together-journey-together-booster-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          }
-        ]
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
       }
     },
     "paldean-fates": {
@@ -306,78 +183,92 @@
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 2246.14,
-        "low_price_usd": 10.99,
-        "mid_price_usd": 1690.0,
-        "high_price_usd": 7499.99,
-        "num_listings": 13,
+        "market_price_usd": 3493.99,
+        "low_price_usd": 3489.99,
+        "mid_price_usd": 3489.99,
+        "high_price_usd": 3500.0,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Shining Fates Elite Trainer Box",
-            "price_usd": 10.99,
-            "url": "https://www.tcgplayer.com/product/228821/pokemon-shining-fates-shining-fates-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Paldean Fates Pokemon Center Elite Trainer Box (Exclusive) Case",
+            "price_usd": 3489.99,
+            "url": "https://www.tcgplayer.com/product/536266/pokemon-sv-paldean-fates-paldean-fates-pokemon-center-elite-trainer-box-exclusive-case?page=1",
+            "seller": "Hinterland",
+            "condition": "Unopened"
           },
           {
-            "title": "Paldean Fates Elite Trainer Box",
-            "price_usd": 89.99,
-            "url": "https://www.tcgplayer.com/product/528040/pokemon-sv-paldean-fates-paldean-fates-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Paldean Fates Pokemon Center Elite Trainer Box (Exclusive) Case",
+            "price_usd": 3489.99,
+            "url": "https://www.tcgplayer.com/product/536266/pokemon-sv-paldean-fates-paldean-fates-pokemon-center-elite-trainer-box-exclusive-case?page=1",
+            "seller": "Hinterland",
+            "condition": "Unopened"
           },
           {
-            "title": "Hidden Fates Elite Trainer Box",
-            "price_usd": 534.98,
-            "url": "https://www.tcgplayer.com/product/194729/pokemon-hidden-fates-hidden-fates-elite-trainer-box?page=1",
+            "title": "Paldean Fates Pokemon Center Elite Trainer Box (Exclusive) Case",
+            "price_usd": 3489.99,
+            "url": "https://www.tcgplayer.com/product/536266/pokemon-sv-paldean-fates-paldean-fates-pokemon-center-elite-trainer-box-exclusive-case?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           },
           {
-            "title": "Paldean Fates Pokemon Center Elite Trainer Box (Exclusive)",
-            "price_usd": 549.99,
-            "url": "https://www.tcgplayer.com/product/528039/pokemon-sv-paldean-fates-paldean-fates-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Paldean Fates Pokemon Center Elite Trainer Box (Exclusive) Case",
+            "price_usd": 3500.0,
+            "url": "https://www.tcgplayer.com/product/536266/pokemon-sv-paldean-fates-paldean-fates-pokemon-center-elite-trainer-box-exclusive-case?page=1",
+            "seller": "Zeldie TCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Darkness Ablaze Elite Trainer Box Case",
-            "price_usd": 1274.99,
-            "url": "https://www.tcgplayer.com/product/266951/pokemon-swsh03-darkness-ablaze-darkness-ablaze-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Paldean Fates Pokemon Center Elite Trainer Box (Exclusive) Case",
+            "price_usd": 3500.0,
+            "url": "https://www.tcgplayer.com/product/536266/pokemon-sv-paldean-fates-paldean-fates-pokemon-center-elite-trainer-box-exclusive-case?page=1",
+            "seller": "Zeldie TCG",
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 5456.89,
+        "market_price_usd": 147.97,
         "low_price_usd": 145.0,
-        "mid_price_usd": 1225.67,
-        "high_price_usd": 14999.99,
-        "num_listings": 3,
+        "mid_price_usd": 149.95,
+        "high_price_usd": 149.95,
+        "num_listings": 5,
         "cheapest_listings": [
           {
             "title": "Paldean Fates Booster Bundle",
             "price_usd": 145.0,
             "url": "https://www.tcgplayer.com/product/528771/pokemon-sv-paldean-fates-paldean-fates-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "YouAvgSenpai",
+            "condition": "Unopened"
           },
           {
-            "title": "Paldean Fates Booster Bundle Display",
-            "price_usd": 1225.67,
-            "url": "https://www.tcgplayer.com/product/530704/pokemon-sv-paldean-fates-paldean-fates-booster-bundle-display?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Paldean Fates Booster Bundle",
+            "price_usd": 145.0,
+            "url": "https://www.tcgplayer.com/product/528771/pokemon-sv-paldean-fates-paldean-fates-booster-bundle?page=1",
+            "seller": "YouAvgSenpai",
+            "condition": "Unopened"
           },
           {
-            "title": "Paldean Fates Booster Bundle Display Case",
-            "price_usd": 14999.99,
-            "url": "https://www.tcgplayer.com/product/635609/pokemon-sv-paldean-fates-paldean-fates-booster-bundle-display-case?page=1",
+            "title": "Paldean Fates Booster Bundle",
+            "price_usd": 149.95,
+            "url": "https://www.tcgplayer.com/product/528771/pokemon-sv-paldean-fates-paldean-fates-booster-bundle?page=1",
+            "seller": "LDubbs Collectibles",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Paldean Fates Booster Bundle",
+            "price_usd": 149.95,
+            "url": "https://www.tcgplayer.com/product/528771/pokemon-sv-paldean-fates-paldean-fates-booster-bundle?page=1",
+            "seller": "LDubbs Collectibles",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Paldean Fates Booster Bundle",
+            "price_usd": 149.95,
+            "url": "https://www.tcgplayer.com/product/528771/pokemon-sv-paldean-fates-paldean-fates-booster-bundle?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
@@ -396,149 +287,142 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 225.1,
-        "low_price_usd": 2.42,
+        "market_price_usd": 40.74,
+        "low_price_usd": 40.74,
         "mid_price_usd": 40.74,
-        "high_price_usd": 1199.99,
-        "num_listings": 6,
+        "high_price_usd": 40.75,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Twilight Masquerade Booster Pack",
-            "price_usd": 2.42,
-            "url": "https://www.tcgplayer.com/product/543843/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Twilight Masquerade Sleeved Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 40.74,
+            "url": "https://www.tcgplayer.com/product/549494/pokemon-sv06-twilight-masquerade-twilight-masquerade-sleeved-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "BoosterPackCards",
+            "condition": "Unopened"
           },
           {
-            "title": "Twilight Masquerade Sleeved Booster Pack",
-            "price_usd": 8.49,
-            "url": "https://www.tcgplayer.com/product/544170/pokemon-sv06-twilight-masquerade-twilight-masquerade-sleeved-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Twilight Masquerade Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 30.98,
-            "url": "https://www.tcgplayer.com/product/549487/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Twilight Masquerade Sleeved Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 40.74,
+            "url": "https://www.tcgplayer.com/product/549494/pokemon-sv06-twilight-masquerade-twilight-masquerade-sleeved-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "BoosterPackCards",
+            "condition": "Unopened"
           },
           {
             "title": "Twilight Masquerade Sleeved Booster Pack Art Bundle [Set of 4]",
             "price_usd": 40.74,
             "url": "https://www.tcgplayer.com/product/549494/pokemon-sv06-twilight-masquerade-twilight-masquerade-sleeved-booster-pack-art-bundle-set-of-4?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           },
           {
-            "title": "Twilight Masquerade Booster Bundle",
-            "price_usd": 67.99,
-            "url": "https://www.tcgplayer.com/product/543852/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Twilight Masquerade Sleeved Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 40.75,
+            "url": "https://www.tcgplayer.com/product/549494/pokemon-sv06-twilight-masquerade-twilight-masquerade-sleeved-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "Jonathan yugi",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Twilight Masquerade Sleeved Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 40.75,
+            "url": "https://www.tcgplayer.com/product/549494/pokemon-sv06-twilight-masquerade-twilight-masquerade-sleeved-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "Jonathan yugi",
+            "condition": "Unopened"
           }
         ]
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 1985.35,
+        "market_price_usd": 15.99,
         "low_price_usd": 15.99,
-        "mid_price_usd": 1449.97,
-        "high_price_usd": 6100.0,
-        "num_listings": 19,
+        "mid_price_usd": 15.99,
+        "high_price_usd": 15.99,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Twilight Masquerade Elite Trainer Box",
             "price_usd": 15.99,
             "url": "https://www.tcgplayer.com/product/543845/pokemon-sv06-twilight-masquerade-twilight-masquerade-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "Gutter3052",
+            "condition": "Unopened"
           },
           {
-            "title": "Twilight Masquerade Pokemon Center Elite Trainer Box (Exclusive)",
-            "price_usd": 165.99,
-            "url": "https://www.tcgplayer.com/product/543844/pokemon-sv06-twilight-masquerade-twilight-masquerade-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Twilight Masquerade Elite Trainer Box",
+            "price_usd": 15.99,
+            "url": "https://www.tcgplayer.com/product/543845/pokemon-sv06-twilight-masquerade-twilight-masquerade-elite-trainer-box?page=1",
+            "seller": "Gutter3052",
+            "condition": "Unopened"
           },
           {
-            "title": "Twilight Masquerade Pokemon Center Elite Trainer Box (Exclusive) Case",
-            "price_usd": 800.0,
-            "url": "https://www.tcgplayer.com/product/549491/pokemon-sv06-twilight-masquerade-twilight-masquerade-pokemon-center-elite-trainer-box-exclusive-case?page=1",
+            "title": "Twilight Masquerade Elite Trainer Box",
+            "price_usd": 15.99,
+            "url": "https://www.tcgplayer.com/product/543845/pokemon-sv06-twilight-masquerade-twilight-masquerade-elite-trainer-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Twilight Masquerade Elite Trainer Box Case",
-            "price_usd": 982.0,
-            "url": "https://www.tcgplayer.com/product/544385/pokemon-sv06-twilight-masquerade-twilight-masquerade-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Battle Styles Elite Trainer Box Case",
-            "price_usd": 1099.0,
-            "url": "https://www.tcgplayer.com/product/235284/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 445.79,
+        "market_price_usd": 67.99,
         "low_price_usd": 67.99,
-        "mid_price_usd": 823.58,
-        "high_price_usd": 823.58,
-        "num_listings": 2,
+        "mid_price_usd": 67.99,
+        "high_price_usd": 67.99,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Twilight Masquerade Booster Bundle",
             "price_usd": 67.99,
             "url": "https://www.tcgplayer.com/product/543852/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "zdfiiiiii",
+            "condition": "Unopened"
           },
           {
-            "title": "Perfect Order Booster Bundle Case",
-            "price_usd": 823.58,
-            "url": "https://www.tcgplayer.com/product/672397/pokemon-me03-perfect-order-perfect-order-booster-bundle-case?page=1",
+            "title": "Twilight Masquerade Booster Bundle",
+            "price_usd": 67.99,
+            "url": "https://www.tcgplayer.com/product/543852/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-bundle?page=1",
+            "seller": "zdfiiiiii",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Twilight Masquerade Booster Bundle",
+            "price_usd": 67.99,
+            "url": "https://www.tcgplayer.com/product/543852/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-bundle?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-box": {
         "product_type": "booster-box",
         "product_label": "Booster Box",
-        "market_price_usd": 699.27,
+        "market_price_usd": 59.99,
         "low_price_usd": 59.99,
-        "mid_price_usd": 187.84,
-        "high_price_usd": 1849.99,
+        "mid_price_usd": 59.99,
+        "high_price_usd": 59.99,
         "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Twilight Masquerade Booster Box",
             "price_usd": 59.99,
             "url": "https://www.tcgplayer.com/product/543846/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Twilight Masqueade Half Booster Box",
-            "price_usd": 187.84,
-            "url": "https://www.tcgplayer.com/product/649421/pokemon-sv06-twilight-masquerade-twilight-masqueade-half-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Twilight Masquerade Booster Box",
+            "price_usd": 59.99,
+            "url": "https://www.tcgplayer.com/product/543846/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-box?page=1",
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Twilight Masquerade Booster Box Case",
-            "price_usd": 1849.99,
-            "url": "https://www.tcgplayer.com/product/544384/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-box-case?page=1",
+            "title": "Twilight Masquerade Booster Box",
+            "price_usd": 59.99,
+            "url": "https://www.tcgplayer.com/product/543846/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       }
@@ -547,177 +431,156 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 408.21,
+        "market_price_usd": 2.48,
         "low_price_usd": 2.48,
-        "mid_price_usd": 39.97,
-        "high_price_usd": 1500.0,
-        "num_listings": 7,
+        "mid_price_usd": 2.48,
+        "high_price_usd": 2.48,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Stellar Crown Booster Pack",
             "price_usd": 2.48,
             "url": "https://www.tcgplayer.com/product/557331/pokemon-sv07-stellar-crown-stellar-crown-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Stellar Crown Sleeved Booster Pack",
-            "price_usd": 9.0,
-            "url": "https://www.tcgplayer.com/product/557352/pokemon-sv07-stellar-crown-stellar-crown-sleeved-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Stellar Crown Booster Pack",
+            "price_usd": 2.48,
+            "url": "https://www.tcgplayer.com/product/557331/pokemon-sv07-stellar-crown-stellar-crown-booster-pack?page=1",
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Stellar Crown Sleeved Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 34.0,
-            "url": "https://www.tcgplayer.com/product/557361/pokemon-sv07-stellar-crown-stellar-crown-sleeved-booster-pack-art-bundle-set-of-4?page=1",
+            "title": "Stellar Crown Booster Pack",
+            "price_usd": 2.48,
+            "url": "https://www.tcgplayer.com/product/557331/pokemon-sv07-stellar-crown-stellar-crown-booster-pack?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Stellar Crown Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 39.97,
-            "url": "https://www.tcgplayer.com/product/557357/pokemon-sv07-stellar-crown-stellar-crown-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Stellar Crown Booster Bundle",
-            "price_usd": 73.0,
-            "url": "https://www.tcgplayer.com/product/557345/pokemon-sv07-stellar-crown-stellar-crown-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 1284.47,
-        "low_price_usd": 1.99,
-        "mid_price_usd": 1274.99,
-        "high_price_usd": 3998.99,
-        "num_listings": 19,
+        "market_price_usd": 118.2,
+        "low_price_usd": 115.0,
+        "mid_price_usd": 115.0,
+        "high_price_usd": 122.99,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Prismatic Evolutions Elite Trainer Box",
-            "price_usd": 1.99,
-            "url": "https://www.tcgplayer.com/product/593355/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Stellar Crown Elite Trainer Box",
+            "price_usd": 115.0,
+            "url": "https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box?page=1",
+            "seller": "PrimeCollectiblesInc",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Stellar Crown Elite Trainer Box",
+            "price_usd": 115.0,
+            "url": "https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box?page=1",
+            "seller": "PrimeCollectiblesInc",
+            "condition": "Unopened"
           },
           {
             "title": "Stellar Crown Elite Trainer Box",
             "price_usd": 115.0,
             "url": "https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           },
           {
-            "title": "Stellar Crown Pokemon Center Elite Trainer Box (Exclusive)",
-            "price_usd": 149.99,
-            "url": "https://www.tcgplayer.com/product/557340/pokemon-sv07-stellar-crown-stellar-crown-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Stellar Crown Elite Trainer Box",
+            "price_usd": 122.99,
+            "url": "https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box?page=1",
+            "seller": "PokeDealerXD",
+            "condition": "Unopened"
           },
           {
-            "title": "Prismatic Evolutions Elite Trainer Box (Dollar General Exclusive)",
-            "price_usd": 193.67,
-            "url": "https://www.tcgplayer.com/product/670607/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box-dollar-general-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Crown Zenith Elite Trainer Box",
-            "price_usd": 290.0,
-            "url": "https://www.tcgplayer.com/product/453470/pokemon-swsh-crown-zenith-crown-zenith-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Stellar Crown Elite Trainer Box",
+            "price_usd": 122.99,
+            "url": "https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box?page=1",
+            "seller": "PokeDealerXD",
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 2273.73,
+        "market_price_usd": 75.0,
         "low_price_usd": 73.0,
-        "mid_price_usd": 2279.97,
-        "high_price_usd": 7499.0,
-        "num_listings": 8,
+        "mid_price_usd": 73.0,
+        "high_price_usd": 78.0,
+        "num_listings": 5,
         "cheapest_listings": [
           {
             "title": "Stellar Crown Booster Bundle",
             "price_usd": 73.0,
             "url": "https://www.tcgplayer.com/product/557345/pokemon-sv07-stellar-crown-stellar-crown-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "PartyofFiveTCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Crown Zenith Booster Bundle",
-            "price_usd": 188.9,
-            "url": "https://www.tcgplayer.com/product/527562/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Stellar Crown Booster Bundle",
+            "price_usd": 73.0,
+            "url": "https://www.tcgplayer.com/product/557345/pokemon-sv07-stellar-crown-stellar-crown-booster-bundle?page=1",
+            "seller": "PartyofFiveTCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Surging Sparks Booster Bundle Case (LGS)",
-            "price_usd": 1199.0,
-            "url": "https://www.tcgplayer.com/product/594269/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-case-lgs?page=1",
+            "title": "Stellar Crown Booster Bundle",
+            "price_usd": 73.0,
+            "url": "https://www.tcgplayer.com/product/557345/pokemon-sv07-stellar-crown-stellar-crown-booster-bundle?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           },
           {
-            "title": "Stellar Crown Booster Bundle Case",
-            "price_usd": 1500.0,
-            "url": "https://www.tcgplayer.com/product/609235/pokemon-sv07-stellar-crown-stellar-crown-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Stellar Crown Booster Bundle",
+            "price_usd": 78.0,
+            "url": "https://www.tcgplayer.com/product/557345/pokemon-sv07-stellar-crown-stellar-crown-booster-bundle?page=1",
+            "seller": "DeFunDice",
+            "condition": "Unopened"
           },
           {
-            "title": "Prismatic Evolutions Booster Bundle Case",
-            "price_usd": 2279.97,
-            "url": "https://www.tcgplayer.com/product/615027/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Stellar Crown Booster Bundle",
+            "price_usd": 78.0,
+            "url": "https://www.tcgplayer.com/product/557345/pokemon-sv07-stellar-crown-stellar-crown-booster-bundle?page=1",
+            "seller": "DeFunDice",
+            "condition": "Unopened"
           }
         ]
       },
       "booster-box": {
         "product_type": "booster-box",
         "product_label": "Booster Box",
-        "market_price_usd": 946.73,
+        "market_price_usd": 51.99,
         "low_price_usd": 51.99,
-        "mid_price_usd": 1749.99,
-        "high_price_usd": 1759.95,
-        "num_listings": 4,
+        "mid_price_usd": 51.99,
+        "high_price_usd": 51.99,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Stellar Crown Booster Box",
             "price_usd": 51.99,
             "url": "https://www.tcgplayer.com/product/557354/pokemon-sv07-stellar-crown-stellar-crown-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Stellar Crown Half Booster Box",
-            "price_usd": 225.0,
-            "url": "https://www.tcgplayer.com/product/649420/pokemon-sv07-stellar-crown-stellar-crown-half-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Stellar Crown Booster Box",
+            "price_usd": 51.99,
+            "url": "https://www.tcgplayer.com/product/557354/pokemon-sv07-stellar-crown-stellar-crown-booster-box?page=1",
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Surging Sparks Booster Box Case",
-            "price_usd": 1749.99,
-            "url": "https://www.tcgplayer.com/product/580708/pokemon-sv08-surging-sparks-surging-sparks-booster-box-case?page=1",
+            "title": "Stellar Crown Booster Box",
+            "price_usd": 51.99,
+            "url": "https://www.tcgplayer.com/product/557354/pokemon-sv07-stellar-crown-stellar-crown-booster-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Stellar Crown Booster Box Case",
-            "price_usd": 1759.95,
-            "url": "https://www.tcgplayer.com/product/557365/pokemon-sv07-stellar-crown-stellar-crown-booster-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       }
@@ -726,163 +589,142 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 321.96,
+        "market_price_usd": 2.44,
         "low_price_usd": 2.44,
-        "mid_price_usd": 50.0,
-        "high_price_usd": 1364.97,
-        "num_listings": 9,
+        "mid_price_usd": 2.44,
+        "high_price_usd": 2.44,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Surging Sparks Booster Pack",
             "price_usd": 2.44,
             "url": "https://www.tcgplayer.com/product/565604/pokemon-sv08-surging-sparks-surging-sparks-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "Pacific Deals",
+            "condition": "Unopened"
           },
           {
-            "title": "Surging Sparks Sleeved Booster Pack",
-            "price_usd": 3.89,
-            "url": "https://www.tcgplayer.com/product/565602/pokemon-sv08-surging-sparks-surging-sparks-sleeved-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Surging Sparks Booster Pack",
+            "price_usd": 2.44,
+            "url": "https://www.tcgplayer.com/product/565604/pokemon-sv08-surging-sparks-surging-sparks-booster-pack?page=1",
+            "seller": "Pacific Deals",
+            "condition": "Unopened"
           },
           {
-            "title": "Surging Sparks Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 29.0,
-            "url": "https://www.tcgplayer.com/product/565605/pokemon-sv08-surging-sparks-surging-sparks-booster-pack-art-bundle-set-of-4?page=1",
+            "title": "Surging Sparks Booster Pack",
+            "price_usd": 2.44,
+            "url": "https://www.tcgplayer.com/product/565604/pokemon-sv08-surging-sparks-surging-sparks-booster-pack?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Surging Sparks Sleeved Booster Pack Bundle [Set of 4]",
-            "price_usd": 40.68,
-            "url": "https://www.tcgplayer.com/product/565603/pokemon-sv08-surging-sparks-surging-sparks-sleeved-booster-pack-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Surging Sparks Booster Bundle (LGS)",
-            "price_usd": 50.0,
-            "url": "https://www.tcgplayer.com/product/565629/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-lgs?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 1892.3,
-        "low_price_usd": 10.0,
-        "mid_price_usd": 1665.0,
-        "high_price_usd": 3998.99,
-        "num_listings": 17,
+        "market_price_usd": 17.99,
+        "low_price_usd": 17.99,
+        "mid_price_usd": 17.99,
+        "high_price_usd": 17.99,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Surging Sparks Elite Trainer Box",
-            "price_usd": 10.0,
+            "price_usd": 17.99,
+            "url": "https://www.tcgplayer.com/product/565630/pokemon-sv08-surging-sparks-surging-sparks-elite-trainer-box?page=1",
+            "seller": "TXLegacy Collectible",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Surging Sparks Elite Trainer Box",
+            "price_usd": 17.99,
+            "url": "https://www.tcgplayer.com/product/565630/pokemon-sv08-surging-sparks-surging-sparks-elite-trainer-box?page=1",
+            "seller": "TXLegacy Collectible",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Surging Sparks Elite Trainer Box",
+            "price_usd": 17.99,
             "url": "https://www.tcgplayer.com/product/565630/pokemon-sv08-surging-sparks-surging-sparks-elite-trainer-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Surging Sparks Pokemon Center Elite Trainer Box (Exclusive)",
-            "price_usd": 270.0,
-            "url": "https://www.tcgplayer.com/product/565632/pokemon-sv08-surging-sparks-surging-sparks-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Surging Sparks Elite Trainer Box Case",
-            "price_usd": 1125.99,
-            "url": "https://www.tcgplayer.com/product/565631/pokemon-sv08-surging-sparks-surging-sparks-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Surging Sparks Pokemon Center Elite Trainer Box (Exclusive) Case",
-            "price_usd": 1199.99,
-            "url": "https://www.tcgplayer.com/product/565633/pokemon-sv08-surging-sparks-surging-sparks-pokemon-center-elite-trainer-box-exclusive-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Astral Radiance Pokemon Center Elite Trainer Box Case (Exclusive)",
-            "price_usd": 1249.0,
-            "url": "https://www.tcgplayer.com/product/279424/pokemon-swsh10-astral-radiance-astral-radiance-pokemon-center-elite-trainer-box-case-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 364.17,
-        "low_price_usd": 50.0,
-        "mid_price_usd": 141.69,
-        "high_price_usd": 1199.0,
-        "num_listings": 4,
+        "market_price_usd": 67.2,
+        "low_price_usd": 66.0,
+        "mid_price_usd": 68.0,
+        "high_price_usd": 68.0,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Surging Sparks Booster Bundle (LGS)",
-            "price_usd": 50.0,
-            "url": "https://www.tcgplayer.com/product/565629/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-lgs?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Surging Sparks Booster Bundle (Retail)",
+            "price_usd": 66.0,
+            "url": "https://www.tcgplayer.com/product/679564/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-retail?page=1",
+            "seller": "pokeflu_tcg",
+            "condition": "Unopened"
           },
           {
             "title": "Surging Sparks Booster Bundle (Retail)",
             "price_usd": 66.0,
             "url": "https://www.tcgplayer.com/product/679564/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-retail?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "pokeflu_tcg",
+            "condition": "Unopened"
           },
           {
-            "title": "Costco Pokemon Surging Sparks 2-Pack Trainer Box and Booster Bundle",
-            "price_usd": 141.69,
-            "url": "https://www.tcgplayer.com/product/650397/pokemon-miscellaneous-cards-and-products-costco-pokemon-surging-sparks-2-pack-trainer-box-and-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Surging Sparks Booster Bundle (Retail)",
+            "price_usd": 68.0,
+            "url": "https://www.tcgplayer.com/product/679564/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-retail?page=1",
+            "seller": "The Game Factory CT",
+            "condition": "Unopened"
           },
           {
-            "title": "Surging Sparks Booster Bundle Case (LGS)",
-            "price_usd": 1199.0,
-            "url": "https://www.tcgplayer.com/product/594269/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-case-lgs?page=1",
+            "title": "Surging Sparks Booster Bundle (Retail)",
+            "price_usd": 68.0,
+            "url": "https://www.tcgplayer.com/product/679564/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-retail?page=1",
+            "seller": "The Game Factory CT",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Surging Sparks Booster Bundle (Retail)",
+            "price_usd": 68.0,
+            "url": "https://www.tcgplayer.com/product/679564/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-retail?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-box": {
         "product_type": "booster-box",
         "product_label": "Booster Box",
-        "market_price_usd": 666.24,
+        "market_price_usd": 58.75,
         "low_price_usd": 58.75,
-        "mid_price_usd": 189.99,
-        "high_price_usd": 1749.99,
+        "mid_price_usd": 58.75,
+        "high_price_usd": 58.75,
         "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Surging Sparks Booster Box",
             "price_usd": 58.75,
             "url": "https://www.tcgplayer.com/product/565606/pokemon-sv08-surging-sparks-surging-sparks-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Surging Sparks Half Booster Box",
-            "price_usd": 189.99,
-            "url": "https://www.tcgplayer.com/product/646039/pokemon-sv08-surging-sparks-surging-sparks-half-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Surging Sparks Booster Box",
+            "price_usd": 58.75,
+            "url": "https://www.tcgplayer.com/product/565606/pokemon-sv08-surging-sparks-surging-sparks-booster-box?page=1",
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Surging Sparks Booster Box Case",
-            "price_usd": 1749.99,
-            "url": "https://www.tcgplayer.com/product/580708/pokemon-sv08-surging-sparks-surging-sparks-booster-box-case?page=1",
+            "title": "Surging Sparks Booster Box",
+            "price_usd": 58.75,
+            "url": "https://www.tcgplayer.com/product/565606/pokemon-sv08-surging-sparks-surging-sparks-booster-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       }
@@ -891,138 +733,110 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 790.46,
-        "low_price_usd": 12.33,
-        "mid_price_usd": 140.0,
-        "high_price_usd": 2279.97,
-        "num_listings": 6,
+        "market_price_usd": 13.35,
+        "low_price_usd": 13.35,
+        "mid_price_usd": 13.35,
+        "high_price_usd": 13.35,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Prismatic Evolutions Booster Pack",
-            "price_usd": 12.33,
+            "price_usd": 13.35,
+            "url": "https://www.tcgplayer.com/product/593294/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-pack?page=1",
+            "seller": "Casual Larry Pulls",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Prismatic Evolutions Booster Pack",
+            "price_usd": 13.35,
+            "url": "https://www.tcgplayer.com/product/593294/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-pack?page=1",
+            "seller": "Casual Larry Pulls",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Prismatic Evolutions Booster Pack",
+            "price_usd": 13.35,
             "url": "https://www.tcgplayer.com/product/593294/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-pack?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Prismatic Evolutions Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 43.01,
-            "url": "https://www.tcgplayer.com/product/617823/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Prismatic Evolutions Booster Bundle",
-            "price_usd": 87.47,
-            "url": "https://www.tcgplayer.com/product/600518/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Prismatic Evolutions Booster Bundle + Surprise Box Bundle (Sam's Club)",
-            "price_usd": 140.0,
-            "url": "https://www.tcgplayer.com/product/678555/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle-plus-surprise-box-bundle-sams-club?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Prismatic Evolutions Booster Bundle Display",
-            "price_usd": 2180.0,
-            "url": "https://www.tcgplayer.com/product/610317/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle-display?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 1130.91,
+        "market_price_usd": 1.99,
         "low_price_usd": 1.99,
-        "mid_price_usd": 1184.17,
-        "high_price_usd": 3998.99,
-        "num_listings": 18,
+        "mid_price_usd": 1.99,
+        "high_price_usd": 1.99,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Prismatic Evolutions Elite Trainer Box",
             "price_usd": 1.99,
             "url": "https://www.tcgplayer.com/product/593355/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "TCGMasterConnect",
+            "condition": "Unopened"
           },
           {
-            "title": "Mega Evolution Elite Trainer Box [Mega Lucario]",
-            "price_usd": 86.65,
-            "url": "https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Prismatic Evolutions Elite Trainer Box",
+            "price_usd": 1.99,
+            "url": "https://www.tcgplayer.com/product/593355/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box?page=1",
+            "seller": "TCGMasterConnect",
+            "condition": "Unopened"
           },
           {
-            "title": "Mega Evolution Elite Trainer Box [Mega Gardevoir]",
-            "price_usd": 90.0,
-            "url": "https://www.tcgplayer.com/product/644279/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-gardevoir?page=1",
+            "title": "Prismatic Evolutions Elite Trainer Box",
+            "price_usd": 1.99,
+            "url": "https://www.tcgplayer.com/product/593355/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Prismatic Evolutions Elite Trainer Box (Dollar General Exclusive)",
-            "price_usd": 193.67,
-            "url": "https://www.tcgplayer.com/product/670607/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box-dollar-general-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Prismatic Evolutions Elite Trainer Box and Pokeball (Sam's Club)",
-            "price_usd": 198.0,
-            "url": "https://www.tcgplayer.com/product/644852/pokemon-miscellaneous-cards-and-products-prismatic-evolutions-elite-trainer-box-and-pokeball-sams-club?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 1299.47,
-        "low_price_usd": 54.49,
-        "mid_price_usd": 1777.67,
-        "high_price_usd": 2999.99,
-        "num_listings": 11,
+        "market_price_usd": 93.18,
+        "low_price_usd": 92.0,
+        "mid_price_usd": 93.97,
+        "high_price_usd": 93.97,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Mega Evolution Booster Bundle",
-            "price_usd": 54.49,
-            "url": "https://www.tcgplayer.com/product/644362/pokemon-me01-mega-evolution-mega-evolution-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Ascended Heroes Booster Bundle",
-            "price_usd": 80.0,
-            "url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Prismatic Evolutions Booster Bundle",
+            "price_usd": 92.0,
+            "url": "https://www.tcgplayer.com/product/600518/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle?page=1",
+            "seller": "Steep Discounts",
+            "condition": "Unopened"
           },
           {
             "title": "Prismatic Evolutions Booster Bundle",
-            "price_usd": 87.47,
+            "price_usd": 92.0,
+            "url": "https://www.tcgplayer.com/product/600518/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle?page=1",
+            "seller": "Steep Discounts",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Prismatic Evolutions Booster Bundle",
+            "price_usd": 93.97,
+            "url": "https://www.tcgplayer.com/product/600518/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle?page=1",
+            "seller": "Heero's Card Shop",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Prismatic Evolutions Booster Bundle",
+            "price_usd": 93.97,
+            "url": "https://www.tcgplayer.com/product/600518/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle?page=1",
+            "seller": "Heero's Card Shop",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Prismatic Evolutions Booster Bundle",
+            "price_usd": 93.97,
             "url": "https://www.tcgplayer.com/product/600518/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Prismatic Evolutions Booster Bundle + Surprise Box Bundle (Sam's Club)",
-            "price_usd": 140.0,
-            "url": "https://www.tcgplayer.com/product/678555/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle-plus-surprise-box-bundle-sams-club?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Costco Pokemon Prismatic Evolutions 2-Pack Trainer Box and Booster Bundle",
-            "price_usd": 274.97,
-            "url": "https://www.tcgplayer.com/product/636740/pokemon-miscellaneous-cards-and-products-costco-pokemon-prismatic-evolutions-2-pack-trainer-box-and-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
@@ -1041,170 +855,142 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 178.64,
+        "market_price_usd": 4.55,
         "low_price_usd": 3.36,
-        "mid_price_usd": 29.97,
-        "high_price_usd": 996.97,
-        "num_listings": 7,
+        "mid_price_usd": 5.35,
+        "high_price_usd": 5.35,
+        "num_listings": 5,
         "cheapest_listings": [
           {
             "title": "Journey Together Booster Pack",
             "price_usd": 3.36,
             "url": "https://www.tcgplayer.com/product/610935/pokemon-sv09-journey-together-journey-together-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "Cardstoredhui",
+            "condition": "Unopened"
           },
           {
-            "title": "Journey Together Sleeved Booster Pack",
-            "price_usd": 6.99,
-            "url": "https://www.tcgplayer.com/product/610934/pokemon-sv09-journey-together-journey-together-sleeved-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Journey Together Booster Pack",
+            "price_usd": 3.36,
+            "url": "https://www.tcgplayer.com/product/610935/pokemon-sv09-journey-together-journey-together-booster-pack?page=1",
+            "seller": "Cardstoredhui",
+            "condition": "Unopened"
           },
           {
-            "title": "Journey Together Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 24.18,
-            "url": "https://www.tcgplayer.com/product/626660/pokemon-sv09-journey-together-journey-together-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Journey Together Booster Pack",
+            "price_usd": 5.35,
+            "url": "https://www.tcgplayer.com/product/610935/pokemon-sv09-journey-together-journey-together-booster-pack?page=1",
+            "seller": "Riot Holdings",
+            "condition": "Unopened"
           },
           {
-            "title": "Journey Together Sleeved Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 29.97,
-            "url": "https://www.tcgplayer.com/product/626659/pokemon-sv09-journey-together-journey-together-sleeved-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Journey Together Booster Pack",
+            "price_usd": 5.35,
+            "url": "https://www.tcgplayer.com/product/610935/pokemon-sv09-journey-together-journey-together-booster-pack?page=1",
+            "seller": "Riot Holdings",
+            "condition": "Unopened"
           },
           {
-            "title": "Journey Together Booster Bundle",
-            "price_usd": 38.99,
-            "url": "https://www.tcgplayer.com/product/610953/pokemon-sv09-journey-together-journey-together-booster-bundle?page=1",
+            "title": "Journey Together Booster Pack",
+            "price_usd": 5.35,
+            "url": "https://www.tcgplayer.com/product/610935/pokemon-sv09-journey-together-journey-together-booster-pack?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 2109.16,
+        "market_price_usd": 1.99,
         "low_price_usd": 1.99,
-        "mid_price_usd": 1665.0,
-        "high_price_usd": 6100.0,
-        "num_listings": 17,
+        "mid_price_usd": 1.99,
+        "high_price_usd": 1.99,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Journey Together Elite Trainer Box",
             "price_usd": 1.99,
             "url": "https://www.tcgplayer.com/product/610930/pokemon-sv09-journey-together-journey-together-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "TCGMasterConnect",
+            "condition": "Unopened"
           },
           {
-            "title": "Journey Together Pokemon Center Elite Trainer Box (Exclusive)",
-            "price_usd": 195.98,
-            "url": "https://www.tcgplayer.com/product/610929/pokemon-sv09-journey-together-journey-together-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Journey Together Elite Trainer Box",
+            "price_usd": 1.99,
+            "url": "https://www.tcgplayer.com/product/610930/pokemon-sv09-journey-together-journey-together-elite-trainer-box?page=1",
+            "seller": "TCGMasterConnect",
+            "condition": "Unopened"
           },
           {
-            "title": "Battle Styles Elite Trainer Box Case",
-            "price_usd": 1099.0,
-            "url": "https://www.tcgplayer.com/product/235284/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-case?page=1",
+            "title": "Journey Together Elite Trainer Box",
+            "price_usd": 1.99,
+            "url": "https://www.tcgplayer.com/product/610930/pokemon-sv09-journey-together-journey-together-elite-trainer-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Journey Together Elite Trainer Box Case",
-            "price_usd": 1200.0,
-            "url": "https://www.tcgplayer.com/product/614450/pokemon-sv09-journey-together-journey-together-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Astral Radiance Pokemon Center Elite Trainer Box Case (Exclusive)",
-            "price_usd": 1249.0,
-            "url": "https://www.tcgplayer.com/product/279424/pokemon-swsh10-astral-radiance-astral-radiance-pokemon-center-elite-trainer-box-case-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 482.38,
+        "market_price_usd": 38.99,
         "low_price_usd": 38.99,
-        "mid_price_usd": 823.58,
-        "high_price_usd": 996.97,
-        "num_listings": 4,
+        "mid_price_usd": 38.99,
+        "high_price_usd": 38.99,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Journey Together Booster Bundle",
             "price_usd": 38.99,
             "url": "https://www.tcgplayer.com/product/610953/pokemon-sv09-journey-together-journey-together-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "FactoryFresh TCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Scarlet & Violet Booster Bundle",
-            "price_usd": 69.99,
-            "url": "https://www.tcgplayer.com/product/478258/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Journey Together Booster Bundle",
+            "price_usd": 38.99,
+            "url": "https://www.tcgplayer.com/product/610953/pokemon-sv09-journey-together-journey-together-booster-bundle?page=1",
+            "seller": "FactoryFresh TCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Perfect Order Booster Bundle Case",
-            "price_usd": 823.58,
-            "url": "https://www.tcgplayer.com/product/672397/pokemon-me03-perfect-order-perfect-order-booster-bundle-case?page=1",
+            "title": "Journey Together Booster Bundle",
+            "price_usd": 38.99,
+            "url": "https://www.tcgplayer.com/product/610953/pokemon-sv09-journey-together-journey-together-booster-bundle?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Journey Together Booster Bundle Case",
-            "price_usd": 996.97,
-            "url": "https://www.tcgplayer.com/product/625584/pokemon-sv09-journey-together-journey-together-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-box": {
         "product_type": "booster-box",
         "product_label": "Booster Box",
-        "market_price_usd": 904.35,
+        "market_price_usd": 139.99,
         "low_price_usd": 139.99,
-        "mid_price_usd": 1422.0,
-        "high_price_usd": 1785.42,
-        "num_listings": 4,
+        "mid_price_usd": 139.99,
+        "high_price_usd": 139.99,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Journey Together Booster Box",
             "price_usd": 139.99,
             "url": "https://www.tcgplayer.com/product/610931/pokemon-sv09-journey-together-journey-together-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "PokeTN TCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Journey Together Enhanced Booster Box",
-            "price_usd": 270.0,
-            "url": "https://www.tcgplayer.com/product/623628/pokemon-sv09-journey-together-journey-together-enhanced-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Journey Together Booster Box",
+            "price_usd": 139.99,
+            "url": "https://www.tcgplayer.com/product/610931/pokemon-sv09-journey-together-journey-together-booster-box?page=1",
+            "seller": "PokeTN TCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Journey Together Enhanced Booster Box Case",
-            "price_usd": 1422.0,
-            "url": "https://www.tcgplayer.com/product/625583/pokemon-sv09-journey-together-journey-together-enhanced-booster-box-case?page=1",
+            "title": "Journey Together Booster Box",
+            "price_usd": 139.99,
+            "url": "https://www.tcgplayer.com/product/610931/pokemon-sv09-journey-together-journey-together-booster-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Journey Together Booster Box Case",
-            "price_usd": 1785.42,
-            "url": "https://www.tcgplayer.com/product/614449/pokemon-sv09-journey-together-journey-together-booster-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       }
@@ -1213,170 +999,156 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 502.23,
-        "low_price_usd": 2.89,
-        "mid_price_usd": 37.0,
-        "high_price_usd": 1774.0,
-        "num_listings": 7,
+        "market_price_usd": 40.24,
+        "low_price_usd": 39.73,
+        "mid_price_usd": 39.73,
+        "high_price_usd": 41.0,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Destined Rivals Booster Pack",
-            "price_usd": 2.89,
-            "url": "https://www.tcgplayer.com/product/624683/pokemon-sv10-destined-rivals-destined-rivals-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Destined Rivals Sleeved Booster Pack",
-            "price_usd": 3.49,
-            "url": "https://www.tcgplayer.com/product/624684/pokemon-sv10-destined-rivals-destined-rivals-sleeved-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Destined Rivals Sleeved Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 35.2,
-            "url": "https://www.tcgplayer.com/product/635053/pokemon-sv10-destined-rivals-destined-rivals-sleeved-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Destined Rivals Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 39.73,
+            "url": "https://www.tcgplayer.com/product/649711/pokemon-sv10-destined-rivals-destined-rivals-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "Pok3Stop",
+            "condition": "Unopened"
           },
           {
             "title": "Destined Rivals Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 37.0,
+            "price_usd": 39.73,
             "url": "https://www.tcgplayer.com/product/649711/pokemon-sv10-destined-rivals-destined-rivals-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "Pok3Stop",
+            "condition": "Unopened"
           },
           {
-            "title": "Destined Rivals Booster Bundle",
-            "price_usd": 63.0,
-            "url": "https://www.tcgplayer.com/product/625670/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle?page=1",
+            "title": "Destined Rivals Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 39.73,
+            "url": "https://www.tcgplayer.com/product/649711/pokemon-sv10-destined-rivals-destined-rivals-booster-pack-art-bundle-set-of-4?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
+          },
+          {
+            "title": "Destined Rivals Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 41.0,
+            "url": "https://www.tcgplayer.com/product/649711/pokemon-sv10-destined-rivals-destined-rivals-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "RichAndRichieRips",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Destined Rivals Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 41.0,
+            "url": "https://www.tcgplayer.com/product/649711/pokemon-sv10-destined-rivals-destined-rivals-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "RichAndRichieRips",
+            "condition": "Unopened"
           }
         ]
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 1944.89,
+        "market_price_usd": 220.98,
         "low_price_usd": 214.99,
-        "mid_price_usd": 1690.0,
-        "high_price_usd": 3998.99,
-        "num_listings": 16,
+        "mid_price_usd": 224.98,
+        "high_price_usd": 224.98,
+        "num_listings": 5,
         "cheapest_listings": [
           {
             "title": "Destined Rivals Elite Trainer Box",
             "price_usd": 214.99,
             "url": "https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "Punk Mouse",
+            "condition": "Unopened"
           },
           {
-            "title": "Destined Rivals Pokemon Center Elite Trainer Box (Exclusive)",
-            "price_usd": 550.0,
-            "url": "https://www.tcgplayer.com/product/624675/pokemon-sv10-destined-rivals-destined-rivals-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Destined Rivals Elite Trainer Box",
+            "price_usd": 214.99,
+            "url": "https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box?page=1",
+            "seller": "Punk Mouse",
+            "condition": "Unopened"
           },
           {
-            "title": "Phantasmal Flames Elite Trainer Box Case",
-            "price_usd": 790.0,
-            "url": "https://www.tcgplayer.com/product/654170/pokemon-me02-phantasmal-flames-phantasmal-flames-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Destined Rivals Elite Trainer Box",
+            "price_usd": 224.98,
+            "url": "https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box?page=1",
+            "seller": "Chicago Surplus",
+            "condition": "Unopened"
           },
           {
-            "title": "Astral Radiance Pokemon Center Elite Trainer Box Case (Exclusive)",
-            "price_usd": 1249.0,
-            "url": "https://www.tcgplayer.com/product/279424/pokemon-swsh10-astral-radiance-astral-radiance-pokemon-center-elite-trainer-box-case-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Destined Rivals Elite Trainer Box",
+            "price_usd": 224.98,
+            "url": "https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box?page=1",
+            "seller": "Chicago Surplus",
+            "condition": "Unopened"
           },
           {
-            "title": "Darkness Ablaze Elite Trainer Box Case",
-            "price_usd": 1274.99,
-            "url": "https://www.tcgplayer.com/product/266951/pokemon-swsh03-darkness-ablaze-darkness-ablaze-elite-trainer-box-case?page=1",
+            "title": "Destined Rivals Elite Trainer Box",
+            "price_usd": 224.98,
+            "url": "https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 4666.05,
-        "low_price_usd": 63.0,
-        "mid_price_usd": 1774.0,
-        "high_price_usd": 18700.0,
-        "num_listings": 5,
+        "market_price_usd": 65.98,
+        "low_price_usd": 65.98,
+        "mid_price_usd": 65.98,
+        "high_price_usd": 65.98,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Destined Rivals Booster Bundle",
-            "price_usd": 63.0,
+            "price_usd": 65.98,
+            "url": "https://www.tcgplayer.com/product/625670/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle?page=1",
+            "seller": "WukongShop",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Destined Rivals Booster Bundle",
+            "price_usd": 65.98,
+            "url": "https://www.tcgplayer.com/product/625670/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle?page=1",
+            "seller": "WukongShop",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Destined Rivals Booster Bundle",
+            "price_usd": 65.98,
             "url": "https://www.tcgplayer.com/product/625670/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Perfect Order Booster Bundle Case",
-            "price_usd": 823.58,
-            "url": "https://www.tcgplayer.com/product/672397/pokemon-me03-perfect-order-perfect-order-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Destined Rivals Booster Bundle Case",
-            "price_usd": 1774.0,
-            "url": "https://www.tcgplayer.com/product/628428/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Chaos Rising Booster Bundle Case",
-            "price_usd": 1969.66,
-            "url": "https://www.tcgplayer.com/product/688949/pokemon-me04-chaos-rising-chaos-rising-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "151 Booster Bundle Display Case",
-            "price_usd": 18700.0,
-            "url": "https://www.tcgplayer.com/product/513409/pokemon-sv-scarlet-and-violet-151-151-booster-bundle-display-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-box": {
         "product_type": "booster-box",
         "product_label": "Booster Box",
-        "market_price_usd": 1134.16,
+        "market_price_usd": 52.5,
         "low_price_usd": 52.5,
-        "mid_price_usd": 349.99,
-        "high_price_usd": 2999.99,
+        "mid_price_usd": 52.5,
+        "high_price_usd": 52.5,
         "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Destined Rivals Booster Box",
             "price_usd": 52.5,
             "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "Spoils and Loot",
+            "condition": "Unopened"
           },
           {
-            "title": "Destined Rivals Half Booster Box",
-            "price_usd": 349.99,
-            "url": "https://www.tcgplayer.com/product/624681/pokemon-sv10-destined-rivals-destined-rivals-half-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Destined Rivals Booster Box",
+            "price_usd": 52.5,
+            "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box?page=1",
+            "seller": "Spoils and Loot",
+            "condition": "Unopened"
           },
           {
-            "title": "Destined Rivals Booster Box Case",
-            "price_usd": 2999.99,
-            "url": "https://www.tcgplayer.com/product/624678/pokemon-sv10-destined-rivals-destined-rivals-booster-box-case?page=1",
+            "title": "Destined Rivals Booster Box",
+            "price_usd": 52.5,
+            "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       }
@@ -1385,184 +1157,184 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 945.79,
-        "low_price_usd": 9.4,
-        "mid_price_usd": 80.0,
-        "high_price_usd": 2999.99,
-        "num_listings": 10,
+        "market_price_usd": 39.76,
+        "low_price_usd": 34.97,
+        "mid_price_usd": 42.95,
+        "high_price_usd": 42.95,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Mega Evolution Sleeved Booster Pack",
-            "price_usd": 9.4,
-            "url": "https://www.tcgplayer.com/product/644354/pokemon-me01-mega-evolution-mega-evolution-sleeved-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Mega Evolution Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 32.68,
-            "url": "https://www.tcgplayer.com/product/657875/pokemon-me01-mega-evolution-mega-evolution-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Sleeved Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 34.97,
+            "url": "https://www.tcgplayer.com/product/644355/pokemon-me01-mega-evolution-mega-evolution-sleeved-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "DonsDraws",
+            "condition": "Unopened"
           },
           {
             "title": "Mega Evolution Sleeved Booster Pack Art Bundle [Set of 4]",
             "price_usd": 34.97,
             "url": "https://www.tcgplayer.com/product/644355/pokemon-me01-mega-evolution-mega-evolution-sleeved-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "DonsDraws",
+            "condition": "Unopened"
           },
           {
-            "title": "Chaos Rising Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 49.08,
-            "url": "https://www.tcgplayer.com/product/684447/pokemon-me04-chaos-rising-chaos-rising-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Sleeved Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 42.95,
+            "url": "https://www.tcgplayer.com/product/644355/pokemon-me01-mega-evolution-mega-evolution-sleeved-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "Collectible vault",
+            "condition": "Unopened"
           },
           {
-            "title": "Mega Evolution Booster Bundle",
-            "price_usd": 54.49,
-            "url": "https://www.tcgplayer.com/product/644362/pokemon-me01-mega-evolution-mega-evolution-booster-bundle?page=1",
+            "title": "Mega Evolution Sleeved Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 42.95,
+            "url": "https://www.tcgplayer.com/product/644355/pokemon-me01-mega-evolution-mega-evolution-sleeved-booster-pack-art-bundle-set-of-4?page=1",
+            "seller": "Collectible vault",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Mega Evolution Sleeved Booster Pack Art Bundle [Set of 4]",
+            "price_usd": 42.95,
+            "url": "https://www.tcgplayer.com/product/644355/pokemon-me01-mega-evolution-mega-evolution-sleeved-booster-pack-art-bundle-set-of-4?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 639.2,
-        "low_price_usd": 8.0,
-        "mid_price_usd": 568.08,
-        "high_price_usd": 2880.0,
-        "num_listings": 18,
+        "market_price_usd": 91.99,
+        "low_price_usd": 86.65,
+        "mid_price_usd": 86.65,
+        "high_price_usd": 99.99,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Ascended Heroes Elite Trainer Box",
-            "price_usd": 8.0,
-            "url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Elite Trainer Box [Mega Lucario]",
+            "price_usd": 86.65,
+            "url": "https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario?page=1",
+            "seller": "coopdaloop11",
+            "condition": "Unopened"
           },
           {
-            "title": "Phantasmal Flames Elite Trainer Box",
-            "price_usd": 79.9,
-            "url": "https://www.tcgplayer.com/product/654136/pokemon-me02-phantasmal-flames-phantasmal-flames-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Elite Trainer Box [Mega Lucario]",
+            "price_usd": 86.65,
+            "url": "https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario?page=1",
+            "seller": "coopdaloop11",
+            "condition": "Unopened"
           },
           {
             "title": "Mega Evolution Elite Trainer Box [Mega Lucario]",
             "price_usd": 86.65,
             "url": "https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           },
           {
-            "title": "Mega Evolution Elite Trainer Box [Mega Gardevoir]",
-            "price_usd": 90.0,
-            "url": "https://www.tcgplayer.com/product/644279/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-gardevoir?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Elite Trainer Box [Mega Lucario]",
+            "price_usd": 99.99,
+            "url": "https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario?page=1",
+            "seller": "BobTheCardDispenser",
+            "condition": "Unopened"
           },
           {
-            "title": "Chaos Rising Elite Trainer Box",
-            "price_usd": 109.09,
-            "url": "https://www.tcgplayer.com/product/684450/pokemon-me04-chaos-rising-chaos-rising-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Elite Trainer Box [Mega Lucario]",
+            "price_usd": 99.99,
+            "url": "https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario?page=1",
+            "seller": "BobTheCardDispenser",
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 1229.98,
-        "low_price_usd": 54.49,
+        "market_price_usd": 2066.58,
+        "low_price_usd": 1777.67,
         "mid_price_usd": 1777.67,
-        "high_price_usd": 2999.99,
-        "num_listings": 12,
+        "high_price_usd": 2499.95,
+        "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Mega Evolution Booster Bundle",
-            "price_usd": 54.49,
-            "url": "https://www.tcgplayer.com/product/644362/pokemon-me01-mega-evolution-mega-evolution-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Booster Bundle Case",
+            "price_usd": 1777.67,
+            "url": "https://www.tcgplayer.com/product/644730/pokemon-me01-mega-evolution-mega-evolution-booster-bundle-case?page=1",
+            "seller": "Better Loot LLC",
+            "condition": "Unopened"
           },
           {
-            "title": "Chaos Rising Booster Bundle",
-            "price_usd": 58.96,
-            "url": "https://www.tcgplayer.com/product/684456/pokemon-me04-chaos-rising-chaos-rising-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Booster Bundle Case",
+            "price_usd": 1777.67,
+            "url": "https://www.tcgplayer.com/product/644730/pokemon-me01-mega-evolution-mega-evolution-booster-bundle-case?page=1",
+            "seller": "Better Loot LLC",
+            "condition": "Unopened"
           },
           {
-            "title": "Phantasmal Flames Booster Bundle",
-            "price_usd": 62.99,
-            "url": "https://www.tcgplayer.com/product/654160/pokemon-me02-phantasmal-flames-phantasmal-flames-booster-bundle?page=1",
+            "title": "Mega Evolution Booster Bundle Case",
+            "price_usd": 1777.67,
+            "url": "https://www.tcgplayer.com/product/644730/pokemon-me01-mega-evolution-mega-evolution-booster-bundle-case?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           },
           {
-            "title": "Ascended Heroes Booster Bundle",
-            "price_usd": 80.0,
-            "url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Booster Bundle Case",
+            "price_usd": 2499.95,
+            "url": "https://www.tcgplayer.com/product/644730/pokemon-me01-mega-evolution-mega-evolution-booster-bundle-case?page=1",
+            "seller": "TraderzTCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Prismatic Evolutions Booster Bundle + Surprise Box Bundle (Sam's Club)",
-            "price_usd": 140.0,
-            "url": "https://www.tcgplayer.com/product/678555/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle-plus-surprise-box-bundle-sams-club?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Booster Bundle Case",
+            "price_usd": 2499.95,
+            "url": "https://www.tcgplayer.com/product/644730/pokemon-me01-mega-evolution-mega-evolution-booster-bundle-case?page=1",
+            "seller": "TraderzTCG",
+            "condition": "Unopened"
           }
         ]
       },
       "booster-box": {
         "product_type": "booster-box",
         "product_label": "Booster Box",
-        "market_price_usd": 826.26,
-        "low_price_usd": 52.49,
-        "mid_price_usd": 309.98,
-        "high_price_usd": 1959.99,
+        "market_price_usd": 1980.99,
+        "low_price_usd": 1969.0,
+        "mid_price_usd": 1988.99,
+        "high_price_usd": 1988.99,
         "num_listings": 5,
         "cheapest_listings": [
           {
-            "title": "Mega Evolution Booster Box",
-            "price_usd": 52.49,
-            "url": "https://www.tcgplayer.com/product/644298/pokemon-me01-mega-evolution-mega-evolution-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Chaos Rising Booster Box",
-            "price_usd": 244.66,
-            "url": "https://www.tcgplayer.com/product/684444/pokemon-me04-chaos-rising-chaos-rising-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Mega Evolution Enhanced Booster Box",
-            "price_usd": 309.98,
-            "url": "https://www.tcgplayer.com/product/644300/pokemon-me01-mega-evolution-mega-evolution-enhanced-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Chaos Rising Booster Box Case",
-            "price_usd": 1564.19,
-            "url": "https://www.tcgplayer.com/product/684445/pokemon-me04-chaos-rising-chaos-rising-booster-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Mega Evolution Booster Box Case",
+            "price_usd": 1969.0,
+            "url": "https://www.tcgplayer.com/product/644731/pokemon-me01-mega-evolution-mega-evolution-booster-box-case?page=1",
+            "seller": "Blessed TCG Co",
+            "condition": "Unopened"
           },
           {
             "title": "Mega Evolution Booster Box Case",
-            "price_usd": 1959.99,
+            "price_usd": 1969.0,
+            "url": "https://www.tcgplayer.com/product/644731/pokemon-me01-mega-evolution-mega-evolution-booster-box-case?page=1",
+            "seller": "Blessed TCG Co",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Mega Evolution Booster Box Case",
+            "price_usd": 1988.99,
+            "url": "https://www.tcgplayer.com/product/644731/pokemon-me01-mega-evolution-mega-evolution-booster-box-case?page=1",
+            "seller": "Top Choice Gaming",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Mega Evolution Booster Box Case",
+            "price_usd": 1988.99,
+            "url": "https://www.tcgplayer.com/product/644731/pokemon-me01-mega-evolution-mega-evolution-booster-box-case?page=1",
+            "seller": "Top Choice Gaming",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Mega Evolution Booster Box Case",
+            "price_usd": 1988.99,
             "url": "https://www.tcgplayer.com/product/644731/pokemon-me01-mega-evolution-mega-evolution-booster-box-case?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       }
@@ -1571,124 +1343,96 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 846.05,
+        "market_price_usd": 8.16,
         "low_price_usd": 8.16,
-        "mid_price_usd": 80.0,
-        "high_price_usd": 2449.98,
+        "mid_price_usd": 8.16,
+        "high_price_usd": 8.16,
         "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Ascended Heroes Booster Pack",
             "price_usd": 8.16,
             "url": "https://www.tcgplayer.com/product/672434/pokemon-me-ascended-heroes-ascended-heroes-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Ascended Heroes Booster Bundle",
-            "price_usd": 80.0,
-            "url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Ascended Heroes Booster Pack",
+            "price_usd": 8.16,
+            "url": "https://www.tcgplayer.com/product/672434/pokemon-me-ascended-heroes-ascended-heroes-booster-pack?page=1",
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Ascended Heroes Booster Bundle Case",
-            "price_usd": 2449.98,
-            "url": "https://www.tcgplayer.com/product/681339/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle-case?page=1",
+            "title": "Ascended Heroes Booster Pack",
+            "price_usd": 8.16,
+            "url": "https://www.tcgplayer.com/product/672434/pokemon-me-ascended-heroes-ascended-heroes-booster-pack?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 2096.22,
+        "market_price_usd": 8.0,
         "low_price_usd": 8.0,
-        "mid_price_usd": 1690.0,
-        "high_price_usd": 6100.0,
-        "num_listings": 20,
+        "mid_price_usd": 8.0,
+        "high_price_usd": 8.0,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Ascended Heroes Elite Trainer Box",
             "price_usd": 8.0,
             "url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "CMM Card's",
+            "condition": "Unopened"
           },
           {
-            "title": "Ascended Heroes Pokemon Center Elite Trainer Box (Exclusive)",
-            "price_usd": 459.99,
-            "url": "https://www.tcgplayer.com/product/668497/pokemon-me-ascended-heroes-ascended-heroes-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Ascended Heroes Elite Trainer Box",
+            "price_usd": 8.0,
+            "url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box?page=1",
+            "seller": "CMM Card's",
+            "condition": "Unopened"
           },
           {
-            "title": "Battle Styles Elite Trainer Box Case",
-            "price_usd": 1099.0,
-            "url": "https://www.tcgplayer.com/product/235284/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-case?page=1",
+            "title": "Ascended Heroes Elite Trainer Box",
+            "price_usd": 8.0,
+            "url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Ascended Heroes Elite Trainer Box Case",
-            "price_usd": 1199.69,
-            "url": "https://www.tcgplayer.com/product/679558/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Astral Radiance Pokemon Center Elite Trainer Box Case (Exclusive)",
-            "price_usd": 1249.0,
-            "url": "https://www.tcgplayer.com/product/279424/pokemon-swsh10-astral-radiance-astral-radiance-pokemon-center-elite-trainer-box-case-exclusive?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 4588.47,
+        "market_price_usd": 80.0,
         "low_price_usd": 80.0,
-        "mid_price_usd": 2449.98,
-        "high_price_usd": 18700.0,
-        "num_listings": 9,
+        "mid_price_usd": 80.0,
+        "high_price_usd": 80.0,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Ascended Heroes Booster Bundle",
             "price_usd": 80.0,
             "url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "GeekGods",
+            "condition": "Unopened"
           },
           {
-            "title": "Perfect Order Booster Bundle Case",
-            "price_usd": 823.58,
-            "url": "https://www.tcgplayer.com/product/672397/pokemon-me03-perfect-order-perfect-order-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Ascended Heroes Booster Bundle",
+            "price_usd": 80.0,
+            "url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle?page=1",
+            "seller": "GeekGods",
+            "condition": "Unopened"
           },
           {
-            "title": "Destined Rivals Booster Bundle Case",
-            "price_usd": 1774.0,
-            "url": "https://www.tcgplayer.com/product/628428/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle-case?page=1",
+            "title": "Ascended Heroes Booster Bundle",
+            "price_usd": 80.0,
+            "url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Chaos Rising Booster Bundle Case",
-            "price_usd": 1969.66,
-            "url": "https://www.tcgplayer.com/product/688949/pokemon-me04-chaos-rising-chaos-rising-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Ascended Heroes Booster Bundle Case",
-            "price_usd": 2449.98,
-            "url": "https://www.tcgplayer.com/product/681339/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
@@ -1707,163 +1451,156 @@
       "booster-pack": {
         "product_type": "booster-pack",
         "product_label": "Booster Pack",
-        "market_price_usd": 3138.83,
-        "low_price_usd": 2.39,
-        "mid_price_usd": 38.99,
-        "high_price_usd": 24999.0,
-        "num_listings": 10,
+        "market_price_usd": 2.59,
+        "low_price_usd": 2.59,
+        "mid_price_usd": 2.59,
+        "high_price_usd": 2.59,
+        "num_listings": 3,
         "cheapest_listings": [
           {
-            "title": "Perfect Order Sleeved Booster Pack",
-            "price_usd": 2.39,
-            "url": "https://www.tcgplayer.com/product/672412/pokemon-me03-perfect-order-perfect-order-sleeved-booster-pack?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Perfect Order Booster Pack",
+            "price_usd": 2.59,
+            "url": "https://www.tcgplayer.com/product/672398/pokemon-me03-perfect-order-perfect-order-booster-pack?page=1",
+            "seller": "Pacific Deals",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Perfect Order Booster Pack",
+            "price_usd": 2.59,
+            "url": "https://www.tcgplayer.com/product/672398/pokemon-me03-perfect-order-perfect-order-booster-pack?page=1",
+            "seller": "Pacific Deals",
+            "condition": "Unopened"
           },
           {
             "title": "Perfect Order Booster Pack",
             "price_usd": 2.59,
             "url": "https://www.tcgplayer.com/product/672398/pokemon-me03-perfect-order-perfect-order-booster-pack?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Perfect Order Sleeved Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 25.84,
-            "url": "https://www.tcgplayer.com/product/672413/pokemon-me03-perfect-order-perfect-order-sleeved-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Perfect Order Booster Pack Art Bundle [Set of 4]",
-            "price_usd": 27.98,
-            "url": "https://www.tcgplayer.com/product/672399/pokemon-me03-perfect-order-perfect-order-booster-pack-art-bundle-set-of-4?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
-          },
-          {
-            "title": "Perfect Order Booster Bundle",
-            "price_usd": 38.98,
-            "url": "https://www.tcgplayer.com/product/672396/pokemon-me03-perfect-order-perfect-order-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "elite-trainer-box": {
         "product_type": "elite-trainer-box",
         "product_label": "Elite Trainer Box",
-        "market_price_usd": 1960.98,
+        "market_price_usd": 65.6,
         "low_price_usd": 59.0,
-        "mid_price_usd": 1665.0,
-        "high_price_usd": 6100.0,
-        "num_listings": 20,
+        "mid_price_usd": 70.0,
+        "high_price_usd": 70.0,
+        "num_listings": 5,
         "cheapest_listings": [
           {
             "title": "Perfect Order Elite Trainer Box",
             "price_usd": 59.0,
             "url": "https://www.tcgplayer.com/product/672401/pokemon-me03-perfect-order-perfect-order-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "EmeraldValleyTCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Perfect Order Pokemon Center Elite Trainer Box",
-            "price_usd": 128.99,
-            "url": "https://www.tcgplayer.com/product/672404/pokemon-me03-perfect-order-perfect-order-pokemon-center-elite-trainer-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Perfect Order Elite Trainer Box",
+            "price_usd": 59.0,
+            "url": "https://www.tcgplayer.com/product/672401/pokemon-me03-perfect-order-perfect-order-elite-trainer-box?page=1",
+            "seller": "EmeraldValleyTCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Perfect Order Pokemon Center Elite Trainer Box Case",
-            "price_usd": 600.0,
-            "url": "https://www.tcgplayer.com/product/672405/pokemon-me03-perfect-order-perfect-order-pokemon-center-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Perfect Order Elite Trainer Box",
+            "price_usd": 70.0,
+            "url": "https://www.tcgplayer.com/product/672401/pokemon-me03-perfect-order-perfect-order-elite-trainer-box?page=1",
+            "seller": "Loss-making business",
+            "condition": "Unopened"
           },
           {
-            "title": "Perfect Order Elite Trainer Box Case",
-            "price_usd": 674.99,
-            "url": "https://www.tcgplayer.com/product/672402/pokemon-me03-perfect-order-perfect-order-elite-trainer-box-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Perfect Order Elite Trainer Box",
+            "price_usd": 70.0,
+            "url": "https://www.tcgplayer.com/product/672401/pokemon-me03-perfect-order-perfect-order-elite-trainer-box?page=1",
+            "seller": "Loss-making business",
+            "condition": "Unopened"
           },
           {
-            "title": "Battle Styles Elite Trainer Box Case",
-            "price_usd": 1099.0,
-            "url": "https://www.tcgplayer.com/product/235284/pokemon-swsh05-battle-styles-battle-styles-elite-trainer-box-case?page=1",
+            "title": "Perfect Order Elite Trainer Box",
+            "price_usd": 70.0,
+            "url": "https://www.tcgplayer.com/product/672401/pokemon-me03-perfect-order-perfect-order-elite-trainer-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       },
       "booster-bundle": {
         "product_type": "booster-bundle",
         "product_label": "Booster Bundle",
-        "market_price_usd": 3592.32,
+        "market_price_usd": 38.98,
         "low_price_usd": 38.98,
-        "mid_price_usd": 1774.0,
-        "high_price_usd": 18700.0,
-        "num_listings": 9,
+        "mid_price_usd": 38.98,
+        "high_price_usd": 38.99,
+        "num_listings": 5,
         "cheapest_listings": [
           {
             "title": "Perfect Order Booster Bundle",
             "price_usd": 38.98,
             "url": "https://www.tcgplayer.com/product/672396/pokemon-me03-perfect-order-perfect-order-booster-bundle?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "BoosterPackCards",
+            "condition": "Unopened"
           },
           {
-            "title": "Perfect Order Booster Bundle Case",
-            "price_usd": 823.58,
-            "url": "https://www.tcgplayer.com/product/672397/pokemon-me03-perfect-order-perfect-order-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Perfect Order Booster Bundle",
+            "price_usd": 38.98,
+            "url": "https://www.tcgplayer.com/product/672396/pokemon-me03-perfect-order-perfect-order-booster-bundle?page=1",
+            "seller": "BoosterPackCards",
+            "condition": "Unopened"
           },
           {
-            "title": "Journey Together Booster Bundle Case",
-            "price_usd": 996.97,
-            "url": "https://www.tcgplayer.com/product/625584/pokemon-sv09-journey-together-journey-together-booster-bundle-case?page=1",
+            "title": "Perfect Order Booster Bundle",
+            "price_usd": 38.98,
+            "url": "https://www.tcgplayer.com/product/672396/pokemon-me03-perfect-order-perfect-order-booster-bundle?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           },
           {
-            "title": "Trick or Trade BOOster Bundle 2024 Case",
-            "price_usd": 1250.0,
-            "url": "https://www.tcgplayer.com/product/558714/pokemon-trick-or-trade-booster-bundle-2024-trick-or-trade-booster-bundle-2024-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Perfect Order Booster Bundle",
+            "price_usd": 38.99,
+            "url": "https://www.tcgplayer.com/product/672396/pokemon-me03-perfect-order-perfect-order-booster-bundle?page=1",
+            "seller": "CoreTCG",
+            "condition": "Unopened"
           },
           {
-            "title": "Destined Rivals Booster Bundle Case",
-            "price_usd": 1774.0,
-            "url": "https://www.tcgplayer.com/product/628428/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle-case?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "title": "Perfect Order Booster Bundle",
+            "price_usd": 38.99,
+            "url": "https://www.tcgplayer.com/product/672396/pokemon-me03-perfect-order-perfect-order-booster-bundle?page=1",
+            "seller": "CoreTCG",
+            "condition": "Unopened"
           }
         ]
       },
       "booster-box": {
         "product_type": "booster-box",
         "product_label": "Booster Box",
-        "market_price_usd": 642.77,
+        "market_price_usd": 59.85,
         "low_price_usd": 59.85,
-        "mid_price_usd": 1225.69,
-        "high_price_usd": 1225.69,
-        "num_listings": 2,
+        "mid_price_usd": 59.85,
+        "high_price_usd": 59.85,
+        "num_listings": 3,
         "cheapest_listings": [
           {
             "title": "Perfect Order Booster Box",
             "price_usd": 59.85,
             "url": "https://www.tcgplayer.com/product/672394/pokemon-me03-perfect-order-perfect-order-booster-box?page=1",
-            "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
           },
           {
-            "title": "Perfect Order Booster Box Case",
-            "price_usd": 1225.69,
-            "url": "https://www.tcgplayer.com/product/672395/pokemon-me03-perfect-order-perfect-order-booster-box-case?page=1",
+            "title": "Perfect Order Booster Box",
+            "price_usd": 59.85,
+            "url": "https://www.tcgplayer.com/product/672394/pokemon-me03-perfect-order-perfect-order-booster-box?page=1",
+            "seller": "GoPokemonGo123",
+            "condition": "Unopened"
+          },
+          {
+            "title": "Perfect Order Booster Box",
+            "price_usd": 59.85,
+            "url": "https://www.tcgplayer.com/product/672394/pokemon-me03-perfect-order-perfect-order-booster-box?page=1",
             "seller": "TCGPlayer",
-            "condition": "Sealed"
+            "condition": "Unopened"
           }
         ]
       }
@@ -1997,7 +1734,53 @@
   },
   "amazon": {
     "crown-zenith": {
-      "booster-pack": [],
+      "booster-pack": [
+        {
+          "title": "Pokemon TCG: Mega Evolutions - Perfect Order Sleeved Booster Pack - 10 Cards",
+          "price_usd": 9.7,
+          "url": "",
+          "rating": 3.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
+          "price_usd": 10.99,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 12.9,
+          "url": "",
+          "rating": 3.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon Scarlet & Violet Obsidian Flames Booster Pack",
+          "price_usd": 13.99,
+          "url": "",
+          "rating": 4.4,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "POKEMON TCG: Scarlet & Violet Stellar Crown BOOSTER PACK (1 PACK) - 10 Cards",
+          "price_usd": 14.75,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
       "elite-trainer-box": [],
       "booster-box": []
     },
@@ -2027,7 +1810,53 @@
       "booster-box": []
     },
     "prismatic-evolutions": {
-      "booster-pack": [],
+      "booster-pack": [
+        {
+          "title": "Pokemon TCG: Mega Evolutions - Perfect Order Sleeved Booster Pack - 10 Cards",
+          "price_usd": 9.7,
+          "url": "",
+          "rating": 3.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 12.9,
+          "url": "",
+          "rating": 3.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Twilight Masquerade – Single Pokemon Booster Pack – Sealed – 10 Cards",
+          "price_usd": 13.68,
+          "url": "",
+          "rating": 4.4,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 14.25,
+          "url": "",
+          "rating": 2.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Scarlet & Violet Prismatic Evolutions Booster Pack (Random Art) - 10 Cards",
+          "price_usd": 20.99,
+          "url": "",
+          "rating": 4.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
       "elite-trainer-box": [],
       "booster-box": []
     },
