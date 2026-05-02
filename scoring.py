@@ -83,6 +83,18 @@ def compute_scores(sets_data: list[dict], prices_data: dict, config: dict) -> li
         ebay_pack = ebay_set.get("booster_pack", {}).get("sold", {})
         if ebay_pack.get("median_price_usd"):
             pack_price = min(pack_price, ebay_pack["median_price_usd"])
+        # Check GameNerdz
+        gn = prices_data.get("gamenerdz", {})
+        gn_set = gn.get(sid, {})
+        for gn_prod in gn_set.get("booster-pack", []):
+            if gn_prod.get("price_usd") and gn_prod.get("in_stock"):
+                pack_price = min(pack_price, gn_prod["price_usd"])
+        # Check Amazon
+        amz = prices_data.get("amazon", {})
+        amz_set = amz.get(sid, {})
+        for amz_prod in amz_set.get("booster-pack", []):
+            if amz_prod.get("price_usd"):
+                pack_price = min(pack_price, amz_prod["price_usd"])
 
         # --- Top chase card value ---
         chase_cards = s.get("top_chase_cards", [])
@@ -146,16 +158,40 @@ def compute_scores(sets_data: list[dict], prices_data: dict, config: dict) -> li
         etb_ev = expected_value * packs_per_etb
         etb_roi = ((etb_ev - etb_price) / etb_price * 100) if etb_price > 0 else 0
 
-        # --- Active deals ---
+        # --- Active deals (find cheapest across all sources) ---
         cheapest_pack = None
+
+        def _check_cheaper(listing):
+            nonlocal cheapest_pack
+            if listing and listing.get("price_usd"):
+                if cheapest_pack is None or listing["price_usd"] < cheapest_pack.get("price_usd", 999):
+                    cheapest_pack = listing
+
+        # eBay
         pack_active = ebay_set.get("booster_pack", {}).get("active_listings", [])
         if pack_active:
-            cheapest_pack = pack_active[0]
+            _check_cheaper(pack_active[0])
+        # TCGPlayer
         tcg_cheapest = tcg_set.get("booster-pack", {}).get("cheapest_listings", [])
         if tcg_cheapest:
-            tcg_top = tcg_cheapest[0]
-            if cheapest_pack is None or tcg_top.get("price_usd", 999) < cheapest_pack.get("price_usd", 999):
-                cheapest_pack = tcg_top
+            _check_cheaper(tcg_cheapest[0])
+        # GameNerdz
+        for gn_prod in gn_set.get("booster-pack", []):
+            if gn_prod.get("in_stock") and gn_prod.get("price_usd"):
+                _check_cheaper({"title": gn_prod.get("title", ""), "price_usd": gn_prod["price_usd"],
+                                "url": gn_prod.get("url", ""), "seller": "GameNerdz"})
+        # Amazon
+        for amz_prod in amz_set.get("booster-pack", []):
+            if amz_prod.get("price_usd"):
+                _check_cheaper({"title": amz_prod.get("title", ""), "price_usd": amz_prod["price_usd"],
+                                "url": amz_prod.get("url", ""), "seller": "Amazon"})
+        # Pokemon Center (MSRP, but in-stock is notable)
+        pc = prices_data.get("pokemoncenter", {})
+        pc_set = pc.get(sid, {})
+        for pc_prod in pc_set.get("booster-pack", []):
+            if pc_prod.get("in_stock") and pc_prod.get("price_usd"):
+                _check_cheaper({"title": pc_prod.get("title", ""), "price_usd": pc_prod["price_usd"],
+                                "url": pc_prod.get("url", ""), "seller": "Pokemon Center"})
 
         raw.append({
             "set": s,

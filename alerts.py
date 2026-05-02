@@ -102,6 +102,69 @@ def evaluate_alerts(prices_data: dict, config: dict) -> list[dict]:
                                     "url": listing.get("url", ""),
                                 })
 
+    # Also check GameNerdz, Amazon, Pokemon Center listings against absolute floor
+    for source_name, source_key in [("GameNerdz", "gamenerdz"), ("Amazon", "amazon"), ("Pokemon Center", "pokemoncenter")]:
+        source_data = prices_data.get(source_key, {})
+        for set_id, set_products in source_data.items():
+            if set_id.startswith("_"):
+                continue
+            set_name = set_id.replace("-", " ").title()
+            for rule in rules:
+                if rule["product"] != "booster_pack":
+                    continue
+                products = set_products.get("booster-pack", [])
+                if not isinstance(products, list):
+                    continue
+                for item in products:
+                    price = item.get("price_usd")
+                    if price is None:
+                        continue
+                    # Skip out-of-stock for Pokemon Center
+                    if source_key == "pokemoncenter" and not item.get("in_stock", True):
+                        continue
+
+                    if rule["type"] == "absolute_floor" and price <= rule.get("threshold_usd", 0):
+                        triggered.append({
+                            "rule_name": rule["name"],
+                            "set_id": set_id,
+                            "set_name": set_name,
+                            "product": f"booster_pack ({source_name})",
+                            "title": item.get("title", ""),
+                            "price_usd": price,
+                            "threshold_detail": f"Under ${rule['threshold_usd']} floor ({source_name})",
+                            "url": item.get("url", ""),
+                        })
+
+    # Check GameNerdz Deal of the Day (always alert on these)
+    gn_dotd = prices_data.get("gamenerdz", {}).get("_deal_of_day", [])
+    for item in gn_dotd:
+        if item.get("price_usd"):
+            triggered.append({
+                "rule_name": "gamenerdz_dotd",
+                "set_id": "various",
+                "set_name": "GameNerdz DOTD",
+                "product": "deal_of_day",
+                "title": item.get("title", ""),
+                "price_usd": item["price_usd"],
+                "threshold_detail": f"Deal of the Day{' (was $' + str(item['original_price_usd']) + ')' if item.get('original_price_usd') else ''}",
+                "url": item.get("url", ""),
+            })
+
+    # Check Reddit top deals (high-upvote posts = community-validated deals)
+    reddit_top = prices_data.get("reddit", {}).get("top_deals", [])
+    for deal in reddit_top[:5]:  # Top 5 highest-voted
+        if deal.get("score", 0) >= 50:
+            triggered.append({
+                "rule_name": "reddit_hot_deal",
+                "set_id": ", ".join(deal.get("matched_sets", [])) or "various",
+                "set_name": deal.get("source_store", "Reddit"),
+                "product": "community_deal",
+                "title": deal.get("title", "")[:100],
+                "price_usd": deal.get("price_mentioned", 0) or 0,
+                "threshold_detail": f"Reddit hot deal ({deal.get('score', 0)} upvotes, {deal.get('num_comments', 0)} comments)",
+                "url": deal.get("reddit_url", deal.get("url", "")),
+            })
+
     log.info(f"Alert evaluation complete: {len(triggered)} deals triggered")
     return triggered
 

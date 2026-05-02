@@ -440,6 +440,18 @@
     </div>
   </div>
 
+  <!-- Community Deals -->
+  <div class="chart-section" id="communityDeals" style="display:none;">
+    <h2>Community Deals <span style="font-size:0.75rem;color:var(--ink-mute);font-weight:400;">via r/PokemonTCGDeals</span></h2>
+    <div id="communityDealsList" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;"></div>
+  </div>
+
+  <!-- GameNerdz Deal of the Day -->
+  <div class="chart-section" id="gnDotd" style="display:none;">
+    <h2>GameNerdz Deal of the Day</h2>
+    <div id="gnDotdList" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;"></div>
+  </div>
+
   <!-- Table -->
   <div class="table-wrap">
     <table id="setTable">
@@ -494,12 +506,16 @@
           you're paying a premium for the ETB packaging/extras.</li>
     </ul>
 
-    <h3>Data Sources</h3>
+    <h3>Data Sources (6 scrapers)</h3>
     <ul>
-      <li><strong>Sealed prices</strong> — TCGPlayer (Playwright scraper) + eBay sold listings (30-day median)</li>
-      <li><strong>Chase card values</strong> — eBay sold listings for specific cards, falling back to manual estimates</li>
-      <li><strong>Pull rates</strong> — Community data from PokeBeach, CardChill, TCGPlayer Authentication Center
-          pack opening studies. These are <em>estimates</em>, not official rates.</li>
+      <li><strong>TCGPlayer</strong> — Sealed product market prices and cheapest listings</li>
+      <li><strong>eBay</strong> — 30-day median sold prices + active Buy It Now listings for packs and chase singles</li>
+      <li><strong>Pokemon Center</strong> — MSRP pricing and stock status (restock alerts)</li>
+      <li><strong>GameNerdz</strong> — Often below MSRP; Deal of the Day tracking</li>
+      <li><strong>Amazon</strong> — Lowest current offers on sealed products</li>
+      <li><strong>r/PokemonTCGDeals</strong> — Community-sourced deals from Reddit (catches Costco, Target clearance, flash sales)</li>
+      <li><strong>Pull rates</strong> — Community data from PokeBeach, CardChill, TCGPlayer Authentication Center.
+          These are <em>estimates</em>, not official rates.</li>
       <li><strong>Set metadata</strong> — Manually maintained in data/sets.json with source URLs</li>
     </ul>
 
@@ -515,7 +531,7 @@
 
 <footer>
   <p>Pokémon TCG Pack Finder &middot; Data refreshed daily &middot;
-     <a href="https://github.com/">View on GitHub</a></p>
+     <a href="https://github.com/Jeff-alytics/pokemon-tcg-pack-finder">View on GitHub</a></p>
 </footer>
 
 <script>
@@ -847,22 +863,69 @@
         </div>`;
     });
 
-    let listingsHtml = '<p style="color:var(--ink-mute);font-size:0.82rem;">No active listings scraped yet.</p>';
-    // Check if we have active listing data from prices
+    // Gather listings from ALL sources
     const ebaySet = pricesData.ebay?.[s.id];
     const packListings = ebaySet?.booster_pack?.active_listings || [];
     const tcgSet = pricesData.tcgplayer?.[s.id];
     const tcgListings = tcgSet?.['booster-pack']?.cheapest_listings || [];
-    const allListings = [...packListings, ...tcgListings].sort((a, b) => a.price_usd - b.price_usd).slice(0, 5);
 
+    // Pokemon Center
+    const pcSet = pricesData.pokemoncenter?.[s.id] || {};
+    const pcPacks = (pcSet['booster-pack'] || []).map(p => ({...p, seller: 'Pokemon Center', _source: 'pc'}));
+
+    // GameNerdz
+    const gnSet = pricesData.gamenerdz?.[s.id] || {};
+    const gnPacks = (gnSet['booster-pack'] || []).filter(p => p.price_usd).map(p => ({
+      title: p.title, price_usd: p.price_usd, url: p.url, seller: 'GameNerdz',
+      _source: 'gn', _dotd: p.is_deal_of_day, _orig: p.original_price_usd
+    }));
+
+    // Amazon
+    const amzSet = pricesData.amazon?.[s.id] || {};
+    const amzPacks = (amzSet['booster-pack'] || []).map(p => ({...p, seller: 'Amazon', _source: 'amz'}));
+
+    // Merge all and sort by price
+    const allListings = [...packListings, ...tcgListings, ...pcPacks, ...gnPacks, ...amzPacks]
+      .filter(l => l.price_usd && l.price_usd > 0)
+      .sort((a, b) => a.price_usd - b.price_usd)
+      .slice(0, 8);
+
+    let listingsHtml = '<p style="color:var(--ink-mute);font-size:0.82rem;">No active listings scraped yet.</p>';
     if (allListings.length) {
-      listingsHtml = allListings.map(l => `
+      listingsHtml = allListings.map(l => {
+        const source = l.seller || l._source || 'Unknown';
+        const dotd = l._dotd ? ' <span style="color:var(--accent);font-size:0.7rem;font-weight:700;">DOTD</span>' : '';
+        const stock = l.in_stock === false ? ' <span style="color:var(--ink-mute);font-size:0.7rem;">OOS</span>' : '';
+        return `
         <div class="listing-card">
-          <span class="lc-title">${l.title || 'Booster Pack'}</span>
+          <span class="lc-title">${l.title || 'Booster Pack'} <span style="color:var(--ink-mute);font-size:0.7rem;">${source}</span>${dotd}${stock}</span>
           <span class="lc-price">$${l.price_usd.toFixed(2)}</span>
-          <a class="deal-link" href="${l.url || '#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Buy →</a>
+          <a class="deal-link" href="${l.url || '#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Buy &rarr;</a>
+        </div>`;
+      }).join('');
+    }
+
+    // Reddit community deals for this set
+    const redditDeals = pricesData.reddit?.by_set?.[s.id] || [];
+    let redditHtml = '';
+    if (redditDeals.length) {
+      redditHtml = `<h4 style="margin-top:16px;">Community Deals (r/PokemonTCGDeals)</h4>`;
+      redditHtml += redditDeals.slice(0, 3).map(d => `
+        <div class="listing-card">
+          <span class="lc-title">${d.title.slice(0, 80)}${d.title.length > 80 ? '...' : ''} <span style="color:var(--ink-mute);font-size:0.7rem;">${d.source_store || ''}</span></span>
+          ${d.price_mentioned ? `<span class="lc-price">$${d.price_mentioned.toFixed(2)}</span>` : '<span class="lc-price" style="color:var(--ink-mute)">—</span>'}
+          <a class="deal-link" href="${d.reddit_url || d.url || '#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${d.score}pts &rarr;</a>
         </div>
       `).join('');
+    }
+
+    // Pokemon Center stock status
+    const pcEtb = pcSet['elite-trainer-box'] || [];
+    const pcInStock = [...(pcSet['booster-pack'] || []), ...pcEtb].filter(p => p.in_stock);
+    let pcStockHtml = '';
+    if (pcInStock.length) {
+      pcStockHtml = `<p style="margin-top:8px;font-size:0.78rem;color:var(--green);font-weight:600;">
+        Pokemon Center: ${pcInStock.length} product(s) in stock</p>`;
     }
 
     const cs = s.component_scores;
@@ -875,10 +938,12 @@
             Pull rate (top chase): ${s.pull_rate_top_chase || 'N/A'}<br>
             Pull rate (any chase rare): ${s.pull_rates?.any_chase_rare || 'N/A'}
           </p>
+          ${pcStockHtml}
         </div>
         <div>
-          <h4>Cheapest Active Listings</h4>
+          <h4>Cheapest Listings (All Sources)</h4>
           ${listingsHtml}
+          ${redditHtml}
           <h4 style="margin-top:16px;">Score Breakdown</h4>
           <div style="font-size:0.82rem;color:var(--ink-soft);">
             <div>Cost Efficiency: <strong>${cs.cost_efficiency.toFixed(1)}</strong>/100</div>
@@ -949,10 +1014,63 @@
     });
   }
 
+  // ── Community Deals & DOTD Rendering ────────────────────
+  function renderCommunityDeals() {
+    const container = document.getElementById('communityDeals');
+    const list = document.getElementById('communityDealsList');
+    const topDeals = pricesData.reddit?.top_deals || [];
+
+    if (!topDeals.length) { container.style.display = 'none'; return; }
+    container.style.display = '';
+
+    list.innerHTML = topDeals.slice(0, 6).map(d => `
+      <div style="background:var(--bg);border:1px solid var(--border);padding:12px 16px;">
+        <div style="font-size:0.82rem;font-weight:600;line-height:1.4;margin-bottom:6px;">
+          <a href="${d.reddit_url || d.url || '#'}" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;border-bottom:1px solid var(--border);">
+            ${d.title.slice(0, 100)}${d.title.length > 100 ? '...' : ''}
+          </a>
+        </div>
+        <div style="display:flex;gap:12px;font-size:0.75rem;color:var(--ink-mute);">
+          ${d.price_mentioned ? `<span style="color:var(--green);font-weight:700;">$${d.price_mentioned.toFixed(2)}</span>` : ''}
+          ${d.source_store ? `<span>${d.source_store}</span>` : ''}
+          <span>${d.score} pts</span>
+          <span>${d.num_comments} comments</span>
+          ${d.url && d.url !== d.reddit_url ? `<a href="${d.url}" target="_blank" rel="noopener" style="color:var(--accent-2);">Direct link &rarr;</a>` : ''}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function renderDealOfDay() {
+    const container = document.getElementById('gnDotd');
+    const list = document.getElementById('gnDotdList');
+    const dotd = pricesData.gamenerdz?._deal_of_day || [];
+
+    if (!dotd.length) { container.style.display = 'none'; return; }
+    container.style.display = '';
+
+    list.innerHTML = dotd.slice(0, 4).map(d => `
+      <div style="background:var(--bg);border:1px solid var(--border);padding:12px 16px;">
+        <div style="font-size:0.82rem;font-weight:600;line-height:1.4;margin-bottom:6px;">
+          <a href="${d.url || '#'}" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;border-bottom:1px solid var(--border);">
+            ${d.title}
+          </a>
+        </div>
+        <div style="display:flex;gap:12px;align-items:baseline;font-size:0.82rem;">
+          <span style="font-family:var(--mono);font-weight:700;color:var(--green);">$${d.price_usd?.toFixed(2) || '?'}</span>
+          ${d.original_price_usd ? `<span style="text-decoration:line-through;color:var(--ink-mute);font-family:var(--mono);">$${d.original_price_usd.toFixed(2)}</span>` : ''}
+          <span style="color:var(--accent);font-weight:700;font-size:0.7rem;">DEAL OF THE DAY</span>
+        </div>
+      </div>
+    `).join('');
+  }
+
   // ── Compute & Render ───────────────────────────────────
   function computeAndRender() {
     computeScores();
     renderTopPick();
+    renderCommunityDeals();
+    renderDealOfDay();
     renderTable();
     renderChart();
   }

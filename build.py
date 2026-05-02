@@ -64,29 +64,46 @@ def check_price_drift(old_prices: dict, new_prices: dict, config: dict) -> list[
     return warnings
 
 
-def run_scrapers() -> dict:
-    """Run both scrapers and merge results."""
-    log.info("=" * 60)
-    log.info("Running TCGPlayer sealed scraper...")
-    log.info("=" * 60)
-    from scrapers.tcgplayer_sealed import run as tcg_run
-    tcg_data = tcg_run(str(SETS_JSON))
-
+def _run_scraper(name: str, import_path: str, sets_path: str) -> dict:
+    """Run a single scraper with error handling. Returns empty dict on failure."""
     log.info("")
     log.info("=" * 60)
-    log.info("Running eBay sold/active scraper...")
+    log.info(f"Running {name} scraper...")
     log.info("=" * 60)
-    from scrapers.ebay_sold import run as ebay_run
-    ebay_data = ebay_run(str(SETS_JSON))
+    try:
+        import importlib
+        mod = importlib.import_module(import_path)
+        return mod.run(sets_path)
+    except Exception as e:
+        log.error(f"{name} scraper failed: {e}")
+        log.error("Continuing with remaining scrapers...")
+        return {}
+
+
+def run_scrapers() -> dict:
+    """Run all scrapers and merge results."""
+    sets_path = str(SETS_JSON)
+
+    tcg_data = _run_scraper("TCGPlayer", "scrapers.tcgplayer_sealed", sets_path)
+    ebay_data = _run_scraper("eBay", "scrapers.ebay_sold", sets_path)
+    pc_data = _run_scraper("Pokemon Center", "scrapers.pokemoncenter", sets_path)
+    gn_data = _run_scraper("GameNerdz", "scrapers.gamenerdz", sets_path)
+    amz_data = _run_scraper("Amazon", "scrapers.amazon", sets_path)
+    reddit_data = _run_scraper("Reddit Deals", "scrapers.reddit_deals", sets_path)
 
     return {
         "_meta": {
             "description": "Scraped pricing data — updated by the pipeline",
             "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-            "scraper_version": "1.0.0",
+            "scraper_version": "2.0.0",
+            "sources": ["tcgplayer", "ebay", "pokemoncenter", "gamenerdz", "amazon", "reddit"],
         },
         "tcgplayer": tcg_data,
         "ebay": ebay_data,
+        "pokemoncenter": pc_data,
+        "gamenerdz": gn_data,
+        "amazon": amz_data,
+        "reddit": reddit_data,
     }
 
 
