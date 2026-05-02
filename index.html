@@ -904,6 +904,7 @@ footer a:hover { color: var(--blue); }
     <div class="nav-brand holo-text">TCG Pack Finder</div>
     <div class="nav-tabs">
       <button class="nav-tab active" data-section="finder">Pack Finder</button>
+      <button class="nav-tab" data-section="calc">Rip or Skip?</button>
       <button class="nav-tab" data-section="deals">Live Deals</button>
       <button class="nav-tab" data-section="scanner">Card Scanner</button>
     </div>
@@ -993,6 +994,90 @@ footer a:hover { color: var(--blue); }
       <li><strong>r/PokemonTCGDeals</strong> &mdash; Community-sourced deals</li>
     </ul>
     <div class="disclaimer">Pull rates are community estimates, not official data. Prices are volatile. This is a heuristic, not financial advice.</div>
+  </div>
+</div>
+
+<!-- ═══ SECTION: Rip or Skip Calculator ═══ -->
+<div class="section" id="sec-calc">
+  <div style="max-width:720px;">
+
+    <h2 style="font-family:var(--display);font-size:1.5rem;font-weight:800;margin-bottom:6px;">Rip or Skip?</h2>
+    <p style="color:var(--text-soft);margin-bottom:24px;">Should you open packs or just buy the single? Pick a set and find out.</p>
+
+    <!-- Set selector -->
+    <div class="ctrl-panel" style="margin-bottom:20px;">
+      <h3>Choose a Set</h3>
+      <select id="calcSetSelect" style="width:100%;padding:10px 14px;border:1px solid var(--border);border-radius:var(--radius-sm);font-family:var(--body);font-size:0.88rem;background:var(--bg);color:var(--text);cursor:pointer;">
+        <option value="">Select a set...</option>
+      </select>
+    </div>
+
+    <!-- Purchase type -->
+    <div class="ctrl-panel" style="margin-bottom:20px;" id="calcPurchasePanel" style="display:none;">
+      <h3>What are you buying?</h3>
+      <div class="chips" id="calcPurchaseChips">
+        <span class="chip active" data-packs="1">1 Pack</span>
+        <span class="chip" data-packs="3">3-Pack Blister</span>
+        <span class="chip" data-packs="9">ETB (9 packs)</span>
+        <span class="chip" data-packs="36">Booster Box (36)</span>
+        <span class="chip" data-packs="custom">Custom</span>
+      </div>
+      <div id="calcCustomRow" style="display:none;margin-top:10px;">
+        <div class="slider-row">
+          <label>Number of packs</label>
+          <input type="range" id="calcCustomSlider" min="1" max="100" value="10">
+          <span class="val" id="calcCustomVal">10</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div id="calcResults" style="display:none;">
+
+      <!-- Verdict banner -->
+      <div id="calcVerdict" style="border-radius:var(--radius);padding:20px 24px;margin-bottom:20px;text-align:center;">
+        <div id="calcVerdictLabel" style="font-family:var(--display);font-size:1.6rem;font-weight:800;"></div>
+        <div id="calcVerdictSub" style="font-size:0.9rem;margin-top:4px;"></div>
+      </div>
+
+      <!-- Cost vs Value -->
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:20px;">
+        <div class="grade-card">
+          <div class="grade-label">You Spend</div>
+          <div class="grade-price" id="calcSpend" style="color:var(--red);">—</div>
+        </div>
+        <div class="grade-card">
+          <div class="grade-label">Expected Value</div>
+          <div class="grade-price" id="calcEV" style="color:var(--blue);">—</div>
+        </div>
+        <div class="grade-card" id="calcNetCard">
+          <div class="grade-label">Net Result</div>
+          <div class="grade-price" id="calcNet">—</div>
+        </div>
+      </div>
+
+      <!-- Expected pulls -->
+      <div class="ctrl-panel" style="margin-bottom:20px;">
+        <h3>What You'll Statistically Pull</h3>
+        <div id="calcPulls"></div>
+        <p style="font-size:0.72rem;color:var(--text-mute);margin-top:10px;">
+          These are statistical averages. Individual results vary wildly &mdash; that's the gamble.
+        </p>
+      </div>
+
+      <!-- Just buy the single comparison -->
+      <div class="ctrl-panel" style="margin-bottom:20px;">
+        <h3>"Just Buy the Single" Comparison</h3>
+        <div id="calcSingles"></div>
+      </div>
+
+      <!-- Break-even -->
+      <div class="ctrl-panel" style="margin-bottom:20px;">
+        <h3>Break-Even Analysis</h3>
+        <div id="calcBreakeven"></div>
+      </div>
+
+    </div>
   </div>
 </div>
 
@@ -1274,6 +1359,211 @@ footer a:hover { color: var(--blue); }
   document.querySelectorAll('.weight-slider').forEach(sl=>{sl.addEventListener('input',()=>{weights[sl.dataset.key]=parseInt(sl.value,10);sl.nextElementSibling.textContent=`${weights[sl.dataset.key]}%`;expandedCard=null;computeAndRender();});});
 
   loadData();
+})();
+
+// ══ Rip or Skip Calculator ════════════════════════════════
+(function(){
+  'use strict';
+  let calcSets = [], calcPrices = {}, calcPacks = 1, calcSetId = '';
+
+  async function initCalc() {
+    try {
+      const [sR, pR] = await Promise.all([fetch('data/sets.json').then(r=>r.json()), fetch('data/prices.json').then(r=>r.ok?r.json():{})]);
+      calcSets = sR.sets || [];
+      calcPrices = pR;
+      const sel = document.getElementById('calcSetSelect');
+      calcSets.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s.id;
+        opt.textContent = `${s.name} (${s.set_code || ''})`;
+        sel.appendChild(opt);
+      });
+    } catch(e) { console.error(e); }
+  }
+
+  function parsePR(s) { const m = s?.match(/1\s+in\s+([\d,.]+)/); return m ? parseFloat(m[1].replace(',','')) : null; }
+
+  function getPackPrice(sid) {
+    const msrp = 4.49;
+    let pp = msrp;
+    const tcg = calcPrices.tcgplayer || {}, ebay = calcPrices.ebay || {}, gn = calcPrices.gamenerdz || {}, amz = calcPrices.amazon || {};
+    const tP = tcg[sid]?.['booster-pack'] || {};
+    if (tP.low_price_usd && tP.low_price_usd >= 1) pp = tP.low_price_usd;
+    const eP = ebay[sid]?.booster_pack?.sold || {};
+    if (eP.median_price_usd) pp = Math.min(pp, eP.median_price_usd);
+    (gn[sid]?.['booster-pack']||[]).forEach(p => { if(p.price_usd && p.in_stock) pp = Math.min(pp, p.price_usd); });
+    (amz[sid]?.['booster-pack']||[]).forEach(p => { if(p.price_usd) pp = Math.min(pp, p.price_usd); });
+    return pp;
+  }
+
+  function runCalc() {
+    if (!calcSetId || calcPacks < 1) return;
+    const s = calcSets.find(x => x.id === calcSetId);
+    if (!s) return;
+
+    const pp = getPackPrice(calcSetId);
+    const totalCost = pp * calcPacks;
+    const cc = s.top_chase_cards || [];
+    const anyChaseN = parsePR(s.pull_rates?.any_chase_rare);
+    const topChaseN = parsePR(s.pull_rates?.top_chase_specific) || 500;
+    const numChase = cc.length;
+
+    // Expected pulls and EV
+    let totalEV = 0;
+    const pullRows = [];
+    cc.forEach(c => {
+      const val = c.estimated_value_usd || 0;
+      const specificN = (anyChaseN && numChase > 0) ? anyChaseN * numChase : topChaseN;
+      const expectedPulls = specificN > 0 ? calcPacks / specificN : 0;
+      const cardEV = expectedPulls * val;
+      totalEV += cardEV;
+      pullRows.push({ name: c.name, number: c.card_number || '', val, specificN, expectedPulls, cardEV });
+    });
+
+    // Any hit (ultra rare or better)
+    const anyHitN = parsePR(s.pull_rates?.any_hit) || 6;
+    const expectedHits = calcPacks / anyHitN;
+
+    const net = totalEV - totalCost;
+    const isWorth = net >= 0;
+
+    // Render verdict
+    const verdictEl = document.getElementById('calcVerdict');
+    const verdictLabel = document.getElementById('calcVerdictLabel');
+    const verdictSub = document.getElementById('calcVerdictSub');
+    if (isWorth) {
+      verdictEl.style.background = 'rgba(22,163,74,0.08)';
+      verdictEl.style.border = '2px solid var(--green)';
+      verdictLabel.textContent = 'RIP IT';
+      verdictLabel.style.color = 'var(--green)';
+      verdictSub.textContent = `Expected value exceeds cost by $${net.toFixed(2)}`;
+      verdictSub.style.color = 'var(--text-soft)';
+    } else {
+      verdictEl.style.background = 'rgba(220,38,38,0.06)';
+      verdictEl.style.border = '2px solid var(--red)';
+      verdictLabel.textContent = 'SKIP IT';
+      verdictLabel.style.color = 'var(--red)';
+      verdictSub.textContent = `You'll lose ~$${Math.abs(net).toFixed(2)} on average`;
+      verdictSub.style.color = 'var(--text-soft)';
+    }
+
+    // Cost vs Value
+    document.getElementById('calcSpend').textContent = `$${totalCost.toFixed(2)}`;
+    document.getElementById('calcEV').textContent = `$${totalEV.toFixed(2)}`;
+    document.getElementById('calcNet').textContent = `${net >= 0 ? '+' : ''}$${net.toFixed(2)}`;
+    document.getElementById('calcNet').style.color = net >= 0 ? 'var(--green)' : 'var(--red)';
+    const netCard = document.getElementById('calcNetCard');
+    netCard.style.borderColor = net >= 0 ? 'var(--green)' : 'var(--red)';
+
+    // Expected pulls
+    const pullsEl = document.getElementById('calcPulls');
+    let pullsHtml = `<div style="margin-bottom:10px;padding:8px 12px;background:var(--surface-2);border-radius:var(--radius-sm);font-size:0.85rem;">
+      <strong>${expectedHits.toFixed(1)}</strong> ultra rare or better hits expected from <strong>${calcPacks}</strong> packs
+    </div>`;
+    pullsHtml += '<div style="font-size:0.82rem;">';
+    pullRows.forEach(r => {
+      const pct = r.specificN > 0 ? (calcPacks / r.specificN * 100) : 0;
+      const pctCapped = Math.min(pct, 99.9);
+      const barColor = pct >= 80 ? 'var(--green)' : pct >= 30 ? 'var(--gold)' : 'var(--red)';
+      pullsHtml += `<div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+        <span style="flex:1;color:var(--text-soft);">${r.name} <span style="font-family:var(--mono);font-size:0.7rem;color:var(--text-mute);">${r.number}</span></span>
+        <span style="font-family:var(--mono);font-size:0.75rem;width:55px;text-align:right;color:${barColor};">${pctCapped.toFixed(1)}%</span>
+        <span style="font-family:var(--mono);font-size:0.75rem;width:65px;text-align:right;" title="Expected number of this card you'll pull">${r.expectedPulls.toFixed(2)}x</span>
+        <span style="font-family:var(--mono);font-size:0.75rem;width:55px;text-align:right;color:var(--text-mute);">$${r.cardEV.toFixed(2)}</span>
+      </div>`;
+    });
+    pullsHtml += '</div>';
+    pullsEl.innerHTML = pullsHtml;
+
+    // Just buy the single comparison
+    const singlesEl = document.getElementById('calcSingles');
+    let singlesHtml = '';
+    pullRows.forEach(r => {
+      if (r.val < 20) return; // only show for cards worth >$20
+      const costToPull = r.specificN * pp;
+      const cheaper = r.val < costToPull ? 'single' : 'packs';
+      const savings = Math.abs(r.val - costToPull);
+      singlesHtml += `<div style="display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--border);font-size:0.82rem;">
+        <span style="flex:1;color:var(--text-soft);">${r.name}</span>
+        <span style="font-family:var(--mono);font-size:0.78rem;">Buy single: <strong>$${r.val.toLocaleString()}</strong></span>
+        <span style="color:var(--text-mute);margin:0 4px;">vs</span>
+        <span style="font-family:var(--mono);font-size:0.78rem;">Pull it (~${Math.round(r.specificN)} packs): <strong>$${costToPull.toFixed(0)}</strong></span>
+        <span class="badge ${cheaper === 'single' ? 'badge-print' : 'badge-oop'}" style="margin-left:4px;">
+          ${cheaper === 'single' ? 'Buy single' : 'Rip packs'}
+        </span>
+      </div>`;
+    });
+    if (!singlesHtml) singlesHtml = '<p style="color:var(--text-mute);font-size:0.82rem;">No chase cards over $20 to compare.</p>';
+    singlesEl.innerHTML = singlesHtml;
+
+    // Break-even analysis
+    const beEl = document.getElementById('calcBreakeven');
+    if (totalEV > 0) {
+      const evPerPack = totalEV / calcPacks;
+      const bePacksExact = evPerPack > 0 ? pp / evPerPack : Infinity;
+      // Find packs needed until cumulative EV >= cumulative cost
+      // This is just: cost_per_pack / ev_per_pack ratio
+      const ratio = pp / evPerPack;
+      const beVerdict = ratio <= 1 ? 'Every pack is +EV on average.' : `You need the variance to go your way — on average you lose $${(pp - evPerPack).toFixed(2)} per pack.`;
+
+      beEl.innerHTML = `
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:12px;">
+          <div style="text-align:center;padding:12px;background:var(--surface-2);border-radius:var(--radius-sm);">
+            <div style="font-family:var(--mono);font-size:1.1rem;font-weight:700;color:var(--blue);">$${evPerPack.toFixed(2)}</div>
+            <div style="font-size:0.65rem;color:var(--text-mute);text-transform:uppercase;letter-spacing:0.06em;margin-top:2px;">EV per pack</div>
+          </div>
+          <div style="text-align:center;padding:12px;background:var(--surface-2);border-radius:var(--radius-sm);">
+            <div style="font-family:var(--mono);font-size:1.1rem;font-weight:700;">$${pp.toFixed(2)}</div>
+            <div style="font-size:0.65rem;color:var(--text-mute);text-transform:uppercase;letter-spacing:0.06em;margin-top:2px;">Cost per pack</div>
+          </div>
+          <div style="text-align:center;padding:12px;background:var(--surface-2);border-radius:var(--radius-sm);">
+            <div style="font-family:var(--mono);font-size:1.1rem;font-weight:700;color:${ratio <= 1 ? 'var(--green)' : 'var(--red)'};">${ratio.toFixed(2)}x</div>
+            <div style="font-size:0.65rem;color:var(--text-mute);text-transform:uppercase;letter-spacing:0.06em;margin-top:2px;">Cost/EV ratio</div>
+          </div>
+        </div>
+        <p style="font-size:0.85rem;color:var(--text-soft);">${beVerdict}</p>
+        <p style="font-size:0.78rem;color:var(--text-mute);margin-top:8px;">
+          At ${s.pull_rates?.any_chase_rare || 'N/A'} for any chase rare, you'd need roughly
+          <strong>${anyChaseN ? Math.round(anyChaseN) : '?'} packs</strong> ($${anyChaseN ? (anyChaseN * pp).toFixed(0) : '?'})
+          to guarantee at least one chase pull.
+        </p>`;
+    } else {
+      beEl.innerHTML = '<p style="color:var(--text-mute);">Insufficient pull rate data for break-even analysis.</p>';
+    }
+
+    document.getElementById('calcResults').style.display = '';
+  }
+
+  // Events
+  document.getElementById('calcSetSelect').addEventListener('change', e => {
+    calcSetId = e.target.value;
+    runCalc();
+  });
+
+  document.getElementById('calcPurchaseChips').addEventListener('click', e => {
+    const chip = e.target.closest('.chip');
+    if (!chip) return;
+    document.querySelectorAll('#calcPurchaseChips .chip').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    const packs = chip.dataset.packs;
+    if (packs === 'custom') {
+      document.getElementById('calcCustomRow').style.display = '';
+      calcPacks = parseInt(document.getElementById('calcCustomSlider').value, 10);
+    } else {
+      document.getElementById('calcCustomRow').style.display = 'none';
+      calcPacks = parseInt(packs, 10);
+    }
+    runCalc();
+  });
+
+  const customSlider = document.getElementById('calcCustomSlider');
+  customSlider.addEventListener('input', () => {
+    calcPacks = parseInt(customSlider.value, 10);
+    document.getElementById('calcCustomVal').textContent = calcPacks;
+    runCalc();
+  });
+
+  initCalc();
 })();
 
 // ══ Card Scanner ═════════════════════════════════════════
