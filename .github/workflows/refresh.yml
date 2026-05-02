@@ -86,7 +86,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: main  # Get the just-committed data
+          ref: master  # Get the just-committed data
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
