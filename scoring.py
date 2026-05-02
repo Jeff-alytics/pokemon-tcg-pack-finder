@@ -18,6 +18,13 @@ import re
 import logging
 from pathlib import Path
 
+PRODUCT_LABELS = {
+    "booster-pack": "Booster Pack",
+    "elite-trainer-box": "Elite Trainer Box",
+    "booster-bundle": "Booster Bundle",
+    "booster-box": "Booster Box",
+}
+
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
@@ -71,27 +78,53 @@ def compute_scores(sets_data: list[dict], prices_data: dict, config: dict) -> li
     for s in sets_data:
         sid = s["id"]
 
-        # --- Price per pack ---
+        # --- Price per pack (find best deal across all product types) ---
+        # Packs per product type
+        PACKS_PER = {"booster-pack": 1, "booster-bundle": 6, "elite-trainer-box": 9, "booster-box": 36}
+
         pack_price = default_msrp
-        # Try TCGPlayer first
+        best_deal_product = "booster-pack"
+        best_deal_total = default_msrp
+        best_deal_source = ""
+
         tcg_set = tcg.get(sid, {})
-        tcg_pack = tcg_set.get("booster-pack", {})
-        if tcg_pack.get("low_price_usd"):
-            pack_price = tcg_pack["low_price_usd"]
-        # Then eBay median
         ebay_set = ebay.get(sid, {})
-        ebay_pack = ebay_set.get("booster_pack", {}).get("sold", {})
-        if ebay_pack.get("median_price_usd"):
-            pack_price = min(pack_price, ebay_pack["median_price_usd"])
-        # Check GameNerdz
         gn = prices_data.get("gamenerdz", {})
         gn_set = gn.get(sid, {})
-        for gn_prod in gn_set.get("booster-pack", []):
-            if gn_prod.get("price_usd") and gn_prod.get("in_stock"):
-                pack_price = min(pack_price, gn_prod["price_usd"])
-        # Check Amazon
         amz = prices_data.get("amazon", {})
         amz_set = amz.get(sid, {})
+
+        def _check_per_pack(total_price, packs, product_type, source):
+            nonlocal pack_price, best_deal_product, best_deal_total, best_deal_source
+            if total_price and total_price > 0 and packs > 0:
+                per_pack = total_price / packs
+                if per_pack < pack_price:
+                    pack_price = per_pack
+                    best_deal_product = product_type
+                    best_deal_total = total_price
+                    best_deal_source = source
+
+        # Check all product types across all sources
+        for pt, packs in PACKS_PER.items():
+            # TCGPlayer
+            tcg_pt = tcg_set.get(pt, {})
+            if tcg_pt.get("low_price_usd"):
+                _check_per_pack(tcg_pt["low_price_usd"], packs, pt, "TCGPlayer")
+
+            # GameNerdz
+            for gn_prod in gn_set.get(pt, []):
+                if gn_prod.get("price_usd") and gn_prod.get("in_stock", True):
+                    _check_per_pack(gn_prod["price_usd"], packs, pt, "GameNerdz")
+
+            # Amazon
+            for amz_prod in amz_set.get(pt, []):
+                if amz_prod.get("price_usd"):
+                    _check_per_pack(amz_prod["price_usd"], packs, pt, "Amazon")
+
+        # eBay (only has booster_pack data)
+        ebay_pack = ebay_set.get("booster_pack", {}).get("sold", {})
+        if ebay_pack.get("median_price_usd"):
+            _check_per_pack(ebay_pack["median_price_usd"], 1, "booster-pack", "eBay")
         for amz_prod in amz_set.get("booster-pack", []):
             if amz_prod.get("price_usd"):
                 pack_price = min(pack_price, amz_prod["price_usd"])
@@ -196,6 +229,9 @@ def compute_scores(sets_data: list[dict], prices_data: dict, config: dict) -> li
         raw.append({
             "set": s,
             "pack_price": pack_price,
+            "best_deal_product": best_deal_product,
+            "best_deal_total": round(best_deal_total, 2),
+            "best_deal_source": best_deal_source,
             "top_chase_value": top_chase_value,
             "top_chase_n": top_chase_n,
             "hit_density": hit_density,
@@ -246,6 +282,13 @@ def compute_scores(sets_data: list[dict], prices_data: dict, config: dict) -> li
                 "hit_density": round(norm_density[i], 1),
             },
             "pack_price_usd": r["pack_price"],
+            "best_deal": {
+                "product": r["best_deal_product"],
+                "total_price": r["best_deal_total"],
+                "per_pack": r["pack_price"],
+                "source": r["best_deal_source"],
+                "label": PRODUCT_LABELS.get(r["best_deal_product"], r["best_deal_product"]),
+            },
             "top_chase_value_usd": r["top_chase_value"],
             "top_chase_card": s["top_chase_cards"][0]["name"] if s.get("top_chase_cards") else "",
             "top_chase_card_number": s["top_chase_cards"][0].get("card_number", "") if s.get("top_chase_cards") else "",

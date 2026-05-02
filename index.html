@@ -960,7 +960,7 @@ footer a:hover { color: var(--blue); }
   <div class="table-wrap">
     <table class="set-table" id="setTable">
       <thead><tr>
-        <th>#</th><th>Set</th><th>Score</th><th>Pack Price</th><th>Top Chase</th><th>EV/Pack</th><th>Packs to $50+</th><th>ETB ROI</th><th>Best Deal</th>
+        <th>#</th><th>Set</th><th>Score</th><th>Best $/Pack</th><th>Top Chase</th><th>EV/Pack</th><th>Packs to $50+</th><th>ETB ROI</th><th>Best Deal</th>
       </tr></thead>
       <tbody id="setTableBody"></tbody>
     </table>
@@ -1192,13 +1192,20 @@ footer a:hover { color: var(--blue); }
 
     const raw = setsData.map(s => {
       const sid = s.id;
-      let pp = msrp;
-      const tS = tcg[sid]||{}, tP = tS['booster-pack']||{};
-      if (tP.low_price_usd) pp = tP.low_price_usd;
-      const eS = ebay[sid]||{}, eP = eS.booster_pack?.sold||{};
-      if (eP.median_price_usd) pp = Math.min(pp, eP.median_price_usd);
-      (gn[sid]?.['booster-pack']||[]).forEach(p => { if(p.price_usd&&p.in_stock) pp=Math.min(pp,p.price_usd); });
-      (amz[sid]?.['booster-pack']||[]).forEach(p => { if(p.price_usd) pp=Math.min(pp,p.price_usd); });
+      // Find best per-pack price across all product types and sources
+      const PPACKS = {'booster-pack':1,'booster-bundle':6,'elite-trainer-box':9,'booster-box':36};
+      const PLABELS = {'booster-pack':'Pack','booster-bundle':'Bundle','elite-trainer-box':'ETB','booster-box':'Box'};
+      let pp = msrp, bestDealLabel = '';
+      const tS = tcg[sid]||{}, eS = ebay[sid]||{};
+      const chkPP = (price, packs, label) => { if(price&&price>0){const perP=price/packs;if(perP<pp){pp=perP;bestDealLabel=`${label} $${price.toFixed(2)} ($${perP.toFixed(2)}/pk)`;}} };
+      for (const [pt, pks] of Object.entries(PPACKS)) {
+        const tPt = tS[pt]||{};
+        if(tPt.low_price_usd && tPt.low_price_usd>=1) chkPP(tPt.low_price_usd, pks, `TCGPlayer ${PLABELS[pt]}`);
+        (gn[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd&&p.in_stock!==false) chkPP(p.price_usd,pks,`GN ${PLABELS[pt]}`);});
+        (amz[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd) chkPP(p.price_usd,pks,`AMZ ${PLABELS[pt]}`);});
+      }
+      const eP = eS.booster_pack?.sold||{};
+      if(eP.median_price_usd) chkPP(eP.median_price_usd, 1, 'eBay Pack');
 
       const cc = s.top_chase_cards||[];
       let tcv = Math.max(...cc.map(c=>c.estimated_value_usd||0),0);
@@ -1226,7 +1233,7 @@ footer a:hover { color: var(--blue); }
       (amz[sid]?.['booster-pack']||[]).forEach(p=>{if(p.price_usd)chk({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Amazon'});});
       (pc[sid]?.['booster-pack']||[]).forEach(p=>{if(p.in_stock&&p.price_usd)chk({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Pokemon Center'});});
 
-      return {set:s,pp,tcv,tN,hd,ev:Math.round(ev*100)/100,p50:p50?Math.round(p50):null,eRoi:Math.round(eRoi*10)/10,ep:Math.round(ep*100)/100,cheap};
+      return {set:s,pp,bestDealLabel,tcv,tN,hd,ev:Math.round(ev*100)/100,p50:p50?Math.round(p50):null,eRoi:Math.round(eRoi*10)/10,ep:Math.round(ep*100)/100,cheap};
     });
 
     const nC=norm(raw.map(r=>r.pp),true),nM=norm(raw.map(r=>r.tcv),false),nO=norm(raw.map(r=>r.tN),true),nD=norm(raw.map(r=>r.hd),false);
@@ -1235,7 +1242,7 @@ footer a:hover { color: var(--blue); }
       const s=r.set;
       return {id:s.id,name:s.name,set_code:s.set_code||'',release_date:s.release_date||'',set_type:s.set_type||'',in_print:s.in_print,in_print_note:s.in_print_note||'',total_cards:s.total_cards||0,
         score:Math.round(sc*10)/10,cs:{ce:Math.round(nC[i]*10)/10,cm:Math.round(nM[i]*10)/10,po:Math.round(nO[i]*10)/10,hd:Math.round(nD[i]*10)/10},
-        pp:r.pp,tcv:r.tcv,topCard:s.top_chase_cards?.[0]?.name||'',pullRate:s.pull_rates?.top_chase_specific||'',ev:r.ev,p50:r.p50,ep:r.ep,eRoi:r.eRoi,
+        pp:r.pp,bestDealLabel:r.bestDealLabel||'',tcv:r.tcv,topCard:s.top_chase_cards?.[0]?.name||'',pullRate:s.pull_rates?.top_chase_specific||'',ev:r.ev,p50:r.p50,ep:r.ep,eRoi:r.eRoi,
         numChase:(s.top_chase_cards||[]).length,chaseCards:s.top_chase_cards||[],cheap:r.cheap,pullRates:s.pull_rates||{}};
     });
     scoredData.sort((a,b)=>b.score-a.score);
@@ -1276,7 +1283,7 @@ footer a:hover { color: var(--blue); }
         <td style="font-family:var(--mono);color:var(--text-mute);font-size:0.8rem;">${i+1}</td>
         <td><strong>${s.name}</strong> <span style="font-family:var(--mono);font-size:0.7rem;color:var(--text-mute);">${s.set_code}</span><br>${printBadge}${typeBadge}</td>
         <td><span style="font-family:var(--mono);font-weight:700;font-size:1rem;color:${scoreColor(s.score)}">${s.score.toFixed(1)}</span><div style="width:60px;height:4px;background:var(--surface-3);border-radius:2px;margin-top:4px;"><div style="height:100%;width:${s.score}%;background:${scoreColor(s.score)};border-radius:2px;"></div></div></td>
-        <td style="font-family:var(--mono);">$${s.pp.toFixed(2)}</td>
+        <td style="font-family:var(--mono);">$${s.pp.toFixed(2)}/pk${s.bestDealLabel ? `<br><span style="font-size:0.65rem;color:var(--text-mute);font-family:var(--body);">${s.bestDealLabel}</span>` : ''}</td>
         <td style="font-family:var(--mono);color:var(--gold);">$${s.tcv.toLocaleString()}</td>
         <td style="font-family:var(--mono);">$${s.ev.toFixed(2)}</td>
         <td style="font-family:var(--mono);">${s.p50!=null?s.p50:'&mdash;'}</td>
@@ -1383,17 +1390,46 @@ footer a:hover { color: var(--blue); }
 
   function parsePR(s) { const m = s?.match(/1\s+in\s+([\d,.]+)/); return m ? parseFloat(m[1].replace(',','')) : null; }
 
-  function getPackPrice(sid) {
-    const msrp = 4.49;
-    let pp = msrp;
-    const tcg = calcPrices.tcgplayer || {}, ebay = calcPrices.ebay || {}, gn = calcPrices.gamenerdz || {}, amz = calcPrices.amazon || {};
-    const tP = tcg[sid]?.['booster-pack'] || {};
-    if (tP.low_price_usd && tP.low_price_usd >= 1) pp = tP.low_price_usd;
-    const eP = ebay[sid]?.booster_pack?.sold || {};
-    if (eP.median_price_usd) pp = Math.min(pp, eP.median_price_usd);
-    (gn[sid]?.['booster-pack']||[]).forEach(p => { if(p.price_usd && p.in_stock) pp = Math.min(pp, p.price_usd); });
-    (amz[sid]?.['booster-pack']||[]).forEach(p => { if(p.price_usd) pp = Math.min(pp, p.price_usd); });
-    return pp;
+  const PACKS_PER = {'booster-pack': 1, 'booster-bundle': 6, 'elite-trainer-box': 9, 'booster-box': 36};
+  const PRODUCT_LABELS = {'booster-pack': 'Booster Pack', 'booster-bundle': 'Booster Bundle', 'elite-trainer-box': 'ETB', 'booster-box': 'Booster Box'};
+  const CALC_PRODUCT_MAP = {1: 'booster-pack', 3: 'booster-pack', 6: 'booster-bundle', 9: 'elite-trainer-box', 36: 'booster-box'};
+
+  function getProductPrice(sid, productType) {
+    // Find cheapest price for a specific product type across all sources
+    let best = null;
+    const tcg = calcPrices.tcgplayer || {}, gn = calcPrices.gamenerdz || {}, amz = calcPrices.amazon || {};
+    const chk = (p) => { if (p && p > 0 && (!best || p < best)) best = p; };
+
+    const tP = tcg[sid]?.[productType] || {};
+    if (tP.low_price_usd && tP.low_price_usd >= 1) chk(tP.low_price_usd);
+    (gn[sid]?.[productType]||[]).forEach(p => { if(p.price_usd && p.in_stock !== false) chk(p.price_usd); });
+    (amz[sid]?.[productType]||[]).forEach(p => { if(p.price_usd) chk(p.price_usd); });
+
+    return best;
+  }
+
+  function getBestPerPack(sid) {
+    // Find cheapest per-pack price across all product types
+    let bestPP = 4.49, bestProduct = 'booster-pack', bestTotal = 4.49, bestSource = '';
+    for (const [pt, packs] of Object.entries(PACKS_PER)) {
+      const price = getProductPrice(sid, pt);
+      if (price) {
+        const perPack = price / packs;
+        if (perPack < bestPP) {
+          bestPP = perPack;
+          bestProduct = pt;
+          bestTotal = price;
+        }
+      }
+    }
+    // Also check eBay single pack
+    const eP = (calcPrices.ebay || {})[sid]?.booster_pack?.sold || {};
+    if (eP.median_price_usd && eP.median_price_usd < bestPP) {
+      bestPP = eP.median_price_usd;
+      bestProduct = 'booster-pack';
+      bestTotal = eP.median_price_usd;
+    }
+    return { perPack: bestPP, product: bestProduct, total: bestTotal, label: PRODUCT_LABELS[bestProduct] || bestProduct };
   }
 
   function runCalc() {
@@ -1401,8 +1437,28 @@ footer a:hover { color: var(--blue); }
     const s = calcSets.find(x => x.id === calcSetId);
     if (!s) return;
 
-    const pp = getPackPrice(calcSetId);
-    const totalCost = pp * calcPacks;
+    // Determine cost based on purchase type
+    const bestDeal = getBestPerPack(calcSetId);
+    const mappedPT = CALC_PRODUCT_MAP[calcPacks];
+    let totalCost, pp, costNote = '';
+
+    if (mappedPT && calcPacks > 1) {
+      // Check if the specific product type has a price
+      const productPrice = getProductPrice(calcSetId, mappedPT);
+      if (productPrice) {
+        totalCost = productPrice;
+        pp = productPrice / calcPacks;
+        costNote = `${PRODUCT_LABELS[mappedPT]} at $${productPrice.toFixed(2)} ($${pp.toFixed(2)}/pack)`;
+      } else {
+        pp = bestDeal.perPack;
+        totalCost = pp * calcPacks;
+        costNote = `Using best per-pack price: $${pp.toFixed(2)} (${bestDeal.label})`;
+      }
+    } else {
+      pp = bestDeal.perPack;
+      totalCost = pp * calcPacks;
+      costNote = `Best deal: ${bestDeal.label} at $${bestDeal.total.toFixed(2)} ($${pp.toFixed(2)}/pack)`;
+    }
     const cc = s.top_chase_cards || [];
     const anyChaseN = parsePR(s.pull_rates?.any_chase_rare);
     const topChaseN = parsePR(s.pull_rates?.top_chase_specific) || 500;
@@ -1436,14 +1492,14 @@ footer a:hover { color: var(--blue); }
       verdictEl.style.border = '2px solid var(--green)';
       verdictLabel.textContent = 'RIP IT';
       verdictLabel.style.color = 'var(--green)';
-      verdictSub.textContent = `Expected value exceeds cost by $${net.toFixed(2)}`;
+      verdictSub.textContent = `Expected value exceeds cost by $${net.toFixed(2)}. ${costNote}`;
       verdictSub.style.color = 'var(--text-soft)';
     } else {
       verdictEl.style.background = 'rgba(220,38,38,0.06)';
       verdictEl.style.border = '2px solid var(--red)';
       verdictLabel.textContent = 'SKIP IT';
       verdictLabel.style.color = 'var(--red)';
-      verdictSub.textContent = `You'll lose ~$${Math.abs(net).toFixed(2)} on average`;
+      verdictSub.textContent = `You'll lose ~$${Math.abs(net).toFixed(2)} on average. ${costNote}`;
       verdictSub.style.color = 'var(--text-soft)';
     }
 
