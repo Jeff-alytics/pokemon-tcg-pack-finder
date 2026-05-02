@@ -1252,17 +1252,18 @@ footer a:hover { color: var(--blue); }
       // Find best per-pack price across all product types and sources
       const PPACKS = {'booster-pack':1,'booster-bundle':6,'elite-trainer-box':9,'booster-box':36};
       const PLABELS = {'booster-pack':'Pack','booster-bundle':'Bundle','elite-trainer-box':'ETB','booster-box':'Box'};
+      const PMIN = {'booster-pack':1,'booster-bundle':15,'elite-trainer-box':20,'booster-box':40};
       let pp = msrp, bestDealLabel = '';
       const tS = tcg[sid]||{}, eS = ebay[sid]||{};
-      const chkPP = (price, packs, label) => { if(price&&price>0){const perP=price/packs;if(perP<pp){pp=perP;bestDealLabel=`${label} $${price.toFixed(2)} ($${perP.toFixed(2)}/pk)`;}} };
+      const chkPP = (price, packs, label, pt) => { const minP=PMIN[pt]||1; if(price&&price>=minP){const perP=price/packs;if(perP<pp){pp=perP;bestDealLabel=`${label} $${price.toFixed(2)} ($${perP.toFixed(2)}/pk)`;}} };
       for (const [pt, pks] of Object.entries(PPACKS)) {
         const tPt = tS[pt]||{};
-        if(tPt.low_price_usd && tPt.low_price_usd>=1) chkPP(tPt.low_price_usd, pks, `TCGPlayer ${PLABELS[pt]}`);
-        (gn[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd&&p.in_stock!==false) chkPP(p.price_usd,pks,`GN ${PLABELS[pt]}`);});
-        (amz[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd) chkPP(p.price_usd,pks,`AMZ ${PLABELS[pt]}`);});
+        if(tPt.low_price_usd) chkPP(tPt.low_price_usd, pks, `TCGPlayer ${PLABELS[pt]}`, pt);
+        (gn[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd&&p.in_stock!==false) chkPP(p.price_usd,pks,`GN ${PLABELS[pt]}`,pt);});
+        (amz[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd) chkPP(p.price_usd,pks,`AMZ ${PLABELS[pt]}`,pt);});
       }
       const eP = eS.booster_pack?.sold||{};
-      if(eP.median_price_usd) chkPP(eP.median_price_usd, 1, 'eBay Pack');
+      if(eP.median_price_usd) chkPP(eP.median_price_usd, 1, 'eBay Pack', 'booster-pack');
 
       const cc = s.top_chase_cards||[];
       let tcv = Math.max(...cc.map(c=>c.estimated_value_usd||0),0);

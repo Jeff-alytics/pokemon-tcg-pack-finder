@@ -79,8 +79,9 @@ def compute_scores(sets_data: list[dict], prices_data: dict, config: dict) -> li
         sid = s["id"]
 
         # --- Price per pack (find best deal across all product types) ---
-        # Packs per product type
+        # Packs per product type and minimum sane prices
         PACKS_PER = {"booster-pack": 1, "booster-bundle": 6, "elite-trainer-box": 9, "booster-box": 36}
+        MIN_PRICE = {"booster-pack": 1, "booster-bundle": 15, "elite-trainer-box": 20, "booster-box": 40}
 
         pack_price = default_msrp
         best_deal_product = "booster-pack"
@@ -96,7 +97,8 @@ def compute_scores(sets_data: list[dict], prices_data: dict, config: dict) -> li
 
         def _check_per_pack(total_price, packs, product_type, source):
             nonlocal pack_price, best_deal_product, best_deal_total, best_deal_source
-            if total_price and total_price > 0 and packs > 0:
+            min_p = MIN_PRICE.get(product_type, 1)
+            if total_price and total_price >= min_p and packs > 0:
                 per_pack = total_price / packs
                 if per_pack < pack_price:
                     pack_price = per_pack
