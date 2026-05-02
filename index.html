@@ -1286,7 +1286,7 @@ footer a:hover { color: var(--blue); }
       let cheap=null;
       const chk=l=>{if(l?.price_usd&&(!cheap||l.price_usd<cheap.price_usd))cheap=l;};
       if((eS.booster_pack?.active_listings||[])[0]) chk(eS.booster_pack.active_listings[0]);
-      if((tP.cheapest_listings||[])[0]) chk(tP.cheapest_listings[0]);
+      if(((tS['booster-pack']||{}).cheapest_listings||[])[0]) chk(tS['booster-pack'].cheapest_listings[0]);
       (gn[sid]?.['booster-pack']||[]).forEach(p=>{if(p.in_stock&&p.price_usd)chk({title:p.title,price_usd:p.price_usd,url:p.url,seller:'GameNerdz'});});
       (amz[sid]?.['booster-pack']||[]).forEach(p=>{if(p.price_usd)chk({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Amazon'});});
       (pc[sid]?.['booster-pack']||[]).forEach(p=>{if(p.in_stock&&p.price_usd)chk({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Pokemon Center'});});
