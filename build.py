@@ -147,12 +147,11 @@ def run_scrapers() -> dict:
     reddit_data = _run_scraper("Reddit Deals", "scrapers.reddit_deals", sets_path)
     ebay_data = _run_scraper("eBay", "scrapers.ebay_sold", sets_path)
 
-    # Slow Playwright scrapers — disabled until needed
-    # tcg_data = _run_scraper("TCGPlayer", "scrapers.tcgplayer_sealed", sets_path)
-    # pc_data = _run_scraper("Pokemon Center", "scrapers.pokemoncenter", sets_path)
-    # gn_data = _run_scraper("GameNerdz", "scrapers.gamenerdz", sets_path)
-    # amz_data = _run_scraper("Amazon", "scrapers.amazon", sets_path)
-    tcg_data, pc_data, gn_data, amz_data = {}, {}, {}, {}
+    # Pokemon Center stock check (Playwright, ~2 min, only high-demand sets)
+    pc_data = _run_scraper("Pokemon Center Stock", "scrapers.pokemoncenter", sets_path)
+
+    # Disabled (not providing useful data)
+    tcg_data, gn_data, amz_data = {}, {}, {}
 
     return {
         "_meta": {

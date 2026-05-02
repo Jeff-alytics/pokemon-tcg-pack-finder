@@ -114,6 +114,12 @@ footer a{color:var(--soft);text-decoration:none}
   <div class="updated" id="updated">Loading...</div>
 </header>
 
+<!-- Restock Alert Banner -->
+<div id="restockBanner" style="display:none;background:rgba(22,163,74,0.08);border:2px solid var(--green);border-radius:10px;padding:16px 20px;margin-bottom:20px;">
+  <div style="font-family:var(--display);font-weight:800;font-size:0.85rem;color:var(--green);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">Restock Alert — Pokemon Center</div>
+  <div id="restockItems"></div>
+</div>
+
 <div class="filters" id="filters">
   <span class="chip on" data-f="all">All Sets</span>
   <span class="chip" data-f="in-print">In Print</span>
@@ -160,7 +166,7 @@ async function load(){
     pricesData=await pR.json();
     const u=pricesData._meta?.last_updated;
     document.getElementById('updated').textContent=u?`Prices updated ${u}`:'Showing estimated prices';
-    compute();render();
+    compute();render();renderRestocks();
   }catch(e){console.error(e);document.getElementById('updated').textContent='Error: '+e.message;}
 }
 
@@ -426,6 +432,29 @@ document.getElementById('filters').addEventListener('click',e=>{
   filter=c.dataset.f;
   render();
 });
+
+function renderRestocks(){
+  const pc=pricesData.pokemoncenter||{};
+  const banner=document.getElementById('restockBanner');
+  const container=document.getElementById('restockItems');
+  const inStock=[];
+  for(const[sid,items]of Object.entries(pc)){
+    const setName=setsData.find(s=>s.id===sid)?.name||sid;
+    (items||[]).forEach(item=>{
+      if(item.in_stock) inStock.push({...item,setName});
+    });
+  }
+  if(!inStock.length){banner.style.display='none';return;}
+  banner.style.display='';
+  container.innerHTML=inStock.map(item=>`
+    <div style="display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:1px solid rgba(22,163,74,0.15);flex-wrap:wrap;">
+      <span style="font-weight:600;font-size:0.88rem;">${item.setName}</span>
+      <span style="font-size:0.82rem;color:var(--soft);">${item.title}</span>
+      ${item.price_usd?`<span style="font-family:var(--mono);font-weight:600;">$${item.price_usd.toFixed(2)}</span>`:''}
+      <span style="font-size:0.72rem;font-weight:700;color:var(--green);text-transform:uppercase;">In Stock</span>
+      ${item.url?`<a href="${item.url}" target="_blank" rel="noopener" style="font-size:0.78rem;padding:3px 10px;background:var(--green);color:#fff;border-radius:50px;text-decoration:none;font-weight:600;">Buy Now</a>`:''}
+    </div>`).join('');
+}
 
 load();
 })();

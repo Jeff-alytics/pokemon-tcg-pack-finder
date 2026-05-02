@@ -165,6 +165,25 @@ def evaluate_alerts(prices_data: dict, config: dict) -> list[dict]:
                 "url": deal.get("reddit_url", deal.get("url", "")),
             })
 
+    # Pokemon Center restocks (MSRP buys on high-demand sets)
+    pc_data = prices_data.get("pokemoncenter", {})
+    for set_id, items in pc_data.items():
+        if not isinstance(items, list):
+            continue
+        set_name = set_id.replace("-", " ").title()
+        for item in items:
+            if item.get("in_stock"):
+                triggered.append({
+                    "rule_name": "pokemoncenter_restock",
+                    "set_id": set_id,
+                    "set_name": set_name,
+                    "product": "restock",
+                    "title": item.get("title", ""),
+                    "price_usd": item.get("price_usd", 0) or 0,
+                    "threshold_detail": f"RESTOCK at Pokemon Center{' ($' + str(item['price_usd']) + ')' if item.get('price_usd') else ''}",
+                    "url": item.get("url", ""),
+                })
+
     log.info(f"Alert evaluation complete: {len(triggered)} deals triggered")
     return triggered
 

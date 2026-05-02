@@ -1,9 +1,9 @@
 """
-Pokemon Center scraper.
+Pokemon Center stock checker.
 
-Tracks MSRP prices and stock status for sealed Pokemon TCG products.
-Key value: restock alerts — Pokemon Center sells at MSRP but frequently
-sells out. Knowing when something is back in stock is the deal.
+Only checks high-demand sets that frequently sell out and restock.
+When something goes from out-of-stock to in-stock at MSRP, that's
+a deal worth alerting on.
 
 Uses Playwright since pokemoncenter.com is JS-heavy.
 """
@@ -18,51 +18,54 @@ from playwright.sync_api import sync_playwright, TimeoutError as PwTimeout
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
-REQUEST_DELAY = 3.0
+SEARCH_URL = "https://www.pokemoncenter.com/search?q={query}"
 
-# Search URL for Pokemon TCG sealed products
-SEARCH_URL = "https://www.pokemoncenter.com/search?q={query}&fh_location=pokemon-tcg"
-
-PRODUCT_QUERIES = {
-    "booster-pack": "{set_name} booster pack",
-    "elite-trainer-box": "{set_name} elite trainer box",
-}
+# Only check sets where restocks matter (high demand, frequently OOS)
+RESTOCK_WATCH = [
+    "prismatic-evolutions",
+    "paldean-fates",
+    "pokemon-151",
+    "destined-rivals",
+    "journey-together",
+]
 
 
 @dataclass
-class PokemonCenterProduct:
+class StockStatus:
     title: str
     price_usd: float | None
     url: str
     in_stock: bool
-    product_type: str
 
 
-def _extract_price(text: str) -> float | None:
-    match = re.search(r"\$\s*([\d,]+\.?\d*)", text)
-    if match:
-        return float(match.group(1).replace(",", ""))
-    return None
+def _extract_price(text):
+    m = re.search(r"\$\s*([\d,]+\.?\d*)", text)
+    return float(m.group(1).replace(",", "")) if m else None
 
 
-def scrape_search(page, query: str, product_type: str) -> list[PokemonCenterProduct]:
-    """Search Pokemon Center for a query and extract product listings."""
-    url = SEARCH_URL.format(query=query.replace(" ", "+"))
-    log.info(f"  PC search: {query}")
+def check_stock(page, set_name: str) -> list[StockStatus]:
+    """Check Pokemon Center for a set's stock status."""
+    query = set_name.replace(" ", "+")
+    url = SEARCH_URL.format(query=query)
+    log.info(f"  Checking: {set_name}")
     results = []
 
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=30000)
-        page.wait_for_selector("[data-testid='product-card'], .product-card, .search-results", timeout=12000)
+        page.wait_for_selector("[data-testid='product-card'], .product-card, .search-results", timeout=10000)
         time.sleep(2)
 
         cards = page.query_selector_all("[data-testid='product-card'], .product-card, .product-tile")
-
-        for card in cards[:10]:
+        for card in cards[:8]:
             try:
                 title_el = card.query_selector("[data-testid='product-card-title'], .product-card__title, h3, h2")
                 title = title_el.inner_text().strip() if title_el else ""
                 if not title:
+                    continue
+
+                # Only care about packs, ETBs, boxes, bundles
+                tl = title.lower()
+                if not any(kw in tl for kw in ["booster", "pack", "elite trainer", "etb", "bundle", "box"]):
                     continue
 
                 price_el = card.query_selector("[data-testid='product-card-price'], .product-card__price, .price")
@@ -73,86 +76,53 @@ def scrape_search(page, query: str, product_type: str) -> list[PokemonCenterProd
                 if href and not href.startswith("http"):
                     href = f"https://www.pokemoncenter.com{href}"
 
-                # Check stock status
-                oos_el = card.query_selector(
-                    "[data-testid='out-of-stock'], .out-of-stock, .sold-out, "
-                    "button[disabled], .product-card__oos"
-                )
-                add_btn = card.query_selector(
-                    "button:not([disabled]):has-text('Add'), "
-                    "[data-testid='add-to-cart']"
-                )
-                in_stock = add_btn is not None and oos_el is None
+                oos_el = card.query_selector("[data-testid='out-of-stock'], .out-of-stock, .sold-out, button[disabled]")
+                add_btn = card.query_selector("button:not([disabled])")
+                in_stock = oos_el is None
 
-                results.append(PokemonCenterProduct(
-                    title=title,
-                    price_usd=price,
-                    url=href,
-                    in_stock=in_stock,
-                    product_type=product_type,
-                ))
-            except Exception as e:
-                log.debug(f"  Skipping card: {e}")
+                results.append(StockStatus(title=title, price_usd=price, url=href, in_stock=in_stock))
+                status = "IN STOCK" if in_stock else "out of stock"
+                log.info(f"    {title[:50]:50s} ${price or '?':>8}  {status}")
+            except Exception:
+                continue
 
     except PwTimeout:
-        log.warning(f"  Timeout on Pokemon Center search: {query}")
+        log.warning(f"  Timeout checking {set_name}")
     except Exception as e:
-        log.error(f"  Error scraping Pokemon Center: {e}")
-
-    log.info(f"    Found {len(results)} products, {sum(1 for r in results if r.in_stock)} in stock")
-    return results
-
-
-def scrape_set(page, set_name: str) -> dict:
-    """Scrape Pokemon Center for all product types of a set."""
-    log.info(f"\n=== Pokemon Center: {set_name} ===")
-    set_results = {}
-
-    for pt, query_tmpl in PRODUCT_QUERIES.items():
-        query = query_tmpl.format(set_name=set_name)
-        products = scrape_search(page, query, pt)
-        set_results[pt] = [asdict(p) for p in products]
-        time.sleep(REQUEST_DELAY)
-
-    return set_results
-
-
-def scrape_all_sets(sets_data: list[dict]) -> dict:
-    """Scrape Pokemon Center for all tracked sets."""
-    results = {}
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/120.0.0.0 Safari/537.36"
-            ),
-            viewport={"width": 1280, "height": 800},
-        )
-        page = context.new_page()
-
-        for s in sets_data:
-            results[s["id"]] = scrape_set(page, s["name"])
-
-        browser.close()
+        log.error(f"  Error: {e}")
 
     return results
 
 
 def run(sets_json_path: str = "data/sets.json") -> dict:
-    """Entry point."""
+    """Check stock for high-demand sets. Returns dict keyed by set ID."""
     with open(sets_json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    from datetime import date
-    today = date.today().isoformat()
-    released = [s for s in data["sets"] if s["release_date"] <= today]
+    set_names = {s["id"]: s["name"] for s in data["sets"]}
+    results = {}
 
-    return scrape_all_sets(released)
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0",
+            viewport={"width": 1280, "height": 800},
+        )
+        page = context.new_page()
+
+        for sid in RESTOCK_WATCH:
+            if sid in set_names:
+                items = check_stock(page, set_names[sid])
+                results[sid] = [asdict(item) for item in items]
+                time.sleep(2)
+
+        browser.close()
+
+    # Summary
+    total_in_stock = sum(1 for items in results.values() for i in items if i["in_stock"])
+    log.info(f"\nStock check done: {total_in_stock} products in stock across {len(results)} sets")
+    return results
 
 
 if __name__ == "__main__":
-    results = run()
-    print(json.dumps(results, indent=2))
+    print(json.dumps(run(), indent=2))
