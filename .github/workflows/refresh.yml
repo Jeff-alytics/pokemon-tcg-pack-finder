@@ -37,6 +37,7 @@ jobs:
 
       - name: Run build pipeline
         env:
+          EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
           ALERT_SMTP_USER: ${{ secrets.ALERT_SMTP_USER }}
           ALERT_SMTP_PASS: ${{ secrets.ALERT_SMTP_PASS }}
           ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
