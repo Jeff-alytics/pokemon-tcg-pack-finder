@@ -148,13 +148,14 @@ def run_scrapers() -> dict:
     gn_data = _run_scraper("GameNerdz", "scrapers.gamenerdz", sets_path)
     amz_data = _run_scraper("Amazon", "scrapers.amazon", sets_path)
     reddit_data = _run_scraper("Reddit Deals", "scrapers.reddit_deals", sets_path)
+    dawnglare_data = _run_scraper("Dawnglare", "scrapers.dawnglare", sets_path)
 
     return {
         "_meta": {
             "description": "Scraped pricing data — updated by the pipeline",
             "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-            "scraper_version": "2.0.0",
-            "sources": ["tcgplayer", "ebay", "pokemoncenter", "gamenerdz", "amazon", "reddit"],
+            "scraper_version": "2.1.0",
+            "sources": ["tcgplayer", "ebay", "pokemoncenter", "gamenerdz", "amazon", "reddit", "dawnglare"],
         },
         "tcgplayer": tcg_data,
         "ebay": ebay_data,
@@ -162,6 +163,7 @@ def run_scrapers() -> dict:
         "gamenerdz": gn_data,
         "amazon": amz_data,
         "reddit": reddit_data,
+        "dawnglare": dawnglare_data,
     }
 
 

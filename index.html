@@ -1292,6 +1292,12 @@ footer a:hover { color: var(--blue); }
       // Check booster box / ETB baseline prices too
       if (s.pricing?.booster_box_price_usd) chkPP(s.pricing.booster_box_price_usd, 36, 'Est. Box', 'booster-box');
       if (s.pricing?.etb_price_usd) chkPP(s.pricing.etb_price_usd, 9, 'Est. ETB', 'elite-trainer-box');
+      // Dawnglare prices (real TCGPlayer market data, very reliable)
+      const dg = (pricesData.dawnglare||{})[sid]||[];
+      dg.forEach(d => {
+        const dgPt = {'booster-box':'booster-box','half-booster-box':'booster-box','enhanced-booster-box':'booster-box','etb':'elite-trainer-box','booster-bundle':'booster-bundle'}[d.product_type];
+        if (dgPt && d.price_usd) chkPP(d.price_usd, d.packs||1, `Dawnglare ${d.product_type}`, dgPt);
+      });
       // Override with manual user prices and scraped data
       for (const [pt, pks] of Object.entries(PPACKS)) {
         const oKey = `${sid}/${pt}`;
@@ -1428,6 +1434,9 @@ footer a:hover { color: var(--blue); }
   function gatherListings(sid){
     const ebay=pricesData.ebay||{},tcg=pricesData.tcgplayer||{},gn=pricesData.gamenerdz||{},amz=pricesData.amazon||{},pc=pricesData.pokemoncenter||{};
     const all=[];
+    // Dawnglare products (reliable TCGPlayer market prices with buy links)
+    const dg = (pricesData.dawnglare||{})[sid]||[];
+    dg.forEach(d=>all.push({title:d.name,price_usd:d.price_usd,url:d.url,seller:`Dawnglare (${d.per_pack_usd}/pk)`}));
     // Priced listings from eBay, GameNerdz, Amazon, Pokemon Center
     (ebay[sid]?.booster_pack?.active_listings||[]).forEach(l=>all.push({...l,seller:l.seller||'eBay'}));
     (gn[sid]?.['booster-pack']||[]).filter(p=>p.price_usd).forEach(p=>all.push({title:p.title,price_usd:p.price_usd,url:p.url,seller:'GameNerdz'}));
