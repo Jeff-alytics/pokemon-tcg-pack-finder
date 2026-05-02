@@ -1,10 +1,3454 @@
 {
   "_meta": {
-    "description": "Scraped pricing data — updated by the pipeline, not by hand",
-    "last_updated": null,
-    "scraper_version": "1.0.0"
+    "description": "Scraped pricing data — updated by the pipeline",
+    "last_updated": "2026-05-02 02:06 UTC",
+    "scraper_version": "2.0.0",
+    "sources": [
+      "tcgplayer",
+      "ebay",
+      "pokemoncenter",
+      "gamenerdz",
+      "amazon",
+      "reddit"
+    ]
   },
-  "sealed_products": {},
-  "singles": {},
-  "ebay_sold": {}
+  "tcgplayer": {
+    "crown-zenith": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.53,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": 5.53,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.53,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.53,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    },
+    "pokemon-151": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.53,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": 5.53,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.53,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.53,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    },
+    "paldean-fates": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.53,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
+      }
+    },
+    "twilight-masquerade": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    },
+    "stellar-crown": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    },
+    "surging-sparks": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Dawn",
+            "price_usd": 0.11,
+            "url": "https://www.tcgplayer.com/product/660414/pokemon-me02-phantasmal-flames-dawn?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    },
+    "prismatic-evolutions": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.52,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
+      }
+    },
+    "journey-together": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    },
+    "destined-rivals": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    },
+    "mega-evolution": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": null,
+        "low_price_usd": null,
+        "mid_price_usd": null,
+        "high_price_usd": null,
+        "num_listings": 0,
+        "cheapest_listings": []
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    },
+    "ascended-heroes": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    },
+    "perfect-order": {
+      "booster-pack": {
+        "product_type": "booster-pack",
+        "product_label": "Booster Pack",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "elite-trainer-box": {
+        "product_type": "elite-trainer-box",
+        "product_label": "Elite Trainer Box",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-bundle": {
+        "product_type": "booster-bundle",
+        "product_label": "Booster Bundle",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      },
+      "booster-box": {
+        "product_type": "booster-box",
+        "product_label": "Booster Box",
+        "market_price_usd": 5.48,
+        "low_price_usd": 0.01,
+        "mid_price_usd": 0.24,
+        "high_price_usd": 105.0,
+        "num_listings": 24,
+        "cheapest_listings": [
+          {
+            "title": "Code Card - Ascended Heroes Booster Pack",
+            "price_usd": 0.01,
+            "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Code Card - Perfect Order Booster Pack",
+            "price_usd": 0.02,
+            "url": "https://www.tcgplayer.com/product/672416/pokemon-me03-perfect-order-code-card-perfect-order-booster-pack?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Gengar",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/684431/pokemon-me03-perfect-order-gengar?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Night Stretcher",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/676008/pokemon-me-ascended-heroes-night-stretcher?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          },
+          {
+            "title": "Boss's Orders [Ghetsis]",
+            "price_usd": 0.08,
+            "url": "https://www.tcgplayer.com/product/654453/pokemon-me01-mega-evolution-bosss-orders-ghetsis?page=1",
+            "seller": "TCGPlayer",
+            "condition": "Sealed"
+          }
+        ]
+      }
+    }
+  },
+  "ebay": {
+    "crown-zenith": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Crown Zenith booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Giratina VSTAR (Gold)": {
+          "card_number": "GG69/GG70",
+          "sold": {
+            "query": "Pokemon Giratina VSTAR GG69/GG70 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mewtwo VSTAR (Special Illustration Rare)": {
+          "card_number": "GG44/GG70",
+          "sold": {
+            "query": "Pokemon Mewtwo VSTAR GG44/GG70 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Pikachu (Secret Rare)": {
+          "card_number": "160/159",
+          "sold": {
+            "query": "Pokemon Pikachu 160/159 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Arceus VSTAR (Galarian Gallery)": {
+          "card_number": "GG70/GG70",
+          "sold": {
+            "query": "Pokemon Arceus VSTAR GG70/GG70 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "pokemon-151": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Pokémon 151 booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Charizard ex (Special Illustration Rare)": {
+          "card_number": "199/165",
+          "sold": {
+            "query": "Pokemon Charizard ex 199/165 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Blastoise ex (Special Illustration Rare)": {
+          "card_number": "200/165",
+          "sold": {
+            "query": "Pokemon Blastoise ex 200/165 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Venusaur ex (Special Illustration Rare)": {
+          "card_number": "198/165",
+          "sold": {
+            "query": "Pokemon Venusaur ex 198/165 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mew ex (Special Illustration Rare)": {
+          "card_number": "205/165",
+          "sold": {
+            "query": "Pokemon Mew ex 205/165 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Alakazam ex (Special Illustration Rare)": {
+          "card_number": "201/165",
+          "sold": {
+            "query": "Pokemon Alakazam ex 201/165 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "paldean-fates": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Paldean Fates booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Mew ex (Special Illustration Rare)": {
+          "card_number": "232/091",
+          "sold": {
+            "query": "Pokemon Mew ex 232/091 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Charizard ex (Special Illustration Rare)": {
+          "card_number": "234/091",
+          "sold": {
+            "query": "Pokemon Charizard ex 234/091 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Iono (Special Illustration Rare)": {
+          "card_number": "237/091",
+          "sold": {
+            "query": "Pokemon Iono 237/091 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Snorlax (Illustration Rare)": {
+          "card_number": "202/091",
+          "sold": {
+            "query": "Pokemon Snorlax 202/091 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "twilight-masquerade": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Twilight Masquerade booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Greninja ex (Special Illustration Rare)": {
+          "card_number": "214/167",
+          "sold": {
+            "query": "Pokemon Greninja ex 214/167 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Bloodmoon Ursaluna ex (Special Illustration Rare)": {
+          "card_number": "216/167",
+          "sold": {
+            "query": "Pokemon Bloodmoon Ursaluna ex 216/167 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Ogerpon ex (Teal Mask, SIR)": {
+          "card_number": "213/167",
+          "sold": {
+            "query": "Pokemon Ogerpon ex 213/167 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Sinistcha ex (Special Illustration Rare)": {
+          "card_number": "210/167",
+          "sold": {
+            "query": "Pokemon Sinistcha ex 210/167 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "stellar-crown": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Stellar Crown booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Terapagos ex (Special Illustration Rare)": {
+          "card_number": "170/142",
+          "sold": {
+            "query": "Pokemon Terapagos ex 170/142 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Hydrapple ex (Special Illustration Rare)": {
+          "card_number": "168/142",
+          "sold": {
+            "query": "Pokemon Hydrapple ex 168/142 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Bulbasaur (Illustration Rare)": {
+          "card_number": "155/142",
+          "sold": {
+            "query": "Pokemon Bulbasaur 155/142 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Lacey (Special Illustration Rare)": {
+          "card_number": "171/142",
+          "sold": {
+            "query": "Pokemon Lacey 171/142 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "surging-sparks": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Surging Sparks booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Pikachu ex (Special Illustration Rare)": {
+          "card_number": "238/191",
+          "sold": {
+            "query": "Pokemon Pikachu ex 238/191 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Latias ex (Special Illustration Rare)": {
+          "card_number": "239/191",
+          "sold": {
+            "query": "Pokemon Latias ex 239/191 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Pikachu ex (Hyper Rare)": {
+          "card_number": "247/252",
+          "sold": {
+            "query": "Pokemon Pikachu ex 247/252 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Durant (Special Illustration Rare)": {
+          "card_number": "235/191",
+          "sold": {
+            "query": "Pokemon Durant 235/191 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "prismatic-evolutions": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Prismatic Evolutions booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Umbreon ex (Special Illustration Rare)": {
+          "card_number": "161/131",
+          "sold": {
+            "query": "Pokemon Umbreon ex 161/131 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Sylveon ex (Special Illustration Rare)": {
+          "card_number": "156/131",
+          "sold": {
+            "query": "Pokemon Sylveon ex 156/131 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Leafeon ex (Special Illustration Rare)": {
+          "card_number": "144/131",
+          "sold": {
+            "query": "Pokemon Leafeon ex 144/131 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Eevee ex (Special Illustration Rare)": {
+          "card_number": "162/131",
+          "sold": {
+            "query": "Pokemon Eevee ex 162/131 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "journey-together": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Journey Together booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Lillie's Clefairy ex (Special Illustration Rare)": {
+          "card_number": "184/159",
+          "sold": {
+            "query": "Pokemon Lillie's Clefairy ex 184/159 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "N's Zoroark ex (Special Illustration Rare)": {
+          "card_number": "185/159",
+          "sold": {
+            "query": "Pokemon N's Zoroark ex 185/159 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Iono's Bellibolt ex (Special Illustration Rare)": {
+          "card_number": "183/159",
+          "sold": {
+            "query": "Pokemon Iono's Bellibolt ex 183/159 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Hop's Zacian ex (Special Illustration Rare)": {
+          "card_number": "186/159",
+          "sold": {
+            "query": "Pokemon Hop's Zacian ex 186/159 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "destined-rivals": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Destined Rivals booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Team Rocket's Mewtwo ex (SIR)": {
+          "card_number": "231/182",
+          "sold": {
+            "query": "Pokemon Team Rocket's Mewtwo ex 231/182 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Cynthia's Garchomp ex (SIR)": {
+          "card_number": "232/182",
+          "sold": {
+            "query": "Pokemon Cynthia's Garchomp ex 232/182 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Ethan's Ho-Oh ex (SIR)": {
+          "card_number": "230/182",
+          "sold": {
+            "query": "Pokemon Ethan's Ho-Oh ex 230/182 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Team Rocket's Moltres ex (SIR)": {
+          "card_number": "229/182",
+          "sold": {
+            "query": "Pokemon Team Rocket's Moltres ex 229/182 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "mega-evolution": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Mega Evolution booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Mega Lucario ex (Mega Hyper Rare)": {
+          "card_number": "188/132",
+          "sold": {
+            "query": "Pokemon Mega Lucario ex 188/132 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mega Gardevoir ex (Mega Hyper Rare)": {
+          "card_number": "187/132",
+          "sold": {
+            "query": "Pokemon Mega Gardevoir ex 187/132 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Acerola's Mischief (SIR)": {
+          "card_number": "183/132",
+          "sold": {
+            "query": "Pokemon Acerola's Mischief 183/132 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Lillie's Determination (SIR)": {
+          "card_number": "184/132",
+          "sold": {
+            "query": "Pokemon Lillie's Determination 184/132 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "ascended-heroes": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Ascended Heroes booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Mega Gengar ex (SIR)": {
+          "card_number": "284/217",
+          "sold": {
+            "query": "Pokemon Mega Gengar ex 284/217 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Pikachu ex (SIR)": {
+          "card_number": "276/217",
+          "sold": {
+            "query": "Pokemon Pikachu ex 276/217 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mega Dragonite ex (SIR)": {
+          "card_number": "290/217",
+          "sold": {
+            "query": "Pokemon Mega Dragonite ex 290/217 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mega Charizard Y ex (MHR)": {
+          "card_number": "294/217",
+          "sold": {
+            "query": "Pokemon Mega Charizard Y ex 294/217 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "perfect-order": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Perfect Order booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Mega Zygarde ex (Mega Hyper Rare)": {
+          "card_number": "124/088",
+          "sold": {
+            "query": "Pokemon Mega Zygarde ex 124/088 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Rosa's Encouragement (SIR)": {
+          "card_number": "123/088",
+          "sold": {
+            "query": "Pokemon Rosa's Encouragement 123/088 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Meowth ex (SIR)": {
+          "card_number": "121/088",
+          "sold": {
+            "query": "Pokemon Meowth ex 121/088 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mega Zygarde ex (SIR)": {
+          "card_number": "120/088",
+          "sold": {
+            "query": "Pokemon Mega Zygarde ex 120/088 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    }
+  },
+  "pokemoncenter": {
+    "crown-zenith": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "pokemon-151": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "paldean-fates": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "twilight-masquerade": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "stellar-crown": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "surging-sparks": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "prismatic-evolutions": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "journey-together": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "destined-rivals": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "mega-evolution": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "ascended-heroes": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    },
+    "perfect-order": {
+      "booster-pack": [],
+      "elite-trainer-box": []
+    }
+  },
+  "gamenerdz": {
+    "_deal_of_day": [],
+    "crown-zenith": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "pokemon-151": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "paldean-fates": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "twilight-masquerade": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "stellar-crown": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "surging-sparks": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "prismatic-evolutions": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "journey-together": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "destined-rivals": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "mega-evolution": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "ascended-heroes": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    },
+    "perfect-order": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-bundle": [],
+      "booster-box": []
+    }
+  },
+  "amazon": {
+    "crown-zenith": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-box": []
+    },
+    "pokemon-151": {
+      "booster-pack": [],
+      "elite-trainer-box": [],
+      "booster-box": []
+    },
+    "paldean-fates": {
+      "booster-pack": [],
+      "elite-trainer-box": [
+        {
+          "title": "Pokémon",
+          "price_usd": 36.99,
+          "url": "",
+          "rating": 4.6,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 79.88,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 84.95,
+          "url": "",
+          "rating": 4.8,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 105.95,
+          "url": "",
+          "rating": 4.4,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 138.88,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    },
+    "twilight-masquerade": {
+      "booster-pack": [],
+      "elite-trainer-box": [
+        {
+          "title": "Twilight Masquerade – Pokemon 25 Reverse Foil Card Lot",
+          "price_usd": 5.95,
+          "url": "",
+          "rating": 4.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon Twilight Masquerade – Complete Holo Rare Card Set - x16",
+          "price_usd": 9.95,
+          "url": "",
+          "rating": 3.6,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Twilight Masquerade – Single Pokemon Booster Pack – Sealed – 10 Cards",
+          "price_usd": 13.68,
+          "url": "",
+          "rating": 4.4,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Twilight Masquerade Pokémon Compatible TCG Random Assortment Bundle || Guaranteed Ultra Rare + 30 Random Cards + Dan123yal Deck Box",
+          "price_usd": 24.99,
+          "url": "",
+          "rating": 4.1,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "POKEMON TCG: SCARLET AND VIOLET TWILIGHT MASQUERADE BUILD AND BATTLE",
+          "price_usd": 49.9,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    },
+    "stellar-crown": {
+      "booster-pack": [],
+      "elite-trainer-box": [
+        {
+          "title": "Pokemon TCG: Crown Zenith - Booster Pack (Single Booster Pack, 10 Cards)",
+          "price_usd": 29.99,
+          "url": "",
+          "rating": 3.6,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 36.99,
+          "url": "",
+          "rating": 4.6,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Roaring Moon or Iron Valiant ex Box (One at Random)",
+          "price_usd": 49.89,
+          "url": "",
+          "rating": 4.6,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "POKEMON TCG: Scarlet & Violet Stellar Crown BUILD AND BATTLE",
+          "price_usd": 59.96,
+          "url": "",
+          "rating": 4.6,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 79.88,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    },
+    "surging-sparks": {
+      "booster-pack": [],
+      "elite-trainer-box": [
+        {
+          "title": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
+          "price_usd": 10.99,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon Sword and Shield Astral Radiance Booster Build & Battle Box - 4 Booster Packs!",
+          "price_usd": 68.5,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 79.88,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 84.95,
+          "url": "",
+          "rating": 4.8,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 105.95,
+          "url": "",
+          "rating": 4.4,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    },
+    "prismatic-evolutions": {
+      "booster-pack": [],
+      "elite-trainer-box": [
+        {
+          "title": "Pokemon TCG: Mega Evolution Sleeved Booster Pack - 10 Cards",
+          "price_usd": 12.0,
+          "url": "",
+          "rating": 4.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "50 Pokemon Cards Plus 1 Ultra Rare Legendary Pokemon Card | Bundle with LCC Deck Box",
+          "price_usd": 19.99,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Scarlet & Violet Prismatic Evolutions Booster Pack (Random Art) - 10 Cards",
+          "price_usd": 21.0,
+          "url": "",
+          "rating": 4.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 41.99,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
+          "price_usd": 49.99,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    },
+    "journey-together": {
+      "booster-pack": [],
+      "elite-trainer-box": [
+        {
+          "title": "Pokemon – Journey Together – Single Booster Pack – 10 Cards – Pack Art May Vary",
+          "price_usd": 10.44,
+          "url": "",
+          "rating": 4.4,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "50 Pokemon Cards Plus 1 Ultra Rare Legendary Pokemon Card | Bundle with LCC Deck Box",
+          "price_usd": 19.99,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon Trading Card Game TCG Scarlet & Violet Journey Together Three Booster Blister Packs (Scrafty Promo Card)",
+          "price_usd": 32.49,
+          "url": "",
+          "rating": 5.0,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 36.99,
+          "url": "",
+          "rating": 4.6,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Scarlet & Violet—Journey Together Booster Build & Battle Box",
+          "price_usd": 41.25,
+          "url": "",
+          "rating": 4.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    },
+    "destined-rivals": {
+      "booster-pack": [],
+      "elite-trainer-box": [
+        {
+          "title": "Pokemon Trading Card Game - Scarlet & Violet 10 - Destined Rivals Booster",
+          "price_usd": 9.99,
+          "url": "",
+          "rating": 4.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Scarlet & Violet—Journey Together Booster Build & Battle Box",
+          "price_usd": 41.25,
+          "url": "",
+          "rating": 4.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Scarlet & Violet - Destined Rivals 3-Pack Blister – Kangaskhan (3 Booster Packs & 1 Foil Promo Card)",
+          "price_usd": 45.23,
+          "url": "",
+          "rating": 4.7,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Scarlet & Violet—Journey Together Booster Bundle",
+          "price_usd": 47.98,
+          "url": "",
+          "rating": 4.4,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Scarlet & Violet - Destined Rivals Booster Bundle - 6 Packs",
+          "price_usd": 73.25,
+          "url": "",
+          "rating": 4.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    },
+    "mega-evolution": {
+      "booster-pack": [
+        {
+          "title": "Pokemon TCG: Mega Evolutions - Perfect Order Sleeved Booster Pack - 10 Cards",
+          "price_usd": 9.7,
+          "url": "",
+          "rating": 3.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Mega Evolution Sleeved Booster Pack - 10 Cards",
+          "price_usd": 12.0,
+          "url": "",
+          "rating": 4.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 12.9,
+          "url": "",
+          "rating": 3.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Mega Evolution - Chaos Rising Sleeved Booster Pack",
+          "price_usd": 12.99,
+          "url": "",
+          "rating": null,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 14.25,
+          "url": "",
+          "rating": 2.3,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "elite-trainer-box": [
+        {
+          "title": "Pokémon",
+          "price_usd": 41.99,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 74.95,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 79.88,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 84.95,
+          "url": "",
+          "rating": 4.8,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 90.46,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    },
+    "ascended-heroes": {
+      "booster-pack": [],
+      "elite-trainer-box": [
+        {
+          "title": "50 Pokemon Cards Plus 1 Ultra Rare Legendary Pokemon Card | Bundle with LCC Deck Box",
+          "price_usd": 19.99,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokemon TCG: Mega Evolution: Ascended Heroes Mini Tin (Random Art) - 2 Packs",
+          "price_usd": 31.45,
+          "url": "",
+          "rating": 3.6,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 44.75,
+          "url": "",
+          "rating": 4.5,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 62.74,
+          "url": "",
+          "rating": 1.0,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 79.88,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    },
+    "perfect-order": {
+      "booster-pack": [],
+      "elite-trainer-box": [
+        {
+          "title": "Pokémon",
+          "price_usd": 36.99,
+          "url": "",
+          "rating": 4.6,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 41.99,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 79.88,
+          "url": "",
+          "rating": 4.2,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 84.95,
+          "url": "",
+          "rating": 4.8,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        },
+        {
+          "title": "Pokémon",
+          "price_usd": 105.95,
+          "url": "",
+          "rating": 4.4,
+          "num_reviews": null,
+          "is_prime": false,
+          "seller": "Amazon"
+        }
+      ],
+      "booster-box": []
+    }
+  },
+  "reddit": {
+    "recent_deals": [],
+    "by_set": {},
+    "top_deals": []
+  }
 }

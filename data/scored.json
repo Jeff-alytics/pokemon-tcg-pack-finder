@@ -1,0 +1,720 @@
+{
+  "_meta": {
+    "generated": "2026-05-02 02:06 UTC",
+    "num_sets": 13
+  },
+  "sets": [
+    {
+      "id": "prismatic-evolutions",
+      "name": "Prismatic Evolutions",
+      "set_code": "PRE",
+      "release_date": "2025-01-17",
+      "set_type": "special",
+      "in_print": true,
+      "in_print_note": "Actively in print, extremely high demand",
+      "total_cards": 180,
+      "pack_value_score": 87.2,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 100.0,
+        "pull_odds": 89.7,
+        "hit_density": 46.3
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 1000,
+      "top_chase_card": "Umbreon ex (Special Illustration Rare)",
+      "top_chase_card_number": "161/131",
+      "pull_rate_top_chase": "1 in 380",
+      "expected_value_per_pack": 9.11,
+      "packs_to_50_card": 45,
+      "etb_price_usd": 0.01,
+      "etb_roi_pct": 819900.0,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Umbreon ex (Special Illustration Rare)",
+          "card_number": "161/131",
+          "estimated_value_usd": 1000
+        },
+        {
+          "name": "Sylveon ex (Special Illustration Rare)",
+          "card_number": "156/131",
+          "estimated_value_usd": 300
+        },
+        {
+          "name": "Leafeon ex (Special Illustration Rare)",
+          "card_number": "144/131",
+          "estimated_value_usd": 240
+        },
+        {
+          "name": "Eevee ex (Special Illustration Rare)",
+          "card_number": "162/131",
+          "estimated_value_usd": 100
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      },
+      "is_top_pick": true,
+      "top_pick_reason": "affordable at $0.01/pack; top chase worth $1000; favorable pull rate (1 in 380)"
+    },
+    {
+      "id": "paldean-fates",
+      "name": "Paldean Fates",
+      "set_code": "PAF",
+      "release_date": "2024-01-26",
+      "set_type": "special",
+      "in_print": true,
+      "in_print_note": "Limited reprints confirmed early 2025",
+      "total_cards": 245,
+      "pack_value_score": 69.6,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 62.4,
+        "pull_odds": 89.9,
+        "hit_density": 14.8
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 650,
+      "top_chase_card": "Mew ex (Special Illustration Rare)",
+      "top_chase_card_number": "232/091",
+      "pull_rate_top_chase": "1 in 375",
+      "expected_value_per_pack": 4.32,
+      "packs_to_50_card": 116,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -61.5,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Mew ex (Special Illustration Rare)",
+          "card_number": "232/091",
+          "estimated_value_usd": 650
+        },
+        {
+          "name": "Charizard ex (Special Illustration Rare)",
+          "card_number": "234/091",
+          "estimated_value_usd": 300
+        },
+        {
+          "name": "Iono (Special Illustration Rare)",
+          "card_number": "237/091",
+          "estimated_value_usd": 29
+        },
+        {
+          "name": "Snorlax (Illustration Rare)",
+          "card_number": "202/091",
+          "estimated_value_usd": 24
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      }
+    },
+    {
+      "id": "pokemon-151",
+      "name": "Pokémon 151",
+      "set_code": "MEW",
+      "release_date": "2023-09-22",
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Out of print, elevated secondary market prices",
+      "total_cards": 207,
+      "pack_value_score": 69.3,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 35.5,
+        "pull_odds": 86.7,
+        "hit_density": 56.7
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 400,
+      "top_chase_card": "Charizard ex (Special Illustration Rare)",
+      "top_chase_card_number": "199/165",
+      "pull_rate_top_chase": "1 in 450",
+      "expected_value_per_pack": 2.09,
+      "packs_to_50_card": 81,
+      "etb_price_usd": 0.01,
+      "etb_roi_pct": 188207.7,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Charizard ex (Special Illustration Rare)",
+          "card_number": "199/165",
+          "estimated_value_usd": 400
+        },
+        {
+          "name": "Blastoise ex (Special Illustration Rare)",
+          "card_number": "200/165",
+          "estimated_value_usd": 100
+        },
+        {
+          "name": "Venusaur ex (Special Illustration Rare)",
+          "card_number": "198/165",
+          "estimated_value_usd": 75
+        },
+        {
+          "name": "Mew ex (Special Illustration Rare)",
+          "card_number": "205/165",
+          "estimated_value_usd": 65
+        },
+        {
+          "name": "Alakazam ex (Special Illustration Rare)",
+          "card_number": "201/165",
+          "estimated_value_usd": 40
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      }
+    },
+    {
+      "id": "ascended-heroes",
+      "name": "Ascended Heroes",
+      "set_code": "ASC",
+      "release_date": "2026-01-30",
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Not yet released (Jan 2026)",
+      "total_cards": 295,
+      "pack_value_score": 66.5,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 100.0,
+        "pull_odds": 32.3,
+        "hit_density": 0.0
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 1000,
+      "top_chase_card": "Mega Gengar ex (SIR)",
+      "top_chase_card_number": "284/217",
+      "pull_rate_top_chase": "1 in 1750",
+      "expected_value_per_pack": 8.55,
+      "packs_to_50_card": 80,
+      "etb_price_usd": 0.01,
+      "etb_roi_pct": 769118.7,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Mega Gengar ex (SIR)",
+          "card_number": "284/217",
+          "estimated_value_usd": 1000
+        },
+        {
+          "name": "Pikachu ex (SIR)",
+          "card_number": "276/217",
+          "estimated_value_usd": 600
+        },
+        {
+          "name": "Mega Dragonite ex (SIR)",
+          "card_number": "290/217",
+          "estimated_value_usd": 690
+        },
+        {
+          "name": "Mega Charizard Y ex (MHR)",
+          "card_number": "294/217",
+          "estimated_value_usd": 445
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      }
+    },
+    {
+      "id": "surging-sparks",
+      "name": "Surging Sparks",
+      "set_code": "SSP",
+      "release_date": "2024-11-08",
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Reprints confirmed by distributors",
+      "total_cards": 252,
+      "pack_value_score": 60.3,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 40.9,
+        "pull_odds": 77.9,
+        "hit_density": 12.4
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 450,
+      "top_chase_card": "Pikachu ex (Special Illustration Rare)",
+      "top_chase_card_number": "238/191",
+      "pull_rate_top_chase": "1 in 660",
+      "expected_value_per_pack": 2.46,
+      "packs_to_50_card": 80,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -78.1,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Pikachu ex (Special Illustration Rare)",
+          "card_number": "238/191",
+          "estimated_value_usd": 450
+        },
+        {
+          "name": "Latias ex (Special Illustration Rare)",
+          "card_number": "239/191",
+          "estimated_value_usd": 65
+        },
+        {
+          "name": "Pikachu ex (Hyper Rare)",
+          "card_number": "247/252",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Durant (Special Illustration Rare)",
+          "card_number": "235/191",
+          "estimated_value_usd": 25
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      }
+    },
+    {
+      "id": "perfect-order",
+      "name": "Perfect Order",
+      "set_code": "POR",
+      "release_date": "2026-03-27",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Not yet released (Mar 2026)",
+      "total_cards": 124,
+      "pack_value_score": 60.3,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 14.0,
+        "pull_odds": 30.7,
+        "hit_density": 100.0
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 200,
+      "top_chase_card": "Mega Zygarde ex (Mega Hyper Rare)",
+      "top_chase_card_number": "124/088",
+      "pull_rate_top_chase": "1 in 1786",
+      "expected_value_per_pack": 1.59,
+      "packs_to_50_card": 90,
+      "etb_price_usd": 0.01,
+      "etb_roi_pct": 142900.0,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Mega Zygarde ex (Mega Hyper Rare)",
+          "card_number": "124/088",
+          "estimated_value_usd": 200
+        },
+        {
+          "name": "Rosa's Encouragement (SIR)",
+          "card_number": "123/088",
+          "estimated_value_usd": 152
+        },
+        {
+          "name": "Meowth ex (SIR)",
+          "card_number": "121/088",
+          "estimated_value_usd": 140
+        },
+        {
+          "name": "Mega Zygarde ex (SIR)",
+          "card_number": "120/088",
+          "estimated_value_usd": 80
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      }
+    },
+    {
+      "id": "stellar-crown",
+      "name": "Stellar Crown",
+      "set_code": "SCR",
+      "release_date": "2024-09-13",
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Still available at or near MSRP",
+      "total_cards": 175,
+      "pack_value_score": 57.5,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 0.0,
+        "pull_odds": 88.0,
+        "hit_density": 49.7
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 70,
+      "top_chase_card": "Terapagos ex (Special Illustration Rare)",
+      "top_chase_card_number": "170/142",
+      "pull_rate_top_chase": "1 in 420",
+      "expected_value_per_pack": 0.61,
+      "packs_to_50_card": 280,
+      "etb_price_usd": 0.01,
+      "etb_roi_pct": 55185.7,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Terapagos ex (Special Illustration Rare)",
+          "card_number": "170/142",
+          "estimated_value_usd": 70
+        },
+        {
+          "name": "Hydrapple ex (Special Illustration Rare)",
+          "card_number": "168/142",
+          "estimated_value_usd": 37
+        },
+        {
+          "name": "Bulbasaur (Illustration Rare)",
+          "card_number": "155/142",
+          "estimated_value_usd": 35
+        },
+        {
+          "name": "Lacey (Special Illustration Rare)",
+          "card_number": "171/142",
+          "estimated_value_usd": 30
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      }
+    },
+    {
+      "id": "destined-rivals",
+      "name": "Destined Rivals",
+      "set_code": "DRI",
+      "release_date": "2025-05-30",
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Upcoming release, pre-orders available",
+      "total_cards": 244,
+      "pack_value_score": 56.2,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 29.0,
+        "pull_odds": 72.1,
+        "hit_density": 15.2
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 340,
+      "top_chase_card": "Team Rocket's Mewtwo ex (SIR)",
+      "top_chase_card_number": "231/182",
+      "pull_rate_top_chase": "1 in 800",
+      "expected_value_per_pack": 2.22,
+      "packs_to_50_card": 95,
+      "etb_price_usd": 0.01,
+      "etb_roi_pct": 199557.9,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Team Rocket's Mewtwo ex (SIR)",
+          "card_number": "231/182",
+          "estimated_value_usd": 340
+        },
+        {
+          "name": "Cynthia's Garchomp ex (SIR)",
+          "card_number": "232/182",
+          "estimated_value_usd": 193
+        },
+        {
+          "name": "Ethan's Ho-Oh ex (SIR)",
+          "card_number": "230/182",
+          "estimated_value_usd": 162
+        },
+        {
+          "name": "Team Rocket's Moltres ex (SIR)",
+          "card_number": "229/182",
+          "estimated_value_usd": 148
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      }
+    },
+    {
+      "id": "crown-zenith",
+      "name": "Crown Zenith",
+      "set_code": "CRZ",
+      "release_date": "2023-01-20",
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Out of print, secondary market only",
+      "total_cards": 230,
+      "pack_value_score": 54.7,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 2.2,
+        "pull_odds": 100.0,
+        "hit_density": 20.5
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 90,
+      "top_chase_card": "Giratina VSTAR (Gold)",
+      "top_chase_card_number": "GG69/GG70",
+      "pull_rate_top_chase": "1 in 133",
+      "expected_value_per_pack": 0.53,
+      "packs_to_50_card": 167,
+      "etb_price_usd": 0.01,
+      "etb_roi_pct": 42300.0,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Giratina VSTAR (Gold)",
+          "card_number": "GG69/GG70",
+          "estimated_value_usd": 85
+        },
+        {
+          "name": "Mewtwo VSTAR (Special Illustration Rare)",
+          "card_number": "GG44/GG70",
+          "estimated_value_usd": 90
+        },
+        {
+          "name": "Pikachu (Secret Rare)",
+          "card_number": "160/159",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Arceus VSTAR (Galarian Gallery)",
+          "card_number": "GG70/GG70",
+          "estimated_value_usd": 40
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      }
+    },
+    {
+      "id": "mega-evolution",
+      "name": "Mega Evolution",
+      "set_code": "MEG",
+      "release_date": "2025-09-26",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Not yet released (Sep 2025)",
+      "total_cards": 188,
+      "pack_value_score": 44.4,
+      "component_scores": {
+        "cost_efficiency": 100.0,
+        "chase_magnitude": 20.4,
+        "pull_odds": 0.0,
+        "hit_density": 41.3
+      },
+      "pack_price_usd": 0.01,
+      "top_chase_value_usd": 260,
+      "top_chase_card": "Mega Lucario ex (Mega Hyper Rare)",
+      "top_chase_card_number": "188/132",
+      "pull_rate_top_chase": "1 in 2520",
+      "expected_value_per_pack": 1.68,
+      "packs_to_50_card": 101,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -85.0,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Mega Lucario ex (Mega Hyper Rare)",
+          "card_number": "188/132",
+          "estimated_value_usd": 260
+        },
+        {
+          "name": "Mega Gardevoir ex (Mega Hyper Rare)",
+          "card_number": "187/132",
+          "estimated_value_usd": 240
+        },
+        {
+          "name": "Acerola's Mischief (SIR)",
+          "card_number": "183/132",
+          "estimated_value_usd": 100
+        },
+        {
+          "name": "Lillie's Determination (SIR)",
+          "card_number": "184/132",
+          "estimated_value_usd": 80
+        }
+      ],
+      "cheapest_pack_listing": {
+        "title": "Code Card - Ascended Heroes Booster Pack",
+        "price_usd": 0.01,
+        "url": "https://www.tcgplayer.com/product/677186/pokemon-me-ascended-heroes-code-card-ascended-heroes-booster-pack?page=1",
+        "seller": "TCGPlayer",
+        "condition": "Sealed"
+      }
+    },
+    {
+      "id": "journey-together",
+      "name": "Journey Together",
+      "set_code": "JTG",
+      "release_date": "2025-03-28",
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Recently released, actively in print",
+      "total_cards": 190,
+      "pack_value_score": 29.1,
+      "component_scores": {
+        "cost_efficiency": 0.0,
+        "chase_magnitude": 14.0,
+        "pull_odds": 84.6,
+        "hit_density": 40.1
+      },
+      "pack_price_usd": 4.49,
+      "top_chase_value_usd": 200,
+      "top_chase_card": "Lillie's Clefairy ex (Special Illustration Rare)",
+      "top_chase_card_number": "184/159",
+      "pull_rate_top_chase": "1 in 500",
+      "expected_value_per_pack": 1.56,
+      "packs_to_50_card": 75,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -86.1,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Lillie's Clefairy ex (Special Illustration Rare)",
+          "card_number": "184/159",
+          "estimated_value_usd": 200
+        },
+        {
+          "name": "N's Zoroark ex (Special Illustration Rare)",
+          "card_number": "185/159",
+          "estimated_value_usd": 130
+        },
+        {
+          "name": "Iono's Bellibolt ex (Special Illustration Rare)",
+          "card_number": "183/159",
+          "estimated_value_usd": 84
+        },
+        {
+          "name": "Hop's Zacian ex (Special Illustration Rare)",
+          "card_number": "186/159",
+          "estimated_value_usd": 55
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "twilight-masquerade",
+      "name": "Twilight Masquerade",
+      "set_code": "TWM",
+      "release_date": "2024-05-24",
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Small reprints confirmed by distributors",
+      "total_cards": 226,
+      "pack_value_score": 28.6,
+      "component_scores": {
+        "cost_efficiency": 0.0,
+        "chase_magnitude": 26.9,
+        "pull_odds": 80.4,
+        "hit_density": 22.1
+      },
+      "pack_price_usd": 4.49,
+      "top_chase_value_usd": 320,
+      "top_chase_card": "Greninja ex (Special Illustration Rare)",
+      "top_chase_card_number": "214/167",
+      "pull_rate_top_chase": "1 in 600",
+      "expected_value_per_pack": 1.16,
+      "packs_to_50_card": 344,
+      "etb_price_usd": 0.01,
+      "etb_roi_pct": 104027.9,
+      "num_chase_cards": 4,
+      "chase_cards": [
+        {
+          "name": "Greninja ex (Special Illustration Rare)",
+          "card_number": "214/167",
+          "estimated_value_usd": 320
+        },
+        {
+          "name": "Bloodmoon Ursaluna ex (Special Illustration Rare)",
+          "card_number": "216/167",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Ogerpon ex (Teal Mask, SIR)",
+          "card_number": "213/167",
+          "estimated_value_usd": 18
+        },
+        {
+          "name": "Sinistcha ex (Special Illustration Rare)",
+          "card_number": "210/167",
+          "estimated_value_usd": 20
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "chaos-rising",
+      "name": "Chaos Rising",
+      "set_code": "ME04",
+      "release_date": "2026-05-22",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Not yet released (May 2026)",
+      "total_cards": 122,
+      "pack_value_score": 26.2,
+      "component_scores": {
+        "cost_efficiency": 0.0,
+        "chase_magnitude": 19.4,
+        "pull_odds": 42.7,
+        "hit_density": 59.0
+      },
+      "pack_price_usd": 4.49,
+      "top_chase_value_usd": 250,
+      "top_chase_card": "Mega Greninja ex (Mega Hyper Rare)",
+      "top_chase_card_number": "122/086",
+      "pull_rate_top_chase": "1 in 1500",
+      "expected_value_per_pack": 1.76,
+      "packs_to_50_card": 90,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -84.3,
+      "num_chase_cards": 3,
+      "chase_cards": [
+        {
+          "name": "Mega Greninja ex (Mega Hyper Rare)",
+          "card_number": "122/086",
+          "estimated_value_usd": 250
+        },
+        {
+          "name": "Mega Greninja ex (SIR)",
+          "card_number": "114/086",
+          "estimated_value_usd": 150
+        },
+        {
+          "name": "Mega Pyroar ex (SIR)",
+          "card_number": "112/086",
+          "estimated_value_usd": 75
+        }
+      ],
+      "cheapest_pack_listing": null
+    }
+  ]
+}
