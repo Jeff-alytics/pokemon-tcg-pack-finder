@@ -31,6 +31,63 @@ def load_json(path: Path) -> dict:
         return json.load(f)
 
 
+HISTORY_JSON = DATA_DIR / "history.json"
+
+
+def _append_history(prices_data: dict):
+    """Append today's price snapshot to history.json for trend tracking."""
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    history = []
+    if HISTORY_JSON.exists():
+        try:
+            history = load_json(HISTORY_JSON).get("snapshots", [])
+        except Exception:
+            history = []
+
+    # Build compact snapshot: set_id -> {pack_price, top_chase, source}
+    snapshot = {"date": today, "sets": {}}
+    for source_name, source_data in [("tcgplayer", prices_data.get("tcgplayer", {})),
+                                      ("gamenerdz", prices_data.get("gamenerdz", {})),
+                                      ("amazon", prices_data.get("amazon", {}))]:
+        for set_id, set_products in source_data.items():
+            if set_id.startswith("_"):
+                continue
+            if set_id not in snapshot["sets"]:
+                snapshot["sets"][set_id] = {}
+            for pt in ["booster-pack", "booster-bundle", "elite-trainer-box", "booster-box"]:
+                pt_data = set_products.get(pt, {})
+                # Handle both list (GameNerdz/Amazon) and dict (TCGPlayer) formats
+                if isinstance(pt_data, dict):
+                    price = pt_data.get("low_price_usd") or pt_data.get("market_price_usd")
+                    if price and price > 0:
+                        key = f"{pt}_{source_name}"
+                        snapshot["sets"][set_id][key] = round(price, 2)
+                elif isinstance(pt_data, list):
+                    for item in pt_data[:1]:
+                        price = item.get("price_usd")
+                        if price and price > 0:
+                            key = f"{pt}_{source_name}"
+                            snapshot["sets"][set_id][key] = round(price, 2)
+
+    # eBay
+    ebay = prices_data.get("ebay", {})
+    for set_id, ebay_data in ebay.items():
+        if set_id not in snapshot["sets"]:
+            snapshot["sets"][set_id] = {}
+        sold = ebay_data.get("booster_pack", {}).get("sold", {})
+        if sold.get("median_price_usd"):
+            snapshot["sets"][set_id]["booster-pack_ebay"] = round(sold["median_price_usd"], 2)
+
+    # Remove duplicate dates
+    history = [h for h in history if h.get("date") != today]
+    history.append(snapshot)
+    # Keep last 90 days
+    history = history[-90:]
+
+    save_json(HISTORY_JSON, {"snapshots": history})
+    log.info(f"Price history: {len(history)} snapshots")
+
+
 def save_json(path: Path, data: dict):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False, default=str)
@@ -175,6 +232,9 @@ def main():
                     log.warning(f"  Drift warnings written to {flag_path}")
 
         save_json(PRICES_JSON, new_prices)
+
+        # Append snapshot to price history for trend tracking
+        _append_history(new_prices)
 
     # Run scoring
     scored = run_scoring()
