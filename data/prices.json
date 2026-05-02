@@ -1,1022 +1,342 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-02 14:35 UTC",
-    "scraper_version": "2.0.0",
+    "last_updated": "2026-05-02 15:32 UTC",
+    "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
       "ebay",
       "pokemoncenter",
       "gamenerdz",
       "amazon",
-      "reddit"
+      "reddit",
+      "dawnglare"
     ]
   },
-  "tcgplayer": {
-    "crown-zenith": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": []
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Costco Pokemon Collector 3-Pack: Crown Zenith ETB + Paldea Legends Tins",
-            "url": "https://www.tcgplayer.com/product/636312/pokemon-miscellaneous-cards-and-products-costco-pokemon-collector-3-pack-crown-zenith-etb-plus-paldea-legends-tins?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Crown Zenith Pokemon Center Elite Trainer Box Plus",
-            "url": "https://www.tcgplayer.com/product/454246/pokemon-swsh-crown-zenith-crown-zenith-pokemon-center-elite-trainer-box-plus?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Crown Zenith Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/453470/pokemon-swsh-crown-zenith-crown-zenith-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Crown Zenith Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/527562/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Crown Zenith Booster Bundle Case",
-            "url": "https://www.tcgplayer.com/product/609238/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle-case?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": []
-      }
-    },
-    "pokemon-151": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": []
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": []
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": []
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": []
-      }
-    },
-    "paldean-fates": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": []
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Paldean Fates Pokemon Center Elite Trainer Box (Exclusive) Case",
-            "url": "https://www.tcgplayer.com/product/536266/pokemon-sv-paldean-fates-paldean-fates-pokemon-center-elite-trainer-box-exclusive-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Paldean Fates Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/528040/pokemon-sv-paldean-fates-paldean-fates-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Paldean Fates Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/530700/pokemon-sv-paldean-fates-paldean-fates-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Paldean Fates Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/528771/pokemon-sv-paldean-fates-paldean-fates-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Paldean Fates Booster Bundle Display",
-            "url": "https://www.tcgplayer.com/product/530704/pokemon-sv-paldean-fates-paldean-fates-booster-bundle-display?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Paldean Fates Booster Bundle Display Case",
-            "url": "https://www.tcgplayer.com/product/635609/pokemon-sv-paldean-fates-paldean-fates-booster-bundle-display-case?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": []
-      }
-    },
-    "twilight-masquerade": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": [
-          {
-            "title": "Twilight Masquerade Sleeved Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/549494/pokemon-sv06-twilight-masquerade-twilight-masquerade-sleeved-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Twilight Masquerade Booster Pack",
-            "url": "https://www.tcgplayer.com/product/543843/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-pack?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Twilight Masquerade Sleeved Booster Pack Case",
-            "url": "https://www.tcgplayer.com/product/593672/pokemon-sv06-twilight-masquerade-twilight-masquerade-sleeved-booster-pack-case?page=1",
-            "product_type": "booster-pack"
-          }
-        ]
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Twilight Masquerade Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/543845/pokemon-sv06-twilight-masquerade-twilight-masquerade-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Twilight Masquerade Pokemon Center Elite Trainer Box (Exclusive) Case",
-            "url": "https://www.tcgplayer.com/product/549491/pokemon-sv06-twilight-masquerade-twilight-masquerade-pokemon-center-elite-trainer-box-exclusive-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Twilight Masquerade Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/544385/pokemon-sv06-twilight-masquerade-twilight-masquerade-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Twilight Masquerade Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/543852/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": [
-          {
-            "title": "Twilight Masquerade Booster Box",
-            "url": "https://www.tcgplayer.com/product/543846/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-box?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Twilight Masqueade Half Booster Box",
-            "url": "https://www.tcgplayer.com/product/649421/pokemon-sv06-twilight-masquerade-twilight-masqueade-half-booster-box?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Twilight Masquerade Booster Box Case",
-            "url": "https://www.tcgplayer.com/product/544384/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-box-case?page=1",
-            "product_type": "booster-box"
-          }
-        ]
-      }
-    },
-    "stellar-crown": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": [
-          {
-            "title": "Stellar Crown Sleeved Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/557361/pokemon-sv07-stellar-crown-stellar-crown-sleeved-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Stellar Crown Booster Pack",
-            "url": "https://www.tcgplayer.com/product/557331/pokemon-sv07-stellar-crown-stellar-crown-booster-pack?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Stellar Crown Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/557357/pokemon-sv07-stellar-crown-stellar-crown-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          }
-        ]
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Stellar Crown Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Stellar Crown Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/559102/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Stellar Crown Pokemon Center Elite Trainer Box (Exclusive)",
-            "url": "https://www.tcgplayer.com/product/557340/pokemon-sv07-stellar-crown-stellar-crown-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Stellar Crown Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/557345/pokemon-sv07-stellar-crown-stellar-crown-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Stellar Crown Booster Bundle Case",
-            "url": "https://www.tcgplayer.com/product/609235/pokemon-sv07-stellar-crown-stellar-crown-booster-bundle-case?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Crown Zenith Booster Bundle Case",
-            "url": "https://www.tcgplayer.com/product/609238/pokemon-swsh-crown-zenith-crown-zenith-booster-bundle-case?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": [
-          {
-            "title": "Stellar Crown Booster Box",
-            "url": "https://www.tcgplayer.com/product/557354/pokemon-sv07-stellar-crown-stellar-crown-booster-box?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Stellar Crown Booster Box Case",
-            "url": "https://www.tcgplayer.com/product/557365/pokemon-sv07-stellar-crown-stellar-crown-booster-box-case?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Stellar Crown Half Booster Box",
-            "url": "https://www.tcgplayer.com/product/649420/pokemon-sv07-stellar-crown-stellar-crown-half-booster-box?page=1",
-            "product_type": "booster-box"
-          }
-        ]
-      }
-    },
-    "surging-sparks": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": [
-          {
-            "title": "Surging Sparks Booster Pack",
-            "url": "https://www.tcgplayer.com/product/565604/pokemon-sv08-surging-sparks-surging-sparks-booster-pack?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Surging Sparks Sleeved Booster Pack Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/565603/pokemon-sv08-surging-sparks-surging-sparks-sleeved-booster-pack-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Surging Sparks Sleeved Booster Pack",
-            "url": "https://www.tcgplayer.com/product/565602/pokemon-sv08-surging-sparks-surging-sparks-sleeved-booster-pack?page=1",
-            "product_type": "booster-pack"
-          }
-        ]
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Surging Sparks Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/565630/pokemon-sv08-surging-sparks-surging-sparks-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Surging Sparks Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/565631/pokemon-sv08-surging-sparks-surging-sparks-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Surging Sparks Pokemon Center Elite Trainer Box (Exclusive) Case",
-            "url": "https://www.tcgplayer.com/product/565633/pokemon-sv08-surging-sparks-surging-sparks-pokemon-center-elite-trainer-box-exclusive-case?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Surging Sparks Booster Bundle (Retail)",
-            "url": "https://www.tcgplayer.com/product/679564/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-retail?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Surging Sparks Booster Bundle (LGS)",
-            "url": "https://www.tcgplayer.com/product/565629/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-lgs?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Surging Sparks Booster Bundle Case (LGS)",
-            "url": "https://www.tcgplayer.com/product/594269/pokemon-sv08-surging-sparks-surging-sparks-booster-bundle-case-lgs?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": [
-          {
-            "title": "Surging Sparks Booster Box",
-            "url": "https://www.tcgplayer.com/product/565606/pokemon-sv08-surging-sparks-surging-sparks-booster-box?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Surging Sparks Booster Box Case",
-            "url": "https://www.tcgplayer.com/product/580708/pokemon-sv08-surging-sparks-surging-sparks-booster-box-case?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Surging Sparks Half Booster Box",
-            "url": "https://www.tcgplayer.com/product/646039/pokemon-sv08-surging-sparks-surging-sparks-half-booster-box?page=1",
-            "product_type": "booster-box"
-          }
-        ]
-      }
-    },
-    "prismatic-evolutions": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": [
-          {
-            "title": "Prismatic Evolutions Booster Pack",
-            "url": "https://www.tcgplayer.com/product/593294/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-pack?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Prismatic Evolutions Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/617823/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Prismatic Evolutions Sleeved Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/617807/pokemon-sv-prismatic-evolutions-prismatic-evolutions-sleeved-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          }
-        ]
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Prismatic Evolutions Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/593355/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Prismatic Evolutions Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/598487/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Prismatic Evolutions Pokemon Center Elite Trainer Box (Exclusive)",
-            "url": "https://www.tcgplayer.com/product/593324/pokemon-sv-prismatic-evolutions-prismatic-evolutions-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Prismatic Evolutions Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/600518/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Prismatic Evolutions Booster Bundle + Surprise Box Bundle (Sam's Club)",
-            "url": "https://www.tcgplayer.com/product/678555/pokemon-sv-prismatic-evolutions-prismatic-evolutions-booster-bundle-plus-surprise-box-bundle-sams-club?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Prismatic Evolution Booster Bundle Display Case",
-            "url": "https://www.tcgplayer.com/product/635011/pokemon-sv-prismatic-evolutions-prismatic-evolution-booster-bundle-display-case?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": []
-      }
-    },
-    "journey-together": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": [
-          {
-            "title": "Journey Together Booster Pack",
-            "url": "https://www.tcgplayer.com/product/610935/pokemon-sv09-journey-together-journey-together-booster-pack?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Journey Together Sleeved Booster Pack",
-            "url": "https://www.tcgplayer.com/product/610934/pokemon-sv09-journey-together-journey-together-sleeved-booster-pack?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Journey Together Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/626660/pokemon-sv09-journey-together-journey-together-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          }
-        ]
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Journey Together Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/610930/pokemon-sv09-journey-together-journey-together-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Journey Together Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/614450/pokemon-sv09-journey-together-journey-together-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Journey Together Pokemon Center Elite Trainer Box (Exclusive)",
-            "url": "https://www.tcgplayer.com/product/610929/pokemon-sv09-journey-together-journey-together-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Journey Together Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/610953/pokemon-sv09-journey-together-journey-together-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Journey Together Booster Bundle Case",
-            "url": "https://www.tcgplayer.com/product/625584/pokemon-sv09-journey-together-journey-together-booster-bundle-case?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": [
-          {
-            "title": "Journey Together Booster Box",
-            "url": "https://www.tcgplayer.com/product/610931/pokemon-sv09-journey-together-journey-together-booster-box?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Journey Together Enhanced Booster Box",
-            "url": "https://www.tcgplayer.com/product/623628/pokemon-sv09-journey-together-journey-together-enhanced-booster-box?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Journey Together Booster Box Case",
-            "url": "https://www.tcgplayer.com/product/614449/pokemon-sv09-journey-together-journey-together-booster-box-case?page=1",
-            "product_type": "booster-box"
-          }
-        ]
-      }
-    },
-    "destined-rivals": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": [
-          {
-            "title": "Destined Rivals Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/649711/pokemon-sv10-destined-rivals-destined-rivals-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Destined Rivals Sleeved Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/635053/pokemon-sv10-destined-rivals-destined-rivals-sleeved-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Destined Rivals Booster Pack",
-            "url": "https://www.tcgplayer.com/product/624683/pokemon-sv10-destined-rivals-destined-rivals-booster-pack?page=1",
-            "product_type": "booster-pack"
-          }
-        ]
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Destined Rivals Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Destined Rivals Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/628398/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Destined Rivals Pokemon Center Elite Trainer Box (Exclusive)",
-            "url": "https://www.tcgplayer.com/product/624675/pokemon-sv10-destined-rivals-destined-rivals-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Destined Rivals Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/625670/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Destined Rivals Booster Bundle Case",
-            "url": "https://www.tcgplayer.com/product/628428/pokemon-sv10-destined-rivals-destined-rivals-booster-bundle-case?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": [
-          {
-            "title": "Destined Rivals Booster Box",
-            "url": "https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Destined Rivals Booster Box Case",
-            "url": "https://www.tcgplayer.com/product/624678/pokemon-sv10-destined-rivals-destined-rivals-booster-box-case?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Destined Rivals Half Booster Box",
-            "url": "https://www.tcgplayer.com/product/624681/pokemon-sv10-destined-rivals-destined-rivals-half-booster-box?page=1",
-            "product_type": "booster-box"
-          }
-        ]
-      }
-    },
-    "mega-evolution": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": [
-          {
-            "title": "Mega Evolution Sleeved Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/644355/pokemon-me01-mega-evolution-mega-evolution-sleeved-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          }
-        ]
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Mega Evolution Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/644727/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Mega Evolution Elite Trainer Box [Mega Gardevoir]",
-            "url": "https://www.tcgplayer.com/product/644279/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-gardevoir?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Mega Evolution Elite Trainer Box [Mega Lucario]",
-            "url": "https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Mega Evolution Booster Bundle Case",
-            "url": "https://www.tcgplayer.com/product/644730/pokemon-me01-mega-evolution-mega-evolution-booster-bundle-case?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Mega Evolution Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/644362/pokemon-me01-mega-evolution-mega-evolution-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Prismatic Evolution Booster Bundle Display Case",
-            "url": "https://www.tcgplayer.com/product/635011/pokemon-sv-prismatic-evolutions-prismatic-evolution-booster-bundle-display-case?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": [
-          {
-            "title": "Mega Evolution Booster Box Case",
-            "url": "https://www.tcgplayer.com/product/644731/pokemon-me01-mega-evolution-mega-evolution-booster-box-case?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Mega Evolution Enhanced Booster Box",
-            "url": "https://www.tcgplayer.com/product/644300/pokemon-me01-mega-evolution-mega-evolution-enhanced-booster-box?page=1",
-            "product_type": "booster-box"
-          }
-        ]
-      }
-    },
-    "ascended-heroes": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": [
-          {
-            "title": "Ascended Heroes Booster Pack",
-            "url": "https://www.tcgplayer.com/product/672434/pokemon-me-ascended-heroes-ascended-heroes-booster-pack?page=1",
-            "product_type": "booster-pack"
-          }
-        ]
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Ascended Heroes Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Ascended Heroes Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/679558/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Ascended Heroes Pokemon Center Elite Trainer Box (Exclusive)",
-            "url": "https://www.tcgplayer.com/product/668497/pokemon-me-ascended-heroes-ascended-heroes-pokemon-center-elite-trainer-box-exclusive?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Ascended Heroes Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Ascended Heroes Booster Bundle Case",
-            "url": "https://www.tcgplayer.com/product/681339/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle-case?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Ascended Heroes Booster Bundle Display",
-            "url": "https://www.tcgplayer.com/product/692362/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle-display?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": []
-      }
-    },
-    "perfect-order": {
-      "booster-pack": {
-        "product_type": "booster-pack",
-        "product_label": "Booster Pack",
-        "links": [
-          {
-            "title": "Perfect Order Booster Pack",
-            "url": "https://www.tcgplayer.com/product/672398/pokemon-me03-perfect-order-perfect-order-booster-pack?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Perfect Order Sleeved Booster Pack",
-            "url": "https://www.tcgplayer.com/product/672412/pokemon-me03-perfect-order-perfect-order-sleeved-booster-pack?page=1",
-            "product_type": "booster-pack"
-          },
-          {
-            "title": "Perfect Order Booster Pack Art Bundle [Set of 4]",
-            "url": "https://www.tcgplayer.com/product/672399/pokemon-me03-perfect-order-perfect-order-booster-pack-art-bundle-set-of-4?page=1",
-            "product_type": "booster-pack"
-          }
-        ]
-      },
-      "elite-trainer-box": {
-        "product_type": "elite-trainer-box",
-        "product_label": "Elite Trainer Box",
-        "links": [
-          {
-            "title": "Perfect Order Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/672401/pokemon-me03-perfect-order-perfect-order-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Perfect Order Elite Trainer Box Case",
-            "url": "https://www.tcgplayer.com/product/672402/pokemon-me03-perfect-order-perfect-order-elite-trainer-box-case?page=1",
-            "product_type": "elite-trainer-box"
-          },
-          {
-            "title": "Perfect Order Pokemon Center Elite Trainer Box",
-            "url": "https://www.tcgplayer.com/product/672404/pokemon-me03-perfect-order-perfect-order-pokemon-center-elite-trainer-box?page=1",
-            "product_type": "elite-trainer-box"
-          }
-        ]
-      },
-      "booster-bundle": {
-        "product_type": "booster-bundle",
-        "product_label": "Booster Bundle",
-        "links": [
-          {
-            "title": "Perfect Order Booster Bundle",
-            "url": "https://www.tcgplayer.com/product/672396/pokemon-me03-perfect-order-perfect-order-booster-bundle?page=1",
-            "product_type": "booster-bundle"
-          },
-          {
-            "title": "Perfect Order Booster Bundle Case",
-            "url": "https://www.tcgplayer.com/product/672397/pokemon-me03-perfect-order-perfect-order-booster-bundle-case?page=1",
-            "product_type": "booster-bundle"
-          }
-        ]
-      },
-      "booster-box": {
-        "product_type": "booster-box",
-        "product_label": "Booster Box",
-        "links": [
-          {
-            "title": "Perfect Order Booster Box",
-            "url": "https://www.tcgplayer.com/product/672394/pokemon-me03-perfect-order-perfect-order-booster-box?page=1",
-            "product_type": "booster-box"
-          },
-          {
-            "title": "Perfect Order Booster Box Case",
-            "url": "https://www.tcgplayer.com/product/672395/pokemon-me03-perfect-order-perfect-order-booster-box-case?page=1",
-            "product_type": "booster-box"
-          }
-        ]
-      }
-    }
-  },
+  "tcgplayer": {},
   "ebay": {},
-  "pokemoncenter": {
-    "crown-zenith": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "pokemon-151": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "paldean-fates": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "twilight-masquerade": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "stellar-crown": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "surging-sparks": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "prismatic-evolutions": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "journey-together": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "destined-rivals": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "mega-evolution": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "ascended-heroes": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    },
-    "perfect-order": {
-      "booster-pack": [],
-      "elite-trainer-box": []
-    }
-  },
-  "gamenerdz": {
-    "_deal_of_day": [],
-    "crown-zenith": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "pokemon-151": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "paldean-fates": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "twilight-masquerade": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "stellar-crown": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "surging-sparks": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "prismatic-evolutions": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "journey-together": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "destined-rivals": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "mega-evolution": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "ascended-heroes": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    },
-    "perfect-order": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-bundle": [],
-      "booster-box": []
-    }
-  },
-  "amazon": {
-    "crown-zenith": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "pokemon-151": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "paldean-fates": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "twilight-masquerade": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "stellar-crown": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "surging-sparks": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "prismatic-evolutions": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "journey-together": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "destined-rivals": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "mega-evolution": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "ascended-heroes": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    },
-    "perfect-order": {
-      "booster-pack": [],
-      "elite-trainer-box": [],
-      "booster-box": []
-    }
-  },
+  "pokemoncenter": {},
+  "gamenerdz": {},
+  "amazon": {},
   "reddit": {
     "recent_deals": [],
     "by_set": {},
     "top_deals": []
+  },
+  "dawnglare": {
+    "crown-zenith": [
+      {
+        "name": "Crown Zenith Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 350.0,
+        "per_pack_usd": 38.89,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/453470/pokemon-swsh-crown-zenith-crown-zenith-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Crown Zenith Pokemon Center Elite Trainer Box Plus",
+        "product_type": "etb",
+        "price_usd": 601.2,
+        "per_pack_usd": 66.8,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/454246/pokemon-swsh-crown-zenith-crown-zenith-pokemon-center-elite-trainer-box-plus",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "pokemon-151": [
+      {
+        "name": "151 Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 699.49,
+        "per_pack_usd": 77.72,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/503313/pokemon-sv-scarlet-and-violet-151-151-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "paldean-fates": [
+      {
+        "name": "Paldean Fates Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 465.0,
+        "per_pack_usd": 51.67,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/528040/pokemon-sv-paldean-fates-paldean-fates-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "twilight-masquerade": [
+      {
+        "name": "Twilight Masquerade Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 110.0,
+        "per_pack_usd": 12.22,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/543845/pokemon-sv06-twilight-masquerade-twilight-masquerade-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Twilight Masquerade Booster Box",
+        "product_type": "booster-box",
+        "price_usd": 398.97,
+        "per_pack_usd": 11.08,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/543846/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "stellar-crown": [
+      {
+        "name": "Stellar Crown Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 142.49,
+        "per_pack_usd": 15.83,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Stellar Crown Booster Box",
+        "product_type": "booster-box",
+        "price_usd": 344.34,
+        "per_pack_usd": 9.56,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/557354/pokemon-sv07-stellar-crown-stellar-crown-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Stellar Crown Half Booster Box",
+        "product_type": "half-booster-box",
+        "price_usd": 237.5,
+        "per_pack_usd": 13.19,
+        "packs": 18,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/649420/pokemon-sv07-stellar-crown-stellar-crown-half-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "surging-sparks": [
+      {
+        "name": "Surging Sparks Booster Box",
+        "product_type": "booster-box",
+        "price_usd": 320.0,
+        "per_pack_usd": 8.89,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/565606/pokemon-sv08-surging-sparks-surging-sparks-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Surging Sparks Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 118.99,
+        "per_pack_usd": 13.22,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/565630/pokemon-sv08-surging-sparks-surging-sparks-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Surging Sparks Half Booster Box",
+        "product_type": "half-booster-box",
+        "price_usd": 199.0,
+        "per_pack_usd": 11.06,
+        "packs": 18,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/646039/pokemon-sv08-surging-sparks-surging-sparks-half-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "prismatic-evolutions": [
+      {
+        "name": "Prismatic Evolutions Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 200.0,
+        "per_pack_usd": 22.22,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/593355/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "journey-together": [
+      {
+        "name": "Journey Together Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 130.49,
+        "per_pack_usd": 14.5,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/610930/pokemon-sv09-journey-together-journey-together-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Journey Together Booster Box",
+        "product_type": "booster-box",
+        "price_usd": 329.95,
+        "per_pack_usd": 9.17,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/610931/pokemon-sv09-journey-together-journey-together-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Journey Together Enhanced Booster Box",
+        "product_type": "enhanced-booster-box",
+        "price_usd": 300.0,
+        "per_pack_usd": 8.33,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/623628/pokemon-sv09-journey-together-journey-together-enhanced-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Journey Together Half Booster Box",
+        "product_type": "half-booster-box",
+        "price_usd": 227.99,
+        "per_pack_usd": 12.67,
+        "packs": 18,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/649492/pokemon-sv09-journey-together-journey-together-half-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "destined-rivals": [
+      {
+        "name": "Destined Rivals Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 249.95,
+        "per_pack_usd": 27.77,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Destined Rivals Booster Box",
+        "product_type": "booster-box",
+        "price_usd": 630.0,
+        "per_pack_usd": 17.5,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Destined Rivals Half Booster Box",
+        "product_type": "half-booster-box",
+        "price_usd": 275.0,
+        "per_pack_usd": 15.28,
+        "packs": 18,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/624681/pokemon-sv10-destined-rivals-destined-rivals-half-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "mega-evolution": [
+      {
+        "name": "Mega Evolution Elite Trainer Box [Mega Gardevoir]",
+        "product_type": "etb",
+        "price_usd": 105.0,
+        "per_pack_usd": 11.67,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644279/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-gardevoir",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Mega Evolution Booster Box",
+        "product_type": "booster-box",
+        "price_usd": 360.97,
+        "per_pack_usd": 10.03,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644298/pokemon-me01-mega-evolution-mega-evolution-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Mega Evolution Enhanced Booster Box",
+        "product_type": "enhanced-booster-box",
+        "price_usd": 339.94,
+        "per_pack_usd": 9.44,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644300/pokemon-me01-mega-evolution-mega-evolution-enhanced-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Mega Evolution Half Booster Box",
+        "product_type": "half-booster-box",
+        "price_usd": 250.0,
+        "per_pack_usd": 13.89,
+        "packs": 18,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644351/pokemon-me01-mega-evolution-mega-evolution-half-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Mega Evolution Elite Trainer Box [Mega Lucario]",
+        "product_type": "etb",
+        "price_usd": 104.99,
+        "per_pack_usd": 11.67,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "ascended-heroes": [
+      {
+        "name": "Ascended Heroes Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 193.74,
+        "per_pack_usd": 21.53,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "perfect-order": [
+      {
+        "name": "Perfect Order Booster Box",
+        "product_type": "booster-box",
+        "price_usd": 228.99,
+        "per_pack_usd": 6.36,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/672394/pokemon-me03-perfect-order-perfect-order-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Perfect Order Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 77.94,
+        "per_pack_usd": 8.66,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/672401/pokemon-me03-perfect-order-perfect-order-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Perfect Order Pokemon Center Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 151.27,
+        "per_pack_usd": 16.81,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/672404/pokemon-me03-perfect-order-perfect-order-pokemon-center-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ],
+    "chaos-rising": [
+      {
+        "name": "Chaos Rising Booster Box",
+        "product_type": "booster-box",
+        "price_usd": 245.87,
+        "per_pack_usd": 6.83,
+        "packs": 36,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/684444/pokemon-me04-chaos-rising-chaos-rising-booster-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Chaos Rising Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 109.99,
+        "per_pack_usd": 12.22,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/684450/pokemon-me04-chaos-rising-chaos-rising-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      },
+      {
+        "name": "Chaos Rising Pokemon Center Elite Trainer Box",
+        "product_type": "etb",
+        "price_usd": 434.98,
+        "per_pack_usd": 48.33,
+        "packs": 9,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/684452/pokemon-me04-chaos-rising-chaos-rising-pokemon-center-elite-trainer-box",
+        "source": "Dawnglare (TCGPlayer)"
+      }
+    ]
   }
 }
