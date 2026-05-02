@@ -1258,6 +1258,20 @@ footer a:hover { color: var(--blue); }
     return vals.map(v => inv ? 100*(hi-v)/(hi-lo) : 100*(v-lo)/(hi-lo));
   }
 
+  // ── Manual Price Overrides (must be before computeScores) ──
+  const OVERRIDE_KEY = 'tcg_pack_finder_overrides';
+  function getOverrides() { try { return JSON.parse(localStorage.getItem(OVERRIDE_KEY)||'{}'); } catch(e) { return {}; } }
+  function saveOverride(setId, productType, price) {
+    const o = getOverrides();
+    const key = `${setId}/${productType}`;
+    if (price && price > 0) { o[key] = { price, updated: new Date().toISOString().slice(0,10) }; }
+    else { delete o[key]; }
+    localStorage.setItem(OVERRIDE_KEY, JSON.stringify(o));
+    computeAndRender();
+  }
+  window.clearOverrides = function() { localStorage.removeItem(OVERRIDE_KEY); computeAndRender(); };
+  window.saveOverride = saveOverride;
+
   function computeScores() {
     const tw = weights.cost_efficiency+weights.chase_magnitude+weights.pull_odds+weights.hit_density;
     const w = { cost_efficiency: tw>0?weights.cost_efficiency/tw:.25, chase_magnitude: tw>0?weights.chase_magnitude/tw:.25, pull_odds: tw>0?weights.pull_odds/tw:.25, hit_density: tw>0?weights.hit_density/tw:.25 };
@@ -1447,19 +1461,6 @@ footer a:hover { color: var(--blue); }
 
   // ── Compute & Render ───────────────────────────────────
   function computeAndRender(){computeScores();renderTopPick();renderOverrides();renderSetCards();renderChart();renderDeals();}
-
-  // ── Manual Price Overrides ─────────────────────────────
-  const OVERRIDE_KEY = 'tcg_pack_finder_overrides';
-  function getOverrides() { try { return JSON.parse(localStorage.getItem(OVERRIDE_KEY)||'{}'); } catch(e) { return {}; } }
-  function saveOverride(setId, productType, price) {
-    const o = getOverrides();
-    const key = `${setId}/${productType}`;
-    if (price && price > 0) { o[key] = { price, updated: new Date().toISOString().slice(0,10) }; }
-    else { delete o[key]; }
-    localStorage.setItem(OVERRIDE_KEY, JSON.stringify(o));
-    computeAndRender();
-  }
-  window.clearOverrides = function() { localStorage.removeItem(OVERRIDE_KEY); computeAndRender(); };
 
   function renderOverrides() {
     const container = document.getElementById('overrideRows');
