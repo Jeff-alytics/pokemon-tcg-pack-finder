@@ -112,18 +112,25 @@ def scrape_set_product(page, set_name: str, product_type: str) -> ProductPricing
                 title_el = card.query_selector(".search-result__title, .product-card__title")
                 title = title_el.inner_text().strip() if title_el else "Unknown"
 
-                # Filter out individual cards, code cards, and non-sealed items
+                # Only keep results that match the product type we're searching for
                 title_lower = title.lower()
+
+                # Product-type-specific title matching
+                TITLE_MUST_CONTAIN = {
+                    "booster-pack": ["booster pack", "sleeved booster", "booster bundle"],
+                    "elite-trainer-box": ["elite trainer box", "etb"],
+                    "booster-bundle": ["booster bundle"],
+                    "booster-box": ["booster box", "36 pack", "36-pack"],
+                }
+                required_terms = TITLE_MUST_CONTAIN.get(product_type, [])
+                if required_terms and not any(t in title_lower for t in required_terms):
+                    continue
+
+                # Skip code cards, online codes
                 if any(skip in title_lower for skip in [
                     "code card", "online code", "ptcgo", "ptcgl",
-                    " - ", " v ", " ex ", " gx ", " vmax ", " vstar ",
                 ]):
-                    # Check if it's actually a sealed product keyword
-                    if not any(keep in title_lower for keep in [
-                        "booster", "pack", "box", "etb", "elite trainer",
-                        "bundle", "sealed", "collection", "tin",
-                    ]):
-                        continue
+                    continue
 
                 # Price — look for the market price or listing price
                 price_el = card.query_selector(
