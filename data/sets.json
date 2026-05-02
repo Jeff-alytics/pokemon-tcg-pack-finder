@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Manually maintained metadata for tracked Pokémon TCG sets",
-    "last_edited": "2025-05-01",
+    "last_edited": "2026-05-02",
     "notes": "Pull rates are community estimates, not official. Prices for unreleased sets are pre-market projections."
   },
   "sets": [
@@ -52,10 +52,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 12.0,
-        "booster_box_price_usd": null,
+        "pack_price_usd": 24.0,
+        "booster_box_price_usd": 295.0,
         "etb_price_usd": 85.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "price_note": "OOP, secondary market. Box is assembled, not retail.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -111,9 +113,11 @@
       ],
       "pricing": {
         "pack_price_usd": 28.0,
-        "booster_box_price_usd": null,
+        "booster_box_price_usd": 607.0,
         "etb_price_usd": 95.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "price_note": "OOP, highest premium modern set. No retail box.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -163,10 +167,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 8.0,
+        "pack_price_usd": 20.0,
         "booster_box_price_usd": null,
         "etb_price_usd": 65.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "price_note": "Limited reprint. No booster box product. Bundle (6pk) ~$149.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -216,10 +222,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 4.0,
-        "booster_box_price_usd": 95.0,
-        "etb_price_usd": 42.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "pack_price_usd": 7.0,
+        "booster_box_price_usd": 340.0,
+        "etb_price_usd": 55.0,
+        "price_note": "OOP/low supply, significant MSRP premium.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -269,10 +277,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 3.75,
-        "booster_box_price_usd": 88.0,
-        "etb_price_usd": 40.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "pack_price_usd": 9.0,
+        "booster_box_price_usd": 311.0,
+        "etb_price_usd": 55.0,
+        "price_note": "OOP/low supply, ~2x MSRP.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -322,10 +332,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 3.75,
-        "booster_box_price_usd": 92.0,
-        "etb_price_usd": 42.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "pack_price_usd": 7.0,
+        "booster_box_price_usd": 266.0,
+        "etb_price_usd": 50.0,
+        "price_note": "Limited availability, ~1.6x MSRP.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -378,7 +390,9 @@
         "pack_price_usd": 13.0,
         "booster_box_price_usd": null,
         "etb_price_usd": 65.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "price_note": "Special set, no retail box. Bundle (6pk) ~$93.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -428,10 +442,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 3.75,
-        "booster_box_price_usd": 90.0,
-        "etb_price_usd": 42.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "pack_price_usd": 6.0,
+        "booster_box_price_usd": 287.0,
+        "etb_price_usd": 48.0,
+        "price_note": "Recently released, ~1.8x MSRP.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -481,10 +497,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 4.49,
-        "booster_box_price_usd": 95.0,
-        "etb_price_usd": 45.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "pack_price_usd": 9.0,
+        "booster_box_price_usd": 594.0,
+        "etb_price_usd": 60.0,
+        "price_note": "Extremely high demand (Giovanni Mewtwo). ~3.7x MSRP.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -534,10 +552,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 4.49,
-        "booster_box_price_usd": 140.0,
+        "pack_price_usd": 7.0,
+        "booster_box_price_usd": 295.0,
         "etb_price_usd": 50.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "price_note": "First ME-era set, ~1.8x MSRP.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -587,10 +607,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 4.49,
+        "pack_price_usd": 12.0,
         "booster_box_price_usd": null,
         "etb_price_usd": 55.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "price_note": "Special set, no booster box. Bundle (6pk) ~$86.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -640,10 +662,12 @@
         }
       ],
       "pricing": {
-        "pack_price_usd": 4.49,
-        "booster_box_price_usd": 140.0,
+        "pack_price_usd": 6.0,
+        "booster_box_price_usd": 203.0,
         "etb_price_usd": 50.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "price_note": "Best value current set, ~$5.64/pk in box.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     },
     {
@@ -689,9 +713,11 @@
       ],
       "pricing": {
         "pack_price_usd": 4.49,
-        "booster_box_price_usd": 140.0,
+        "booster_box_price_usd": 246.0,
         "etb_price_usd": 50.0,
-        "price_note": "Manual estimate, updated 2025-05-02"
+        "price_note": "Not yet released. Preorder prices, Walmart ~$239.",
+        "price_date": "2026-05-02",
+        "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
     }
   ]
