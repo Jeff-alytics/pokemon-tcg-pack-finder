@@ -1256,11 +1256,10 @@ footer a:hover { color: var(--blue); }
       let pp = msrp, bestDealLabel = '';
       const tS = tcg[sid]||{}, eS = ebay[sid]||{};
       const chkPP = (price, packs, label, pt) => { const minP=PMIN[pt]||1; if(price&&price>=minP){const perP=price/packs;if(perP<pp){pp=perP;bestDealLabel=`${label} $${price.toFixed(2)} ($${perP.toFixed(2)}/pk)`;}} };
+      // TCGPlayer is link-only (scraped prices unreliable) — use GN, Amazon, eBay for prices
       for (const [pt, pks] of Object.entries(PPACKS)) {
-        const tPt = tS[pt]||{};
-        if(tPt.low_price_usd) chkPP(tPt.low_price_usd, pks, `TCGPlayer ${PLABELS[pt]}`, pt);
-        (gn[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd&&p.in_stock!==false) chkPP(p.price_usd,pks,`GN ${PLABELS[pt]}`,pt);});
-        (amz[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd) chkPP(p.price_usd,pks,`AMZ ${PLABELS[pt]}`,pt);});
+        (gn[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd&&p.in_stock!==false) chkPP(p.price_usd,pks,`GameNerdz ${PLABELS[pt]}`,pt);});
+        (amz[sid]?.[pt]||[]).forEach(p=>{if(p.price_usd) chkPP(p.price_usd,pks,`Amazon ${PLABELS[pt]}`,pt);});
       }
       const eP = eS.booster_pack?.sold||{};
       if(eP.median_price_usd) chkPP(eP.median_price_usd, 1, 'eBay Pack', 'booster-pack');
@@ -1286,7 +1285,9 @@ footer a:hover { color: var(--blue); }
       let cheap=null;
       const chk=l=>{if(l?.price_usd&&(!cheap||l.price_usd<cheap.price_usd))cheap=l;};
       if((eS.booster_pack?.active_listings||[])[0]) chk(eS.booster_pack.active_listings[0]);
-      if(((tS['booster-pack']||{}).cheapest_listings||[])[0]) chk(tS['booster-pack'].cheapest_listings[0]);
+      // TCGPlayer link (no price) — add as link-only if nothing else found
+      const tcgLink = (tS['booster-pack']?.links||[])[0];
+      if(tcgLink && !cheap) cheap = {title:tcgLink.title, price_usd:0, url:tcgLink.url, seller:'TCGPlayer'};
       (gn[sid]?.['booster-pack']||[]).forEach(p=>{if(p.in_stock&&p.price_usd)chk({title:p.title,price_usd:p.price_usd,url:p.url,seller:'GameNerdz'});});
       (amz[sid]?.['booster-pack']||[]).forEach(p=>{if(p.price_usd)chk({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Amazon'});});
       (pc[sid]?.['booster-pack']||[]).forEach(p=>{if(p.in_stock&&p.price_usd)chk({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Pokemon Center'});});
@@ -1334,7 +1335,9 @@ footer a:hover { color: var(--blue); }
       const today=new Date().toISOString().slice(0,10);
       const printBadge=s.release_date>today?'<span class="badge badge-unreleased">Unreleased</span>':s.in_print?'<span class="badge badge-print">In Print</span>':'<span class="badge badge-oop">OOP</span>';
       const typeBadge=s.set_type==='special'?' <span class="badge badge-special">Special</span>':'';
-      const dealCell=s.cheap?`<a class="listing-link" href="${s.cheap.url||'#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()">$${s.cheap.price_usd.toFixed(2)} &rarr;</a><br><span style="font-size:0.68rem;color:var(--text-mute)">${s.cheap.seller||''}</span>`:'<span style="color:var(--text-mute)">&mdash;</span>';
+      const dealCell = s.cheap && s.cheap.url
+        ? `<a class="listing-link" href="${s.cheap.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${s.cheap.price_usd > 0 ? '$'+s.cheap.price_usd.toFixed(2) : 'View'} &rarr;</a><br><span style="font-size:0.68rem;color:var(--text-mute)">${s.cheap.seller||''}</span>`
+        : '<span style="color:var(--text-mute)">&mdash;</span>';
 
       const tr=document.createElement('tr');
       tr.innerHTML=`
@@ -1353,7 +1356,7 @@ footer a:hover { color: var(--blue); }
       // Expandable detail row
       if(expandedCard===s.id){
         const allListings=gatherListings(s.id);
-        const listingsHtml=allListings.length?allListings.slice(0,6).map(l=>`<div class="listing-item"><span class="listing-title">${l.title||'Pack'}</span><span class="listing-source">${l.seller||''}</span><span class="listing-price">$${l.price_usd.toFixed(2)}</span><a class="listing-link" href="${l.url||'#'}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Buy</a></div>`).join(''):'<p style="color:var(--text-mute);font-size:0.8rem;">No listings yet</p>';
+        const listingsHtml=allListings.length?allListings.filter(l=>l.url).slice(0,6).map(l=>`<div class="listing-item"><span class="listing-title">${l.title||'Pack'}</span><span class="listing-source">${l.seller||''}</span><span class="listing-price">${l.price_usd>0?'$'+l.price_usd.toFixed(2):''}</span><a class="listing-link" href="${l.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${l.price_usd>0?'Buy':'View'}</a></div>`).join(''):'<p style="color:var(--text-mute);font-size:0.8rem;">No listings yet</p>';
         const dtr=document.createElement('tr');
         dtr.innerHTML=`<td colspan="9" style="background:var(--surface-2);padding:20px 24px;">
           <div class="sc-detail-grid">
@@ -1383,12 +1386,21 @@ footer a:hover { color: var(--blue); }
   function gatherListings(sid){
     const ebay=pricesData.ebay||{},tcg=pricesData.tcgplayer||{},gn=pricesData.gamenerdz||{},amz=pricesData.amazon||{},pc=pricesData.pokemoncenter||{};
     const all=[];
+    // Priced listings from eBay, GameNerdz, Amazon, Pokemon Center
     (ebay[sid]?.booster_pack?.active_listings||[]).forEach(l=>all.push({...l,seller:l.seller||'eBay'}));
-    (tcg[sid]?.['booster-pack']?.cheapest_listings||[]).forEach(l=>all.push({...l,seller:l.seller||'TCGPlayer'}));
     (gn[sid]?.['booster-pack']||[]).filter(p=>p.price_usd).forEach(p=>all.push({title:p.title,price_usd:p.price_usd,url:p.url,seller:'GameNerdz'}));
-    (amz[sid]?.['booster-pack']||[]).forEach(p=>all.push({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Amazon'}));
-    (pc[sid]?.['booster-pack']||[]).filter(p=>p.in_stock).forEach(p=>all.push({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Pokemon Center'}));
-    return all.filter(l=>l.price_usd>0).sort((a,b)=>a.price_usd-b.price_usd);
+    (amz[sid]?.['booster-pack']||[]).forEach(p=>{if(p.price_usd)all.push({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Amazon'});});
+    (pc[sid]?.['booster-pack']||[]).filter(p=>p.in_stock&&p.price_usd).forEach(p=>all.push({title:p.title,price_usd:p.price_usd,url:p.url,seller:'Pokemon Center'}));
+    // TCGPlayer links (no prices — just for "buy here" convenience)
+    const tcgLinks = tcg[sid]?.['booster-pack']?.links||[];
+    if(tcgLinks.length && !all.length) {
+      // Only show TCGPlayer links if no priced listings exist
+      tcgLinks.forEach(l=>all.push({title:l.title,price_usd:0,url:l.url,seller:'TCGPlayer (view)'}));
+    } else if(tcgLinks.length) {
+      // Add first TCGPlayer link as a "view on TCGPlayer" option
+      all.push({title:tcgLinks[0].title,price_usd:0,url:tcgLinks[0].url,seller:'TCGPlayer (view)'});
+    }
+    return all.filter(l=>l.url).sort((a,b)=>(b.price_usd>0?0:1)-(a.price_usd>0?0:1) || a.price_usd-b.price_usd);
   }
 
   // ── Render: Chart ──────────────────────────────────────

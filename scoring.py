@@ -106,13 +106,8 @@ def compute_scores(sets_data: list[dict], prices_data: dict, config: dict) -> li
                     best_deal_total = total_price
                     best_deal_source = source
 
-        # Check all product types across all sources
+        # Check all product types across price sources (TCGPlayer is link-only, no prices)
         for pt, packs in PACKS_PER.items():
-            # TCGPlayer
-            tcg_pt = tcg_set.get(pt, {})
-            if tcg_pt.get("low_price_usd"):
-                _check_per_pack(tcg_pt["low_price_usd"], packs, pt, "TCGPlayer")
-
             # GameNerdz
             for gn_prod in gn_set.get(pt, []):
                 if gn_prod.get("price_usd") and gn_prod.get("in_stock", True):
