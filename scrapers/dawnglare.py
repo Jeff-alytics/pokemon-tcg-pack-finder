@@ -21,9 +21,15 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0
 
 SET_KEYWORDS = {
     "crown-zenith": ["crown zenith"],
+    "scarlet-violet-base": ["scarlet & violet", "scarlet and violet"],
+    "paldea-evolved": ["paldea evolved"],
+    "obsidian-flames": ["obsidian flames"],
     "pokemon-151": ["151"],
+    "paradox-rift": ["paradox rift"],
     "paldean-fates": ["paldean fates"],
+    "temporal-forces": ["temporal forces"],
     "twilight-masquerade": ["twilight masquerade"],
+    "shrouded-fable": ["shrouded fable"],
     "stellar-crown": ["stellar crown"],
     "surging-sparks": ["surging sparks"],
     "prismatic-evolutions": ["prismatic evolutions"],

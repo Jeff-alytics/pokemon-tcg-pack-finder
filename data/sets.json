@@ -61,6 +61,171 @@
       }
     },
     {
+      "id": "scarlet-violet-base",
+      "name": "Scarlet & Violet",
+      "set_code": "SVI",
+      "release_date": "2023-03-31",
+      "total_cards": 258,
+      "base_cards": 198,
+      "secret_rares": 60,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
+      "top_chase_cards": [
+        {
+          "name": "Gardevoir ex (SIR)",
+          "card_number": "245/198",
+          "estimated_value_usd": 80
+        },
+        {
+          "name": "Miraidon ex (SIR)",
+          "card_number": "244/198",
+          "estimated_value_usd": 29
+        },
+        {
+          "name": "Koraidon ex (SIR)",
+          "card_number": "247/198",
+          "estimated_value_usd": 25
+        },
+        {
+          "name": "Arven (SAR)",
+          "card_number": "248/198",
+          "estimated_value_usd": 20
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 32",
+        "top_chase_specific": "1 in 318",
+        "notes": "Any SIR ~1 in 32. Any IR ~1 in 13. Specific SIR ~1 in 318."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardshoplive.com/pages/hit-rates-for-pokemon-tcg-scarlet-and-violet",
+          "date_checked": "2026-05-02",
+          "notes": "Community data"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 9.12,
+        "booster_box_price_usd": 268.47,
+        "etb_price_usd": 118.29,
+        "price_note": "OOP. Regulation G rotated. Moderate premium.",
+        "price_date": "2026-05-02",
+        "sources": "PittPokeResearch TCGPlayer data"
+      }
+    },
+    {
+      "id": "paldea-evolved",
+      "name": "Paldea Evolved",
+      "set_code": "PAL",
+      "release_date": "2023-06-09",
+      "total_cards": 279,
+      "base_cards": 193,
+      "secret_rares": 86,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
+      "top_chase_cards": [
+        {
+          "name": "Magikarp (IR)",
+          "card_number": "203/193",
+          "estimated_value_usd": 316
+        },
+        {
+          "name": "Raichu (IR)",
+          "card_number": "211/193",
+          "estimated_value_usd": 89
+        },
+        {
+          "name": "Maushold (IR)",
+          "card_number": "226/193",
+          "estimated_value_usd": 68
+        },
+        {
+          "name": "Iono (SIR)",
+          "card_number": "269/193",
+          "estimated_value_usd": 54
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 32",
+        "top_chase_specific": "1 in 832",
+        "notes": "26 SIRs in set. Any SIR ~1 in 32. Specific SIR ~1 in 832."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pittpokeresearch.com/pokemon-set/Paldea-Evolved",
+          "date_checked": "2026-05-02",
+          "notes": "PittPokeResearch"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 12.91,
+        "booster_box_price_usd": 450.94,
+        "etb_price_usd": 189.48,
+        "price_note": "OOP. Most expensive SV box. Magikarp IR ($316) drives demand.",
+        "price_date": "2026-05-02",
+        "sources": "PittPokeResearch TCGPlayer data"
+      }
+    },
+    {
+      "id": "obsidian-flames",
+      "name": "Obsidian Flames",
+      "set_code": "OBF",
+      "release_date": "2023-08-11",
+      "total_cards": 230,
+      "base_cards": 197,
+      "secret_rares": 33,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
+      "top_chase_cards": [
+        {
+          "name": "Charizard ex (SIR)",
+          "card_number": "223/197",
+          "estimated_value_usd": 114
+        },
+        {
+          "name": "Cleffa (IR)",
+          "card_number": "202/197",
+          "estimated_value_usd": 54
+        },
+        {
+          "name": "Charizard ex (Hyper Rare)",
+          "card_number": "228/197",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Ninetales (IR)",
+          "card_number": "199/197",
+          "estimated_value_usd": 40
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 32",
+        "top_chase_specific": "1 in 450",
+        "notes": "6 SIRs. Charizard ex SIR ~1 in 450. Charizard carries the set."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pittpokeresearch.com/pokemon-set/Obsidian-Flames",
+          "date_checked": "2026-05-02",
+          "notes": "PittPokeResearch"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 11.91,
+        "booster_box_price_usd": 367.44,
+        "etb_price_usd": 270.94,
+        "price_note": "OOP. Second most expensive SV box. Charizard ex SIR ($114, up 19% in 30 days).",
+        "price_date": "2026-05-02",
+        "sources": "PittPokeResearch TCGPlayer data"
+      }
+    },
+    {
       "id": "pokemon-151",
       "name": "Pokémon 151",
       "set_code": "MEW",
@@ -121,6 +286,61 @@
       }
     },
     {
+      "id": "paradox-rift",
+      "name": "Paradox Rift",
+      "set_code": "PAR",
+      "release_date": "2023-11-03",
+      "total_cards": 266,
+      "base_cards": 182,
+      "secret_rares": 84,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
+      "top_chase_cards": [
+        {
+          "name": "Groudon (IR)",
+          "card_number": "199/182",
+          "estimated_value_usd": 71
+        },
+        {
+          "name": "Altaria ex (SIR)",
+          "card_number": "253/182",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Roaring Moon ex (SIR)",
+          "card_number": "251/182",
+          "estimated_value_usd": 33
+        },
+        {
+          "name": "Minun (IR)",
+          "card_number": "194/182",
+          "estimated_value_usd": 27
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 32",
+        "top_chase_specific": "1 in 600",
+        "notes": "Standard SV rates. Decent diversity, moderate chase values."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pittpokeresearch.com/pokemon-set/Paradox-Rift",
+          "date_checked": "2026-05-02",
+          "notes": "PittPokeResearch"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 8.68,
+        "booster_box_price_usd": 273.45,
+        "etb_price_usd": 117.92,
+        "price_note": "OOP. Moderate premium, no standout chase.",
+        "price_date": "2026-05-02",
+        "sources": "PittPokeResearch TCGPlayer data"
+      }
+    },
+    {
       "id": "paldean-fates",
       "name": "Paldean Fates",
       "set_code": "PAF",
@@ -178,6 +398,61 @@
       }
     },
     {
+      "id": "temporal-forces",
+      "name": "Temporal Forces",
+      "set_code": "TEF",
+      "release_date": "2024-03-22",
+      "total_cards": 218,
+      "base_cards": 162,
+      "secret_rares": 56,
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Still in print (Regulation H)",
+      "top_chase_cards": [
+        {
+          "name": "Raging Bolt ex (SIR)",
+          "card_number": "208/162",
+          "estimated_value_usd": 60
+        },
+        {
+          "name": "Gastly (IR)",
+          "card_number": "206/162",
+          "estimated_value_usd": 56
+        },
+        {
+          "name": "Iron Crown ex (SIR)",
+          "card_number": "206/162",
+          "estimated_value_usd": 39
+        },
+        {
+          "name": "Morty's Conviction (SIR)",
+          "card_number": "211/162",
+          "estimated_value_usd": 38
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 86",
+        "top_chase_specific": "1 in 860",
+        "notes": "HARDEST SIR pull rates in SV era. Any SIR ~1 in 86 (vs 1 in 32 for earlier sets)."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.pittpokeresearch.com/pokemon-set/Temporal-Forces",
+          "date_checked": "2026-05-02",
+          "notes": "PittPokeResearch"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 8.62,
+        "booster_box_price_usd": 304.11,
+        "etb_price_usd": 107.3,
+        "price_note": "In print. Hardest SIR pull rates in SV era (1 in 86).",
+        "price_date": "2026-05-02",
+        "sources": "PittPokeResearch TCGPlayer data"
+      }
+    },
+    {
       "id": "twilight-masquerade",
       "name": "Twilight Masquerade",
       "set_code": "TWM",
@@ -230,6 +505,63 @@
         "price_note": "OOP/low supply, significant MSRP premium.",
         "price_date": "2026-05-02",
         "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
+      }
+    },
+    {
+      "id": "shrouded-fable",
+      "name": "Shrouded Fable",
+      "set_code": "SFA",
+      "release_date": "2024-08-02",
+      "total_cards": 99,
+      "base_cards": 64,
+      "secret_rares": 35,
+      "set_type": "special",
+      "in_print": true,
+      "in_print_note": "Still in print (Regulation H). Mini set.",
+      "top_chase_cards": [
+        {
+          "name": "Earthen Vessel",
+          "card_number": "096/064",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Persian",
+          "card_number": "078/064",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Fezandipiti",
+          "card_number": "092/064",
+          "estimated_value_usd": 43
+        },
+        {
+          "name": "Basic Darkness Energy",
+          "card_number": "098/064",
+          "estimated_value_usd": 41
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 5",
+        "any_chase_rare": "1 in 67",
+        "top_chase_specific": "1 in 335",
+        "notes": "Mini set (99 cards). 21% hit rate per pack. Any SIR ~1 in 67."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardchill.com/shrouded-fable-pull-rates",
+          "date_checked": "2026-05-02",
+          "notes": "CardChill Nov 2025"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 10.07,
+        "booster_box_price_usd": null,
+        "etb_price_usd": 98.36,
+        "price_note": "Mini set, no booster box. Bundle (6pk) ~$49.44 ($8.24/pk) is best value.",
+        "price_date": "2026-05-02",
+        "sources": "PittPokeResearch TCGPlayer data",
+        "booster_bundle_price_usd": 49.44,
+        "booster_bundle_packs": 6
       }
     },
     {
