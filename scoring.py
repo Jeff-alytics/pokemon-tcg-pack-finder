@@ -217,11 +217,12 @@ def compute_scores(sets_data: list[dict], prices_data: dict, config: dict) -> li
                                 "url": amz_prod.get("url", ""), "seller": "Amazon"})
         # Pokemon Center (MSRP, but in-stock is notable)
         pc = prices_data.get("pokemoncenter", {})
-        pc_set = pc.get(sid, {})
-        for pc_prod in pc_set.get("booster-pack", []):
-            if pc_prod.get("in_stock") and pc_prod.get("price_usd"):
-                _check_cheaper({"title": pc_prod.get("title", ""), "price_usd": pc_prod["price_usd"],
-                                "url": pc_prod.get("url", ""), "seller": "Pokemon Center"})
+        pc_set = pc.get(sid, [])
+        if isinstance(pc_set, list):
+            for pc_prod in pc_set:
+                if pc_prod.get("in_stock") and pc_prod.get("price_usd"):
+                    _check_cheaper({"title": pc_prod.get("title", ""), "price_usd": pc_prod["price_usd"],
+                                    "url": pc_prod.get("url", ""), "seller": "Pokemon Center"})
 
         raw.append({
             "set": s,
