@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Pokeball favicon -->
+  <circle cx="32" cy="32" r="30" fill="#EE1515" stroke="#222" stroke-width="3"/>
+  <rect x="2" y="30" width="60" height="4" fill="#222"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#222" stroke-width="3"/>
+  <path d="M2 32 A30 30 0 0 1 62 32" fill="#EE1515"/>
+  <path d="M2 32 A30 30 0 0 0 62 32" fill="#fff"/>
+  <rect x="2" y="30" width="60" height="4" fill="#222"/>
+  <circle cx="32" cy="32" r="10" fill="#fff" stroke="#222" stroke-width="3"/>
+  <circle cx="32" cy="32" r="5" fill="#222"/>
+</svg>
