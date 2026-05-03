@@ -211,7 +211,20 @@ function compute(){
     const hvc=cc.filter(c=>(c.estimated_value_usd||0)>=50).length;
     const p50=(aN&&hvc&&cc.length)?Math.round(aN*(cc.length/hvc)):null;
 
-    return{s,sid,pp,ppSource,ppProduct,tcv,tN,hd,ev:Math.round(ev*100)/100,p50,cc,dgProducts};
+    // Chance of breaking even on a single pack
+    // = probability of pulling any card worth >= pack price
+    let breakEvenPct=0;
+    if(aN&&cc.length){
+      cc.forEach(c=>{
+        if((c.estimated_value_usd||0)>=pp){
+          const specificN=aN*cc.length;
+          if(specificN>0) breakEvenPct+=100/specificN;
+        }
+      });
+    }
+    breakEvenPct=Math.min(breakEvenPct,99.9);
+
+    return{s,sid,pp,ppSource,ppProduct,tcv,tN,hd,ev:Math.round(ev*100)/100,p50,breakEvenPct:Math.round(breakEvenPct*10)/10,cc,dgProducts};
   });
 
   // Normalize and score
@@ -388,6 +401,7 @@ function render(){
         <div class="stat"><div class="stat-val">$${r.tcv.toLocaleString()}</div><div class="stat-label">Best card value</div></div>
         <div class="stat"><div class="stat-val">$${r.ev.toFixed(2)}</div><div class="stat-label">Avg return/pack</div></div>
         <div class="stat"><div class="stat-val">${r.p50||'—'}</div><div class="stat-label">Packs to win big</div></div>
+        <div class="stat"><div class="stat-val" style="color:${r.breakEvenPct>=10?'var(--green)':r.breakEvenPct>=5?'var(--gold)':'var(--red)'}">${r.breakEvenPct>0?r.breakEvenPct+'%':'—'}</div><div class="stat-label">Break-even chance<br><span style="font-size:0.55rem;color:var(--mute)">per pack</span></div></div>
       </div>
 
       <div class="buy-section">
