@@ -112,7 +112,12 @@ def evaluate_alerts(prices_data: dict, config: dict) -> list[dict]:
             for rule in rules:
                 if rule["product"] != "booster_pack":
                     continue
-                products = set_products.get("booster-pack", [])
+                if isinstance(set_products, list):
+                    products = set_products  # Flat list (Pokemon Center format)
+                elif isinstance(set_products, dict):
+                    products = set_products.get("booster-pack", [])
+                else:
+                    continue
                 if not isinstance(products, list):
                     continue
                 for item in products:
