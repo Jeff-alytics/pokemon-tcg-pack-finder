@@ -115,6 +115,19 @@ footer a{color:var(--soft);text-decoration:none}
   <div class="updated" id="updated">Loading...</div>
 </header>
 
+<!-- Card Lookup -->
+<div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin-bottom:20px;">
+  <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+    <span style="font-family:var(--display);font-weight:700;font-size:0.85rem;white-space:nowrap;">Card Lookup</span>
+    <div style="flex:1;min-width:200px;position:relative;">
+      <input type="text" id="cardSearch" placeholder="Type a card name (e.g. Umbreon ex, Charizard, Iono)" autocomplete="off"
+        style="width:100%;padding:8px 14px;border:1px solid var(--border);border-radius:8px;font-family:var(--body);font-size:0.85rem;background:var(--bg);color:var(--text);outline:none;">
+      <div id="cardDropdown" style="display:none;position:absolute;top:100%;left:0;right:0;background:var(--surface);border:1px solid var(--border);border-top:none;border-radius:0 0 8px 8px;max-height:250px;overflow-y:auto;z-index:100;"></div>
+    </div>
+  </div>
+  <div id="cardResult" style="display:none;margin-top:14px;padding-top:14px;border-top:1px solid var(--surface3);"></div>
+</div>
+
 <!-- Restock Alert Banner -->
 <div id="restockBanner" style="display:none;background:rgba(22,163,74,0.08);border:2px solid var(--green);border-radius:10px;padding:16px 20px;margin-bottom:20px;">
   <div style="font-family:var(--display);font-weight:800;font-size:0.85rem;color:var(--green);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">Restock Alert — Pokemon Center</div>
@@ -167,7 +180,7 @@ async function load(){
     pricesData=await pR.json();
     const u=pricesData._meta?.last_updated;
     document.getElementById('updated').textContent=u?`Prices updated ${u}`:'Showing estimated prices';
-    compute();render();renderRestocks();
+    compute();render();renderRestocks();buildCardIndex();
   }catch(e){console.error(e);document.getElementById('updated').textContent='Error: '+e.message;}
 }
 
@@ -477,6 +490,105 @@ function renderRestocks(){
       <span style="font-size:0.72rem;font-weight:700;color:var(--green);text-transform:uppercase;">In Stock</span>
       ${item.url?`<a href="${item.url}" target="_blank" rel="noopener" style="font-size:0.78rem;padding:3px 10px;background:var(--green);color:#fff;border-radius:50px;text-decoration:none;font-weight:600;">Buy Now</a>`:''}
     </div>`).join('');
+}
+
+// ── Card Lookup ──────────────────────────────────────────
+const cInput=document.getElementById('cardSearch');
+const cDrop=document.getElementById('cardDropdown');
+const cResult=document.getElementById('cardResult');
+let cardIndex=[];
+
+function buildCardIndex(){
+  cardIndex=[];
+  setsData.forEach(s=>{
+    (s.top_chase_cards||[]).forEach(c=>{
+      cardIndex.push({
+        name:c.name, number:c.card_number||'', value:c.estimated_value_usd||0,
+        setName:s.name, setId:s.id, pullRate:s.pull_rates?.top_chase_specific||'',
+        anyChase:s.pull_rates?.any_chase_rare||'',
+        search:(c.name+' '+c.card_number+' '+s.name).toLowerCase()
+      });
+    });
+  });
+}
+
+cInput.addEventListener('input',()=>{
+  const q=cInput.value.toLowerCase().trim();
+  if(q.length<2){cDrop.style.display='none';return;}
+  const m=cardIndex.filter(c=>c.search.includes(q)).slice(0,8);
+  if(!m.length){cDrop.style.display='none';return;}
+  cDrop.style.display='block';
+  cDrop.innerHTML=m.map((c,i)=>`<div data-idx="${i}" style="padding:8px 14px;cursor:pointer;border-bottom:1px solid var(--surface3);font-size:0.84rem;display:flex;justify-content:space-between;" onmouseover="this.style.background='var(--surface2)'" onmouseout="this.style.background=''"><span><strong>${c.name}</strong> <span style="font-family:var(--mono);font-size:0.7rem;color:var(--mute)">${c.number}</span></span><span style="color:var(--mute);font-size:0.78rem">${c.setName}</span></div>`).join('');
+  cDrop._matches=m;
+});
+
+cDrop.addEventListener('click',e=>{
+  const el=e.target.closest('[data-idx]');
+  if(!el)return;
+  const c=cDrop._matches[parseInt(el.dataset.idx)];
+  cInput.value=c.name+' '+c.number;
+  cDrop.style.display='none';
+  showCardResult(c);
+});
+
+document.addEventListener('click',e=>{
+  if(!e.target.closest('#cardSearch')&&!e.target.closest('#cardDropdown'))cDrop.style.display='none';
+});
+
+function showCardResult(c){
+  // Find the scored set for pricing context
+  const setData=scored.find(r=>r.sid===c.setId);
+  const pp=setData?.pp||4.49;
+
+  // Cost to pull this specific card
+  const pullN=parsePR(c.pullRate);
+  const costToPull=pullN?(pullN*pp):null;
+
+  // Graded estimates (rough 2-3x for PSA 9, 5-10x for PSA 10 on high-value cards)
+  let psa9Est=null, psa10Est=null;
+  if(c.value>=50){
+    psa9Est=Math.round(c.value*1.8);
+    psa10Est=Math.round(c.value*5);
+  } else if(c.value>=20){
+    psa9Est=Math.round(c.value*1.5);
+    psa10Est=Math.round(c.value*3);
+  }
+
+  const searchQ=encodeURIComponent(c.name+' '+c.number);
+
+  cResult.style.display='';
+  cResult.innerHTML=`
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;">
+      <div>
+        <div style="font-family:var(--display);font-weight:700;font-size:1.1rem;">${c.name}</div>
+        <div style="font-size:0.82rem;color:var(--soft);">${c.setName} &middot; ${c.number}</div>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--green);">$${c.value.toLocaleString()}</div>
+        <div style="font-size:0.68rem;color:var(--mute);">estimated raw value</div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-top:14px;">
+      <div class="stat"><div class="stat-val">$${c.value.toLocaleString()}</div><div class="stat-label">Raw (ungraded)</div></div>
+      <div class="stat"><div class="stat-val" style="color:var(--blue)">${psa9Est?'~$'+psa9Est.toLocaleString():'—'}</div><div class="stat-label">PSA 9 est.</div></div>
+      <div class="stat"><div class="stat-val" style="color:var(--green)">${psa10Est?'~$'+psa10Est.toLocaleString():'—'}</div><div class="stat-label">PSA 10 est.</div></div>
+      <div class="stat"><div class="stat-val">${c.pullRate||'—'}</div><div class="stat-label">Pull odds</div></div>
+      ${costToPull?`<div class="stat"><div class="stat-val" style="color:var(--red)">$${costToPull.toFixed(0)}</div><div class="stat-label">Avg cost to pull</div></div>`:''}
+    </div>
+
+    ${costToPull&&c.value<costToPull?`<div style="margin-top:10px;padding:8px 12px;background:rgba(22,163,74,0.06);border-radius:6px;font-size:0.82rem;color:var(--green);font-weight:500;">Buying the single ($${c.value.toLocaleString()}) is cheaper than pulling it (~$${costToPull.toFixed(0)} in packs)</div>`:''}
+    ${costToPull&&c.value>=costToPull?`<div style="margin-top:10px;padding:8px 12px;background:rgba(37,99,235,0.06);border-radius:6px;font-size:0.82rem;color:var(--blue);font-weight:500;">This card has positive expected value — the pull cost ($${costToPull.toFixed(0)}) is less than the card value ($${c.value.toLocaleString()})</div>`:''}
+    ${psa10Est&&psa10Est-c.value>50?`<div style="margin-top:6px;padding:8px 12px;background:rgba(124,58,237,0.06);border-radius:6px;font-size:0.82rem;color:var(--purple);font-weight:500;">Grade premium: PSA 10 adds ~$${(psa10Est-c.value).toLocaleString()} over raw. Worth grading if mint condition.</div>`:''}
+
+    <div style="margin-top:12px;display:flex;gap:6px;flex-wrap:wrap;">
+      <a class="store-link" href="https://www.tcgplayer.com/search/pokemon/product?q=${searchQ}&view=grid" target="_blank" rel="noopener">TCGPlayer</a>
+      <a class="store-link" href="https://www.ebay.com/sch/i.html?_nkw=${searchQ}&_sacat=183454&LH_BIN=1&_sop=15" target="_blank" rel="noopener">eBay</a>
+      <a class="store-link" href="https://www.ebay.com/sch/i.html?_nkw=PSA+10+${searchQ}&_sacat=183454&LH_BIN=1&_sop=15" target="_blank" rel="noopener">eBay PSA 10</a>
+    </div>
+
+    <div style="margin-top:8px;font-size:0.68rem;color:var(--mute);font-style:italic;">Graded estimates are rough (PSA 9 ~1.5-2x raw, PSA 10 ~3-5x raw). Real prices vary. Check eBay sold listings for actual graded values.</div>
+  `;
 }
 
 load();
