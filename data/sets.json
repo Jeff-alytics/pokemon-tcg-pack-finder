@@ -41,6 +41,36 @@
           "name": "Dragonite V (Alt Art)",
           "card_number": "192/203",
           "estimated_value_usd": 100
+        },
+        {
+          "name": "Espeon VMAX (Alt Art)",
+          "card_number": "270/203",
+          "estimated_value_usd": 80
+        },
+        {
+          "name": "Leafeon VMAX (Alt Art)",
+          "card_number": "205/203",
+          "estimated_value_usd": 70
+        },
+        {
+          "name": "Jolteon VMAX (Alt Art)",
+          "card_number": "214/203",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Vaporeon VMAX (Alt Art)",
+          "card_number": "208/203",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Flareon VMAX (Alt Art)",
+          "card_number": "211/203",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Gyarados VMAX (Alt Art)",
+          "card_number": "207/203",
+          "estimated_value_usd": 30
         }
       ],
       "pull_rates": {
@@ -96,6 +126,11 @@
           "name": "Lumineon V (Alt Art)",
           "card_number": "155/172",
           "estimated_value_usd": 30
+        },
+        {
+          "name": "Raichu V TG (Trainer Gallery)",
+          "card_number": "TG09/TG30",
+          "estimated_value_usd": 25
         }
       ],
       "pull_rates": {
@@ -151,6 +186,16 @@
           "name": "Radiant Charizard",
           "card_number": "011/078",
           "estimated_value_usd": 25
+        },
+        {
+          "name": "Mew VMAX (Trainer Gallery)",
+          "card_number": "TG30/TG30",
+          "estimated_value_usd": 20
+        },
+        {
+          "name": "Mega Starmie ex",
+          "card_number": "025/078",
+          "estimated_value_usd": 20
         }
       ],
       "pull_rates": {
@@ -206,6 +251,11 @@
           "name": "Rotom V (Alt Art)",
           "card_number": "194/196",
           "estimated_value_usd": 35
+        },
+        {
+          "name": "Pikachu TG (Trainer Gallery)",
+          "card_number": "TG05/TG30",
+          "estimated_value_usd": 25
         }
       ],
       "pull_rates": {
@@ -243,14 +293,14 @@
       "in_print_note": "Out of print, secondary market only",
       "top_chase_cards": [
         {
+          "name": "Mewtwo VSTAR (SIR)",
+          "card_number": "GG44/GG70",
+          "estimated_value_usd": 90
+        },
+        {
           "name": "Giratina VSTAR (Gold)",
           "card_number": "GG69/GG70",
           "estimated_value_usd": 85
-        },
-        {
-          "name": "Mewtwo VSTAR (Special Illustration Rare)",
-          "card_number": "GG44/GG70",
-          "estimated_value_usd": 90
         },
         {
           "name": "Pikachu (Secret Rare)",
@@ -258,9 +308,19 @@
           "estimated_value_usd": 50
         },
         {
-          "name": "Arceus VSTAR (Galarian Gallery)",
+          "name": "Arceus VSTAR (GG)",
           "card_number": "GG70/GG70",
           "estimated_value_usd": 40
+        },
+        {
+          "name": "Charizard VSTAR (GG)",
+          "card_number": "GG58/GG70",
+          "estimated_value_usd": 30
+        },
+        {
+          "name": "Umbreon VMAX (GG)",
+          "card_number": "GG55/GG70",
+          "estimated_value_usd": 25
         }
       ],
       "pull_rates": {
@@ -300,7 +360,37 @@
         {
           "name": "Gardevoir ex (SIR)",
           "card_number": "245/198",
-          "estimated_value_usd": 80
+          "estimated_value_usd": 100
+        },
+        {
+          "name": "Drowzee (IR)",
+          "card_number": "210/198",
+          "estimated_value_usd": 69
+        },
+        {
+          "name": "Ralts (IR)",
+          "card_number": "211/198",
+          "estimated_value_usd": 61
+        },
+        {
+          "name": "Slowpoke (IR)",
+          "card_number": "204/198",
+          "estimated_value_usd": 57
+        },
+        {
+          "name": "Riolu (IR)",
+          "card_number": "215/198",
+          "estimated_value_usd": 47
+        },
+        {
+          "name": "Wiglett (IR)",
+          "card_number": "206/198",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Miriam (SIR)",
+          "card_number": "251/198",
+          "estimated_value_usd": 33
         },
         {
           "name": "Miraidon ex (SIR)",
@@ -363,14 +453,29 @@
           "estimated_value_usd": 89
         },
         {
+          "name": "Tinkaton ex (SIR)",
+          "card_number": "262/193",
+          "estimated_value_usd": 75
+        },
+        {
+          "name": "Iono (SIR)",
+          "card_number": "269/193",
+          "estimated_value_usd": 75
+        },
+        {
           "name": "Maushold (IR)",
           "card_number": "226/193",
           "estimated_value_usd": 68
         },
         {
-          "name": "Iono (SIR)",
-          "card_number": "269/193",
-          "estimated_value_usd": 54
+          "name": "Chi-Yu ex (SIR)",
+          "card_number": "259/193",
+          "estimated_value_usd": 52
+        },
+        {
+          "name": "Baxcalibur (IR)",
+          "card_number": "210/193",
+          "estimated_value_usd": 33
         }
       ],
       "pull_rates": {
@@ -410,7 +515,7 @@
         {
           "name": "Charizard ex (SIR)",
           "card_number": "223/197",
-          "estimated_value_usd": 114
+          "estimated_value_usd": 115
         },
         {
           "name": "Cleffa (IR)",
@@ -420,12 +525,17 @@
         {
           "name": "Charizard ex (Hyper Rare)",
           "card_number": "228/197",
-          "estimated_value_usd": 45
+          "estimated_value_usd": 49
         },
         {
           "name": "Ninetales (IR)",
           "card_number": "199/197",
           "estimated_value_usd": 40
+        },
+        {
+          "name": "Charizard ex (Ultra Rare)",
+          "card_number": "215/197",
+          "estimated_value_usd": 24
         }
       ],
       "pull_rates": {
@@ -463,29 +573,89 @@
       "in_print_note": "Out of print, elevated secondary market prices",
       "top_chase_cards": [
         {
-          "name": "Charizard ex (Special Illustration Rare)",
+          "name": "Charizard ex (SIR)",
           "card_number": "199/165",
-          "estimated_value_usd": 400
+          "estimated_value_usd": 475
         },
         {
-          "name": "Blastoise ex (Special Illustration Rare)",
+          "name": "Blastoise ex (SIR)",
           "card_number": "200/165",
+          "estimated_value_usd": 175
+        },
+        {
+          "name": "Venusaur ex (SIR)",
+          "card_number": "198/165",
+          "estimated_value_usd": 150
+        },
+        {
+          "name": "Zapdos ex (SIR)",
+          "card_number": "202/165",
+          "estimated_value_usd": 121
+        },
+        {
+          "name": "Charmander (IR)",
+          "card_number": "168/165",
+          "estimated_value_usd": 120
+        },
+        {
+          "name": "Squirtle (IR)",
+          "card_number": "170/165",
+          "estimated_value_usd": 116
+        },
+        {
+          "name": "Pikachu (IR)",
+          "card_number": "173/165",
           "estimated_value_usd": 100
         },
         {
-          "name": "Venusaur ex (Special Illustration Rare)",
-          "card_number": "198/165",
-          "estimated_value_usd": 75
+          "name": "Bulbasaur (IR)",
+          "card_number": "166/165",
+          "estimated_value_usd": 96
         },
         {
-          "name": "Mew ex (Special Illustration Rare)",
-          "card_number": "205/165",
-          "estimated_value_usd": 65
-        },
-        {
-          "name": "Alakazam ex (Special Illustration Rare)",
+          "name": "Alakazam ex (SIR)",
           "card_number": "201/165",
-          "estimated_value_usd": 40
+          "estimated_value_usd": 90
+        },
+        {
+          "name": "Charmeleon (IR)",
+          "card_number": "169/165",
+          "estimated_value_usd": 85
+        },
+        {
+          "name": "Wartortle (IR)",
+          "card_number": "171/165",
+          "estimated_value_usd": 74
+        },
+        {
+          "name": "Psyduck (IR)",
+          "card_number": "175/165",
+          "estimated_value_usd": 74
+        },
+        {
+          "name": "Ivysaur (IR)",
+          "card_number": "167/165",
+          "estimated_value_usd": 64
+        },
+        {
+          "name": "Charizard ex (Ultra Rare)",
+          "card_number": "183/165",
+          "estimated_value_usd": 52
+        },
+        {
+          "name": "Mew ex (Ultra Rare)",
+          "card_number": "193/165",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Mew ex (Metal Card)",
+          "card_number": "205/165",
+          "estimated_value_usd": 48
+        },
+        {
+          "name": "Blastoise ex (Ultra Rare)",
+          "card_number": "184/165",
+          "estimated_value_usd": 30
         }
       ],
       "pull_rates": {
@@ -541,6 +711,16 @@
           "name": "Minun (IR)",
           "card_number": "194/182",
           "estimated_value_usd": 27
+        },
+        {
+          "name": "Iron Valiant ex (SIR)",
+          "card_number": "250/182",
+          "estimated_value_usd": 25
+        },
+        {
+          "name": "Tulip (SIR)",
+          "card_number": "258/182",
+          "estimated_value_usd": 22
         }
       ],
       "pull_rates": {
@@ -578,22 +758,22 @@
       "in_print_note": "Limited reprints confirmed early 2025",
       "top_chase_cards": [
         {
-          "name": "Mew ex (Special Illustration Rare)",
+          "name": "Mew ex (SIR)",
           "card_number": "232/091",
           "estimated_value_usd": 650
         },
         {
-          "name": "Charizard ex (Special Illustration Rare)",
+          "name": "Charizard ex (SIR)",
           "card_number": "234/091",
           "estimated_value_usd": 300
         },
         {
-          "name": "Iono (Special Illustration Rare)",
+          "name": "Iono (SIR)",
           "card_number": "237/091",
           "estimated_value_usd": 29
         },
         {
-          "name": "Snorlax (Illustration Rare)",
+          "name": "Snorlax (IR)",
           "card_number": "202/091",
           "estimated_value_usd": 24
         }
@@ -653,6 +833,11 @@
           "name": "Morty's Conviction (SIR)",
           "card_number": "211/162",
           "estimated_value_usd": 38
+        },
+        {
+          "name": "Bianca's Devotion (SIR)",
+          "card_number": "212/162",
+          "estimated_value_usd": 35
         }
       ],
       "pull_rates": {
@@ -690,22 +875,17 @@
       "in_print_note": "Small reprints confirmed by distributors",
       "top_chase_cards": [
         {
-          "name": "Greninja ex (Special Illustration Rare)",
+          "name": "Greninja ex (SIR)",
           "card_number": "214/167",
           "estimated_value_usd": 320
         },
         {
-          "name": "Bloodmoon Ursaluna ex (Special Illustration Rare)",
+          "name": "Bloodmoon Ursaluna ex (SIR)",
           "card_number": "216/167",
           "estimated_value_usd": 40
         },
         {
-          "name": "Ogerpon ex (Teal Mask, SIR)",
-          "card_number": "213/167",
-          "estimated_value_usd": 18
-        },
-        {
-          "name": "Sinistcha ex (Special Illustration Rare)",
+          "name": "Sinistcha ex (SIR)",
           "card_number": "210/167",
           "estimated_value_usd": 20
         }
@@ -763,6 +943,11 @@
           "name": "Basic Darkness Energy",
           "card_number": "098/064",
           "estimated_value_usd": 41
+        },
+        {
+          "name": "Pecharunt ex (SIR)",
+          "card_number": "091/064",
+          "estimated_value_usd": 25
         }
       ],
       "pull_rates": {
@@ -802,24 +987,29 @@
       "in_print_note": "Still available at or near MSRP",
       "top_chase_cards": [
         {
-          "name": "Terapagos ex (Special Illustration Rare)",
+          "name": "Terapagos ex (SIR)",
           "card_number": "170/142",
           "estimated_value_usd": 70
         },
         {
-          "name": "Hydrapple ex (Special Illustration Rare)",
+          "name": "Hydrapple ex (SIR)",
           "card_number": "168/142",
           "estimated_value_usd": 37
         },
         {
-          "name": "Bulbasaur (Illustration Rare)",
+          "name": "Bulbasaur (IR)",
           "card_number": "155/142",
           "estimated_value_usd": 35
         },
         {
-          "name": "Lacey (Special Illustration Rare)",
+          "name": "Lacey (SIR)",
           "card_number": "171/142",
           "estimated_value_usd": 30
+        },
+        {
+          "name": "Squirtle (IR)",
+          "card_number": "148/142",
+          "estimated_value_usd": 25
         }
       ],
       "pull_rates": {
@@ -857,12 +1047,12 @@
       "in_print_note": "Reprints confirmed by distributors",
       "top_chase_cards": [
         {
-          "name": "Pikachu ex (Special Illustration Rare)",
+          "name": "Pikachu ex (SIR)",
           "card_number": "238/191",
           "estimated_value_usd": 450
         },
         {
-          "name": "Latias ex (Special Illustration Rare)",
+          "name": "Latias ex (SIR)",
           "card_number": "239/191",
           "estimated_value_usd": 65
         },
@@ -872,7 +1062,7 @@
           "estimated_value_usd": 50
         },
         {
-          "name": "Durant (Special Illustration Rare)",
+          "name": "Durant (SIR)",
           "card_number": "235/191",
           "estimated_value_usd": 25
         }
@@ -912,24 +1102,49 @@
       "in_print_note": "Actively in print, extremely high demand",
       "top_chase_cards": [
         {
-          "name": "Umbreon ex (Special Illustration Rare)",
+          "name": "Umbreon ex (SIR)",
           "card_number": "161/131",
           "estimated_value_usd": 1000
         },
         {
-          "name": "Sylveon ex (Special Illustration Rare)",
+          "name": "Sylveon ex (SIR)",
           "card_number": "156/131",
           "estimated_value_usd": 300
         },
         {
-          "name": "Leafeon ex (Special Illustration Rare)",
+          "name": "Leafeon ex (SIR)",
           "card_number": "144/131",
           "estimated_value_usd": 240
         },
         {
-          "name": "Eevee ex (Special Illustration Rare)",
+          "name": "Eevee ex (SIR)",
           "card_number": "162/131",
           "estimated_value_usd": 100
+        },
+        {
+          "name": "Glaceon ex (SIR)",
+          "card_number": "147/131",
+          "estimated_value_usd": 60
+        },
+        {
+          "name": "Vaporeon ex (SIR)",
+          "card_number": "145/131",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Flareon ex (SIR)",
+          "card_number": "150/131",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Jolteon ex (SIR)",
+          "card_number": "148/131",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Espeon ex (SIR)",
+          "card_number": "153/131",
+          "estimated_value_usd": 35
         }
       ],
       "pull_rates": {
@@ -969,24 +1184,29 @@
       "in_print_note": "Recently released, actively in print",
       "top_chase_cards": [
         {
-          "name": "Lillie's Clefairy ex (Special Illustration Rare)",
+          "name": "Lillie's Clefairy ex (SIR)",
           "card_number": "184/159",
           "estimated_value_usd": 200
         },
         {
-          "name": "N's Zoroark ex (Special Illustration Rare)",
+          "name": "N's Zoroark ex (SIR)",
           "card_number": "185/159",
           "estimated_value_usd": 130
         },
         {
-          "name": "Iono's Bellibolt ex (Special Illustration Rare)",
+          "name": "Iono's Bellibolt ex (SIR)",
           "card_number": "183/159",
           "estimated_value_usd": 84
         },
         {
-          "name": "Hop's Zacian ex (Special Illustration Rare)",
+          "name": "Hop's Zacian ex (SIR)",
           "card_number": "186/159",
           "estimated_value_usd": 55
+        },
+        {
+          "name": "Iono's Bellibolt ex (Hyper Rare)",
+          "card_number": "188/159",
+          "estimated_value_usd": 40
         }
       ],
       "pull_rates": {
@@ -1042,6 +1262,11 @@
           "name": "Team Rocket's Moltres ex (SIR)",
           "card_number": "229/182",
           "estimated_value_usd": 148
+        },
+        {
+          "name": "Team Rocket's Nidoking ex (SIR)",
+          "card_number": "228/182",
+          "estimated_value_usd": 80
         }
       ],
       "pull_rates": {
@@ -1079,12 +1304,12 @@
       "in_print_note": "Not yet released (Sep 2025)",
       "top_chase_cards": [
         {
-          "name": "Mega Lucario ex (Mega Hyper Rare)",
+          "name": "Mega Lucario ex (MHR)",
           "card_number": "188/132",
           "estimated_value_usd": 260
         },
         {
-          "name": "Mega Gardevoir ex (Mega Hyper Rare)",
+          "name": "Mega Gardevoir ex (MHR)",
           "card_number": "187/132",
           "estimated_value_usd": 240
         },
@@ -1097,6 +1322,11 @@
           "name": "Lillie's Determination (SIR)",
           "card_number": "184/132",
           "estimated_value_usd": 80
+        },
+        {
+          "name": "Mega Venusaur ex (SIR)",
+          "card_number": "177/132",
+          "estimated_value_usd": 40
         }
       ],
       "pull_rates": {
@@ -1139,19 +1369,24 @@
           "estimated_value_usd": 1000
         },
         {
-          "name": "Pikachu ex (SIR)",
-          "card_number": "276/217",
-          "estimated_value_usd": 600
-        },
-        {
           "name": "Mega Dragonite ex (SIR)",
           "card_number": "290/217",
           "estimated_value_usd": 690
         },
         {
+          "name": "Pikachu ex (SIR)",
+          "card_number": "276/217",
+          "estimated_value_usd": 600
+        },
+        {
           "name": "Mega Charizard Y ex (MHR)",
           "card_number": "294/217",
           "estimated_value_usd": 445
+        },
+        {
+          "name": "Mega Dragonite ex (MHR)",
+          "card_number": "295/217",
+          "estimated_value_usd": 250
         }
       ],
       "pull_rates": {
@@ -1191,7 +1426,7 @@
       "in_print_note": "Not yet released (Mar 2026)",
       "top_chase_cards": [
         {
-          "name": "Mega Zygarde ex (Mega Hyper Rare)",
+          "name": "Mega Zygarde ex (MHR)",
           "card_number": "124/088",
           "estimated_value_usd": 200
         },
@@ -1209,6 +1444,11 @@
           "name": "Mega Zygarde ex (SIR)",
           "card_number": "120/088",
           "estimated_value_usd": 80
+        },
+        {
+          "name": "Jacinthe (SIR)",
+          "card_number": "122/088",
+          "estimated_value_usd": 60
         }
       ],
       "pull_rates": {
@@ -1246,7 +1486,7 @@
       "in_print_note": "Not yet released (May 2026)",
       "top_chase_cards": [
         {
-          "name": "Mega Greninja ex (Mega Hyper Rare)",
+          "name": "Mega Greninja ex (MHR)",
           "card_number": "122/086",
           "estimated_value_usd": 250
         },

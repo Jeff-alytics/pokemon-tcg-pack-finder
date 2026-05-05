@@ -1,0 +1,2498 @@
+[
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Umbreon ex (SIR)",
+    "number": "161/131",
+    "value": 1470.79
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Mew ex (SIR)",
+    "number": "232/91",
+    "value": 868.32
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Mewtwo ex (SIR)",
+    "number": "231/182",
+    "value": 534.2
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Charizard ex (SIR)",
+    "number": "199/165",
+    "value": 427.4
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Sylveon ex (SIR)",
+    "number": "156/131",
+    "value": 408.69
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Magikarp (IR)",
+    "number": "203/193",
+    "value": 380.61
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Greninja ex (SIR)",
+    "number": "214/167",
+    "value": 359.64
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Charizard ex (SIR)",
+    "number": "234/91",
+    "value": 332.41
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Pikachu ex (SIR)",
+    "number": "238/191",
+    "value": 330.21
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Leafeon ex (SIR)",
+    "number": "144/131",
+    "value": 309.14
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Mewtwo VSTAR",
+    "number": "GG44/70",
+    "value": 297.79
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Espeon ex (SIR)",
+    "number": "155/131",
+    "value": 281.87
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Glaceon ex (SIR)",
+    "number": "150/131",
+    "value": 266.71
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Lucario ex (HR)",
+    "number": "188/132",
+    "value": 262.7
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Vaporeon ex (SIR)",
+    "number": "149/131",
+    "value": 256.42
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Cynthia's Garchomp ex (SIR)",
+    "number": "232/182",
+    "value": 252.18
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Giratina VSTAR (Secret)",
+    "number": "GG69/70",
+    "value": 248.7
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Gardevoir ex (HR)",
+    "number": "187/132",
+    "value": 229.67
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Lucario ex (SIR)",
+    "number": "179/132",
+    "value": 218.28
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Gardevoir ex (SIR)",
+    "number": "178/132",
+    "value": 196.28
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Jolteon ex (SIR)",
+    "number": "153/131",
+    "value": 189.43
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Flareon ex (SIR)",
+    "number": "146/131",
+    "value": 188.35
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Eevee ex (SIR)",
+    "number": "167/131",
+    "value": 182.37
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Gardevoir ex (SIR)",
+    "number": "233/91",
+    "value": 181.9
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Latias ex (SIR)",
+    "number": "239/191",
+    "value": 176.42
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Perrin (SIR)",
+    "number": "220/167",
+    "value": 176.15
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Ethan's Ho-Oh ex (SIR)",
+    "number": "230/182",
+    "value": 174.72
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Roaring Moon ex (SIR)",
+    "number": "162/131",
+    "value": 166.07
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Arceus VSTAR (Secret)",
+    "number": "GG70/70",
+    "value": 164.86
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Venusaur ex (SIR)",
+    "number": "177/132",
+    "value": 156.57
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Blastoise ex (SIR)",
+    "number": "200/165",
+    "value": 155.52
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Venusaur ex (SIR)",
+    "number": "198/165",
+    "value": 140.05
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Dragapult ex (SIR)",
+    "number": "165/131",
+    "value": 133.92
+  },
+  {
+    "set_id": "journey-together",
+    "name": "Lillie's Clefairy ex (SIR)",
+    "number": "184/159",
+    "value": 129.1
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Milotic ex (SIR)",
+    "number": "237/191",
+    "value": 124.85
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Origin Forme Dialga VSTAR (Secret)",
+    "number": "GG68/70",
+    "value": 121.56
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Squirtle (IR)",
+    "number": "148/142",
+    "value": 121.13
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Groudon (IR)",
+    "number": "199/182",
+    "value": 116.97
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Gastly (IR)",
+    "number": "177/162",
+    "value": 115.63
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Charmander (IR)",
+    "number": "168/165",
+    "value": 110.18
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Zapdos ex (SIR)",
+    "number": "202/165",
+    "value": 109.77
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Bulbasaur (IR)",
+    "number": "143/142",
+    "value": 109.62
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Raichu (IR)",
+    "number": "211/193",
+    "value": 107.95
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Origin Forme Palkia VSTAR (Secret)",
+    "number": "GG67/70",
+    "value": 106.81
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Nidoking ex (SIR)",
+    "number": "233/182",
+    "value": 103.76
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Darkrai VSTAR",
+    "number": "GG50/70",
+    "value": 102.51
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Moltres ex (SIR)",
+    "number": "229/182",
+    "value": 99.71
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Squirtle (IR)",
+    "number": "170/165",
+    "value": 99.55
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Ceruledge ex (SIR)",
+    "number": "147/131",
+    "value": 99.29
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Charizard ex (SIR)",
+    "number": "223/197",
+    "value": 99.19
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Maushold (IR)",
+    "number": "226/193",
+    "value": 96.02
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Eevee (IR)",
+    "number": "188/167",
+    "value": 90.14
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Gardevoir ex (SIR)",
+    "number": "245/198",
+    "value": 89.92
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Bulbasaur (IR)",
+    "number": "166/165",
+    "value": 89.16
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Latias ex (SIR)",
+    "number": "181/132",
+    "value": 86.99
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Pikachu (IR)",
+    "number": "173/165",
+    "value": 86.51
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Pikachu ex (HR)",
+    "number": "247/191",
+    "value": 83.69
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Alakazam ex (SIR)",
+    "number": "201/165",
+    "value": 83.43
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Pikachu (Shiny)",
+    "number": "131/91",
+    "value": 83.33
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Dachsbun ex (SIR)",
+    "number": "169/142",
+    "value": 82.68
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Leafeon VSTAR",
+    "number": "GG35/70",
+    "value": 81.97
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Tyranitar (IR)",
+    "number": "222/193",
+    "value": 80.49
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Morty's Conviction (SIR)",
+    "number": "211/162",
+    "value": 78.56
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Carmine (SIR)",
+    "number": "217/167",
+    "value": 78.32
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Charmeleon (IR)",
+    "number": "169/165",
+    "value": 78.21
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Terapagos ex (SIR)",
+    "number": "170/142",
+    "value": 77.18
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Misty's Psyduck (IR)",
+    "number": "193/182",
+    "value": 76.56
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Lillie's Determination (SIR)",
+    "number": "184/132",
+    "value": 76.04
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Mew",
+    "number": "GG10/70",
+    "value": 71.47
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Crobat ex (SIR)",
+    "number": "234/182",
+    "value": 70.28
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Wartortle (IR)",
+    "number": "171/165",
+    "value": 68.99
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Bloodmoon Ursaluna ex (SIR)",
+    "number": "168/131",
+    "value": 68.15
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Raging Bolt ex (SIR)",
+    "number": "166/131",
+    "value": 68.13
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Basic Darkness Energy (HR)",
+    "number": "98/64",
+    "value": 67.9
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Suicune V",
+    "number": "GG38/70",
+    "value": 67.65
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Snorlax (Shiny)",
+    "number": "202/91",
+    "value": 67.36
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Absol ex (SIR)",
+    "number": "180/132",
+    "value": 67.36
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Raging Bolt ex (SIR)",
+    "number": "208/162",
+    "value": 67.05
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Mimikyu (Shiny)",
+    "number": "160/91",
+    "value": 66.66
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Mewtwo ex (HR)",
+    "number": "240/182",
+    "value": 66.46
+  },
+  {
+    "set_id": "pokemon-go",
+    "name": "Mewtwo V (UR)",
+    "number": "72/78",
+    "value": 66.36
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Persian (IR)",
+    "number": "78/64",
+    "value": 66.36
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Deoxys VMAX",
+    "number": "GG45/70",
+    "value": 64.75
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Glaceon VSTAR",
+    "number": "GG40/70",
+    "value": 64.6
+  },
+  {
+    "set_id": "journey-together",
+    "name": "Salamence ex (SIR)",
+    "number": "187/159",
+    "value": 63.34
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Pikachu ex (HR)",
+    "number": "179/131",
+    "value": 63.26
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Drowzee (IR)",
+    "number": "210/198",
+    "value": 62.42
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Kangaskhan ex (SIR)",
+    "number": "182/132",
+    "value": 62.04
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Psyduck (IR)",
+    "number": "175/165",
+    "value": 61.89
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Gengar ex (UR)",
+    "number": "193/162",
+    "value": 59.99
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Entei V",
+    "number": "GG36/70",
+    "value": 58.94
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Iono (SIR)",
+    "number": "269/193",
+    "value": 58.56
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Tinkaton ex (SIR)",
+    "number": "262/193",
+    "value": 58.03
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Kirlia (IR)",
+    "number": "212/198",
+    "value": 57.98
+  },
+  {
+    "set_id": "journey-together",
+    "name": "N's Zoroark ex (SIR)",
+    "number": "185/159",
+    "value": 57.61
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Ivysaur (IR)",
+    "number": "167/165",
+    "value": 56.98
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Marill (IR)",
+    "number": "204/193",
+    "value": 55.84
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Altaria ex (SIR)",
+    "number": "253/182",
+    "value": 54.47
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Duskull (IR)",
+    "number": "68/64",
+    "value": 54.25
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Chansey (IR)",
+    "number": "187/167",
+    "value": 53.84
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Sprigatito (IR)",
+    "number": "196/193",
+    "value": 53.13
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Ralts (IR)",
+    "number": "211/198",
+    "value": 53.05
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Horsea (IR)",
+    "number": "67/64",
+    "value": 52.73
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Pikachu",
+    "number": "GG30/70",
+    "value": 52.19
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Dragonair (IR)",
+    "number": "181/165",
+    "value": 51.91
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Pikachu (Secret)",
+    "number": "160/159",
+    "value": 51.6
+  },
+  {
+    "set_id": "pokemon-go",
+    "name": "Mewtwo VSTAR",
+    "number": "79/78",
+    "value": 50.19
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Ditto (Shiny)",
+    "number": "201/91",
+    "value": 49.93
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Dusclops (IR)",
+    "number": "69/64",
+    "value": 49.76
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Raikou V",
+    "number": "GG41/70",
+    "value": 49.62
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Fuecoco (IR)",
+    "number": "201/193",
+    "value": 49.58
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Mew ex (UR)",
+    "number": "193/165",
+    "value": 49.44
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Sawsbuck (IR)",
+    "number": "166/162",
+    "value": 49.17
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Poliwhirl (IR)",
+    "number": "176/165",
+    "value": 49.12
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Ninetales (IR)",
+    "number": "199/197",
+    "value": 48.45
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Iron Valiant ex (SIR)",
+    "number": "157/131",
+    "value": 47.71
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Chi-Yu ex (SIR)",
+    "number": "259/193",
+    "value": 47.54
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Crispin (SIR)",
+    "number": "171/131",
+    "value": 47.39
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Charizard ex (UR)",
+    "number": "183/165",
+    "value": 47.06
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Fezandipiti ex (SIR)",
+    "number": "92/64",
+    "value": 46.85
+  },
+  {
+    "set_id": "pokemon-go",
+    "name": "Dragonite VSTAR",
+    "number": "81/78",
+    "value": 46.8
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Deoxys VSTAR",
+    "number": "GG46/70",
+    "value": 46.75
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Charizard ex (HR)",
+    "number": "228/197",
+    "value": 45.72
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Ethan's Adventure (SIR)",
+    "number": "236/182",
+    "value": 44.91
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Charmander (Shiny)",
+    "number": "109/91",
+    "value": 44.83
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Gholdengo ex (SIR)",
+    "number": "164/131",
+    "value": 44.62
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Mismagius (IR)",
+    "number": "212/193",
+    "value": 44.34
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Walking Wake ex (SIR)",
+    "number": "205/162",
+    "value": 44.33
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Houndoom (IR)",
+    "number": "66/64",
+    "value": 44.06
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Cleffa (IR)",
+    "number": "202/197",
+    "value": 43.98
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Plusle (IR)",
+    "number": "193/182",
+    "value": 43.92
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Palafin ex (SIR)",
+    "number": "151/131",
+    "value": 43.25
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Riolu (IR)",
+    "number": "215/198",
+    "value": 43.09
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Slowpoke (IR)",
+    "number": "204/198",
+    "value": 42.85
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Hisuian Zoroark VSTAR",
+    "number": "GG56/70",
+    "value": 42.65
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Minun (IR)",
+    "number": "194/182",
+    "value": 42.45
+  },
+  {
+    "set_id": "journey-together",
+    "name": "Iono's Bellibolt ex (SIR)",
+    "number": "183/159",
+    "value": 42.43
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Bloodmoon Ursaluna ex (SIR)",
+    "number": "216/167",
+    "value": 42.22
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Roaring Moon ex (SIR)",
+    "number": "251/182",
+    "value": 41.53
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Munkidori (IR)",
+    "number": "72/64",
+    "value": 41.1
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Misty's Lapras (IR)",
+    "number": "194/182",
+    "value": 40.31
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Iron Crown ex (SIR)",
+    "number": "158/131",
+    "value": 39.8
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Hydreigon ex (SIR)",
+    "number": "240/191",
+    "value": 39.62
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Cassiopeia (SIR)",
+    "number": "94/64",
+    "value": 39.42
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Iron Crown ex (SIR)",
+    "number": "206/162",
+    "value": 38.99
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Deerling (IR)",
+    "number": "165/162",
+    "value": 38.75
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Mew ex (UR)",
+    "number": "216/91",
+    "value": 37.95
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Litten (IR)",
+    "number": "167/162",
+    "value": 37.22
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Terapagos ex (SIR)",
+    "number": "169/131",
+    "value": 36.15
+  },
+  {
+    "set_id": "journey-together",
+    "name": "Hop's Zacian ex (SIR)",
+    "number": "186/159",
+    "value": 36.13
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Acerola's Mischief (SIR)",
+    "number": "183/132",
+    "value": 36.1
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Bewear (IR)",
+    "number": "79/64",
+    "value": 36.01
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Dusknoir (IR)",
+    "number": "70/64",
+    "value": 35.86
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Mantyke (IR)",
+    "number": "189/182",
+    "value": 35.45
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Giovanni (SIR)",
+    "number": "238/182",
+    "value": 35.35
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Gouging Fire ex (SIR)",
+    "number": "204/162",
+    "value": 35.14
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Garchomp ex (SIR)",
+    "number": "245/182",
+    "value": 35.11
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Lana's Aid (SIR)",
+    "number": "219/167",
+    "value": 35.01
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Tandemaus (Shiny)",
+    "number": "209/91",
+    "value": 34.92
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Tinkatuff (IR)",
+    "number": "217/193",
+    "value": 34.91
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Iron Hands ex (SIR)",
+    "number": "154/131",
+    "value": 34.71
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Metagross (IR)",
+    "number": "178/162",
+    "value": 34.64
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Steelix (IR)",
+    "number": "208/182",
+    "value": 34.49
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Maushold (Shiny)",
+    "number": "210/91",
+    "value": 34.47
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Meowth (IR)",
+    "number": "203/182",
+    "value": 34.38
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Latios (IR)",
+    "number": "203/191",
+    "value": 34.1
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Skeledirge ex (SIR)",
+    "number": "258/193",
+    "value": 33.47
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Morpeko (IR)",
+    "number": "206/182",
+    "value": 33.03
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Lucario (Shiny)",
+    "number": "174/91",
+    "value": 32.96
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Cynthia's Garchomp ex (HR)",
+    "number": "241/182",
+    "value": 32.7
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Pecharunt ex (SIR)",
+    "number": "163/131",
+    "value": 32.66
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Tinkatink (IR)",
+    "number": "216/193",
+    "value": 32.4
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Meowscarada ex (SIR)",
+    "number": "256/193",
+    "value": 32.0
+  },
+  {
+    "set_id": "pokemon-go",
+    "name": "Mewtwo VSTAR (Secret)",
+    "number": "86/78",
+    "value": 31.96
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Kieran (SIR)",
+    "number": "218/167",
+    "value": 31.94
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Arven's Mabosstiff ex (SIR)",
+    "number": "235/182",
+    "value": 31.63
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Mew ex (HR)",
+    "number": "205/165",
+    "value": 31.33
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Alolan Exeggutor ex (SIR)",
+    "number": "242/191",
+    "value": 31.22
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Ethan's Typhlosion (IR)",
+    "number": "190/182",
+    "value": 30.67
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Simisear VSTAR",
+    "number": "GG37/70",
+    "value": 30.18
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Basic Metal Energy (HR)",
+    "number": "99/64",
+    "value": 30.14
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Lisia's Appeal (SIR)",
+    "number": "246/191",
+    "value": 29.82
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Miriam (SIR)",
+    "number": "251/198",
+    "value": 29.14
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Pikachu ex (UR)",
+    "number": "219/191",
+    "value": 29.05
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Lacey (SIR)",
+    "number": "175/131",
+    "value": 28.97
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Baxcalibur (IR)",
+    "number": "210/193",
+    "value": 28.95
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Cinccino (IR)",
+    "number": "183/162",
+    "value": 28.85
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Drampa (IR)",
+    "number": "184/162",
+    "value": 28.82
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Durant ex (SIR)",
+    "number": "236/191",
+    "value": 28.7
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Ethan's Ho-Oh ex (HR)",
+    "number": "239/182",
+    "value": 28.45
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Iono (SIR)",
+    "number": "237/91",
+    "value": 28.29
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Ariana (SIR)",
+    "number": "237/182",
+    "value": 28.28
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Blastoise ex (UR)",
+    "number": "184/165",
+    "value": 27.87
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Jigglypuff (Shiny)",
+    "number": "198/91",
+    "value": 27.35
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Gloom (IR)",
+    "number": "198/197",
+    "value": 27.29
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Machoke (IR)",
+    "number": "177/165",
+    "value": 27.09
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Iron Leaves ex (SIR)",
+    "number": "203/162",
+    "value": 27.09
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Cresselia (IR)",
+    "number": "71/64",
+    "value": 27.05
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Hisuian Growlithe (IR)",
+    "number": "181/167",
+    "value": 27.01
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Entei (Shiny)",
+    "number": "112/91",
+    "value": 26.87
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Clive (SIR)",
+    "number": "236/91",
+    "value": 26.75
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Chien-Pao ex (SIR)",
+    "number": "261/193",
+    "value": 26.11
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Wiglett (IR)",
+    "number": "206/198",
+    "value": 26.01
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Bulbasaur (IR)",
+    "number": "133/132",
+    "value": 25.99
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Swablu (IR)",
+    "number": "213/182",
+    "value": 25.92
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Fidough (IR)",
+    "number": "213/198",
+    "value": 25.89
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Zacian V",
+    "number": "GG48/70",
+    "value": 25.79
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Heracross (IR)",
+    "number": "194/193",
+    "value": 25.62
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Miraidon ex (SIR)",
+    "number": "244/198",
+    "value": 25.49
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Gholdengo ex (SIR)",
+    "number": "252/182",
+    "value": 25.41
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Pecharunt ex (SIR)",
+    "number": "93/64",
+    "value": 25.26
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Hero's Cape",
+    "number": "152/162",
+    "value": 25.23
+  },
+  {
+    "set_id": "journey-together",
+    "name": "Articuno (IR)",
+    "number": "161/159",
+    "value": 25.23
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Janine's Secret Art (SIR)",
+    "number": "173/131",
+    "value": 25.08
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Sandy Shocks ex (SIR)",
+    "number": "159/131",
+    "value": 25.0
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Teal Mask Ogerpon ex (SIR)",
+    "number": "211/167",
+    "value": 24.57
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Mewtwo ex (UR)",
+    "number": "213/182",
+    "value": 24.28
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Sinistcha ex (SIR)",
+    "number": "210/167",
+    "value": 24.2
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Golisopod ex (SIR)",
+    "number": "246/182",
+    "value": 23.79
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Zeraora VMAX",
+    "number": "GG42/70",
+    "value": 23.32
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Erika's Invitation (SIR)",
+    "number": "203/165",
+    "value": 23.31
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Lillie's Determination (UR)",
+    "number": "169/132",
+    "value": 23.25
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Lickitung (IR)",
+    "number": "180/162",
+    "value": 23.17
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Yanmega ex (SIR)",
+    "number": "228/182",
+    "value": 23.08
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Regigigas VSTAR",
+    "number": "GG55/70",
+    "value": 22.97
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Iron Valiant ex (SIR)",
+    "number": "249/182",
+    "value": 22.87
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Teal Mask Ogerpon ex (SIR)",
+    "number": "145/131",
+    "value": 22.84
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Tapu Koko ex (SIR)",
+    "number": "247/182",
+    "value": 22.67
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Yveltal (IR)",
+    "number": "205/182",
+    "value": 22.63
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Greavard (IR)",
+    "number": "214/198",
+    "value": 22.58
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Aipom (IR)",
+    "number": "211/182",
+    "value": 22.47
+  },
+  {
+    "set_id": "journey-together",
+    "name": "Volcanion ex (SIR)",
+    "number": "182/159",
+    "value": 22.47
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Bianca's Devotion (SIR)",
+    "number": "209/162",
+    "value": 22.11
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Minior (IR)",
+    "number": "201/182",
+    "value": 22.1
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Wally's Compassion (SIR)",
+    "number": "186/132",
+    "value": 22.09
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Joltik (IR)",
+    "number": "196/182",
+    "value": 22.02
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Hydrapple ex (SIR)",
+    "number": "167/142",
+    "value": 21.9
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Raichu (Shiny)",
+    "number": "132/91",
+    "value": 21.63
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Venusaur ex (UR)",
+    "number": "182/165",
+    "value": 21.61
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Sudowoodo (IR)",
+    "number": "219/193",
+    "value": 21.6
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Charizard ex (UR)",
+    "number": "215/197",
+    "value": 21.59
+  },
+  {
+    "set_id": "pokemon-go",
+    "name": "Radiant Charizard",
+    "number": "11/78",
+    "value": 21.55
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Koraidon ex (SIR)",
+    "number": "247/198",
+    "value": 21.47
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Powerglass (HR)",
+    "number": "97/64",
+    "value": 21.34
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Tatsugiri (IR)",
+    "number": "186/167",
+    "value": 21.23
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Cynthia's Ambition (UR)",
+    "number": "GG60/70",
+    "value": 21.15
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Okidogi ex (SIR)",
+    "number": "90/64",
+    "value": 21.15
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Jasmine's Gaze (SIR)",
+    "number": "245/191",
+    "value": 21.1
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Crocalor (IR)",
+    "number": "202/193",
+    "value": 20.92
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Kieran (SIR)",
+    "number": "174/131",
+    "value": 20.91
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Nidoking (IR)",
+    "number": "174/165",
+    "value": 20.78
+  },
+  {
+    "set_id": "journey-together",
+    "name": "N's Reshiram (IR)",
+    "number": "167/159",
+    "value": 20.69
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Lapras",
+    "number": "GG05/70",
+    "value": 20.59
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Zeraora VSTAR",
+    "number": "GG43/70",
+    "value": 20.58
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Ivysaur (IR)",
+    "number": "134/132",
+    "value": 20.3
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Earthen Vessel (HR)",
+    "number": "96/64",
+    "value": 20.24
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Boss's Orders (Ghetsis) (SIR)",
+    "number": "265/193",
+    "value": 20.18
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Minccino (IR)",
+    "number": "182/162",
+    "value": 20.15
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Floragato (IR)",
+    "number": "197/193",
+    "value": 19.99
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Pidgeot ex (SIR)",
+    "number": "225/197",
+    "value": 19.94
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Lumineon V",
+    "number": "GG39/70",
+    "value": 19.93
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Arbok (IR)",
+    "number": "176/162",
+    "value": 19.85
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Zamazenta V",
+    "number": "GG54/70",
+    "value": 19.68
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Hearthflame Mask Ogerpon ex (SIR)",
+    "number": "148/131",
+    "value": 19.65
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Deoxys",
+    "number": "GG12/70",
+    "value": 19.64
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Wellspring Mask Ogerpon ex (SIR)",
+    "number": "213/167",
+    "value": 19.59
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Pecharunt ex (HR)",
+    "number": "95/64",
+    "value": 19.57
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Penny (SIR)",
+    "number": "239/91",
+    "value": 19.52
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Frigibax (IR)",
+    "number": "208/193",
+    "value": 19.45
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Giovanni's Charisma (SIR)",
+    "number": "204/165",
+    "value": 19.32
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Lt. Surge's Bargain (SIR)",
+    "number": "185/132",
+    "value": 19.29
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Ceruledge (IR)",
+    "number": "197/191",
+    "value": 19.21
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Eiscue (IR)",
+    "number": "205/193",
+    "value": 18.72
+  },
+  {
+    "set_id": "journey-together",
+    "name": "N's Zoroark ex (HR)",
+    "number": "189/159",
+    "value": 18.52
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Zorua (IR)",
+    "number": "75/64",
+    "value": 18.45
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Cornerstone Mask Ogerpon ex (SIR)",
+    "number": "160/131",
+    "value": 18.32
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Omanyte (IR)",
+    "number": "180/165",
+    "value": 18.04
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Charmeleon (Shiny)",
+    "number": "110/91",
+    "value": 18.02
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Unfair Stamp",
+    "number": "165/167",
+    "value": 17.94
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Iron Boulder ex (SIR)",
+    "number": "207/162",
+    "value": 17.93
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Lacey (SIR)",
+    "number": "172/142",
+    "value": 17.93
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Magby (IR)",
+    "number": "186/182",
+    "value": 17.86
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Latias",
+    "number": "GG20/70",
+    "value": 17.8
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Crobat ex (HR)",
+    "number": "242/182",
+    "value": 17.74
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Caterpie (IR)",
+    "number": "172/165",
+    "value": 17.63
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Okidogi (IR)",
+    "number": "74/64",
+    "value": 17.58
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Drayton (SIR)",
+    "number": "172/131",
+    "value": 17.54
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Ditto",
+    "number": "GG22/70",
+    "value": 17.5
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Galvantula ex (SIR)",
+    "number": "168/142",
+    "value": 17.16
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Tangela (IR)",
+    "number": "178/165",
+    "value": 17.14
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Hisuian Samurott V",
+    "number": "GG51/70",
+    "value": 16.68
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Armarouge (IR)",
+    "number": "203/198",
+    "value": 16.53
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Munkidori ex (SIR)",
+    "number": "91/64",
+    "value": 16.46
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Grotle (IR)",
+    "number": "164/162",
+    "value": 16.41
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Ninetales ex (UR)",
+    "number": "186/165",
+    "value": 16.39
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Cornerstone Mask Ogerpon ex (SIR)",
+    "number": "215/167",
+    "value": 16.35
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Scizor (IR)",
+    "number": "205/197",
+    "value": 16.34
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Grusha (SIR)",
+    "number": "268/193",
+    "value": 16.28
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Wellspring Mask Ogerpon ex (SIR)",
+    "number": "152/131",
+    "value": 16.28
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Vulpix (IR)",
+    "number": "138/132",
+    "value": 16.09
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Mr. Mime (IR)",
+    "number": "179/165",
+    "value": 16.03
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Dragapult ex (UR)",
+    "number": "200/167",
+    "value": 15.96
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Fletchinder (IR)",
+    "number": "199/193",
+    "value": 15.93
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Cynthia's Roserade (IR)",
+    "number": "184/182",
+    "value": 15.93
+  },
+  {
+    "set_id": "pokemon-go",
+    "name": "Dragonite V (UR)",
+    "number": "76/78",
+    "value": 15.86
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Amarys (SIR)",
+    "number": "170/131",
+    "value": 15.78
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Pidgey (IR)",
+    "number": "207/197",
+    "value": 15.74
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Eri (SIR)",
+    "number": "210/162",
+    "value": 15.71
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Dedenne ex (UR)",
+    "number": "239/193",
+    "value": 15.66
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Elesa's Sparkle (UR)",
+    "number": "147/159",
+    "value": 15.65
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Greninja ex (UR)",
+    "number": "198/167",
+    "value": 15.59
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Arcanine ex (UR)",
+    "number": "224/198",
+    "value": 15.57
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Alakazam ex (UR)",
+    "number": "188/165",
+    "value": 15.55
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Pachirisu (IR)",
+    "number": "208/198",
+    "value": 15.28
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Lucario ex (UR)",
+    "number": "160/132",
+    "value": 15.17
+  },
+  {
+    "set_id": "journey-together",
+    "name": "Wailord (IR)",
+    "number": "162/159",
+    "value": 15.12
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Marshadow (IR)",
+    "number": "146/132",
+    "value": 15.04
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Quaxly (IR)",
+    "number": "206/193",
+    "value": 14.96
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Keldeo",
+    "number": "GG07/70",
+    "value": 14.92
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Houndoom (IR)",
+    "number": "191/182",
+    "value": 14.83
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Saguaro (SIR)",
+    "number": "270/193",
+    "value": 14.81
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Parasol Lady (SIR)",
+    "number": "255/182",
+    "value": 14.75
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Milcery (IR)",
+    "number": "152/142",
+    "value": 14.74
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Quaquaval ex (SIR)",
+    "number": "260/193",
+    "value": 14.69
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Crispin (UR)",
+    "number": "164/142",
+    "value": 14.58
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Garbodor (IR)",
+    "number": "204/182",
+    "value": 14.34
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Neo Upper Energy",
+    "number": "162/162",
+    "value": 14.24
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Wo-Chien ex (SIR)",
+    "number": "257/193",
+    "value": 14.17
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Zapdos ex (UR)",
+    "number": "192/165",
+    "value": 14.1
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Arctibax (IR)",
+    "number": "209/193",
+    "value": 14.09
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Loudred (IR)",
+    "number": "212/182",
+    "value": 14.05
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Paldean Tauros (IR)",
+    "number": "218/193",
+    "value": 14.01
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Gimmighoul (IR)",
+    "number": "198/182",
+    "value": 14.01
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Miltank",
+    "number": "GG24/70",
+    "value": 13.85
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Dondozo (IR)",
+    "number": "207/198",
+    "value": 13.77
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Xerosic's Machinations (UR)",
+    "number": "89/64",
+    "value": 13.72
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Garchomp ex (HR)",
+    "number": "260/182",
+    "value": 13.62
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Slowpoke (Shiny)",
+    "number": "116/91",
+    "value": 13.56
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Lechonk (IR)",
+    "number": "209/197",
+    "value": 13.54
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Fezandipiti ex (UR)",
+    "number": "84/64",
+    "value": 13.41
+  },
+  {
+    "set_id": "mega-evolution",
+    "name": "Mega Venusaur ex (UR)",
+    "number": "155/132",
+    "value": 13.31
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Paldean Wooper (IR)",
+    "number": "221/193",
+    "value": 13.27
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Radiant Charizard",
+    "number": "20/159",
+    "value": 13.25
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Pinsir (IR)",
+    "number": "168/167",
+    "value": 13.19
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Riolu (Shiny)",
+    "number": "173/91",
+    "value": 13.18
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Gardenia's Vigor (UR)",
+    "number": "GG61/70",
+    "value": 13.06
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Petrel (UR)",
+    "number": "226/182",
+    "value": 13.04
+  },
+  {
+    "set_id": "journey-together",
+    "name": "Iono's Bellibolt ex (HR)",
+    "number": "188/159",
+    "value": 13.01
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Shinx (Shiny)",
+    "number": "135/91",
+    "value": 12.89
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Salvatore (SIR)",
+    "number": "212/162",
+    "value": 12.86
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Boss's Orders (Ghetsis) (UR)",
+    "number": "248/193",
+    "value": 12.83
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Archaludon ex (SIR)",
+    "number": "241/191",
+    "value": 12.83
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Blaziken (IR)",
+    "number": "192/182",
+    "value": 12.73
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Koraidon ex (HR)",
+    "number": "245/91",
+    "value": 12.69
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Starly (IR)",
+    "number": "221/198",
+    "value": 12.38
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Reuniclus (IR)",
+    "number": "171/162",
+    "value": 12.32
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Infernape (IR)",
+    "number": "173/167",
+    "value": 12.26
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Cufant (IR)",
+    "number": "76/64",
+    "value": 12.25
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Raging Bolt ex (HR)",
+    "number": "218/162",
+    "value": 12.22
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Jamming Tower (HR)",
+    "number": "243/182",
+    "value": 12.22
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Buddy-Buddy Poffin (HR)",
+    "number": "223/167",
+    "value": 12.16
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Briar (SIR)",
+    "number": "171/142",
+    "value": 12.1
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Hearthflame Mask Ogerpon ex (SIR)",
+    "number": "212/167",
+    "value": 12.06
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Dipplin (IR)",
+    "number": "170/167",
+    "value": 12.0
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Iron Hands ex (SIR)",
+    "number": "248/182",
+    "value": 11.99
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Miraidon ex (HR)",
+    "number": "243/91",
+    "value": 11.94
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Fraxure (IR)",
+    "number": "77/64",
+    "value": 11.94
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Shaymin (IR)",
+    "number": "185/182",
+    "value": 11.73
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Area Zero Underdepths (HR)",
+    "number": "174/142",
+    "value": 11.72
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Kangaskhan (IR)",
+    "number": "204/182",
+    "value": 11.72
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Ting-Lu ex (SIR)",
+    "number": "263/193",
+    "value": 11.68
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Riolu",
+    "number": "GG26/70",
+    "value": 11.66
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Maushold ex (UR)",
+    "number": "233/182",
+    "value": 11.54
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Basic Grass Energy (HR)",
+    "number": "278/193",
+    "value": 11.52
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Snom (IR)",
+    "number": "168/162",
+    "value": 11.51
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Magmortar",
+    "number": "GG03/70",
+    "value": 11.5
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Hisuian Samurott VSTAR",
+    "number": "GG52/70",
+    "value": 11.4
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Froslass (IR)",
+    "number": "174/167",
+    "value": 11.4
+  },
+  {
+    "set_id": "pokemon-go",
+    "name": "Melmetal VMAX",
+    "number": "80/78",
+    "value": 11.38
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Charizard VSTAR",
+    "number": "19/159",
+    "value": 11.34
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Brute Bonnet (IR)",
+    "number": "207/182",
+    "value": 11.3
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Porygon-Z (IR)",
+    "number": "214/182",
+    "value": 11.21
+  },
+  {
+    "set_id": "temporal-forces",
+    "name": "Gouging Fire ex (HR)",
+    "number": "214/162",
+    "value": 11.16
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Farigiraf (IR)",
+    "number": "228/193",
+    "value": 11.15
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Gothorita (IR)",
+    "number": "213/193",
+    "value": 11.09
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Charizard ex",
+    "number": "6/165",
+    "value": 11.08
+  },
+  {
+    "set_id": "pokemon-151",
+    "name": "Erika's Invitation (UR)",
+    "number": "196/165",
+    "value": 11.06
+  },
+  {
+    "set_id": "prismatic-evolutions",
+    "name": "Teal Mask Ogerpon ex (HR)",
+    "number": "177/131",
+    "value": 11.04
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Tarountula (IR)",
+    "number": "199/198",
+    "value": 11.03
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Gulpin (IR)",
+    "number": "154/142",
+    "value": 11.01
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Gravity Mountain (HR)",
+    "number": "250/191",
+    "value": 10.99
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Turtwig",
+    "number": "GG31/70",
+    "value": 10.96
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Terapagos ex (HR)",
+    "number": "173/142",
+    "value": 10.95
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Tropius (IR)",
+    "number": "195/193",
+    "value": 10.94
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Alolan Exeggutor ex (HR)",
+    "number": "248/191",
+    "value": 10.89
+  },
+  {
+    "set_id": "pokemon-go",
+    "name": "Radiant Blastoise",
+    "number": "18/78",
+    "value": 10.86
+  },
+  {
+    "set_id": "twilight-masquerade",
+    "name": "Teal Mask Ogerpon ex (HR)",
+    "number": "221/167",
+    "value": 10.86
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Ceruledge (Shiny)",
+    "number": "162/91",
+    "value": 10.8
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Night Stretcher (HR)",
+    "number": "251/191",
+    "value": 10.77
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Pyroar (IR)",
+    "number": "200/193",
+    "value": 10.76
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Gyarados ex (UR)",
+    "number": "225/198",
+    "value": 10.74
+  },
+  {
+    "set_id": "crown-zenith",
+    "name": "Altaria",
+    "number": "GG19/70",
+    "value": 10.73
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Murkrow (IR)",
+    "number": "200/182",
+    "value": 10.72
+  },
+  {
+    "set_id": "scarlet-violet-base",
+    "name": "Great Tusk ex (SIR)",
+    "number": "246/198",
+    "value": 10.67
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Mesprit (IR)",
+    "number": "204/191",
+    "value": 10.62
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Flamigo (IR)",
+    "number": "227/193",
+    "value": 10.59
+  },
+  {
+    "set_id": "obsidian-flames",
+    "name": "Pidgeotto (IR)",
+    "number": "208/197",
+    "value": 10.58
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Rookidee (IR)",
+    "number": "225/193",
+    "value": 10.56
+  },
+  {
+    "set_id": "stellar-crown",
+    "name": "Zeraora (IR)",
+    "number": "151/142",
+    "value": 10.53
+  },
+  {
+    "set_id": "shrouded-fable",
+    "name": "Fezandipiti (IR)",
+    "number": "73/64",
+    "value": 10.37
+  },
+  {
+    "set_id": "paldea-evolved",
+    "name": "Iono (UR)",
+    "number": "254/193",
+    "value": 10.36
+  },
+  {
+    "set_id": "destined-rivals",
+    "name": "Team Rocket's Giovanni (UR)",
+    "number": "225/182",
+    "value": 10.36
+  },
+  {
+    "set_id": "surging-sparks",
+    "name": "Slakoth (IR)",
+    "number": "212/191",
+    "value": 10.29
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Chi-Yu ex (HR)",
+    "number": "241/91",
+    "value": 10.18
+  },
+  {
+    "set_id": "paradox-rift",
+    "name": "Iron Jugulis (IR)",
+    "number": "216/182",
+    "value": 10.04
+  },
+  {
+    "set_id": "paldean-fates",
+    "name": "Luxray (Shiny)",
+    "number": "137/91",
+    "value": 10.0
+  }
+]
