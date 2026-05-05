@@ -516,7 +516,19 @@ cInput.addEventListener('input',()=>{
   const q=cInput.value.toLowerCase().trim();
   if(q.length<2){cDrop.style.display='none';return;}
   const m=cardIndex.filter(c=>c.search.includes(q)).slice(0,8);
-  if(!m.length){cDrop.style.display='none';return;}
+  if(!m.length){
+    cDrop.style.display='block';
+    const sq=encodeURIComponent(cInput.value);
+    cDrop.innerHTML=`<div style="padding:10px 14px;font-size:0.82rem;color:var(--mute);">Not in our database. Search directly:
+      <div style="margin-top:6px;display:flex;gap:5px;flex-wrap:wrap;">
+        <a class="store-link" href="https://www.tcgplayer.com/search/pokemon/product?q=${sq}&view=grid" target="_blank" rel="noopener">TCGPlayer</a>
+        <a class="store-link" href="https://www.ebay.com/sch/i.html?_nkw=pokemon+${sq}&_sacat=183454&LH_BIN=1&_sop=15" target="_blank" rel="noopener">eBay</a>
+        <a class="store-link" href="https://www.ebay.com/sch/i.html?_nkw=PSA+10+pokemon+${sq}&_sacat=183454&LH_BIN=1&_sop=15" target="_blank" rel="noopener">eBay PSA 10</a>
+      </div>
+    </div>`;
+    cDrop._matches=[];
+    return;
+  }
   cDrop.style.display='block';
   cDrop.innerHTML=m.map((c,i)=>`<div data-idx="${i}" style="padding:8px 14px;cursor:pointer;border-bottom:1px solid var(--surface3);font-size:0.84rem;display:flex;justify-content:space-between;" onmouseover="this.style.background='var(--surface2)'" onmouseout="this.style.background=''"><span><strong>${c.name}</strong> <span style="font-family:var(--mono);font-size:0.7rem;color:var(--mute)">${c.number}</span></span><span style="color:var(--mute);font-size:0.78rem">${c.setName}</span></div>`).join('');
   cDrop._matches=m;
