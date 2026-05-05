@@ -6,6 +6,61 @@
   },
   "sets": [
     {
+      "id": "pokemon-go",
+      "name": "Pokemon Go",
+      "set_code": "PGO",
+      "release_date": "2022-07-01",
+      "total_cards": 88,
+      "base_cards": 78,
+      "secret_rares": 10,
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Out of print",
+      "top_chase_cards": [
+        {
+          "name": "Mewtwo VSTAR (Gold)",
+          "card_number": "079/078",
+          "estimated_value_usd": 80
+        },
+        {
+          "name": "Dragonite VSTAR (Rainbow)",
+          "card_number": "082/078",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Mewtwo V (Alt Art)",
+          "card_number": "072/078",
+          "estimated_value_usd": 35
+        },
+        {
+          "name": "Radiant Charizard",
+          "card_number": "011/078",
+          "estimated_value_usd": 25
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 5",
+        "any_chase_rare": "1 in 40",
+        "top_chase_specific": "1 in 250",
+        "notes": "Small set (88 cards), decent pull rates."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardchill.com/pokemon-go-pull-rates",
+          "date_checked": "2026-05-05",
+          "notes": "Community data"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 8.0,
+        "booster_box_price_usd": null,
+        "etb_price_usd": 65.0,
+        "price_note": "OOP. No booster box. Special set.",
+        "price_date": "2026-05-05",
+        "sources": "Estimated"
+      }
+    },
+    {
       "id": "crown-zenith",
       "name": "Crown Zenith",
       "set_code": "CRZ",

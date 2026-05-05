@@ -20,6 +20,7 @@ DAWNGLARE_URL = "https://pokemon.dawnglare.com/?p=boxprice"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0"}
 
 SET_KEYWORDS = {
+    "pokemon-go": ["pokemon go"],
     "crown-zenith": ["crown zenith"],
     "scarlet-violet-base": ["scarlet & violet", "scarlet and violet"],
     "paldea-evolved": ["paldea evolved"],
