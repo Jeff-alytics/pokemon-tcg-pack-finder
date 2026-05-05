@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-05 12:03 UTC",
+    "last_updated": "2026-05-05 21:42 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -30,6 +30,62 @@
     "top_deals": []
   },
   "dawnglare": {
+    "evolving-skies": [
+      {
+        "name": "Costco Pokemon Evolving Skies Elite Trainer Box and Tin",
+        "product_type": "elite trainer box",
+        "label": "ETB",
+        "price_usd": 600.0,
+        "packs": 9,
+        "per_pack_usd": 66.67,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/610741/pokemon-miscellaneous-cards-and-products-costco-pokemon-evolving-skies-elite-trainer-box-and-tin"
+      },
+      {
+        "name": "Evolving Skies Elite Trainer Box [Glaceon/Vaporeon/Sylveon/Espeon]",
+        "product_type": "elite trainer box",
+        "label": "ETB",
+        "price_usd": 600.0,
+        "packs": 9,
+        "per_pack_usd": 66.67,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/242443/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-glaceon-vaporeon-sylveon-espeon"
+      },
+      {
+        "name": "Evolving Skies Elite Trainer Box [Flareon/Jolteon/Umbreon/Leafeon]",
+        "product_type": "elite trainer box",
+        "label": "ETB",
+        "price_usd": 777.0,
+        "packs": 9,
+        "per_pack_usd": 86.33,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/242434/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon"
+      },
+      {
+        "name": "Evolving Skies Half Booster Box",
+        "product_type": "half booster box",
+        "label": "Half Booster Box",
+        "price_usd": 1595.0,
+        "packs": 18,
+        "per_pack_usd": 88.61,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/641794/pokemon-swsh07-evolving-skies-evolving-skies-half-booster-box"
+      },
+      {
+        "name": "Evolving Skies Booster Box",
+        "product_type": "booster box",
+        "label": "Booster Box",
+        "price_usd": 3492.0,
+        "packs": 36,
+        "per_pack_usd": 97.0,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/242436/pokemon-swsh07-evolving-skies-evolving-skies-booster-box"
+      },
+      {
+        "name": "Evolving Skies Elite Trainer Box [Set of 2]",
+        "product_type": "elite trainer box",
+        "label": "ETB",
+        "price_usd": 1350.0,
+        "packs": 9,
+        "per_pack_usd": 150.0,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/243721/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-set-of-2"
+      }
+    ],
     "prismatic-evolutions": [
       {
         "name": "Prismatic Evolutions Elite Trainer Box",
@@ -57,6 +113,57 @@
         "packs": 9,
         "per_pack_usd": 27.78,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/670607/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box-dollar-general-exclusive"
+      }
+    ],
+    "brilliant-stars": [
+      {
+        "name": "Brilliant Stars Elite Trainer Box",
+        "product_type": "elite trainer box",
+        "label": "ETB",
+        "price_usd": 167.5,
+        "packs": 9,
+        "per_pack_usd": 18.61,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/256138/pokemon-swsh09-brilliant-stars-brilliant-stars-elite-trainer-box"
+      },
+      {
+        "name": "Brilliant Stars Booster Box",
+        "product_type": "booster box",
+        "label": "Booster Box",
+        "price_usd": 700.0,
+        "packs": 36,
+        "per_pack_usd": 19.44,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/256141/pokemon-swsh09-brilliant-stars-brilliant-stars-booster-box"
+      }
+    ],
+    "pokemon-go": [
+      {
+        "name": "Pokemon GO Elite Trainer Box",
+        "product_type": "elite trainer box",
+        "label": "ETB",
+        "price_usd": 145.0,
+        "packs": 9,
+        "per_pack_usd": 16.11,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/270708/pokemon-pokemon-go-pokemon-go-elite-trainer-box"
+      }
+    ],
+    "lost-origin": [
+      {
+        "name": "Lost Origin Elite Trainer Box",
+        "product_type": "elite trainer box",
+        "label": "ETB",
+        "price_usd": 200.0,
+        "packs": 9,
+        "per_pack_usd": 22.22,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box"
+      },
+      {
+        "name": "Lost Origin Booster Box",
+        "product_type": "booster box",
+        "label": "Booster Box",
+        "price_usd": 899.99,
+        "packs": 36,
+        "per_pack_usd": 25.0,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/277324/pokemon-swsh11-lost-origin-lost-origin-booster-box"
       }
     ],
     "crown-zenith": [
