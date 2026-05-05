@@ -6,6 +6,121 @@
   },
   "sets": [
     {
+      "id": "evolving-skies",
+      "name": "Evolving Skies",
+      "set_code": "EVS",
+      "release_date": "2021-08-27",
+      "total_cards": 237,
+      "base_cards": 203,
+      "secret_rares": 34,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print. Most valuable SWSH set.",
+      "top_chase_cards": [
+        {
+          "name": "Umbreon VMAX (Alt Art)",
+          "card_number": "215/203",
+          "estimated_value_usd": 450
+        },
+        {
+          "name": "Rayquaza VMAX (Alt Art)",
+          "card_number": "218/203",
+          "estimated_value_usd": 250
+        },
+        {
+          "name": "Glaceon VMAX (Alt Art)",
+          "card_number": "209/203",
+          "estimated_value_usd": 150
+        },
+        {
+          "name": "Sylveon VMAX (Alt Art)",
+          "card_number": "212/203",
+          "estimated_value_usd": 130
+        },
+        {
+          "name": "Dragonite V (Alt Art)",
+          "card_number": "192/203",
+          "estimated_value_usd": 100
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 60",
+        "top_chase_specific": "1 in 700",
+        "notes": "Alt arts are very rare. Umbreon VMAX alt ~1 in 700. Best SWSH set for value."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardchill.com/evolving-skies-pull-rates",
+          "date_checked": "2026-05-05",
+          "notes": "Community data"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 18.0,
+        "booster_box_price_usd": 500.0,
+        "etb_price_usd": 150.0,
+        "price_note": "OOP. Most valuable modern set. Eeveelution alt arts drive prices.",
+        "price_date": "2026-05-05",
+        "sources": "Estimated from market trends"
+      }
+    },
+    {
+      "id": "brilliant-stars",
+      "name": "Brilliant Stars",
+      "set_code": "BRS",
+      "release_date": "2022-02-25",
+      "total_cards": 216,
+      "base_cards": 172,
+      "secret_rares": 44,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print",
+      "top_chase_cards": [
+        {
+          "name": "Charizard VSTAR (Rainbow)",
+          "card_number": "174/172",
+          "estimated_value_usd": 80
+        },
+        {
+          "name": "Arceus VSTAR (Gold)",
+          "card_number": "184/172",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Charizard V (Alt Art)",
+          "card_number": "154/172",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Lumineon V (Alt Art)",
+          "card_number": "155/172",
+          "estimated_value_usd": 30
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 55",
+        "top_chase_specific": "1 in 400",
+        "notes": "Trainer Gallery adds hits. Charizard VSTAR rainbow ~1 in 400."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardchill.com/brilliant-stars-pull-rates",
+          "date_checked": "2026-05-05",
+          "notes": "Community data"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 10.0,
+        "booster_box_price_usd": 280.0,
+        "etb_price_usd": 80.0,
+        "price_note": "OOP. Charizard VSTAR and Trainer Gallery drive demand.",
+        "price_date": "2026-05-05",
+        "sources": "Estimated from market trends"
+      }
+    },
+    {
       "id": "pokemon-go",
       "name": "Pokemon Go",
       "set_code": "PGO",
@@ -58,6 +173,61 @@
         "price_note": "OOP. No booster box. Special set.",
         "price_date": "2026-05-05",
         "sources": "Estimated"
+      }
+    },
+    {
+      "id": "lost-origin",
+      "name": "Lost Origin",
+      "set_code": "LOR",
+      "release_date": "2022-09-09",
+      "total_cards": 247,
+      "base_cards": 196,
+      "secret_rares": 51,
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print",
+      "top_chase_cards": [
+        {
+          "name": "Giratina V (Alt Art)",
+          "card_number": "186/196",
+          "estimated_value_usd": 200
+        },
+        {
+          "name": "Giratina VSTAR (Rainbow)",
+          "card_number": "221/196",
+          "estimated_value_usd": 60
+        },
+        {
+          "name": "Aerodactyl V (Alt Art)",
+          "card_number": "193/196",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Rotom V (Alt Art)",
+          "card_number": "194/196",
+          "estimated_value_usd": 35
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 55",
+        "top_chase_specific": "1 in 500",
+        "notes": "Giratina V alt art is the chase. Trainer Gallery adds value."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://cardchill.com/lost-origin-pull-rates",
+          "date_checked": "2026-05-05",
+          "notes": "Community data"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 8.0,
+        "booster_box_price_usd": 220.0,
+        "etb_price_usd": 70.0,
+        "price_note": "OOP. Giratina V alt art (00) carries the set.",
+        "price_date": "2026-05-05",
+        "sources": "Estimated from market trends"
       }
     },
     {
