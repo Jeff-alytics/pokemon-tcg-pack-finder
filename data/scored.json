@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-05 21:42 UTC",
+    "generated": "2026-05-05 23:49 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -13,12 +13,12 @@
       "in_print": true,
       "in_print_note": "Actively in print, extremely high demand",
       "total_cards": 180,
-      "pack_value_score": 68.4,
+      "pack_value_score": 73.6,
       "component_scores": {
         "cost_efficiency": 50.0,
         "chase_magnitude": 100.0,
         "pull_odds": 89.7,
-        "hit_density": 27.2
+        "hit_density": 53.3
       },
       "pack_price_usd": 4.49,
       "best_deal": {
@@ -29,34 +29,59 @@
         "label": "Booster Pack"
       },
       "top_chase_value_usd": 1000,
-      "top_chase_card": "Umbreon ex (Special Illustration Rare)",
+      "top_chase_card": "Umbreon ex (SIR)",
       "top_chase_card_number": "161/131",
       "pull_rate_top_chase": "1 in 380",
-      "expected_value_per_pack": 9.11,
-      "packs_to_50_card": 45,
+      "expected_value_per_pack": 4.62,
+      "packs_to_50_card": 68,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -18.8,
-      "num_chase_cards": 4,
+      "etb_roi_pct": -58.9,
+      "num_chase_cards": 9,
       "chase_cards": [
         {
-          "name": "Umbreon ex (Special Illustration Rare)",
+          "name": "Umbreon ex (SIR)",
           "card_number": "161/131",
           "estimated_value_usd": 1000
         },
         {
-          "name": "Sylveon ex (Special Illustration Rare)",
+          "name": "Sylveon ex (SIR)",
           "card_number": "156/131",
           "estimated_value_usd": 300
         },
         {
-          "name": "Leafeon ex (Special Illustration Rare)",
+          "name": "Leafeon ex (SIR)",
           "card_number": "144/131",
           "estimated_value_usd": 240
         },
         {
-          "name": "Eevee ex (Special Illustration Rare)",
+          "name": "Eevee ex (SIR)",
           "card_number": "162/131",
           "estimated_value_usd": 100
+        },
+        {
+          "name": "Glaceon ex (SIR)",
+          "card_number": "147/131",
+          "estimated_value_usd": 60
+        },
+        {
+          "name": "Vaporeon ex (SIR)",
+          "card_number": "145/131",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Flareon ex (SIR)",
+          "card_number": "150/131",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Jolteon ex (SIR)",
+          "card_number": "148/131",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Espeon ex (SIR)",
+          "card_number": "153/131",
+          "estimated_value_usd": 35
         }
       ],
       "cheapest_pack_listing": null,
@@ -64,19 +89,19 @@
       "top_pick_reason": "top chase worth $1000; favorable pull rate (1 in 380)"
     },
     {
-      "id": "pokemon-go",
-      "name": "Pokemon Go",
-      "set_code": "PGO",
-      "release_date": "2022-07-01",
+      "id": "pokemon-151",
+      "name": "Pokémon 151",
+      "set_code": "MEW",
+      "release_date": "2023-09-22",
       "set_type": "special",
       "in_print": false,
-      "in_print_note": "Out of print",
-      "total_cards": 88,
-      "pack_value_score": 55.0,
+      "in_print_note": "Out of print, elevated secondary market prices",
+      "total_cards": 207,
+      "pack_value_score": 65.8,
       "component_scores": {
         "cost_efficiency": 50.0,
-        "chase_magnitude": 3.2,
-        "pull_odds": 95.1,
+        "chase_magnitude": 44.7,
+        "pull_odds": 86.7,
         "hit_density": 100.0
       },
       "pack_price_usd": 4.49,
@@ -87,35 +112,100 @@
         "source": "",
         "label": "Booster Pack"
       },
-      "top_chase_value_usd": 80,
-      "top_chase_card": "Mewtwo VSTAR (Gold)",
-      "top_chase_card_number": "079/078",
-      "pull_rate_top_chase": "1 in 250",
-      "expected_value_per_pack": 1.12,
-      "packs_to_50_card": 160,
-      "etb_price_usd": 89.8,
-      "etb_roi_pct": -90.0,
-      "num_chase_cards": 4,
+      "top_chase_value_usd": 475,
+      "top_chase_card": "Charizard ex (SIR)",
+      "top_chase_card_number": "199/165",
+      "pull_rate_top_chase": "1 in 450",
+      "expected_value_per_pack": 1.74,
+      "packs_to_50_card": 74,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -84.5,
+      "num_chase_cards": 17,
       "chase_cards": [
         {
-          "name": "Mewtwo VSTAR (Gold)",
-          "card_number": "079/078",
-          "estimated_value_usd": 80
+          "name": "Charizard ex (SIR)",
+          "card_number": "199/165",
+          "estimated_value_usd": 475
         },
         {
-          "name": "Dragonite VSTAR (Rainbow)",
-          "card_number": "082/078",
-          "estimated_value_usd": 40
+          "name": "Blastoise ex (SIR)",
+          "card_number": "200/165",
+          "estimated_value_usd": 175
         },
         {
-          "name": "Mewtwo V (Alt Art)",
-          "card_number": "072/078",
-          "estimated_value_usd": 35
+          "name": "Venusaur ex (SIR)",
+          "card_number": "198/165",
+          "estimated_value_usd": 150
         },
         {
-          "name": "Radiant Charizard",
-          "card_number": "011/078",
-          "estimated_value_usd": 25
+          "name": "Zapdos ex (SIR)",
+          "card_number": "202/165",
+          "estimated_value_usd": 121
+        },
+        {
+          "name": "Charmander (IR)",
+          "card_number": "168/165",
+          "estimated_value_usd": 120
+        },
+        {
+          "name": "Squirtle (IR)",
+          "card_number": "170/165",
+          "estimated_value_usd": 116
+        },
+        {
+          "name": "Pikachu (IR)",
+          "card_number": "173/165",
+          "estimated_value_usd": 100
+        },
+        {
+          "name": "Bulbasaur (IR)",
+          "card_number": "166/165",
+          "estimated_value_usd": 96
+        },
+        {
+          "name": "Alakazam ex (SIR)",
+          "card_number": "201/165",
+          "estimated_value_usd": 90
+        },
+        {
+          "name": "Charmeleon (IR)",
+          "card_number": "169/165",
+          "estimated_value_usd": 85
+        },
+        {
+          "name": "Wartortle (IR)",
+          "card_number": "171/165",
+          "estimated_value_usd": 74
+        },
+        {
+          "name": "Psyduck (IR)",
+          "card_number": "175/165",
+          "estimated_value_usd": 74
+        },
+        {
+          "name": "Ivysaur (IR)",
+          "card_number": "167/165",
+          "estimated_value_usd": 64
+        },
+        {
+          "name": "Charizard ex (Ultra Rare)",
+          "card_number": "183/165",
+          "estimated_value_usd": 52
+        },
+        {
+          "name": "Mew ex (Ultra Rare)",
+          "card_number": "193/165",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Mew ex (Metal Card)",
+          "card_number": "205/165",
+          "estimated_value_usd": 48
+        },
+        {
+          "name": "Blastoise ex (Ultra Rare)",
+          "card_number": "184/165",
+          "estimated_value_usd": 30
         }
       ],
       "cheapest_pack_listing": null
@@ -129,12 +219,12 @@
       "in_print": true,
       "in_print_note": "Limited reprints confirmed early 2025",
       "total_cards": 245,
-      "pack_value_score": 53.7,
+      "pack_value_score": 52.8,
       "component_scores": {
         "cost_efficiency": 50.0,
         "chase_magnitude": 63.2,
         "pull_odds": 89.9,
-        "hit_density": 8.7
+        "hit_density": 4.4
       },
       "pack_price_usd": 4.49,
       "best_deal": {
@@ -145,7 +235,7 @@
         "label": "Booster Pack"
       },
       "top_chase_value_usd": 650,
-      "top_chase_card": "Mew ex (Special Illustration Rare)",
+      "top_chase_card": "Mew ex (SIR)",
       "top_chase_card_number": "232/091",
       "pull_rate_top_chase": "1 in 375",
       "expected_value_per_pack": 4.32,
@@ -155,200 +245,24 @@
       "num_chase_cards": 4,
       "chase_cards": [
         {
-          "name": "Mew ex (Special Illustration Rare)",
+          "name": "Mew ex (SIR)",
           "card_number": "232/091",
           "estimated_value_usd": 650
         },
         {
-          "name": "Charizard ex (Special Illustration Rare)",
+          "name": "Charizard ex (SIR)",
           "card_number": "234/091",
           "estimated_value_usd": 300
         },
         {
-          "name": "Iono (Special Illustration Rare)",
+          "name": "Iono (SIR)",
           "card_number": "237/091",
           "estimated_value_usd": 29
         },
         {
-          "name": "Snorlax (Illustration Rare)",
+          "name": "Snorlax (IR)",
           "card_number": "202/091",
           "estimated_value_usd": 24
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "ascended-heroes",
-      "name": "Ascended Heroes",
-      "set_code": "ASC",
-      "release_date": "2026-01-30",
-      "set_type": "special",
-      "in_print": false,
-      "in_print_note": "Not yet released (Jan 2026)",
-      "total_cards": 295,
-      "pack_value_score": 51.5,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 100.0,
-        "pull_odds": 32.3,
-        "hit_density": 0.0
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 1000,
-      "top_chase_card": "Mega Gengar ex (SIR)",
-      "top_chase_card_number": "284/217",
-      "pull_rate_top_chase": "1 in 1750",
-      "expected_value_per_pack": 8.55,
-      "packs_to_50_card": 80,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -23.9,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Mega Gengar ex (SIR)",
-          "card_number": "284/217",
-          "estimated_value_usd": 1000
-        },
-        {
-          "name": "Pikachu ex (SIR)",
-          "card_number": "276/217",
-          "estimated_value_usd": 600
-        },
-        {
-          "name": "Mega Dragonite ex (SIR)",
-          "card_number": "290/217",
-          "estimated_value_usd": 690
-        },
-        {
-          "name": "Mega Charizard Y ex (MHR)",
-          "card_number": "294/217",
-          "estimated_value_usd": 445
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "shrouded-fable",
-      "name": "Shrouded Fable",
-      "set_code": "SFA",
-      "release_date": "2024-08-02",
-      "set_type": "special",
-      "in_print": true,
-      "in_print_note": "Still in print (Regulation H). Mini set.",
-      "total_cards": 99,
-      "pack_value_score": 50.1,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 0.0,
-        "pull_odds": 91.5,
-        "hit_density": 84.2
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 50,
-      "top_chase_card": "Earthen Vessel",
-      "top_chase_card_number": "096/064",
-      "pull_rate_top_chase": "1 in 335",
-      "expected_value_per_pack": 0.67,
-      "packs_to_50_card": 268,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -94.0,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Earthen Vessel",
-          "card_number": "096/064",
-          "estimated_value_usd": 50
-        },
-        {
-          "name": "Persian",
-          "card_number": "078/064",
-          "estimated_value_usd": 45
-        },
-        {
-          "name": "Fezandipiti",
-          "card_number": "092/064",
-          "estimated_value_usd": 43
-        },
-        {
-          "name": "Basic Darkness Energy",
-          "card_number": "098/064",
-          "estimated_value_usd": 41
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "pokemon-151",
-      "name": "Pokémon 151",
-      "set_code": "MEW",
-      "release_date": "2023-09-22",
-      "set_type": "special",
-      "in_print": false,
-      "in_print_note": "Out of print, elevated secondary market prices",
-      "total_cards": 207,
-      "pack_value_score": 50.0,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 36.8,
-        "pull_odds": 86.7,
-        "hit_density": 33.2
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 400,
-      "top_chase_card": "Charizard ex (Special Illustration Rare)",
-      "top_chase_card_number": "199/165",
-      "pull_rate_top_chase": "1 in 450",
-      "expected_value_per_pack": 2.09,
-      "packs_to_50_card": 81,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -81.4,
-      "num_chase_cards": 5,
-      "chase_cards": [
-        {
-          "name": "Charizard ex (Special Illustration Rare)",
-          "card_number": "199/165",
-          "estimated_value_usd": 400
-        },
-        {
-          "name": "Blastoise ex (Special Illustration Rare)",
-          "card_number": "200/165",
-          "estimated_value_usd": 100
-        },
-        {
-          "name": "Venusaur ex (Special Illustration Rare)",
-          "card_number": "198/165",
-          "estimated_value_usd": 75
-        },
-        {
-          "name": "Mew ex (Special Illustration Rare)",
-          "card_number": "205/165",
-          "estimated_value_usd": 65
-        },
-        {
-          "name": "Alakazam ex (Special Illustration Rare)",
-          "card_number": "201/165",
-          "estimated_value_usd": 40
         }
       ],
       "cheapest_pack_listing": null
@@ -362,12 +276,12 @@
       "in_print": false,
       "in_print_note": "Out of print. Most valuable SWSH set.",
       "total_cards": 237,
-      "pack_value_score": 47.6,
+      "pack_value_score": 52.5,
       "component_scores": {
         "cost_efficiency": 50.0,
         "chase_magnitude": 42.1,
         "pull_odds": 76.2,
-        "hit_density": 23.6
+        "hit_density": 48.1
       },
       "pack_price_usd": 4.49,
       "best_deal": {
@@ -381,11 +295,11 @@
       "top_chase_card": "Umbreon VMAX (Alt Art)",
       "top_chase_card_number": "215/203",
       "pull_rate_top_chase": "1 in 700",
-      "expected_value_per_pack": 3.6,
-      "packs_to_50_card": 60,
+      "expected_value_per_pack": 2.11,
+      "packs_to_50_card": 82,
       "etb_price_usd": 89.8,
-      "etb_roi_pct": -67.9,
-      "num_chase_cards": 5,
+      "etb_roi_pct": -81.2,
+      "num_chase_cards": 11,
       "chase_cards": [
         {
           "name": "Umbreon VMAX (Alt Art)",
@@ -411,6 +325,227 @@
           "name": "Dragonite V (Alt Art)",
           "card_number": "192/203",
           "estimated_value_usd": 100
+        },
+        {
+          "name": "Espeon VMAX (Alt Art)",
+          "card_number": "270/203",
+          "estimated_value_usd": 80
+        },
+        {
+          "name": "Leafeon VMAX (Alt Art)",
+          "card_number": "205/203",
+          "estimated_value_usd": 70
+        },
+        {
+          "name": "Jolteon VMAX (Alt Art)",
+          "card_number": "214/203",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Vaporeon VMAX (Alt Art)",
+          "card_number": "208/203",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Flareon VMAX (Alt Art)",
+          "card_number": "211/203",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Gyarados VMAX (Alt Art)",
+          "card_number": "207/203",
+          "estimated_value_usd": 30
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "ascended-heroes",
+      "name": "Ascended Heroes",
+      "set_code": "ASC",
+      "release_date": "2026-01-30",
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Not yet released (Jan 2026)",
+      "total_cards": 295,
+      "pack_value_score": 52.5,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 100.0,
+        "pull_odds": 32.3,
+        "hit_density": 5.3
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 1000,
+      "top_chase_card": "Mega Gengar ex (SIR)",
+      "top_chase_card_number": "284/217",
+      "pull_rate_top_chase": "1 in 1750",
+      "expected_value_per_pack": 7.46,
+      "packs_to_50_card": 80,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -33.5,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Mega Gengar ex (SIR)",
+          "card_number": "284/217",
+          "estimated_value_usd": 1000
+        },
+        {
+          "name": "Mega Dragonite ex (SIR)",
+          "card_number": "290/217",
+          "estimated_value_usd": 690
+        },
+        {
+          "name": "Pikachu ex (SIR)",
+          "card_number": "276/217",
+          "estimated_value_usd": 600
+        },
+        {
+          "name": "Mega Charizard Y ex (MHR)",
+          "card_number": "294/217",
+          "estimated_value_usd": 445
+        },
+        {
+          "name": "Mega Dragonite ex (MHR)",
+          "card_number": "295/217",
+          "estimated_value_usd": 250
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "pokemon-go",
+      "name": "Pokemon Go",
+      "set_code": "PGO",
+      "release_date": "2022-07-01",
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Out of print",
+      "total_cards": 88,
+      "pack_value_score": 50.9,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 3.2,
+        "pull_odds": 95.1,
+        "hit_density": 79.7
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 80,
+      "top_chase_card": "Mewtwo VSTAR (Gold)",
+      "top_chase_card_number": "079/078",
+      "pull_rate_top_chase": "1 in 250",
+      "expected_value_per_pack": 0.92,
+      "packs_to_50_card": 240,
+      "etb_price_usd": 89.8,
+      "etb_roi_pct": -91.8,
+      "num_chase_cards": 6,
+      "chase_cards": [
+        {
+          "name": "Mewtwo VSTAR (Gold)",
+          "card_number": "079/078",
+          "estimated_value_usd": 80
+        },
+        {
+          "name": "Dragonite VSTAR (Rainbow)",
+          "card_number": "082/078",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Mewtwo V (Alt Art)",
+          "card_number": "072/078",
+          "estimated_value_usd": 35
+        },
+        {
+          "name": "Radiant Charizard",
+          "card_number": "011/078",
+          "estimated_value_usd": 25
+        },
+        {
+          "name": "Mew VMAX (Trainer Gallery)",
+          "card_number": "TG30/TG30",
+          "estimated_value_usd": 20
+        },
+        {
+          "name": "Mega Starmie ex",
+          "card_number": "025/078",
+          "estimated_value_usd": 20
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "shrouded-fable",
+      "name": "Shrouded Fable",
+      "set_code": "SFA",
+      "release_date": "2024-08-02",
+      "set_type": "special",
+      "in_print": true,
+      "in_print_note": "Still in print (Regulation H). Mini set.",
+      "total_cards": 99,
+      "pack_value_score": 44.1,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 0.0,
+        "pull_odds": 91.5,
+        "hit_density": 54.1
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 50,
+      "top_chase_card": "Earthen Vessel",
+      "top_chase_card_number": "096/064",
+      "pull_rate_top_chase": "1 in 335",
+      "expected_value_per_pack": 0.61,
+      "packs_to_50_card": 335,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -94.6,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Earthen Vessel",
+          "card_number": "096/064",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Persian",
+          "card_number": "078/064",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Fezandipiti",
+          "card_number": "092/064",
+          "estimated_value_usd": 43
+        },
+        {
+          "name": "Basic Darkness Energy",
+          "card_number": "098/064",
+          "estimated_value_usd": 41
+        },
+        {
+          "name": "Pecharunt ex (SIR)",
+          "card_number": "091/064",
+          "estimated_value_usd": 25
         }
       ],
       "cheapest_pack_listing": null
@@ -424,12 +559,12 @@
       "in_print": true,
       "in_print_note": "Reprints confirmed by distributors",
       "total_cards": 252,
-      "pack_value_score": 44.7,
+      "pack_value_score": 44.0,
       "component_scores": {
         "cost_efficiency": 50.0,
         "chase_magnitude": 42.1,
         "pull_odds": 77.9,
-        "hit_density": 7.3
+        "hit_density": 3.8
       },
       "pack_price_usd": 4.49,
       "best_deal": {
@@ -440,7 +575,7 @@
         "label": "Booster Pack"
       },
       "top_chase_value_usd": 450,
-      "top_chase_card": "Pikachu ex (Special Illustration Rare)",
+      "top_chase_card": "Pikachu ex (SIR)",
       "top_chase_card_number": "238/191",
       "pull_rate_top_chase": "1 in 660",
       "expected_value_per_pack": 2.46,
@@ -450,12 +585,12 @@
       "num_chase_cards": 4,
       "chase_cards": [
         {
-          "name": "Pikachu ex (Special Illustration Rare)",
+          "name": "Pikachu ex (SIR)",
           "card_number": "238/191",
           "estimated_value_usd": 450
         },
         {
-          "name": "Latias ex (Special Illustration Rare)",
+          "name": "Latias ex (SIR)",
           "card_number": "239/191",
           "estimated_value_usd": 65
         },
@@ -465,631 +600,9 @@
           "estimated_value_usd": 50
         },
         {
-          "name": "Durant (Special Illustration Rare)",
+          "name": "Durant (SIR)",
           "card_number": "235/191",
           "estimated_value_usd": 25
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "twilight-masquerade",
-      "name": "Twilight Masquerade",
-      "set_code": "TWM",
-      "release_date": "2024-05-24",
-      "set_type": "main",
-      "in_print": true,
-      "in_print_note": "Small reprints confirmed by distributors",
-      "total_cards": 226,
-      "pack_value_score": 42.2,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 28.4,
-        "pull_odds": 80.4,
-        "hit_density": 13.0
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 320,
-      "top_chase_card": "Greninja ex (Special Illustration Rare)",
-      "top_chase_card_number": "214/167",
-      "pull_rate_top_chase": "1 in 600",
-      "expected_value_per_pack": 1.16,
-      "packs_to_50_card": 344,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -89.7,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Greninja ex (Special Illustration Rare)",
-          "card_number": "214/167",
-          "estimated_value_usd": 320
-        },
-        {
-          "name": "Bloodmoon Ursaluna ex (Special Illustration Rare)",
-          "card_number": "216/167",
-          "estimated_value_usd": 40
-        },
-        {
-          "name": "Ogerpon ex (Teal Mask, SIR)",
-          "card_number": "213/167",
-          "estimated_value_usd": 18
-        },
-        {
-          "name": "Sinistcha ex (Special Illustration Rare)",
-          "card_number": "210/167",
-          "estimated_value_usd": 20
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "journey-together",
-      "name": "Journey Together",
-      "set_code": "JTG",
-      "release_date": "2025-03-28",
-      "set_type": "main",
-      "in_print": true,
-      "in_print_note": "Recently released, actively in print",
-      "total_cards": 190,
-      "pack_value_score": 41.4,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 15.8,
-        "pull_odds": 84.6,
-        "hit_density": 23.5
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 200,
-      "top_chase_card": "Lillie's Clefairy ex (Special Illustration Rare)",
-      "top_chase_card_number": "184/159",
-      "pull_rate_top_chase": "1 in 500",
-      "expected_value_per_pack": 1.56,
-      "packs_to_50_card": 75,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -86.1,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Lillie's Clefairy ex (Special Illustration Rare)",
-          "card_number": "184/159",
-          "estimated_value_usd": 200
-        },
-        {
-          "name": "N's Zoroark ex (Special Illustration Rare)",
-          "card_number": "185/159",
-          "estimated_value_usd": 130
-        },
-        {
-          "name": "Iono's Bellibolt ex (Special Illustration Rare)",
-          "card_number": "183/159",
-          "estimated_value_usd": 84
-        },
-        {
-          "name": "Hop's Zacian ex (Special Illustration Rare)",
-          "card_number": "186/159",
-          "estimated_value_usd": 55
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "destined-rivals",
-      "name": "Destined Rivals",
-      "set_code": "DRI",
-      "release_date": "2025-05-30",
-      "set_type": "main",
-      "in_print": true,
-      "in_print_note": "Upcoming release, pre-orders available",
-      "total_cards": 244,
-      "pack_value_score": 40.3,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 30.5,
-        "pull_odds": 72.1,
-        "hit_density": 8.9
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 340,
-      "top_chase_card": "Team Rocket's Mewtwo ex (SIR)",
-      "top_chase_card_number": "231/182",
-      "pull_rate_top_chase": "1 in 800",
-      "expected_value_per_pack": 2.22,
-      "packs_to_50_card": 95,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -80.2,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Team Rocket's Mewtwo ex (SIR)",
-          "card_number": "231/182",
-          "estimated_value_usd": 340
-        },
-        {
-          "name": "Cynthia's Garchomp ex (SIR)",
-          "card_number": "232/182",
-          "estimated_value_usd": 193
-        },
-        {
-          "name": "Ethan's Ho-Oh ex (SIR)",
-          "card_number": "230/182",
-          "estimated_value_usd": 162
-        },
-        {
-          "name": "Team Rocket's Moltres ex (SIR)",
-          "card_number": "229/182",
-          "estimated_value_usd": 148
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "stellar-crown",
-      "name": "Stellar Crown",
-      "set_code": "SCR",
-      "release_date": "2024-09-13",
-      "set_type": "main",
-      "in_print": true,
-      "in_print_note": "Still available at or near MSRP",
-      "total_cards": 175,
-      "pack_value_score": 39.1,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 2.1,
-        "pull_odds": 88.0,
-        "hit_density": 29.2
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 70,
-      "top_chase_card": "Terapagos ex (Special Illustration Rare)",
-      "top_chase_card_number": "170/142",
-      "pull_rate_top_chase": "1 in 420",
-      "expected_value_per_pack": 0.61,
-      "packs_to_50_card": 280,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -94.5,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Terapagos ex (Special Illustration Rare)",
-          "card_number": "170/142",
-          "estimated_value_usd": 70
-        },
-        {
-          "name": "Hydrapple ex (Special Illustration Rare)",
-          "card_number": "168/142",
-          "estimated_value_usd": 37
-        },
-        {
-          "name": "Bulbasaur (Illustration Rare)",
-          "card_number": "155/142",
-          "estimated_value_usd": 35
-        },
-        {
-          "name": "Lacey (Special Illustration Rare)",
-          "card_number": "171/142",
-          "estimated_value_usd": 30
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "crown-zenith",
-      "name": "Crown Zenith",
-      "set_code": "CRZ",
-      "release_date": "2023-01-20",
-      "set_type": "special",
-      "in_print": false,
-      "in_print_note": "Out of print, secondary market only",
-      "total_cards": 230,
-      "pack_value_score": 38.7,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 4.2,
-        "pull_odds": 100.0,
-        "hit_density": 12.0
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 90,
-      "top_chase_card": "Giratina VSTAR (Gold)",
-      "top_chase_card_number": "GG69/GG70",
-      "pull_rate_top_chase": "1 in 133",
-      "expected_value_per_pack": 0.53,
-      "packs_to_50_card": 167,
-      "etb_price_usd": 89.8,
-      "etb_roi_pct": -95.3,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Giratina VSTAR (Gold)",
-          "card_number": "GG69/GG70",
-          "estimated_value_usd": 85
-        },
-        {
-          "name": "Mewtwo VSTAR (Special Illustration Rare)",
-          "card_number": "GG44/GG70",
-          "estimated_value_usd": 90
-        },
-        {
-          "name": "Pikachu (Secret Rare)",
-          "card_number": "160/159",
-          "estimated_value_usd": 50
-        },
-        {
-          "name": "Arceus VSTAR (Galarian Gallery)",
-          "card_number": "GG70/GG70",
-          "estimated_value_usd": 40
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "lost-origin",
-      "name": "Lost Origin",
-      "set_code": "LOR",
-      "release_date": "2022-09-09",
-      "set_type": "main",
-      "in_print": false,
-      "in_print_note": "Out of print",
-      "total_cards": 247,
-      "pack_value_score": 38.3,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 15.8,
-        "pull_odds": 84.6,
-        "hit_density": 8.3
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 200,
-      "top_chase_card": "Giratina V (Alt Art)",
-      "top_chase_card_number": "186/196",
-      "pull_rate_top_chase": "1 in 500",
-      "expected_value_per_pack": 1.57,
-      "packs_to_50_card": 73,
-      "etb_price_usd": 89.8,
-      "etb_roi_pct": -86.0,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Giratina V (Alt Art)",
-          "card_number": "186/196",
-          "estimated_value_usd": 200
-        },
-        {
-          "name": "Giratina VSTAR (Rainbow)",
-          "card_number": "221/196",
-          "estimated_value_usd": 60
-        },
-        {
-          "name": "Aerodactyl V (Alt Art)",
-          "card_number": "193/196",
-          "estimated_value_usd": 50
-        },
-        {
-          "name": "Rotom V (Alt Art)",
-          "card_number": "194/196",
-          "estimated_value_usd": 35
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "paldea-evolved",
-      "name": "Paldea Evolved",
-      "set_code": "PAL",
-      "release_date": "2023-06-09",
-      "set_type": "main",
-      "in_print": false,
-      "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
-      "total_cards": 279,
-      "pack_value_score": 38.0,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 28.0,
-        "pull_odds": 70.7,
-        "hit_density": 2.4
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 316,
-      "top_chase_card": "Magikarp (IR)",
-      "top_chase_card_number": "203/193",
-      "pull_rate_top_chase": "1 in 832",
-      "expected_value_per_pack": 4.12,
-      "packs_to_50_card": 32,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -63.3,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Magikarp (IR)",
-          "card_number": "203/193",
-          "estimated_value_usd": 316
-        },
-        {
-          "name": "Raichu (IR)",
-          "card_number": "211/193",
-          "estimated_value_usd": 89
-        },
-        {
-          "name": "Maushold (IR)",
-          "card_number": "226/193",
-          "estimated_value_usd": 68
-        },
-        {
-          "name": "Iono (SIR)",
-          "card_number": "269/193",
-          "estimated_value_usd": 54
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "perfect-order",
-      "name": "Perfect Order",
-      "set_code": "POR",
-      "release_date": "2026-03-27",
-      "set_type": "main",
-      "in_print": false,
-      "in_print_note": "Not yet released (Mar 2026)",
-      "total_cards": 124,
-      "pack_value_score": 37.6,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 15.8,
-        "pull_odds": 30.7,
-        "hit_density": 58.6
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 200,
-      "top_chase_card": "Mega Zygarde ex (Mega Hyper Rare)",
-      "top_chase_card_number": "124/088",
-      "pull_rate_top_chase": "1 in 1786",
-      "expected_value_per_pack": 1.59,
-      "packs_to_50_card": 90,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -85.8,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Mega Zygarde ex (Mega Hyper Rare)",
-          "card_number": "124/088",
-          "estimated_value_usd": 200
-        },
-        {
-          "name": "Rosa's Encouragement (SIR)",
-          "card_number": "123/088",
-          "estimated_value_usd": 152
-        },
-        {
-          "name": "Meowth ex (SIR)",
-          "card_number": "121/088",
-          "estimated_value_usd": 140
-        },
-        {
-          "name": "Mega Zygarde ex (SIR)",
-          "card_number": "120/088",
-          "estimated_value_usd": 80
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "brilliant-stars",
-      "name": "Brilliant Stars",
-      "set_code": "BRS",
-      "release_date": "2022-02-25",
-      "set_type": "main",
-      "in_print": false,
-      "in_print_note": "Out of print",
-      "total_cards": 216,
-      "pack_value_score": 36.8,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 3.2,
-        "pull_odds": 88.8,
-        "hit_density": 15.5
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 80,
-      "top_chase_card": "Charizard VSTAR (Rainbow)",
-      "top_chase_card_number": "174/172",
-      "pull_rate_top_chase": "1 in 400",
-      "expected_value_per_pack": 0.93,
-      "packs_to_50_card": 110,
-      "etb_price_usd": 89.8,
-      "etb_roi_pct": -91.7,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Charizard VSTAR (Rainbow)",
-          "card_number": "174/172",
-          "estimated_value_usd": 80
-        },
-        {
-          "name": "Arceus VSTAR (Gold)",
-          "card_number": "184/172",
-          "estimated_value_usd": 50
-        },
-        {
-          "name": "Charizard V (Alt Art)",
-          "card_number": "154/172",
-          "estimated_value_usd": 45
-        },
-        {
-          "name": "Lumineon V (Alt Art)",
-          "card_number": "155/172",
-          "estimated_value_usd": 30
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "obsidian-flames",
-      "name": "Obsidian Flames",
-      "set_code": "OBF",
-      "release_date": "2023-08-11",
-      "set_type": "main",
-      "in_print": false,
-      "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
-      "total_cards": 230,
-      "pack_value_score": 36.8,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 6.7,
-        "pull_odds": 86.7,
-        "hit_density": 12.0
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 114,
-      "top_chase_card": "Charizard ex (SIR)",
-      "top_chase_card_number": "223/197",
-      "pull_rate_top_chase": "1 in 450",
-      "expected_value_per_pack": 1.98,
-      "packs_to_50_card": 64,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -82.4,
-      "num_chase_cards": 4,
-      "chase_cards": [
-        {
-          "name": "Charizard ex (SIR)",
-          "card_number": "223/197",
-          "estimated_value_usd": 114
-        },
-        {
-          "name": "Cleffa (IR)",
-          "card_number": "202/197",
-          "estimated_value_usd": 54
-        },
-        {
-          "name": "Charizard ex (Hyper Rare)",
-          "card_number": "228/197",
-          "estimated_value_usd": 45
-        },
-        {
-          "name": "Ninetales (IR)",
-          "card_number": "199/197",
-          "estimated_value_usd": 40
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
-      "id": "chaos-rising",
-      "name": "Chaos Rising",
-      "set_code": "ME04",
-      "release_date": "2026-05-22",
-      "set_type": "main",
-      "in_print": false,
-      "in_print_note": "Not yet released (May 2026)",
-      "total_cards": 122,
-      "pack_value_score": 36.8,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 21.1,
-        "pull_odds": 42.7,
-        "hit_density": 34.6
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 250,
-      "top_chase_card": "Mega Greninja ex (Mega Hyper Rare)",
-      "top_chase_card_number": "122/086",
-      "pull_rate_top_chase": "1 in 1500",
-      "expected_value_per_pack": 1.76,
-      "packs_to_50_card": 90,
-      "etb_price_usd": 101.03,
-      "etb_roi_pct": -84.3,
-      "num_chase_cards": 3,
-      "chase_cards": [
-        {
-          "name": "Mega Greninja ex (Mega Hyper Rare)",
-          "card_number": "122/086",
-          "estimated_value_usd": 250
-        },
-        {
-          "name": "Mega Greninja ex (SIR)",
-          "card_number": "114/086",
-          "estimated_value_usd": 150
-        },
-        {
-          "name": "Mega Pyroar ex (SIR)",
-          "card_number": "112/086",
-          "estimated_value_usd": 75
         }
       ],
       "cheapest_pack_listing": null
@@ -1103,12 +616,12 @@
       "in_print": false,
       "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
       "total_cards": 258,
-      "pack_value_score": 35.6,
+      "pack_value_score": 42.4,
       "component_scores": {
         "cost_efficiency": 50.0,
-        "chase_magnitude": 3.2,
+        "chase_magnitude": 5.3,
         "pull_odds": 92.2,
-        "hit_density": 6.1
+        "hit_density": 37.0
       },
       "pack_price_usd": 4.49,
       "best_deal": {
@@ -1118,20 +631,50 @@
         "source": "",
         "label": "Booster Pack"
       },
-      "top_chase_value_usd": 80,
+      "top_chase_value_usd": 100,
       "top_chase_card": "Gardevoir ex (SIR)",
       "top_chase_card_number": "245/198",
       "pull_rate_top_chase": "1 in 318",
-      "expected_value_per_pack": 1.2,
-      "packs_to_50_card": 128,
+      "expected_value_per_pack": 1.5,
+      "packs_to_50_card": 80,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -89.3,
-      "num_chase_cards": 4,
+      "etb_roi_pct": -86.6,
+      "num_chase_cards": 10,
       "chase_cards": [
         {
           "name": "Gardevoir ex (SIR)",
           "card_number": "245/198",
-          "estimated_value_usd": 80
+          "estimated_value_usd": 100
+        },
+        {
+          "name": "Drowzee (IR)",
+          "card_number": "210/198",
+          "estimated_value_usd": 69
+        },
+        {
+          "name": "Ralts (IR)",
+          "card_number": "211/198",
+          "estimated_value_usd": 61
+        },
+        {
+          "name": "Slowpoke (IR)",
+          "card_number": "204/198",
+          "estimated_value_usd": 57
+        },
+        {
+          "name": "Riolu (IR)",
+          "card_number": "215/198",
+          "estimated_value_usd": 47
+        },
+        {
+          "name": "Wiglett (IR)",
+          "card_number": "206/198",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Miriam (SIR)",
+          "card_number": "251/198",
+          "estimated_value_usd": 33
         },
         {
           "name": "Miraidon ex (SIR)",
@@ -1152,6 +695,569 @@
       "cheapest_pack_listing": null
     },
     {
+      "id": "paldea-evolved",
+      "name": "Paldea Evolved",
+      "set_code": "PAL",
+      "release_date": "2023-06-09",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
+      "total_cards": 279,
+      "pack_value_score": 41.0,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 28.0,
+        "pull_odds": 70.7,
+        "hit_density": 17.2
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 316,
+      "top_chase_card": "Magikarp (IR)",
+      "top_chase_card_number": "203/193",
+      "pull_rate_top_chase": "1 in 832",
+      "expected_value_per_pack": 3.16,
+      "packs_to_50_card": 37,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -71.8,
+      "num_chase_cards": 7,
+      "chase_cards": [
+        {
+          "name": "Magikarp (IR)",
+          "card_number": "203/193",
+          "estimated_value_usd": 316
+        },
+        {
+          "name": "Raichu (IR)",
+          "card_number": "211/193",
+          "estimated_value_usd": 89
+        },
+        {
+          "name": "Tinkaton ex (SIR)",
+          "card_number": "262/193",
+          "estimated_value_usd": 75
+        },
+        {
+          "name": "Iono (SIR)",
+          "card_number": "269/193",
+          "estimated_value_usd": 75
+        },
+        {
+          "name": "Maushold (IR)",
+          "card_number": "226/193",
+          "estimated_value_usd": 68
+        },
+        {
+          "name": "Chi-Yu ex (SIR)",
+          "card_number": "259/193",
+          "estimated_value_usd": 52
+        },
+        {
+          "name": "Baxcalibur (IR)",
+          "card_number": "210/193",
+          "estimated_value_usd": 33
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "destined-rivals",
+      "name": "Destined Rivals",
+      "set_code": "DRI",
+      "release_date": "2025-05-30",
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Upcoming release, pre-orders available",
+      "total_cards": 244,
+      "pack_value_score": 40.7,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 30.5,
+        "pull_odds": 72.1,
+        "hit_density": 10.5
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 340,
+      "top_chase_card": "Team Rocket's Mewtwo ex (SIR)",
+      "top_chase_card_number": "231/182",
+      "pull_rate_top_chase": "1 in 800",
+      "expected_value_per_pack": 1.94,
+      "packs_to_50_card": 95,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -82.7,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Team Rocket's Mewtwo ex (SIR)",
+          "card_number": "231/182",
+          "estimated_value_usd": 340
+        },
+        {
+          "name": "Cynthia's Garchomp ex (SIR)",
+          "card_number": "232/182",
+          "estimated_value_usd": 193
+        },
+        {
+          "name": "Ethan's Ho-Oh ex (SIR)",
+          "card_number": "230/182",
+          "estimated_value_usd": 162
+        },
+        {
+          "name": "Team Rocket's Moltres ex (SIR)",
+          "card_number": "229/182",
+          "estimated_value_usd": 148
+        },
+        {
+          "name": "Team Rocket's Nidoking ex (SIR)",
+          "card_number": "228/182",
+          "estimated_value_usd": 80
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "journey-together",
+      "name": "Journey Together",
+      "set_code": "JTG",
+      "release_date": "2025-03-28",
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Recently released, actively in print",
+      "total_cards": 190,
+      "pack_value_score": 40.5,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 15.8,
+        "pull_odds": 84.6,
+        "hit_density": 18.9
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 200,
+      "top_chase_card": "Lillie's Clefairy ex (SIR)",
+      "top_chase_card_number": "184/159",
+      "pull_rate_top_chase": "1 in 500",
+      "expected_value_per_pack": 1.36,
+      "packs_to_50_card": 94,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -87.9,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Lillie's Clefairy ex (SIR)",
+          "card_number": "184/159",
+          "estimated_value_usd": 200
+        },
+        {
+          "name": "N's Zoroark ex (SIR)",
+          "card_number": "185/159",
+          "estimated_value_usd": 130
+        },
+        {
+          "name": "Iono's Bellibolt ex (SIR)",
+          "card_number": "183/159",
+          "estimated_value_usd": 84
+        },
+        {
+          "name": "Hop's Zacian ex (SIR)",
+          "card_number": "186/159",
+          "estimated_value_usd": 55
+        },
+        {
+          "name": "Iono's Bellibolt ex (Hyper Rare)",
+          "card_number": "188/159",
+          "estimated_value_usd": 40
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "crown-zenith",
+      "name": "Crown Zenith",
+      "set_code": "CRZ",
+      "release_date": "2023-01-20",
+      "set_type": "special",
+      "in_print": false,
+      "in_print_note": "Out of print, secondary market only",
+      "total_cards": 230,
+      "pack_value_score": 40.0,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 4.2,
+        "pull_odds": 100.0,
+        "hit_density": 18.6
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 90,
+      "top_chase_card": "Mewtwo VSTAR (SIR)",
+      "top_chase_card_number": "GG44/GG70",
+      "pull_rate_top_chase": "1 in 133",
+      "expected_value_per_pack": 0.43,
+      "packs_to_50_card": 250,
+      "etb_price_usd": 89.8,
+      "etb_roi_pct": -96.2,
+      "num_chase_cards": 6,
+      "chase_cards": [
+        {
+          "name": "Mewtwo VSTAR (SIR)",
+          "card_number": "GG44/GG70",
+          "estimated_value_usd": 90
+        },
+        {
+          "name": "Giratina VSTAR (Gold)",
+          "card_number": "GG69/GG70",
+          "estimated_value_usd": 85
+        },
+        {
+          "name": "Pikachu (Secret Rare)",
+          "card_number": "160/159",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Arceus VSTAR (GG)",
+          "card_number": "GG70/GG70",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Charizard VSTAR (GG)",
+          "card_number": "GG58/GG70",
+          "estimated_value_usd": 30
+        },
+        {
+          "name": "Umbreon VMAX (GG)",
+          "card_number": "GG55/GG70",
+          "estimated_value_usd": 25
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "twilight-masquerade",
+      "name": "Twilight Masquerade",
+      "set_code": "TWM",
+      "release_date": "2024-05-24",
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Small reprints confirmed by distributors",
+      "total_cards": 226,
+      "pack_value_score": 39.6,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 28.4,
+        "pull_odds": 80.4,
+        "hit_density": 0.0
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 320,
+      "top_chase_card": "Greninja ex (SIR)",
+      "top_chase_card_number": "214/167",
+      "pull_rate_top_chase": "1 in 600",
+      "expected_value_per_pack": 1.47,
+      "packs_to_50_card": 258,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -86.9,
+      "num_chase_cards": 3,
+      "chase_cards": [
+        {
+          "name": "Greninja ex (SIR)",
+          "card_number": "214/167",
+          "estimated_value_usd": 320
+        },
+        {
+          "name": "Bloodmoon Ursaluna ex (SIR)",
+          "card_number": "216/167",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Sinistcha ex (SIR)",
+          "card_number": "210/167",
+          "estimated_value_usd": 20
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "lost-origin",
+      "name": "Lost Origin",
+      "set_code": "LOR",
+      "release_date": "2022-09-09",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print",
+      "total_cards": 247,
+      "pack_value_score": 38.7,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 15.8,
+        "pull_odds": 84.6,
+        "hit_density": 10.1
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 200,
+      "top_chase_card": "Giratina V (Alt Art)",
+      "top_chase_card_number": "186/196",
+      "pull_rate_top_chase": "1 in 500",
+      "expected_value_per_pack": 1.35,
+      "packs_to_50_card": 92,
+      "etb_price_usd": 89.8,
+      "etb_roi_pct": -88.0,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Giratina V (Alt Art)",
+          "card_number": "186/196",
+          "estimated_value_usd": 200
+        },
+        {
+          "name": "Giratina VSTAR (Rainbow)",
+          "card_number": "221/196",
+          "estimated_value_usd": 60
+        },
+        {
+          "name": "Aerodactyl V (Alt Art)",
+          "card_number": "193/196",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Rotom V (Alt Art)",
+          "card_number": "194/196",
+          "estimated_value_usd": 35
+        },
+        {
+          "name": "Pikachu TG (Trainer Gallery)",
+          "card_number": "TG05/TG30",
+          "estimated_value_usd": 25
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "stellar-crown",
+      "name": "Stellar Crown",
+      "set_code": "SCR",
+      "release_date": "2024-09-13",
+      "set_type": "main",
+      "in_print": true,
+      "in_print_note": "Still available at or near MSRP",
+      "total_cards": 175,
+      "pack_value_score": 37.7,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 2.1,
+        "pull_odds": 88.0,
+        "hit_density": 22.2
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 70,
+      "top_chase_card": "Terapagos ex (SIR)",
+      "top_chase_card_number": "170/142",
+      "pull_rate_top_chase": "1 in 420",
+      "expected_value_per_pack": 0.56,
+      "packs_to_50_card": 350,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -95.0,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Terapagos ex (SIR)",
+          "card_number": "170/142",
+          "estimated_value_usd": 70
+        },
+        {
+          "name": "Hydrapple ex (SIR)",
+          "card_number": "168/142",
+          "estimated_value_usd": 37
+        },
+        {
+          "name": "Bulbasaur (IR)",
+          "card_number": "155/142",
+          "estimated_value_usd": 35
+        },
+        {
+          "name": "Lacey (SIR)",
+          "card_number": "171/142",
+          "estimated_value_usd": 30
+        },
+        {
+          "name": "Squirtle (IR)",
+          "card_number": "148/142",
+          "estimated_value_usd": 25
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "obsidian-flames",
+      "name": "Obsidian Flames",
+      "set_code": "OBF",
+      "release_date": "2023-08-11",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
+      "total_cards": 230,
+      "pack_value_score": 36.9,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 6.8,
+        "pull_odds": 86.7,
+        "hit_density": 12.3
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 115,
+      "top_chase_card": "Charizard ex (SIR)",
+      "top_chase_card_number": "223/197",
+      "pull_rate_top_chase": "1 in 450",
+      "expected_value_per_pack": 1.76,
+      "packs_to_50_card": 80,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -84.3,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Charizard ex (SIR)",
+          "card_number": "223/197",
+          "estimated_value_usd": 115
+        },
+        {
+          "name": "Cleffa (IR)",
+          "card_number": "202/197",
+          "estimated_value_usd": 54
+        },
+        {
+          "name": "Charizard ex (Hyper Rare)",
+          "card_number": "228/197",
+          "estimated_value_usd": 49
+        },
+        {
+          "name": "Ninetales (IR)",
+          "card_number": "199/197",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Charizard ex (Ultra Rare)",
+          "card_number": "215/197",
+          "estimated_value_usd": 24
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "brilliant-stars",
+      "name": "Brilliant Stars",
+      "set_code": "BRS",
+      "release_date": "2022-02-25",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print",
+      "total_cards": 216,
+      "pack_value_score": 36.6,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 3.2,
+        "pull_odds": 88.8,
+        "hit_density": 14.3
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 80,
+      "top_chase_card": "Charizard VSTAR (Rainbow)",
+      "top_chase_card_number": "174/172",
+      "pull_rate_top_chase": "1 in 400",
+      "expected_value_per_pack": 0.84,
+      "packs_to_50_card": 138,
+      "etb_price_usd": 89.8,
+      "etb_roi_pct": -92.5,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Charizard VSTAR (Rainbow)",
+          "card_number": "174/172",
+          "estimated_value_usd": 80
+        },
+        {
+          "name": "Arceus VSTAR (Gold)",
+          "card_number": "184/172",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Charizard V (Alt Art)",
+          "card_number": "154/172",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Lumineon V (Alt Art)",
+          "card_number": "155/172",
+          "estimated_value_usd": 30
+        },
+        {
+          "name": "Raichu V TG (Trainer Gallery)",
+          "card_number": "TG09/TG30",
+          "estimated_value_usd": 25
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
       "id": "paradox-rift",
       "name": "Paradox Rift",
       "set_code": "PAR",
@@ -1160,12 +1266,12 @@
       "in_print": false,
       "in_print_note": "Out of print (Regulation G rotated Spring 2026)",
       "total_cards": 266,
-      "pack_value_score": 32.7,
+      "pack_value_score": 34.4,
       "component_scores": {
         "cost_efficiency": 50.0,
         "chase_magnitude": 2.2,
         "pull_odds": 80.4,
-        "hit_density": 4.6
+        "hit_density": 13.5
       },
       "pack_price_usd": 4.49,
       "best_deal": {
@@ -1179,11 +1285,11 @@
       "top_chase_card": "Groudon (IR)",
       "top_chase_card_number": "199/182",
       "pull_rate_top_chase": "1 in 600",
-      "expected_value_per_pack": 1.34,
-      "packs_to_50_card": 128,
+      "expected_value_per_pack": 1.14,
+      "packs_to_50_card": 192,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -88.1,
-      "num_chase_cards": 4,
+      "etb_roi_pct": -89.9,
+      "num_chase_cards": 6,
       "chase_cards": [
         {
           "name": "Groudon (IR)",
@@ -1204,6 +1310,130 @@
           "name": "Minun (IR)",
           "card_number": "194/182",
           "estimated_value_usd": 27
+        },
+        {
+          "name": "Iron Valiant ex (SIR)",
+          "card_number": "250/182",
+          "estimated_value_usd": 25
+        },
+        {
+          "name": "Tulip (SIR)",
+          "card_number": "258/182",
+          "estimated_value_usd": 22
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "perfect-order",
+      "name": "Perfect Order",
+      "set_code": "POR",
+      "release_date": "2026-03-27",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Not yet released (Mar 2026)",
+      "total_cards": 124,
+      "pack_value_score": 33.7,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 15.8,
+        "pull_odds": 30.7,
+        "hit_density": 39.3
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 200,
+      "top_chase_card": "Mega Zygarde ex (MHR)",
+      "top_chase_card_number": "124/088",
+      "pull_rate_top_chase": "1 in 1786",
+      "expected_value_per_pack": 1.4,
+      "packs_to_50_card": 90,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -87.5,
+      "num_chase_cards": 5,
+      "chase_cards": [
+        {
+          "name": "Mega Zygarde ex (MHR)",
+          "card_number": "124/088",
+          "estimated_value_usd": 200
+        },
+        {
+          "name": "Rosa's Encouragement (SIR)",
+          "card_number": "123/088",
+          "estimated_value_usd": 152
+        },
+        {
+          "name": "Meowth ex (SIR)",
+          "card_number": "121/088",
+          "estimated_value_usd": 140
+        },
+        {
+          "name": "Mega Zygarde ex (SIR)",
+          "card_number": "120/088",
+          "estimated_value_usd": 80
+        },
+        {
+          "name": "Jacinthe (SIR)",
+          "card_number": "122/088",
+          "estimated_value_usd": 60
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "chaos-rising",
+      "name": "Chaos Rising",
+      "set_code": "ME04",
+      "release_date": "2026-05-22",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Not yet released (May 2026)",
+      "total_cards": 122,
+      "pack_value_score": 33.1,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 21.1,
+        "pull_odds": 42.7,
+        "hit_density": 16.4
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 250,
+      "top_chase_card": "Mega Greninja ex (MHR)",
+      "top_chase_card_number": "122/086",
+      "pull_rate_top_chase": "1 in 1500",
+      "expected_value_per_pack": 1.76,
+      "packs_to_50_card": 90,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -84.3,
+      "num_chase_cards": 3,
+      "chase_cards": [
+        {
+          "name": "Mega Greninja ex (MHR)",
+          "card_number": "122/086",
+          "estimated_value_usd": 250
+        },
+        {
+          "name": "Mega Greninja ex (SIR)",
+          "card_number": "114/086",
+          "estimated_value_usd": 150
+        },
+        {
+          "name": "Mega Pyroar ex (SIR)",
+          "card_number": "112/086",
+          "estimated_value_usd": 75
         }
       ],
       "cheapest_pack_listing": null
@@ -1217,12 +1447,12 @@
       "in_print": true,
       "in_print_note": "Still in print (Regulation H)",
       "total_cards": 218,
-      "pack_value_score": 32.2,
+      "pack_value_score": 32.0,
       "component_scores": {
         "cost_efficiency": 50.0,
         "chase_magnitude": 1.1,
         "pull_odds": 69.5,
-        "hit_density": 15.0
+        "hit_density": 14.0
       },
       "pack_price_usd": 4.49,
       "best_deal": {
@@ -1236,11 +1466,11 @@
       "top_chase_card": "Raging Bolt ex (SIR)",
       "top_chase_card_number": "208/162",
       "pull_rate_top_chase": "1 in 860",
-      "expected_value_per_pack": 0.56,
-      "packs_to_50_card": 172,
+      "expected_value_per_pack": 0.53,
+      "packs_to_50_card": 215,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -95.0,
-      "num_chase_cards": 4,
+      "etb_roi_pct": -95.3,
+      "num_chase_cards": 5,
       "chase_cards": [
         {
           "name": "Raging Bolt ex (SIR)",
@@ -1261,6 +1491,11 @@
           "name": "Morty's Conviction (SIR)",
           "card_number": "211/162",
           "estimated_value_usd": 38
+        },
+        {
+          "name": "Bianca's Devotion (SIR)",
+          "card_number": "212/162",
+          "estimated_value_usd": 35
         }
       ],
       "cheapest_pack_listing": null
@@ -1274,12 +1509,12 @@
       "in_print": false,
       "in_print_note": "Not yet released (Sep 2025)",
       "total_cards": 188,
-      "pack_value_score": 26.5,
+      "pack_value_score": 25.5,
       "component_scores": {
         "cost_efficiency": 50.0,
         "chase_magnitude": 22.1,
         "pull_odds": 0.0,
-        "hit_density": 24.2
+        "hit_density": 19.3
       },
       "pack_price_usd": 4.49,
       "best_deal": {
@@ -1290,22 +1525,22 @@
         "label": "Booster Pack"
       },
       "top_chase_value_usd": 260,
-      "top_chase_card": "Mega Lucario ex (Mega Hyper Rare)",
+      "top_chase_card": "Mega Lucario ex (MHR)",
       "top_chase_card_number": "188/132",
       "pull_rate_top_chase": "1 in 2520",
-      "expected_value_per_pack": 1.68,
-      "packs_to_50_card": 101,
+      "expected_value_per_pack": 1.43,
+      "packs_to_50_card": 126,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -85.0,
-      "num_chase_cards": 4,
+      "etb_roi_pct": -87.3,
+      "num_chase_cards": 5,
       "chase_cards": [
         {
-          "name": "Mega Lucario ex (Mega Hyper Rare)",
+          "name": "Mega Lucario ex (MHR)",
           "card_number": "188/132",
           "estimated_value_usd": 260
         },
         {
-          "name": "Mega Gardevoir ex (Mega Hyper Rare)",
+          "name": "Mega Gardevoir ex (MHR)",
           "card_number": "187/132",
           "estimated_value_usd": 240
         },
@@ -1318,6 +1553,11 @@
           "name": "Lillie's Determination (SIR)",
           "card_number": "184/132",
           "estimated_value_usd": 80
+        },
+        {
+          "name": "Mega Venusaur ex (SIR)",
+          "card_number": "177/132",
+          "estimated_value_usd": 40
         }
       ],
       "cheapest_pack_listing": null
