@@ -168,34 +168,44 @@
       "in_print_note": "Out of print",
       "top_chase_cards": [
         {
-          "name": "Mewtwo VSTAR (Gold)",
-          "card_number": "079/078",
-          "estimated_value_usd": 80
+          "name": "Mewtwo V (UR)",
+          "card_number": "72/78",
+          "estimated_value_usd": 66.36
         },
         {
-          "name": "Dragonite VSTAR (Rainbow)",
-          "card_number": "082/078",
-          "estimated_value_usd": 40
+          "name": "Mewtwo VSTAR",
+          "card_number": "79/78",
+          "estimated_value_usd": 50.19
         },
         {
-          "name": "Mewtwo V (Alt Art)",
-          "card_number": "072/078",
-          "estimated_value_usd": 35
+          "name": "Dragonite VSTAR",
+          "card_number": "81/78",
+          "estimated_value_usd": 46.6
+        },
+        {
+          "name": "Mewtwo VSTAR (Secret)",
+          "card_number": "86/78",
+          "estimated_value_usd": 31.96
         },
         {
           "name": "Radiant Charizard",
-          "card_number": "011/078",
-          "estimated_value_usd": 25
+          "card_number": "11/78",
+          "estimated_value_usd": 21.86
         },
         {
-          "name": "Mew VMAX (Trainer Gallery)",
-          "card_number": "TG30/TG30",
-          "estimated_value_usd": 20
+          "name": "Dragonite V (UR)",
+          "card_number": "76/78",
+          "estimated_value_usd": 15.78
         },
         {
-          "name": "Mega Starmie ex",
-          "card_number": "025/078",
-          "estimated_value_usd": 20
+          "name": "Melmetal VMAX",
+          "card_number": "80/78",
+          "estimated_value_usd": 11.5
+        },
+        {
+          "name": "Radiant Blastoise",
+          "card_number": "18/78",
+          "estimated_value_usd": 11.0
         }
       ],
       "pull_rates": {
@@ -293,104 +303,209 @@
       "in_print_note": "Out of print, secondary market only",
       "top_chase_cards": [
         {
-          "name": "Mewtwo VSTAR (SIR)",
-          "card_number": "GG44/GG70",
-          "estimated_value_usd": 350
+          "name": "Mewtwo VSTAR",
+          "card_number": "GG44/70",
+          "estimated_value_usd": 297.99
         },
         {
-          "name": "Giratina VSTAR (Gold)",
-          "card_number": "GG69/GG70",
-          "estimated_value_usd": 300
+          "name": "Giratina VSTAR (Secret)",
+          "card_number": "GG69/70",
+          "estimated_value_usd": 248.8
         },
         {
-          "name": "Arceus VSTAR (GG)",
-          "card_number": "GG70/GG70",
-          "estimated_value_usd": 250
+          "name": "Arceus VSTAR (Secret)",
+          "card_number": "GG70/70",
+          "estimated_value_usd": 171.93
         },
         {
-          "name": "Origin Dialga VSTAR",
-          "card_number": "GG68/GG70",
-          "estimated_value_usd": 150
+          "name": "Origin Forme Dialga VSTAR (Secret)",
+          "card_number": "GG68/70",
+          "estimated_value_usd": 121.82
         },
         {
-          "name": "Origin Palkia VSTAR",
-          "card_number": "GG67/GG70",
-          "estimated_value_usd": 142
+          "name": "Origin Forme Palkia VSTAR (Secret)",
+          "card_number": "GG67/70",
+          "estimated_value_usd": 109.85
         },
         {
           "name": "Darkrai VSTAR",
-          "card_number": "GG48/GG70",
-          "estimated_value_usd": 128
+          "card_number": "GG50/70",
+          "estimated_value_usd": 104.51
         },
         {
           "name": "Leafeon VSTAR",
-          "card_number": "GG42/GG70",
-          "estimated_value_usd": 94
+          "card_number": "GG35/70",
+          "estimated_value_usd": 81.7
         },
         {
-          "name": "Mew (GG)",
-          "card_number": "GG23/GG70",
-          "estimated_value_usd": 82
-        },
-        {
-          "name": "Deoxys VMAX",
-          "card_number": "GG34/GG70",
-          "estimated_value_usd": 82
+          "name": "Mew",
+          "card_number": "GG10/70",
+          "estimated_value_usd": 70.51
         },
         {
           "name": "Suicune V",
-          "card_number": "GG38/GG70",
-          "estimated_value_usd": 80
+          "card_number": "GG38/70",
+          "estimated_value_usd": 67.75
+        },
+        {
+          "name": "Deoxys VMAX",
+          "card_number": "GG45/70",
+          "estimated_value_usd": 66.34
         },
         {
           "name": "Glaceon VSTAR",
-          "card_number": "GG40/GG70",
-          "estimated_value_usd": 75
+          "card_number": "GG40/70",
+          "estimated_value_usd": 64.85
         },
         {
           "name": "Entei V",
-          "card_number": "GG39/GG70",
-          "estimated_value_usd": 66
-        },
-        {
-          "name": "Pikachu (GG)",
-          "card_number": "GG30/GG70",
-          "estimated_value_usd": 58
+          "card_number": "GG36/70",
+          "estimated_value_usd": 58.36
         },
         {
           "name": "Pikachu (Secret)",
           "card_number": "160/159",
-          "estimated_value_usd": 55
+          "estimated_value_usd": 51.86
+        },
+        {
+          "name": "Pikachu",
+          "card_number": "GG30/70",
+          "estimated_value_usd": 50.55
+        },
+        {
+          "name": "Raikou V",
+          "card_number": "GG41/70",
+          "estimated_value_usd": 49.47
         },
         {
           "name": "Deoxys VSTAR",
-          "card_number": "GG33/GG70",
-          "estimated_value_usd": 52
+          "card_number": "GG46/70",
+          "estimated_value_usd": 47.54
         },
         {
           "name": "Hisuian Zoroark VSTAR",
-          "card_number": "GG47/GG70",
-          "estimated_value_usd": 48
+          "card_number": "GG56/70",
+          "estimated_value_usd": 42.95
         },
         {
           "name": "Simisear VSTAR",
-          "card_number": "GG51/GG70",
-          "estimated_value_usd": 34
+          "card_number": "GG37/70",
+          "estimated_value_usd": 30.62
         },
         {
           "name": "Zacian V",
-          "card_number": "GG55/GG70",
-          "estimated_value_usd": 32
+          "card_number": "GG48/70",
+          "estimated_value_usd": 26.01
         },
         {
           "name": "Zeraora VMAX",
-          "card_number": "GG37/GG70",
-          "estimated_value_usd": 29
+          "card_number": "GG42/70",
+          "estimated_value_usd": 23.44
         },
         {
-          "name": "Cynthia's Ambition",
-          "card_number": "GG60/GG70",
-          "estimated_value_usd": 25
+          "name": "Regigigas VSTAR",
+          "card_number": "GG55/70",
+          "estimated_value_usd": 22.61
+        },
+        {
+          "name": "Cynthia's Ambition (UR)",
+          "card_number": "GG60/70",
+          "estimated_value_usd": 21.09
+        },
+        {
+          "name": "Lapras",
+          "card_number": "GG05/70",
+          "estimated_value_usd": 20.89
+        },
+        {
+          "name": "Zeraora VSTAR",
+          "card_number": "GG43/70",
+          "estimated_value_usd": 20.58
+        },
+        {
+          "name": "Lumineon V",
+          "card_number": "GG39/70",
+          "estimated_value_usd": 20.43
+        },
+        {
+          "name": "Zamazenta V",
+          "card_number": "GG54/70",
+          "estimated_value_usd": 19.76
+        },
+        {
+          "name": "Deoxys",
+          "card_number": "GG12/70",
+          "estimated_value_usd": 19.35
+        },
+        {
+          "name": "Latias",
+          "card_number": "GG20/70",
+          "estimated_value_usd": 17.79
+        },
+        {
+          "name": "Ditto",
+          "card_number": "GG22/70",
+          "estimated_value_usd": 17.49
+        },
+        {
+          "name": "Hisuian Samurott V",
+          "card_number": "GG51/70",
+          "estimated_value_usd": 16.68
+        },
+        {
+          "name": "Elesa's Sparkle (UR)",
+          "card_number": "147/159",
+          "estimated_value_usd": 15.65
+        },
+        {
+          "name": "Keldeo",
+          "card_number": "GG07/70",
+          "estimated_value_usd": 14.74
+        },
+        {
+          "name": "Radiant Charizard",
+          "card_number": "20/159",
+          "estimated_value_usd": 14.19
+        },
+        {
+          "name": "Miltank",
+          "card_number": "GG24/70",
+          "estimated_value_usd": 13.93
+        },
+        {
+          "name": "Gardenia's Vigor (UR)",
+          "card_number": "GG61/70",
+          "estimated_value_usd": 13.08
+        },
+        {
+          "name": "Riolu",
+          "card_number": "GG26/70",
+          "estimated_value_usd": 11.98
+        },
+        {
+          "name": "Charizard VSTAR",
+          "card_number": "19/159",
+          "estimated_value_usd": 11.92
+        },
+        {
+          "name": "Magmortar",
+          "card_number": "GG03/70",
+          "estimated_value_usd": 11.72
+        },
+        {
+          "name": "Turtwig",
+          "card_number": "GG31/70",
+          "estimated_value_usd": 11.23
+        },
+        {
+          "name": "Hisuian Samurott VSTAR",
+          "card_number": "GG52/70",
+          "estimated_value_usd": 11.09
+        },
+        {
+          "name": "Altaria",
+          "card_number": "GG19/70",
+          "estimated_value_usd": 10.72
         }
       ],
       "pull_rates": {
@@ -430,62 +545,102 @@
         {
           "name": "Gardevoir ex (SIR)",
           "card_number": "245/198",
-          "estimated_value_usd": 100
+          "estimated_value_usd": 98.91
         },
         {
           "name": "Kirlia (IR)",
           "card_number": "212/198",
-          "estimated_value_usd": 80
+          "estimated_value_usd": 77.95
         },
         {
           "name": "Drowzee (IR)",
           "card_number": "210/198",
-          "estimated_value_usd": 69
+          "estimated_value_usd": 70.0
         },
         {
           "name": "Ralts (IR)",
           "card_number": "211/198",
-          "estimated_value_usd": 61
+          "estimated_value_usd": 60.48
         },
         {
           "name": "Slowpoke (IR)",
           "card_number": "204/198",
-          "estimated_value_usd": 57
+          "estimated_value_usd": 56.2
         },
         {
           "name": "Riolu (IR)",
           "card_number": "215/198",
-          "estimated_value_usd": 47
+          "estimated_value_usd": 48.0
         },
         {
           "name": "Wiglett (IR)",
           "card_number": "206/198",
-          "estimated_value_usd": 40
+          "estimated_value_usd": 38.0
         },
         {
           "name": "Miriam (SIR)",
           "card_number": "251/198",
-          "estimated_value_usd": 33
+          "estimated_value_usd": 33.24
         },
         {
           "name": "Fidough (IR)",
           "card_number": "213/198",
-          "estimated_value_usd": 29
+          "estimated_value_usd": 29.82
         },
         {
           "name": "Miraidon ex (SIR)",
           "card_number": "244/198",
-          "estimated_value_usd": 29
+          "estimated_value_usd": 29.0
         },
         {
           "name": "Greavard (IR)",
           "card_number": "214/198",
-          "estimated_value_usd": 27
+          "estimated_value_usd": 26.55
         },
         {
           "name": "Koraidon ex (SIR)",
           "card_number": "247/198",
-          "estimated_value_usd": 25
+          "estimated_value_usd": 25.0
+        },
+        {
+          "name": "Armarouge (IR)",
+          "card_number": "203/198",
+          "estimated_value_usd": 18.36
+        },
+        {
+          "name": "Pachirisu (IR)",
+          "card_number": "208/198",
+          "estimated_value_usd": 17.0
+        },
+        {
+          "name": "Arcanine ex (UR)",
+          "card_number": "224/198",
+          "estimated_value_usd": 16.5
+        },
+        {
+          "name": "Dondozo (IR)",
+          "card_number": "207/198",
+          "estimated_value_usd": 15.0
+        },
+        {
+          "name": "Starly (IR)",
+          "card_number": "221/198",
+          "estimated_value_usd": 13.25
+        },
+        {
+          "name": "Great Tusk ex (SIR)",
+          "card_number": "246/198",
+          "estimated_value_usd": 12.12
+        },
+        {
+          "name": "Tarountula (IR)",
+          "card_number": "199/198",
+          "estimated_value_usd": 11.49
+        },
+        {
+          "name": "Gyarados ex (UR)",
+          "card_number": "225/198",
+          "estimated_value_usd": 10.75
         }
       ],
       "pull_rates": {
@@ -525,122 +680,222 @@
         {
           "name": "Magikarp (IR)",
           "card_number": "203/193",
-          "estimated_value_usd": 432
+          "estimated_value_usd": 420.0
         },
         {
           "name": "Raichu (IR)",
           "card_number": "211/193",
-          "estimated_value_usd": 128
+          "estimated_value_usd": 127.38
         },
         {
-          "name": "Maushold (HR)",
+          "name": "Maushold (IR)",
           "card_number": "226/193",
-          "estimated_value_usd": 125
+          "estimated_value_usd": 124.85
         },
         {
-          "name": "Tyranitar (HR)",
+          "name": "Tyranitar (IR)",
           "card_number": "222/193",
-          "estimated_value_usd": 84
-        },
-        {
-          "name": "Tinkaton ex (SIR)",
-          "card_number": "262/193",
-          "estimated_value_usd": 75
+          "estimated_value_usd": 84.0
         },
         {
           "name": "Iono (SIR)",
           "card_number": "269/193",
-          "estimated_value_usd": 75
+          "estimated_value_usd": 74.84
+        },
+        {
+          "name": "Tinkaton ex (SIR)",
+          "card_number": "262/193",
+          "estimated_value_usd": 74.0
         },
         {
           "name": "Marill (IR)",
           "card_number": "204/193",
-          "estimated_value_usd": 65
+          "estimated_value_usd": 61.7
         },
         {
           "name": "Sprigatito (IR)",
           "card_number": "196/193",
-          "estimated_value_usd": 60
+          "estimated_value_usd": 60.31
         },
         {
           "name": "Fuecoco (IR)",
           "card_number": "201/193",
-          "estimated_value_usd": 55
+          "estimated_value_usd": 55.0
         },
         {
           "name": "Chi-Yu ex (SIR)",
           "card_number": "259/193",
-          "estimated_value_usd": 52
+          "estimated_value_usd": 52.31
         },
         {
           "name": "Mismagius (IR)",
           "card_number": "212/193",
-          "estimated_value_usd": 48
+          "estimated_value_usd": 47.59
         },
         {
           "name": "Tinkatuff (IR)",
           "card_number": "217/193",
-          "estimated_value_usd": 45
+          "estimated_value_usd": 44.75
         },
         {
           "name": "Meowscarada ex (SIR)",
           "card_number": "256/193",
-          "estimated_value_usd": 39
+          "estimated_value_usd": 38.69
         },
         {
           "name": "Skeledirge ex (SIR)",
           "card_number": "258/193",
-          "estimated_value_usd": 36
+          "estimated_value_usd": 37.21
         },
         {
           "name": "Tinkatink (IR)",
           "card_number": "216/193",
-          "estimated_value_usd": 36
+          "estimated_value_usd": 33.78
         },
         {
           "name": "Baxcalibur (IR)",
           "card_number": "210/193",
-          "estimated_value_usd": 33
+          "estimated_value_usd": 33.09
         },
         {
           "name": "Chien-Pao ex (SIR)",
           "card_number": "261/193",
-          "estimated_value_usd": 30
+          "estimated_value_usd": 29.99
         },
         {
           "name": "Sudowoodo (IR)",
           "card_number": "219/193",
-          "estimated_value_usd": 28
+          "estimated_value_usd": 28.09
         },
         {
           "name": "Heracross (IR)",
           "card_number": "194/193",
-          "estimated_value_usd": 28
+          "estimated_value_usd": 28.0
         },
         {
           "name": "Crocalor (IR)",
           "card_number": "202/193",
-          "estimated_value_usd": 23
+          "estimated_value_usd": 23.01
         },
         {
           "name": "Frigibax (IR)",
           "card_number": "208/193",
-          "estimated_value_usd": 22
+          "estimated_value_usd": 22.0
         },
         {
-          "name": "Boss's Orders (SIR)",
+          "name": "Boss's Orders (Ghetsis) (SIR)",
           "card_number": "265/193",
-          "estimated_value_usd": 21
-        },
-        {
-          "name": "Floragato (IR)",
-          "card_number": "197/193",
-          "estimated_value_usd": 20
+          "estimated_value_usd": 21.26
         },
         {
           "name": "Eiscue (IR)",
           "card_number": "205/193",
-          "estimated_value_usd": 20
+          "estimated_value_usd": 20.58
+        },
+        {
+          "name": "Floragato (IR)",
+          "card_number": "197/193",
+          "estimated_value_usd": 20.18
+        },
+        {
+          "name": "Dedenne ex (UR)",
+          "card_number": "239/193",
+          "estimated_value_usd": 18.18
+        },
+        {
+          "name": "Grusha (SIR)",
+          "card_number": "268/193",
+          "estimated_value_usd": 18.04
+        },
+        {
+          "name": "Quaquaval ex (SIR)",
+          "card_number": "260/193",
+          "estimated_value_usd": 17.5
+        },
+        {
+          "name": "Fletchinder (IR)",
+          "card_number": "199/193",
+          "estimated_value_usd": 17.41
+        },
+        {
+          "name": "Quaxly (IR)",
+          "card_number": "206/193",
+          "estimated_value_usd": 17.38
+        },
+        {
+          "name": "Saguaro (SIR)",
+          "card_number": "270/193",
+          "estimated_value_usd": 16.55
+        },
+        {
+          "name": "Wo-Chien ex (SIR)",
+          "card_number": "257/193",
+          "estimated_value_usd": 16.0
+        },
+        {
+          "name": "Arctibax (IR)",
+          "card_number": "209/193",
+          "estimated_value_usd": 15.99
+        },
+        {
+          "name": "Paldean Tauros (IR)",
+          "card_number": "218/193",
+          "estimated_value_usd": 15.43
+        },
+        {
+          "name": "Pyroar (IR)",
+          "card_number": "200/193",
+          "estimated_value_usd": 15.0
+        },
+        {
+          "name": "Paldean Wooper (IR)",
+          "card_number": "221/193",
+          "estimated_value_usd": 14.09
+        },
+        {
+          "name": "Boss's Orders (Ghetsis) (UR)",
+          "card_number": "248/193",
+          "estimated_value_usd": 13.73
+        },
+        {
+          "name": "Farigiraf (IR)",
+          "card_number": "228/193",
+          "estimated_value_usd": 12.93
+        },
+        {
+          "name": "Gothorita (IR)",
+          "card_number": "213/193",
+          "estimated_value_usd": 12.79
+        },
+        {
+          "name": "Basic Grass Energy (HR)",
+          "card_number": "278/193",
+          "estimated_value_usd": 12.71
+        },
+        {
+          "name": "Iono (UR)",
+          "card_number": "254/193",
+          "estimated_value_usd": 12.4
+        },
+        {
+          "name": "Ting-Lu ex (SIR)",
+          "card_number": "263/193",
+          "estimated_value_usd": 12.2
+        },
+        {
+          "name": "Tropius (IR)",
+          "card_number": "195/193",
+          "estimated_value_usd": 12.01
+        },
+        {
+          "name": "Rookidee (IR)",
+          "card_number": "225/193",
+          "estimated_value_usd": 11.13
+        },
+        {
+          "name": "Flamigo (IR)",
+          "card_number": "227/193",
+          "estimated_value_usd": 11.0
         }
       ],
       "pull_rates": {
@@ -680,37 +935,57 @@
         {
           "name": "Charizard ex (SIR)",
           "card_number": "223/197",
-          "estimated_value_usd": 115
-        },
-        {
-          "name": "Ninetales (IR)",
-          "card_number": "199/197",
-          "estimated_value_usd": 49
+          "estimated_value_usd": 112.22
         },
         {
           "name": "Charizard ex (HR)",
           "card_number": "228/197",
-          "estimated_value_usd": 49
+          "estimated_value_usd": 49.99
+        },
+        {
+          "name": "Ninetales (IR)",
+          "card_number": "199/197",
+          "estimated_value_usd": 49.88
         },
         {
           "name": "Cleffa (IR)",
           "card_number": "202/197",
-          "estimated_value_usd": 46
+          "estimated_value_usd": 45.17
         },
         {
           "name": "Gloom (IR)",
           "card_number": "198/197",
-          "estimated_value_usd": 30
+          "estimated_value_usd": 29.77
         },
         {
-          "name": "Charizard ex (FA)",
+          "name": "Charizard ex (UR)",
           "card_number": "215/197",
-          "estimated_value_usd": 24
+          "estimated_value_usd": 24.09
         },
         {
           "name": "Pidgeot ex (SIR)",
           "card_number": "225/197",
-          "estimated_value_usd": 22
+          "estimated_value_usd": 21.01
+        },
+        {
+          "name": "Scizor (IR)",
+          "card_number": "205/197",
+          "estimated_value_usd": 17.97
+        },
+        {
+          "name": "Pidgey (IR)",
+          "card_number": "207/197",
+          "estimated_value_usd": 16.94
+        },
+        {
+          "name": "Lechonk (IR)",
+          "card_number": "209/197",
+          "estimated_value_usd": 15.49
+        },
+        {
+          "name": "Pidgeotto (IR)",
+          "card_number": "208/197",
+          "estimated_value_usd": 11.5
         }
       ],
       "pull_rates": {
@@ -750,122 +1025,162 @@
         {
           "name": "Charizard ex (SIR)",
           "card_number": "199/165",
-          "estimated_value_usd": 475
+          "estimated_value_usd": 475.0
         },
         {
           "name": "Blastoise ex (SIR)",
           "card_number": "200/165",
-          "estimated_value_usd": 175
+          "estimated_value_usd": 174.0
         },
         {
           "name": "Venusaur ex (SIR)",
           "card_number": "198/165",
-          "estimated_value_usd": 150
+          "estimated_value_usd": 150.0
         },
         {
           "name": "Zapdos ex (SIR)",
           "card_number": "202/165",
-          "estimated_value_usd": 121
+          "estimated_value_usd": 120.0
         },
         {
           "name": "Charmander (IR)",
           "card_number": "168/165",
-          "estimated_value_usd": 120
+          "estimated_value_usd": 119.99
         },
         {
           "name": "Squirtle (IR)",
           "card_number": "170/165",
-          "estimated_value_usd": 116
+          "estimated_value_usd": 118.0
         },
         {
           "name": "Pikachu (IR)",
           "card_number": "173/165",
-          "estimated_value_usd": 100
+          "estimated_value_usd": 99.99
         },
         {
           "name": "Bulbasaur (IR)",
           "card_number": "166/165",
-          "estimated_value_usd": 96
+          "estimated_value_usd": 96.19
         },
         {
           "name": "Alakazam ex (SIR)",
           "card_number": "201/165",
-          "estimated_value_usd": 90
+          "estimated_value_usd": 90.0
         },
         {
           "name": "Charmeleon (IR)",
           "card_number": "169/165",
-          "estimated_value_usd": 85
+          "estimated_value_usd": 85.91
         },
         {
           "name": "Wartortle (IR)",
           "card_number": "171/165",
-          "estimated_value_usd": 74
+          "estimated_value_usd": 74.99
         },
         {
           "name": "Psyduck (IR)",
           "card_number": "175/165",
-          "estimated_value_usd": 74
+          "estimated_value_usd": 74.49
         },
         {
           "name": "Ivysaur (IR)",
           "card_number": "167/165",
-          "estimated_value_usd": 64
+          "estimated_value_usd": 62.7
         },
         {
           "name": "Dragonair (IR)",
           "card_number": "181/165",
-          "estimated_value_usd": 55
+          "estimated_value_usd": 55.44
         },
         {
           "name": "Poliwhirl (IR)",
           "card_number": "176/165",
-          "estimated_value_usd": 54
+          "estimated_value_usd": 53.91
         },
         {
-          "name": "Charizard ex (FA)",
+          "name": "Charizard ex (UR)",
           "card_number": "183/165",
-          "estimated_value_usd": 52
+          "estimated_value_usd": 51.91
         },
         {
-          "name": "Mew ex (SIR)",
+          "name": "Mew ex (UR)",
           "card_number": "193/165",
-          "estimated_value_usd": 50
+          "estimated_value_usd": 50.0
         },
         {
-          "name": "Mew ex (Metal Card)",
+          "name": "Mew ex (HR)",
           "card_number": "205/165",
-          "estimated_value_usd": 48
+          "estimated_value_usd": 34.59
         },
         {
-          "name": "Blastoise ex (FA)",
+          "name": "Blastoise ex (UR)",
           "card_number": "184/165",
-          "estimated_value_usd": 30
+          "estimated_value_usd": 30.0
         },
         {
           "name": "Machoke (IR)",
           "card_number": "177/165",
-          "estimated_value_usd": 28
+          "estimated_value_usd": 28.86
         },
         {
           "name": "Erika's Invitation (SIR)",
           "card_number": "203/165",
-          "estimated_value_usd": 24
+          "estimated_value_usd": 24.97
         },
         {
           "name": "Nidoking (IR)",
           "card_number": "174/165",
-          "estimated_value_usd": 24
+          "estimated_value_usd": 24.0
+        },
+        {
+          "name": "Venusaur ex (UR)",
+          "card_number": "182/165",
+          "estimated_value_usd": 21.45
         },
         {
           "name": "Giovanni's Charisma (SIR)",
           "card_number": "204/165",
-          "estimated_value_usd": 21
+          "estimated_value_usd": 21.25
         },
         {
-          "name": "Venusaur ex (FA)",
-          "card_number": "182/165",
-          "estimated_value_usd": 20
+          "name": "Omanyte (IR)",
+          "card_number": "180/165",
+          "estimated_value_usd": 19.98
+        },
+        {
+          "name": "Caterpie (IR)",
+          "card_number": "172/165",
+          "estimated_value_usd": 19.58
+        },
+        {
+          "name": "Tangela (IR)",
+          "card_number": "178/165",
+          "estimated_value_usd": 18.75
+        },
+        {
+          "name": "Mr. Mime (IR)",
+          "card_number": "179/165",
+          "estimated_value_usd": 17.88
+        },
+        {
+          "name": "Ninetales ex (UR)",
+          "card_number": "186/165",
+          "estimated_value_usd": 17.18
+        },
+        {
+          "name": "Alakazam ex (UR)",
+          "card_number": "188/165",
+          "estimated_value_usd": 15.5
+        },
+        {
+          "name": "Zapdos ex (UR)",
+          "card_number": "192/165",
+          "estimated_value_usd": 14.99
+        },
+        {
+          "name": "Erika's Invitation (UR)",
+          "card_number": "196/165",
+          "estimated_value_usd": 11.28
         }
       ],
       "pull_rates": {
@@ -905,92 +1220,147 @@
         {
           "name": "Groudon (IR)",
           "card_number": "199/182",
-          "estimated_value_usd": 142
+          "estimated_value_usd": 117.13
         },
         {
           "name": "Altaria ex (SIR)",
           "card_number": "253/182",
-          "estimated_value_usd": 65
+          "estimated_value_usd": 54.59
         },
         {
           "name": "Plusle (IR)",
           "card_number": "193/182",
-          "estimated_value_usd": 60
+          "estimated_value_usd": 45.32
         },
         {
           "name": "Minun (IR)",
           "card_number": "194/182",
-          "estimated_value_usd": 50
-        },
-        {
-          "name": "Mantyke (IR)",
-          "card_number": "189/182",
-          "estimated_value_usd": 47
+          "estimated_value_usd": 42.36
         },
         {
           "name": "Roaring Moon ex (SIR)",
           "card_number": "251/182",
-          "estimated_value_usd": 45
+          "estimated_value_usd": 41.52
+        },
+        {
+          "name": "Mantyke (IR)",
+          "card_number": "189/182",
+          "estimated_value_usd": 35.58
         },
         {
           "name": "Garchomp ex (SIR)",
           "card_number": "245/182",
-          "estimated_value_usd": 42
+          "estimated_value_usd": 35.44
         },
         {
           "name": "Steelix (IR)",
           "card_number": "208/182",
-          "estimated_value_usd": 40
+          "estimated_value_usd": 34.18
         },
         {
           "name": "Morpeko (IR)",
           "card_number": "206/182",
-          "estimated_value_usd": 36
-        },
-        {
-          "name": "Aipom (IR)",
-          "card_number": "211/182",
-          "estimated_value_usd": 35
-        },
-        {
-          "name": "Gholdengo ex (SIR)",
-          "card_number": "252/182",
-          "estimated_value_usd": 29
+          "estimated_value_usd": 33.2
         },
         {
           "name": "Swablu (IR)",
           "card_number": "213/182",
-          "estimated_value_usd": 27
+          "estimated_value_usd": 25.9
         },
         {
-          "name": "Joltik (IR)",
-          "card_number": "196/182",
-          "estimated_value_usd": 27
+          "name": "Gholdengo ex (SIR)",
+          "card_number": "252/182",
+          "estimated_value_usd": 25.41
         },
         {
           "name": "Golisopod ex (SIR)",
           "card_number": "246/182",
-          "estimated_value_usd": 26
+          "estimated_value_usd": 24.49
         },
         {
-          "name": "Yveltal (IR)",
-          "card_number": "205/182",
-          "estimated_value_usd": 25
+          "name": "Aipom (IR)",
+          "card_number": "211/182",
+          "estimated_value_usd": 23.29
         },
         {
           "name": "Iron Valiant ex (SIR)",
           "card_number": "249/182",
-          "estimated_value_usd": 25
+          "estimated_value_usd": 22.9
         },
         {
-          "name": "Minior (IR)",
-          "card_number": "201/182",
-          "estimated_value_usd": 23
+          "name": "Yveltal (IR)",
+          "card_number": "205/182",
+          "estimated_value_usd": 22.83
         },
         {
           "name": "Tapu Koko ex (SIR)",
           "card_number": "247/182",
-          "estimated_value_usd": 23
+          "estimated_value_usd": 22.5
+        },
+        {
+          "name": "Joltik (IR)",
+          "card_number": "196/182",
+          "estimated_value_usd": 22.02
+        },
+        {
+          "name": "Minior (IR)",
+          "card_number": "201/182",
+          "estimated_value_usd": 21.85
+        },
+        {
+          "name": "Magby (IR)",
+          "card_number": "186/182",
+          "estimated_value_usd": 17.83
+        },
+        {
+          "name": "Parasol Lady (SIR)",
+          "card_number": "255/182",
+          "estimated_value_usd": 15.0
+        },
+        {
+          "name": "Garbodor (IR)",
+          "card_number": "204/182",
+          "estimated_value_usd": 14.24
+        },
+        {
+          "name": "Loudred (IR)",
+          "card_number": "212/182",
+          "estimated_value_usd": 14.04
+        },
+        {
+          "name": "Gimmighoul (IR)",
+          "card_number": "198/182",
+          "estimated_value_usd": 13.94
+        },
+        {
+          "name": "Garchomp ex (HR)",
+          "card_number": "260/182",
+          "estimated_value_usd": 13.72
+        },
+        {
+          "name": "Iron Hands ex (SIR)",
+          "card_number": "248/182",
+          "estimated_value_usd": 12.0
+        },
+        {
+          "name": "Maushold ex (UR)",
+          "card_number": "233/182",
+          "estimated_value_usd": 11.79
+        },
+        {
+          "name": "Porygon-Z (IR)",
+          "card_number": "214/182",
+          "estimated_value_usd": 11.65
+        },
+        {
+          "name": "Brute Bonnet (IR)",
+          "card_number": "207/182",
+          "estimated_value_usd": 11.27
+        },
+        {
+          "name": "Wimpod (IR)",
+          "card_number": "191/182",
+          "estimated_value_usd": 10.17
         }
       ],
       "pull_rates": {
@@ -1028,104 +1398,139 @@
       "in_print_note": "Limited reprints confirmed early 2025",
       "top_chase_cards": [
         {
-          "name": "Mew ex (SIR/Shiny)",
-          "card_number": "232/091",
-          "estimated_value_usd": 1000
+          "name": "Mew ex (SIR)",
+          "card_number": "232/91",
+          "estimated_value_usd": 866.21
         },
         {
-          "name": "Charizard ex (SIR/Shiny)",
-          "card_number": "234/091",
-          "estimated_value_usd": 398
+          "name": "Charizard ex (SIR)",
+          "card_number": "234/91",
+          "estimated_value_usd": 330.87
         },
         {
-          "name": "Gardevoir ex (SIR/Shiny)",
-          "card_number": "233/091",
-          "estimated_value_usd": 242
+          "name": "Gardevoir ex (SIR)",
+          "card_number": "233/91",
+          "estimated_value_usd": 182.21
         },
         {
           "name": "Pikachu (Shiny)",
-          "card_number": "131/091",
-          "estimated_value_usd": 92
+          "card_number": "131/91",
+          "estimated_value_usd": 83.33
         },
         {
           "name": "Snorlax (Shiny)",
-          "card_number": "202/091",
-          "estimated_value_usd": 80
+          "card_number": "202/91",
+          "estimated_value_usd": 68.08
         },
         {
           "name": "Mimikyu (Shiny)",
-          "card_number": "160/091",
-          "estimated_value_usd": 70
-        },
-        {
-          "name": "Charmander (Shiny)",
-          "card_number": "109/091",
-          "estimated_value_usd": 65
+          "card_number": "160/91",
+          "estimated_value_usd": 65.21
         },
         {
           "name": "Ditto (Shiny)",
-          "card_number": "132/091",
-          "estimated_value_usd": 60
+          "card_number": "201/91",
+          "estimated_value_usd": 52.36
         },
         {
-          "name": "Entei (Shiny)",
-          "card_number": "127/091",
-          "estimated_value_usd": 50
+          "name": "Charmander (Shiny)",
+          "card_number": "109/91",
+          "estimated_value_usd": 45.95
         },
         {
-          "name": "Raichu (Shiny)",
-          "card_number": "132/091",
-          "estimated_value_usd": 50
+          "name": "Mew ex (UR)",
+          "card_number": "216/91",
+          "estimated_value_usd": 40.54
         },
         {
-          "name": "Maushold (SIR)",
-          "card_number": "210/091",
-          "estimated_value_usd": 43
+          "name": "Maushold (Shiny)",
+          "card_number": "210/91",
+          "estimated_value_usd": 35.23
+        },
+        {
+          "name": "Tandemaus (Shiny)",
+          "card_number": "209/91",
+          "estimated_value_usd": 34.97
         },
         {
           "name": "Lucario (Shiny)",
-          "card_number": "145/091",
-          "estimated_value_usd": 42
-        },
-        {
-          "name": "Tandemaus (SIR)",
-          "card_number": "209/091",
-          "estimated_value_usd": 40
-        },
-        {
-          "name": "Mew ex (FA/Shiny)",
-          "card_number": "216/091",
-          "estimated_value_usd": 40
-        },
-        {
-          "name": "Clive (SIR)",
-          "card_number": "236/091",
-          "estimated_value_usd": 36
-        },
-        {
-          "name": "Jigglypuff (Shiny)",
-          "card_number": "134/091",
-          "estimated_value_usd": 34
+          "card_number": "174/91",
+          "estimated_value_usd": 32.96
         },
         {
           "name": "Iono (SIR)",
-          "card_number": "237/091",
-          "estimated_value_usd": 30
+          "card_number": "237/91",
+          "estimated_value_usd": 28.41
         },
         {
-          "name": "Penny (Shiny)",
-          "card_number": "175/091",
-          "estimated_value_usd": 22
+          "name": "Jigglypuff (Shiny)",
+          "card_number": "198/91",
+          "estimated_value_usd": 27.35
         },
         {
-          "name": "Shinx (Shiny)",
-          "card_number": "139/091",
-          "estimated_value_usd": 21
+          "name": "Clive (SIR)",
+          "card_number": "236/91",
+          "estimated_value_usd": 26.72
+        },
+        {
+          "name": "Entei (Shiny)",
+          "card_number": "112/91",
+          "estimated_value_usd": 26.67
+        },
+        {
+          "name": "Raichu (Shiny)",
+          "card_number": "132/91",
+          "estimated_value_usd": 21.63
+        },
+        {
+          "name": "Penny (SIR)",
+          "card_number": "239/91",
+          "estimated_value_usd": 19.43
         },
         {
           "name": "Charmeleon (Shiny)",
-          "card_number": "110/091",
-          "estimated_value_usd": 20
+          "card_number": "110/91",
+          "estimated_value_usd": 18.05
+        },
+        {
+          "name": "Slowpoke (Shiny)",
+          "card_number": "116/91",
+          "estimated_value_usd": 13.66
+        },
+        {
+          "name": "Riolu (Shiny)",
+          "card_number": "173/91",
+          "estimated_value_usd": 13.18
+        },
+        {
+          "name": "Koraidon ex (HR)",
+          "card_number": "245/91",
+          "estimated_value_usd": 12.69
+        },
+        {
+          "name": "Shinx (Shiny)",
+          "card_number": "135/91",
+          "estimated_value_usd": 12.47
+        },
+        {
+          "name": "Miraidon ex (HR)",
+          "card_number": "243/91",
+          "estimated_value_usd": 11.89
+        },
+        {
+          "name": "Ceruledge (Shiny)",
+          "card_number": "162/91",
+          "estimated_value_usd": 11.14
+        },
+        {
+          "name": "Chi-Yu ex (HR)",
+          "card_number": "241/91",
+          "estimated_value_usd": 10.39
+        },
+        {
+          "name": "Luxray (Shiny)",
+          "card_number": "137/91",
+          "estimated_value_usd": 10.01
         }
       ],
       "pull_rates": {
@@ -1167,107 +1572,142 @@
         {
           "name": "Gastly (IR)",
           "card_number": "177/162",
-          "estimated_value_usd": 131
+          "estimated_value_usd": 114.07
         },
         {
           "name": "Morty's Conviction (SIR)",
           "card_number": "211/162",
-          "estimated_value_usd": 80
+          "estimated_value_usd": 78.43
         },
         {
           "name": "Raging Bolt ex (SIR)",
           "card_number": "208/162",
-          "estimated_value_usd": 80
+          "estimated_value_usd": 67.14
         },
         {
-          "name": "Gengar ex (FA)",
+          "name": "Gengar ex (UR)",
           "card_number": "193/162",
-          "estimated_value_usd": 75
-        },
-        {
-          "name": "Walking Wake ex (SIR)",
-          "card_number": "205/162",
-          "estimated_value_usd": 62
+          "estimated_value_usd": 60.65
         },
         {
           "name": "Sawsbuck (IR)",
           "card_number": "166/162",
-          "estimated_value_usd": 60
+          "estimated_value_usd": 53.17
         },
         {
           "name": "Deerling (IR)",
           "card_number": "165/162",
-          "estimated_value_usd": 57
+          "estimated_value_usd": 46.78
+        },
+        {
+          "name": "Walking Wake ex (SIR)",
+          "card_number": "205/162",
+          "estimated_value_usd": 44.55
         },
         {
           "name": "Iron Crown ex (SIR)",
           "card_number": "206/162",
-          "estimated_value_usd": 48
+          "estimated_value_usd": 40.09
         },
         {
           "name": "Litten (IR)",
           "card_number": "167/162",
-          "estimated_value_usd": 46
-        },
-        {
-          "name": "Drampa (IR)",
-          "card_number": "184/162",
-          "estimated_value_usd": 44
+          "estimated_value_usd": 37.22
         },
         {
           "name": "Metagross (IR)",
           "card_number": "178/162",
-          "estimated_value_usd": 42
-        },
-        {
-          "name": "Cinccino (IR)",
-          "card_number": "183/162",
-          "estimated_value_usd": 40
+          "estimated_value_usd": 35.74
         },
         {
           "name": "Gouging Fire ex (SIR)",
           "card_number": "204/162",
-          "estimated_value_usd": 40
+          "estimated_value_usd": 35.15
+        },
+        {
+          "name": "Cinccino (IR)",
+          "card_number": "183/162",
+          "estimated_value_usd": 30.45
+        },
+        {
+          "name": "Drampa (IR)",
+          "card_number": "184/162",
+          "estimated_value_usd": 29.56
         },
         {
           "name": "Iron Leaves ex (SIR)",
           "card_number": "203/162",
-          "estimated_value_usd": 35
+          "estimated_value_usd": 27.37
         },
         {
-          "name": "Grotle (IR)",
-          "card_number": "164/162",
-          "estimated_value_usd": 34
-        },
-        {
-          "name": "Hero's Cape (ACE)",
-          "card_number": "TBD",
-          "estimated_value_usd": 34
-        },
-        {
-          "name": "Prime Catcher (ACE)",
-          "card_number": "TBD",
-          "estimated_value_usd": 32
+          "name": "Hero's Cape",
+          "card_number": "152/162",
+          "estimated_value_usd": 26.68
         },
         {
           "name": "Lickitung (IR)",
           "card_number": "180/162",
-          "estimated_value_usd": 26
+          "estimated_value_usd": 23.09
         },
         {
           "name": "Bianca's Devotion (SIR)",
           "card_number": "209/162",
-          "estimated_value_usd": 24
+          "estimated_value_usd": 22.03
         },
         {
           "name": "Minccino (IR)",
           "card_number": "182/162",
-          "estimated_value_usd": 23
+          "estimated_value_usd": 20.96
         },
         {
           "name": "Arbok (IR)",
           "card_number": "176/162",
-          "estimated_value_usd": 23
+          "estimated_value_usd": 20.47
+        },
+        {
+          "name": "Iron Boulder ex (SIR)",
+          "card_number": "207/162",
+          "estimated_value_usd": 17.89
+        },
+        {
+          "name": "Grotle (IR)",
+          "card_number": "164/162",
+          "estimated_value_usd": 16.19
+        },
+        {
+          "name": "Eri (SIR)",
+          "card_number": "210/162",
+          "estimated_value_usd": 15.71
+        },
+        {
+          "name": "Neo Upper Energy",
+          "card_number": "162/162",
+          "estimated_value_usd": 14.06
+        },
+        {
+          "name": "Salvatore (SIR)",
+          "card_number": "212/162",
+          "estimated_value_usd": 13.03
+        },
+        {
+          "name": "Reuniclus (IR)",
+          "card_number": "171/162",
+          "estimated_value_usd": 12.49
+        },
+        {
+          "name": "Raging Bolt ex (HR)",
+          "card_number": "218/162",
+          "estimated_value_usd": 12.23
+        },
+        {
+          "name": "Snom (IR)",
+          "card_number": "168/162",
+          "estimated_value_usd": 11.79
+        },
+        {
+          "name": "Gouging Fire ex (HR)",
+          "card_number": "214/162",
+          "estimated_value_usd": 11.22
         }
       ],
       "pull_rates": {
@@ -1307,67 +1747,122 @@
         {
           "name": "Greninja ex (SIR)",
           "card_number": "214/167",
-          "estimated_value_usd": 437
+          "estimated_value_usd": 360.64
         },
         {
           "name": "Perrin (SIR)",
           "card_number": "220/167",
-          "estimated_value_usd": 201
+          "estimated_value_usd": 177.49
         },
         {
           "name": "Eevee (IR)",
           "card_number": "188/167",
-          "estimated_value_usd": 100
+          "estimated_value_usd": 90.74
         },
         {
           "name": "Carmine (SIR)",
           "card_number": "217/167",
-          "estimated_value_usd": 86
+          "estimated_value_usd": 78.32
         },
         {
           "name": "Chansey (IR)",
           "card_number": "187/167",
-          "estimated_value_usd": 60
+          "estimated_value_usd": 52.91
         },
         {
           "name": "Bloodmoon Ursaluna ex (SIR)",
           "card_number": "216/167",
-          "estimated_value_usd": 48
+          "estimated_value_usd": 42.22
         },
         {
           "name": "Lana's Aid (SIR)",
           "card_number": "219/167",
-          "estimated_value_usd": 40
+          "estimated_value_usd": 35.67
         },
         {
           "name": "Kieran (SIR)",
           "card_number": "218/167",
-          "estimated_value_usd": 38
+          "estimated_value_usd": 31.94
         },
         {
           "name": "Hisuian Growlithe (IR)",
           "card_number": "181/167",
-          "estimated_value_usd": 31
+          "estimated_value_usd": 27.4
         },
         {
           "name": "Sinistcha ex (SIR)",
           "card_number": "210/167",
-          "estimated_value_usd": 27
+          "estimated_value_usd": 24.22
         },
         {
           "name": "Teal Mask Ogerpon ex (SIR)",
           "card_number": "211/167",
-          "estimated_value_usd": 26
+          "estimated_value_usd": 23.83
         },
         {
           "name": "Tatsugiri (IR)",
           "card_number": "186/167",
-          "estimated_value_usd": 23
+          "estimated_value_usd": 21.49
         },
         {
           "name": "Wellspring Mask Ogerpon ex (SIR)",
           "card_number": "213/167",
-          "estimated_value_usd": 21
+          "estimated_value_usd": 19.57
+        },
+        {
+          "name": "Unfair Stamp",
+          "card_number": "165/167",
+          "estimated_value_usd": 19.22
+        },
+        {
+          "name": "Dragapult ex (UR)",
+          "card_number": "200/167",
+          "estimated_value_usd": 16.45
+        },
+        {
+          "name": "Cornerstone Mask Ogerpon ex (SIR)",
+          "card_number": "215/167",
+          "estimated_value_usd": 16.37
+        },
+        {
+          "name": "Greninja ex (UR)",
+          "card_number": "198/167",
+          "estimated_value_usd": 15.21
+        },
+        {
+          "name": "Pinsir (IR)",
+          "card_number": "168/167",
+          "estimated_value_usd": 13.22
+        },
+        {
+          "name": "Infernape (IR)",
+          "card_number": "173/167",
+          "estimated_value_usd": 12.59
+        },
+        {
+          "name": "Buddy-Buddy Poffin (HR)",
+          "card_number": "223/167",
+          "estimated_value_usd": 12.12
+        },
+        {
+          "name": "Hearthflame Mask Ogerpon ex (SIR)",
+          "card_number": "212/167",
+          "estimated_value_usd": 12.08
+        },
+        {
+          "name": "Dipplin (IR)",
+          "card_number": "170/167",
+          "estimated_value_usd": 12.03
+        },
+        {
+          "name": "Froslass (IR)",
+          "card_number": "174/167",
+          "estimated_value_usd": 11.34
+        },
+        {
+          "name": "Teal Mask Ogerpon ex (HR)",
+          "card_number": "221/167",
+          "estimated_value_usd": 10.8
         }
       ],
       "pull_rates": {
@@ -1405,99 +1900,134 @@
       "in_print_note": "Still in print (Regulation H). Mini set.",
       "top_chase_cards": [
         {
-          "name": "Persian (IR)",
-          "card_number": "078/064",
-          "estimated_value_usd": 76
+          "name": "Basic Darkness Energy (HR)",
+          "card_number": "98/64",
+          "estimated_value_usd": 67.98
         },
         {
-          "name": "Basic Darkness Energy (Gold)",
-          "card_number": "098/064",
-          "estimated_value_usd": 75
+          "name": "Persian (IR)",
+          "card_number": "78/64",
+          "estimated_value_usd": 66.36
         },
         {
           "name": "Duskull (IR)",
-          "card_number": "068/064",
-          "estimated_value_usd": 60
+          "card_number": "68/64",
+          "estimated_value_usd": 54.44
         },
         {
           "name": "Horsea (IR)",
-          "card_number": "067/064",
-          "estimated_value_usd": 55
+          "card_number": "67/64",
+          "estimated_value_usd": 52.51
         },
         {
           "name": "Dusclops (IR)",
-          "card_number": "069/064",
-          "estimated_value_usd": 54
-        },
-        {
-          "name": "Houndoom (IR)",
-          "card_number": "066/064",
-          "estimated_value_usd": 54
+          "card_number": "69/64",
+          "estimated_value_usd": 49.76
         },
         {
           "name": "Fezandipiti ex (SIR)",
-          "card_number": "092/064",
-          "estimated_value_usd": 50
+          "card_number": "92/64",
+          "estimated_value_usd": 46.85
         },
         {
-          "name": "Bewear (IR)",
-          "card_number": "079/064",
-          "estimated_value_usd": 49
+          "name": "Houndoom (IR)",
+          "card_number": "66/64",
+          "estimated_value_usd": 44.29
         },
         {
           "name": "Munkidori (IR)",
-          "card_number": "089/064",
-          "estimated_value_usd": 48
+          "card_number": "72/64",
+          "estimated_value_usd": 40.91
         },
         {
           "name": "Cassiopeia (SIR)",
-          "card_number": "094/064",
-          "estimated_value_usd": 47
+          "card_number": "94/64",
+          "estimated_value_usd": 39.42
         },
         {
           "name": "Dusknoir (IR)",
-          "card_number": "070/064",
-          "estimated_value_usd": 40
+          "card_number": "70/64",
+          "estimated_value_usd": 36.45
         },
         {
-          "name": "Basic Metal Energy (Gold)",
-          "card_number": "099/064",
-          "estimated_value_usd": 33
+          "name": "Bewear (IR)",
+          "card_number": "79/64",
+          "estimated_value_usd": 36.01
+        },
+        {
+          "name": "Basic Metal Energy (HR)",
+          "card_number": "99/64",
+          "estimated_value_usd": 30.51
         },
         {
           "name": "Cresselia (IR)",
-          "card_number": "071/064",
-          "estimated_value_usd": 29
+          "card_number": "71/64",
+          "estimated_value_usd": 26.67
         },
         {
           "name": "Pecharunt ex (SIR)",
-          "card_number": "093/064",
-          "estimated_value_usd": 28
-        },
-        {
-          "name": "Earthen Vessel (Gold)",
-          "card_number": "096/064",
-          "estimated_value_usd": 27
+          "card_number": "93/64",
+          "estimated_value_usd": 25.26
         },
         {
           "name": "Okidogi ex (SIR)",
-          "card_number": "090/064",
-          "estimated_value_usd": 23
+          "card_number": "90/64",
+          "estimated_value_usd": 21.15
         },
         {
-          "name": "Powerglass (Gold)",
-          "card_number": "097/064",
-          "estimated_value_usd": 22
+          "name": "Powerglass (HR)",
+          "card_number": "97/64",
+          "estimated_value_usd": 21.08
+        },
+        {
+          "name": "Earthen Vessel (HR)",
+          "card_number": "96/64",
+          "estimated_value_usd": 20.24
         },
         {
           "name": "Pecharunt ex (HR)",
-          "card_number": "095/064",
-          "estimated_value_usd": 22
+          "card_number": "95/64",
+          "estimated_value_usd": 19.6
         },
         {
           "name": "Zorua (IR)",
-          "card_number": "075/064",
-          "estimated_value_usd": 20
+          "card_number": "75/64",
+          "estimated_value_usd": 18.37
+        },
+        {
+          "name": "Okidogi (IR)",
+          "card_number": "74/64",
+          "estimated_value_usd": 17.68
+        },
+        {
+          "name": "Munkidori ex (SIR)",
+          "card_number": "91/64",
+          "estimated_value_usd": 16.56
+        },
+        {
+          "name": "Xerosic's Machinations (UR)",
+          "card_number": "89/64",
+          "estimated_value_usd": 13.61
+        },
+        {
+          "name": "Fezandipiti ex (UR)",
+          "card_number": "84/64",
+          "estimated_value_usd": 13.58
+        },
+        {
+          "name": "Cufant (IR)",
+          "card_number": "76/64",
+          "estimated_value_usd": 12.26
+        },
+        {
+          "name": "Fraxure (IR)",
+          "card_number": "77/64",
+          "estimated_value_usd": 11.99
+        },
+        {
+          "name": "Fezandipiti (IR)",
+          "card_number": "73/64",
+          "estimated_value_usd": 10.06
         }
       ],
       "pull_rates": {
@@ -1537,29 +2067,74 @@
       "in_print_note": "Still available at or near MSRP",
       "top_chase_cards": [
         {
-          "name": "Bulbasaur (IR)",
-          "card_number": "155/142",
-          "estimated_value_usd": 135
-        },
-        {
           "name": "Squirtle (IR)",
           "card_number": "148/142",
-          "estimated_value_usd": 130
+          "estimated_value_usd": 118.34
         },
         {
-          "name": "Terapagos ex (SIR)",
-          "card_number": "170/142",
-          "estimated_value_usd": 90
+          "name": "Bulbasaur (IR)",
+          "card_number": "143/142",
+          "estimated_value_usd": 113.11
         },
         {
           "name": "Dachsbun ex (SIR)",
           "card_number": "169/142",
-          "estimated_value_usd": 85
+          "estimated_value_usd": 81.92
+        },
+        {
+          "name": "Terapagos ex (SIR)",
+          "card_number": "170/142",
+          "estimated_value_usd": 79.64
         },
         {
           "name": "Hydrapple ex (SIR)",
           "card_number": "167/142",
-          "estimated_value_usd": 25
+          "estimated_value_usd": 22.42
+        },
+        {
+          "name": "Lacey (SIR)",
+          "card_number": "172/142",
+          "estimated_value_usd": 18.9
+        },
+        {
+          "name": "Galvantula ex (SIR)",
+          "card_number": "168/142",
+          "estimated_value_usd": 17.32
+        },
+        {
+          "name": "Milcery (IR)",
+          "card_number": "152/142",
+          "estimated_value_usd": 15.13
+        },
+        {
+          "name": "Crispin (UR)",
+          "card_number": "164/142",
+          "estimated_value_usd": 14.17
+        },
+        {
+          "name": "Briar (SIR)",
+          "card_number": "171/142",
+          "estimated_value_usd": 12.35
+        },
+        {
+          "name": "Area Zero Underdepths (HR)",
+          "card_number": "174/142",
+          "estimated_value_usd": 12.32
+        },
+        {
+          "name": "Gulpin (IR)",
+          "card_number": "154/142",
+          "estimated_value_usd": 11.54
+        },
+        {
+          "name": "Zeraora (IR)",
+          "card_number": "151/142",
+          "estimated_value_usd": 10.95
+        },
+        {
+          "name": "Terapagos ex (HR)",
+          "card_number": "173/142",
+          "estimated_value_usd": 10.85
         }
       ],
       "pull_rates": {
@@ -1599,62 +2174,92 @@
         {
           "name": "Pikachu ex (SIR)",
           "card_number": "238/191",
-          "estimated_value_usd": 424
+          "estimated_value_usd": 330.25
         },
         {
           "name": "Latias ex (SIR)",
           "card_number": "239/191",
-          "estimated_value_usd": 212
+          "estimated_value_usd": 175.22
         },
         {
           "name": "Milotic ex (SIR)",
           "card_number": "237/191",
-          "estimated_value_usd": 160
+          "estimated_value_usd": 124.85
         },
         {
           "name": "Pikachu ex (HR)",
           "card_number": "247/191",
-          "estimated_value_usd": 91
+          "estimated_value_usd": 80.92
         },
         {
           "name": "Hydreigon ex (SIR)",
           "card_number": "240/191",
-          "estimated_value_usd": 44
+          "estimated_value_usd": 39.89
         },
         {
           "name": "Latios (IR)",
           "card_number": "203/191",
-          "estimated_value_usd": 39
-        },
-        {
-          "name": "Lisia's Appeal (SIR)",
-          "card_number": "246/191",
-          "estimated_value_usd": 35
-        },
-        {
-          "name": "Pikachu ex (FA)",
-          "card_number": "219/191",
-          "estimated_value_usd": 35
+          "estimated_value_usd": 34.32
         },
         {
           "name": "Alolan Exeggutor ex (SIR)",
           "card_number": "242/191",
-          "estimated_value_usd": 34
+          "estimated_value_usd": 31.15
+        },
+        {
+          "name": "Lisia's Appeal (SIR)",
+          "card_number": "246/191",
+          "estimated_value_usd": 29.94
+        },
+        {
+          "name": "Pikachu ex (UR)",
+          "card_number": "219/191",
+          "estimated_value_usd": 29.87
         },
         {
           "name": "Durant ex (SIR)",
           "card_number": "236/191",
-          "estimated_value_usd": 31
+          "estimated_value_usd": 28.91
         },
         {
           "name": "Jasmine's Gaze (SIR)",
           "card_number": "245/191",
-          "estimated_value_usd": 23
+          "estimated_value_usd": 21.05
         },
         {
           "name": "Ceruledge (IR)",
           "card_number": "197/191",
-          "estimated_value_usd": 21
+          "estimated_value_usd": 19.4
+        },
+        {
+          "name": "Archaludon ex (SIR)",
+          "card_number": "241/191",
+          "estimated_value_usd": 12.74
+        },
+        {
+          "name": "Mesprit (IR)",
+          "card_number": "204/191",
+          "estimated_value_usd": 11.35
+        },
+        {
+          "name": "Gravity Mountain (HR)",
+          "card_number": "250/191",
+          "estimated_value_usd": 10.95
+        },
+        {
+          "name": "Alolan Exeggutor ex (HR)",
+          "card_number": "248/191",
+          "estimated_value_usd": 10.82
+        },
+        {
+          "name": "Night Stretcher (HR)",
+          "card_number": "251/191",
+          "estimated_value_usd": 10.76
+        },
+        {
+          "name": "Slakoth (IR)",
+          "card_number": "212/191",
+          "estimated_value_usd": 10.59
         }
       ],
       "pull_rates": {
@@ -1921,37 +2526,57 @@
         {
           "name": "Lillie's Clefairy ex (SIR)",
           "card_number": "184/159",
-          "estimated_value_usd": 150
+          "estimated_value_usd": 130.5
         },
         {
           "name": "Salamence ex (SIR)",
           "card_number": "187/159",
-          "estimated_value_usd": 75
+          "estimated_value_usd": 63.13
         },
         {
           "name": "N's Zoroark ex (SIR)",
           "card_number": "185/159",
-          "estimated_value_usd": 62
+          "estimated_value_usd": 57.51
         },
         {
           "name": "Iono's Bellibolt ex (SIR)",
           "card_number": "183/159",
-          "estimated_value_usd": 46
+          "estimated_value_usd": 42.56
         },
         {
           "name": "Hop's Zacian ex (SIR)",
           "card_number": "186/159",
-          "estimated_value_usd": 40
+          "estimated_value_usd": 36.49
         },
         {
           "name": "Articuno (IR)",
           "card_number": "161/159",
-          "estimated_value_usd": 27
+          "estimated_value_usd": 25.48
         },
         {
           "name": "Volcanion ex (SIR)",
           "card_number": "182/159",
-          "estimated_value_usd": 24
+          "estimated_value_usd": 21.75
+        },
+        {
+          "name": "N's Reshiram (IR)",
+          "card_number": "167/159",
+          "estimated_value_usd": 20.69
+        },
+        {
+          "name": "N's Zoroark ex (HR)",
+          "card_number": "189/159",
+          "estimated_value_usd": 18.19
+        },
+        {
+          "name": "Wailord (IR)",
+          "card_number": "162/159",
+          "estimated_value_usd": 15.26
+        },
+        {
+          "name": "Iono's Bellibolt ex (HR)",
+          "card_number": "188/159",
+          "estimated_value_usd": 13.08
         }
       ],
       "pull_rates": {
@@ -1991,97 +2616,147 @@
         {
           "name": "Team Rocket's Mewtwo ex (SIR)",
           "card_number": "231/182",
-          "estimated_value_usd": 647
+          "estimated_value_usd": 532.28
         },
         {
           "name": "Cynthia's Garchomp ex (SIR)",
           "card_number": "232/182",
-          "estimated_value_usd": 303
+          "estimated_value_usd": 257.03
         },
         {
           "name": "Ethan's Ho-Oh ex (SIR)",
           "card_number": "230/182",
-          "estimated_value_usd": 205
-        },
-        {
-          "name": "Team Rocket's Moltres ex (SIR)",
-          "card_number": "229/182",
-          "estimated_value_usd": 120
+          "estimated_value_usd": 174.64
         },
         {
           "name": "Team Rocket's Nidoking ex (SIR)",
           "card_number": "233/182",
-          "estimated_value_usd": 118
+          "estimated_value_usd": 104.29
+        },
+        {
+          "name": "Team Rocket's Moltres ex (SIR)",
+          "card_number": "229/182",
+          "estimated_value_usd": 100.47
         },
         {
           "name": "Misty's Psyduck (IR)",
           "card_number": "193/182",
-          "estimated_value_usd": 87
+          "estimated_value_usd": 77.96
         },
         {
           "name": "Team Rocket's Crobat ex (SIR)",
           "card_number": "234/182",
-          "estimated_value_usd": 76
+          "estimated_value_usd": 69.51
         },
         {
           "name": "Team Rocket's Mewtwo ex (HR)",
           "card_number": "240/182",
-          "estimated_value_usd": 75
+          "estimated_value_usd": 66.84
         },
         {
           "name": "Ethan's Adventure (SIR)",
           "card_number": "236/182",
-          "estimated_value_usd": 50
+          "estimated_value_usd": 45.14
         },
         {
           "name": "Misty's Lapras (IR)",
           "card_number": "194/182",
-          "estimated_value_usd": 44
-        },
-        {
-          "name": "Cynthia's Garchomp ex (HR)",
-          "card_number": "241/182",
-          "estimated_value_usd": 38
+          "estimated_value_usd": 39.11
         },
         {
           "name": "Team Rocket's Giovanni (SIR)",
           "card_number": "238/182",
-          "estimated_value_usd": 38
-        },
-        {
-          "name": "Ethan's Typhlosion (IR)",
-          "card_number": "190/182",
-          "estimated_value_usd": 35
+          "estimated_value_usd": 35.49
         },
         {
           "name": "Team Rocket's Meowth (IR)",
           "card_number": "203/182",
-          "estimated_value_usd": 34
+          "estimated_value_usd": 34.97
+        },
+        {
+          "name": "Cynthia's Garchomp ex (HR)",
+          "card_number": "241/182",
+          "estimated_value_usd": 32.51
+        },
+        {
+          "name": "Ethan's Typhlosion (IR)",
+          "card_number": "190/182",
+          "estimated_value_usd": 31.68
         },
         {
           "name": "Arven's Mabosstiff ex (SIR)",
           "card_number": "235/182",
-          "estimated_value_usd": 34
-        },
-        {
-          "name": "Team Rocket's Ariana (SIR)",
-          "card_number": "237/182",
-          "estimated_value_usd": 31
+          "estimated_value_usd": 31.2
         },
         {
           "name": "Ethan's Ho-Oh ex (HR)",
           "card_number": "239/182",
-          "estimated_value_usd": 30
+          "estimated_value_usd": 28.93
         },
         {
-          "name": "Team Rocket's Mewtwo ex (FA)",
+          "name": "Team Rocket's Ariana (SIR)",
+          "card_number": "237/182",
+          "estimated_value_usd": 28.68
+        },
+        {
+          "name": "Team Rocket's Mewtwo ex (UR)",
           "card_number": "213/182",
-          "estimated_value_usd": 27
+          "estimated_value_usd": 24.73
         },
         {
           "name": "Yanmega ex (SIR)",
           "card_number": "228/182",
-          "estimated_value_usd": 26
+          "estimated_value_usd": 23.1
+        },
+        {
+          "name": "Team Rocket's Crobat ex (HR)",
+          "card_number": "242/182",
+          "estimated_value_usd": 17.84
+        },
+        {
+          "name": "Cynthia's Roserade (IR)",
+          "card_number": "184/182",
+          "estimated_value_usd": 16.0
+        },
+        {
+          "name": "Team Rocket's Houndoom (IR)",
+          "card_number": "191/182",
+          "estimated_value_usd": 15.84
+        },
+        {
+          "name": "Team Rocket's Petrel (UR)",
+          "card_number": "226/182",
+          "estimated_value_usd": 13.03
+        },
+        {
+          "name": "Blaziken (IR)",
+          "card_number": "192/182",
+          "estimated_value_usd": 12.79
+        },
+        {
+          "name": "Jamming Tower (HR)",
+          "card_number": "243/182",
+          "estimated_value_usd": 12.2
+        },
+        {
+          "name": "Shaymin (IR)",
+          "card_number": "185/182",
+          "estimated_value_usd": 11.61
+        },
+        {
+          "name": "Kangaskhan (IR)",
+          "card_number": "204/182",
+          "estimated_value_usd": 11.46
+        },
+        {
+          "name": "Team Rocket's Murkrow (IR)",
+          "card_number": "200/182",
+          "estimated_value_usd": 11.24
+        },
+        {
+          "name": "Team Rocket's Giovanni (UR)",
+          "card_number": "225/182",
+          "estimated_value_usd": 10.22
         }
       ],
       "pull_rates": {
@@ -2119,79 +2794,99 @@
       "in_print_note": "Not yet released (Sep 2025)",
       "top_chase_cards": [
         {
-          "name": "Mega Lucario ex (MHR)",
+          "name": "Mega Lucario ex (HR)",
           "card_number": "188/132",
-          "estimated_value_usd": 300
+          "estimated_value_usd": 262.7
+        },
+        {
+          "name": "Mega Gardevoir ex (HR)",
+          "card_number": "187/132",
+          "estimated_value_usd": 230.11
         },
         {
           "name": "Mega Lucario ex (SIR)",
           "card_number": "179/132",
-          "estimated_value_usd": 300
-        },
-        {
-          "name": "Mega Gardevoir ex (MHR)",
-          "card_number": "187/132",
-          "estimated_value_usd": 250
+          "estimated_value_usd": 217.76
         },
         {
           "name": "Mega Gardevoir ex (SIR)",
           "card_number": "178/132",
-          "estimated_value_usd": 235
+          "estimated_value_usd": 199.2
         },
         {
           "name": "Mega Venusaur ex (SIR)",
           "card_number": "177/132",
-          "estimated_value_usd": 190
+          "estimated_value_usd": 156.13
         },
         {
           "name": "Mega Latias ex (SIR)",
           "card_number": "181/132",
-          "estimated_value_usd": 100
+          "estimated_value_usd": 87.37
         },
         {
           "name": "Lillie's Determination (SIR)",
           "card_number": "184/132",
-          "estimated_value_usd": 87
+          "estimated_value_usd": 75.93
         },
         {
           "name": "Mega Absol ex (SIR)",
           "card_number": "180/132",
-          "estimated_value_usd": 80
+          "estimated_value_usd": 67.14
         },
         {
           "name": "Mega Kangaskhan ex (SIR)",
           "card_number": "182/132",
-          "estimated_value_usd": 72
+          "estimated_value_usd": 62.31
         },
         {
           "name": "Acerola's Mischief (SIR)",
           "card_number": "183/132",
-          "estimated_value_usd": 41
+          "estimated_value_usd": 36.17
         },
         {
           "name": "Bulbasaur (IR)",
           "card_number": "133/132",
-          "estimated_value_usd": 26
+          "estimated_value_usd": 24.72
         },
         {
-          "name": "Lillie's Determination (FA)",
+          "name": "Lillie's Determination (UR)",
           "card_number": "169/132",
-          "estimated_value_usd": 26
+          "estimated_value_usd": 23.52
         },
         {
           "name": "Wally's Compassion (SIR)",
           "card_number": "186/132",
-          "estimated_value_usd": 25
+          "estimated_value_usd": 22.26
         },
         {
           "name": "Ivysaur (IR)",
           "card_number": "134/132",
-          "estimated_value_usd": 23
+          "estimated_value_usd": 20.73
         },
         {
           "name": "Lt. Surge's Bargain (SIR)",
           "card_number": "185/132",
-          "estimated_value_usd": 21
+          "estimated_value_usd": 19.22
+        },
+        {
+          "name": "Vulpix (IR)",
+          "card_number": "138/132",
+          "estimated_value_usd": 16.62
+        },
+        {
+          "name": "Mega Lucario ex (UR)",
+          "card_number": "160/132",
+          "estimated_value_usd": 15.85
+        },
+        {
+          "name": "Marshadow (IR)",
+          "card_number": "146/132",
+          "estimated_value_usd": 15.36
+        },
+        {
+          "name": "Mega Venusaur ex (UR)",
+          "card_number": "155/132",
+          "estimated_value_usd": 13.64
         }
       ],
       "pull_rates": {
@@ -2231,87 +2926,57 @@
         {
           "name": "Mega Gengar ex (SIR)",
           "card_number": "284/217",
-          "estimated_value_usd": 1700
+          "estimated_value_usd": 1000
+        },
+        {
+          "name": "Mega Dragonite ex (SIR)",
+          "card_number": "290/217",
+          "estimated_value_usd": 690
         },
         {
           "name": "Pikachu ex (SIR)",
           "card_number": "276/217",
-          "estimated_value_usd": 1200
-        },
-        {
-          "name": "Mega Dragonite ex (MHR)",
-          "card_number": "290/217",
-          "estimated_value_usd": 910
+          "estimated_value_usd": 600
         },
         {
           "name": "Mega Charizard Y ex (MHR)",
           "card_number": "294/217",
-          "estimated_value_usd": 857
+          "estimated_value_usd": 445
         },
         {
           "name": "Team Rocket's Mewtwo ex (SIR)",
           "card_number": "281/217",
-          "estimated_value_usd": 642
+          "estimated_value_usd": 380
         },
         {
-          "name": "Pikachu ex (HR)",
+          "name": "Pikachu ex (SIR #2)",
           "card_number": "277/217",
-          "estimated_value_usd": 510
+          "estimated_value_usd": 350
         },
         {
-          "name": "Mega Dragonite ex (SIR)",
+          "name": "Mega Dragonite ex (MHR)",
           "card_number": "295/217",
-          "estimated_value_usd": 378
+          "estimated_value_usd": 300
         },
         {
           "name": "Lillie's Clefairy ex (SIR)",
           "card_number": "280/217",
-          "estimated_value_usd": 270
+          "estimated_value_usd": 250
         },
         {
           "name": "N's Zoroark ex (SIR)",
           "card_number": "286/217",
-          "estimated_value_usd": 233
+          "estimated_value_usd": 180
         },
         {
-          "name": "Mega Feraligatr ex (SIR)",
-          "card_number": "274/217",
-          "estimated_value_usd": 187
+          "name": "Iono's Bellibolt ex (SIR)",
+          "card_number": "279/217",
+          "estimated_value_usd": 120
         },
         {
           "name": "Mega Meganium ex (SIR)",
           "card_number": "272/217",
-          "estimated_value_usd": 110
-        },
-        {
-          "name": "Steven's Metagross ex (SIR)",
-          "card_number": "289/217",
-          "estimated_value_usd": 109
-        },
-        {
-          "name": "Mega Froslass ex (SIR)",
-          "card_number": "275/217",
-          "estimated_value_usd": 106
-        },
-        {
-          "name": "Mega Gengar ex (FA)",
-          "card_number": "269/217",
-          "estimated_value_usd": 106
-        },
-        {
-          "name": "Psyduck (IR)",
-          "card_number": "226/217",
           "estimated_value_usd": 100
-        },
-        {
-          "name": "Mega Scrafty ex (SIR)",
-          "card_number": "285/217",
-          "estimated_value_usd": 95
-        },
-        {
-          "name": "Mega Emboar ex (SIR)",
-          "card_number": "273/217",
-          "estimated_value_usd": 92
         },
         {
           "name": "Marnie's Grimmsnarl ex (SIR)",
@@ -2319,59 +2984,244 @@
           "estimated_value_usd": 90
         },
         {
-          "name": "Fezandipiti ex (SIR)",
-          "card_number": "288/217",
-          "estimated_value_usd": 85
-        },
-        {
-          "name": "Iono's Bellibolt ex (SIR)",
-          "card_number": "279/217",
+          "name": "Mega Feraligatr ex (SIR)",
+          "card_number": "274/217",
           "estimated_value_usd": 80
         },
         {
-          "name": "Mega Hawlucha ex (SIR)",
-          "card_number": "283/217",
-          "estimated_value_usd": 80
+          "name": "Steven's Metagross ex (SIR)",
+          "card_number": "289/217",
+          "estimated_value_usd": 75
         },
         {
           "name": "Mega Diancie ex (SIR)",
           "card_number": "282/217",
-          "estimated_value_usd": 76
+          "estimated_value_usd": 70
         },
         {
-          "name": "Mega Dragonite ex (FA)",
-          "card_number": "271/217",
-          "estimated_value_usd": 74
+          "name": "Mega Froslass ex (SIR)",
+          "card_number": "275/217",
+          "estimated_value_usd": 65
         },
         {
-          "name": "Canari (SIR)",
-          "card_number": "291/217",
-          "estimated_value_usd": 53
-        },
-        {
-          "name": "Mega Eelektross ex (SIR)",
-          "card_number": "278/217",
-          "estimated_value_usd": 46
+          "name": "Mega Emboar ex (SIR)",
+          "card_number": "273/217",
+          "estimated_value_usd": 60
         },
         {
           "name": "Iris's Fighting Spirit (SIR)",
           "card_number": "292/217",
+          "estimated_value_usd": 55
+        },
+        {
+          "name": "Mega Gengar ex (AR)",
+          "card_number": "269/217",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Mega Eelektross ex (SIR)",
+          "card_number": "278/217",
           "estimated_value_usd": 45
+        },
+        {
+          "name": "Canari (SIR)",
+          "card_number": "291/217",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Mega Hawlucha ex (SIR)",
+          "card_number": "283/217",
+          "estimated_value_usd": 40
         },
         {
           "name": "Surfer (SIR)",
           "card_number": "293/217",
-          "estimated_value_usd": 34
+          "estimated_value_usd": 40
         },
         {
           "name": "Team Rocket's Mimikyu (IR)",
           "card_number": "238/217",
-          "estimated_value_usd": 32
+          "estimated_value_usd": 40
         },
         {
-          "name": "Erika's Tangela (IR)",
-          "card_number": "218/217",
-          "estimated_value_usd": 28
+          "name": "Mega Scrafty ex (SIR)",
+          "card_number": "285/217",
+          "estimated_value_usd": 35
+        },
+        {
+          "name": "Mega Dragonite ex (AR)",
+          "card_number": "271/217",
+          "estimated_value_usd": 35
+        },
+        {
+          "name": "Fezandipiti ex (SIR)",
+          "card_number": "288/217",
+          "estimated_value_usd": 30
+        },
+        {
+          "name": "Mega Froslass ex (AR)",
+          "card_number": "265/217",
+          "estimated_value_usd": 25
+        },
+        {
+          "name": "Mega Diancie ex (AR)",
+          "card_number": "267/217",
+          "estimated_value_usd": 25
+        },
+        {
+          "name": "Iono's Wattrel (IR)",
+          "card_number": "231/217",
+          "estimated_value_usd": 25
+        },
+        {
+          "name": "Cynthia's Spiritomb (IR)",
+          "card_number": "244/217",
+          "estimated_value_usd": 22
+        },
+        {
+          "name": "Marill (IR)",
+          "card_number": "232/217",
+          "estimated_value_usd": 20
+        },
+        {
+          "name": "Psyduck (IR)",
+          "card_number": "226/217",
+          "estimated_value_usd": 20
+        },
+        {
+          "name": "Mega Eelektross ex (AR)",
+          "card_number": "266/217",
+          "estimated_value_usd": 18
+        },
+        {
+          "name": "Togekiss (IR)",
+          "card_number": "235/217",
+          "estimated_value_usd": 18
+        },
+        {
+          "name": "Dreepy (IR)",
+          "card_number": "247/217",
+          "estimated_value_usd": 18
+        },
+        {
+          "name": "Mega Hawlucha ex (AR)",
+          "card_number": "268/217",
+          "estimated_value_usd": 15
+        },
+        {
+          "name": "Ultra Ball (UR)",
+          "card_number": "264/217",
+          "estimated_value_usd": 15
+        },
+        {
+          "name": "Mega Audino ex (UR)",
+          "card_number": "253/217",
+          "estimated_value_usd": 15
+        },
+        {
+          "name": "Scorbunny (IR)",
+          "card_number": "225/217",
+          "estimated_value_usd": 15
+        },
+        {
+          "name": "Misdreavus (IR)",
+          "card_number": "233/217",
+          "estimated_value_usd": 15
+        },
+        {
+          "name": "Drakloak (IR)",
+          "card_number": "248/217",
+          "estimated_value_usd": 15
+        },
+        {
+          "name": "Hop's Trevenant (IR)",
+          "card_number": "237/217",
+          "estimated_value_usd": 15
+        },
+        {
+          "name": "Mega Scrafty ex (AR)",
+          "card_number": "270/217",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Boss's Orders (UR)",
+          "card_number": "256/217",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Counter Gain (UR)",
+          "card_number": "259/217",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Ethan's Magcargo (IR)",
+          "card_number": "222/217",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Weavile (IR)",
+          "card_number": "228/217",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Banette (IR)",
+          "card_number": "234/217",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Galarian Obstagoon (IR)",
+          "card_number": "245/217",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Larry's Staraptor (IR)",
+          "card_number": "249/217",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Canari (UR)",
+          "card_number": "257/217",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Cheren (UR)",
+          "card_number": "258/217",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Glass Trumpet (UR)",
+          "card_number": "260/217",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Sprigatito ex (UR)",
+          "card_number": "251/217",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Budew (IR)",
+          "card_number": "221/217",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Slurpuff (IR)",
+          "card_number": "236/217",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Mawile (IR)",
+          "card_number": "246/217",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Fan Rotom (IR)",
+          "card_number": "250/217",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Snorunt (IR)",
+          "card_number": "227/217",
+          "estimated_value_usd": 10
         }
       ],
       "pull_rates": {
@@ -2411,54 +3261,119 @@
       "in_print_note": "Not yet released (Mar 2026)",
       "top_chase_cards": [
         {
-          "name": "Meowth ex (SIR)",
-          "card_number": "121/088",
-          "estimated_value_usd": 205
-        },
-        {
           "name": "Mega Zygarde ex (MHR)",
           "card_number": "124/088",
-          "estimated_value_usd": 186
-        },
-        {
-          "name": "Mega Zygarde ex (SIR)",
-          "card_number": "120/088",
-          "estimated_value_usd": 102
-        },
-        {
-          "name": "Mega Starmie ex (SIR)",
-          "card_number": "118/088",
-          "estimated_value_usd": 84
+          "estimated_value_usd": 200
         },
         {
           "name": "Rosa's Encouragement (SIR)",
           "card_number": "123/088",
-          "estimated_value_usd": 83
+          "estimated_value_usd": 152
         },
         {
-          "name": "Mega Clefable ex (SIR)",
-          "card_number": "119/088",
-          "estimated_value_usd": 81
+          "name": "Meowth ex (SIR)",
+          "card_number": "121/088",
+          "estimated_value_usd": 140
+        },
+        {
+          "name": "Mega Zygarde ex (SIR)",
+          "card_number": "120/088",
+          "estimated_value_usd": 80
         },
         {
           "name": "Jacinthe (SIR)",
           "card_number": "122/088",
-          "estimated_value_usd": 38
+          "estimated_value_usd": 60
+        },
+        {
+          "name": "Mega Starmie ex (SIR)",
+          "card_number": "118/088",
+          "estimated_value_usd": 55
+        },
+        {
+          "name": "Mega Clefable ex (SIR)",
+          "card_number": "119/088",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Rosa's Encouragement (UR)",
+          "card_number": "114/088",
+          "estimated_value_usd": 20
+        },
+        {
+          "name": "Meowth ex (UR)",
+          "card_number": "107/088",
+          "estimated_value_usd": 18
         },
         {
           "name": "Clefairy (IR)",
-          "card_number": "094/088",
-          "estimated_value_usd": 32
+          "card_number": "94/088",
+          "estimated_value_usd": 18
         },
         {
-          "name": "Meowth ex (FA)",
-          "card_number": "107/088",
-          "estimated_value_usd": 23
+          "name": "Mega Starmie ex (UR)",
+          "card_number": "102/088",
+          "estimated_value_usd": 15
         },
         {
-          "name": "Poke Pad (Gold)",
-          "card_number": "113/088",
-          "estimated_value_usd": 21
+          "name": "Mega Zygarde ex (UR)",
+          "card_number": "104/088",
+          "estimated_value_usd": 15
+        },
+        {
+          "name": "Rowlet (IR)",
+          "card_number": "90/088",
+          "estimated_value_usd": 15
+        },
+        {
+          "name": "Mega Clefable ex (UR)",
+          "card_number": "103/088",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Yveltal ex (UR)",
+          "card_number": "105/088",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Dedenne (IR)",
+          "card_number": "93/088",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Espurr (IR)",
+          "card_number": "95/088",
+          "estimated_value_usd": 12
+        },
+        {
+          "name": "Jacinthe (UR)",
+          "card_number": "110/088",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Mega Skarmory ex (UR)",
+          "card_number": "106/088",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Sacred Ash (UR)",
+          "card_number": "115/088",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Talonflame (IR)",
+          "card_number": "91/088",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Raticate (IR)",
+          "card_number": "99/088",
+          "estimated_value_usd": 10
+        },
+        {
+          "name": "Mega Starmie ex",
+          "card_number": "21/088",
+          "estimated_value_usd": 3
         }
       ],
       "pull_rates": {
@@ -2509,6 +3424,21 @@
           "name": "Mega Pyroar ex (SIR)",
           "card_number": "112/086",
           "estimated_value_usd": 75
+        },
+        {
+          "name": "Mega Greninja ex (AR)",
+          "card_number": "116/086",
+          "estimated_value_usd": 60
+        },
+        {
+          "name": "Mega Dragalge ex (SIR)",
+          "card_number": "115/086",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Mega Dragalge ex (AR)",
+          "card_number": "118/086",
+          "estimated_value_usd": 20
         }
       ],
       "pull_rates": {
