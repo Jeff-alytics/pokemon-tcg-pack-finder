@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-07 00:05 UTC",
+    "generated": "2026-05-07 12:43 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -261,10 +261,10 @@
       "top_chase_card": "Mew ex (SIR)",
       "top_chase_card_number": "232/91",
       "pull_rate_top_chase": "1 in 375",
-      "expected_value_per_pack": 1.34,
-      "packs_to_50_card": 224,
+      "expected_value_per_pack": 1.33,
+      "packs_to_50_card": 261,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -88.0,
+      "etb_roi_pct": -88.2,
       "num_chase_cards": 27,
       "chase_cards": [
         {
@@ -300,7 +300,8 @@
         {
           "name": "Ditto (Shiny)",
           "card_number": "201/91",
-          "estimated_value_usd": 52.36
+          "estimated_value_usd": 52.36,
+          "live_value_usd": 26.0
         },
         {
           "name": "Charmander (Shiny)",
@@ -2138,7 +2139,8 @@
         {
           "name": "Night Stretcher (HR)",
           "card_number": "251/191",
-          "estimated_value_usd": 10.76
+          "estimated_value_usd": 10.76,
+          "live_value_usd": 11.0
         },
         {
           "name": "Slakoth (IR)",
