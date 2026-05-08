@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-08 00:06 UTC",
+    "generated": "2026-05-08 12:21 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -507,8 +507,7 @@
         {
           "name": "Steven's Metagross ex (SIR)",
           "card_number": "289/217",
-          "estimated_value_usd": 75,
-          "live_value_usd": 105.0
+          "estimated_value_usd": 75
         },
         {
           "name": "Mega Diancie ex (SIR)",
@@ -2794,7 +2793,8 @@
         {
           "name": "Hydrapple ex (SIR)",
           "card_number": "167/142",
-          "estimated_value_usd": 22.42
+          "estimated_value_usd": 22.42,
+          "live_value_usd": 20.0
         },
         {
           "name": "Lacey (SIR)",
