@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-07 12:43 UTC",
+    "last_updated": "2026-05-08 00:06 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -2949,11 +2949,11 @@
           "card_number": "201/91",
           "sold": {
             "query": "Pokemon Ditto 201/91 -lot -bundle -repack",
-            "median_price_usd": 26.0,
-            "avg_price_usd": 26.0,
-            "low_price_usd": 26.0,
-            "high_price_usd": 26.0,
-            "num_sales": 1,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []
@@ -4706,11 +4706,11 @@
           "card_number": "251/191",
           "sold": {
             "query": "Pokemon Night Stretcher 251/191 -lot -bundle -repack",
-            "median_price_usd": 11.0,
-            "avg_price_usd": 12.87,
-            "low_price_usd": 6.0,
-            "high_price_usd": 59.99,
-            "num_sales": 80,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []
@@ -6242,11 +6242,11 @@
           "card_number": "289/217",
           "sold": {
             "query": "Pokemon Steven's Metagross ex 289/217 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 105.0,
+            "avg_price_usd": 115.4,
+            "low_price_usd": 78.0,
+            "high_price_usd": 650.0,
+            "num_sales": 80,
             "period_days": 30
           },
           "active_listings": []
