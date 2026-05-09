@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-08 12:21 UTC",
+    "last_updated": "2026-05-09 00:10 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -832,16 +832,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "Pokemon Latias (GG20/70) Crown Zenith Galarian Gallery LP HOLO",
-              "price_usd": 19.95,
-              "url": "https://www.ebay.com/itm/Pokemon-Latias-GG20-70-Crown-Zenith-Galarian-Gallery-LP-HOLO-/147272074082",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            }
-          ]
+          "active_listings": []
         },
         "Ditto": {
           "card_number": "GG22/70",
@@ -4361,11 +4352,11 @@
           "card_number": "167/142",
           "sold": {
             "query": "Pokemon Hydrapple ex 167/142 -lot -bundle -repack",
-            "median_price_usd": 20.0,
-            "avg_price_usd": 28.29,
-            "low_price_usd": 18.0,
-            "high_price_usd": 108.14,
-            "num_sales": 77,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []
@@ -6466,32 +6457,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "Iono's Wattrel 231/217 Pokemon TCG Mega Evolution Ascended Heroes",
-              "price_usd": 10.99,
-              "url": "https://www.ebay.com/itm/Ionos-Wattrel-231-217-Pokemon-TCG-Mega-Evolution-Ascended-Heroes-/358522650760",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Iono's Wattrel Illustration Rare Full Art Holo Card 231/217 Pokemon Card",
-              "price_usd": 11.0,
-              "url": "https://www.ebay.com/itm/Ionos-Wattrel-Illustration-Rare-Full-Art-Holo-Card-231-217-Pokemon-Card-/336523482139",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Iono's Wattrel 231/217 Illustration Rare ME: Ascended Heroes Pokemon Near Mint",
-              "price_usd": 12.98,
-              "url": "https://www.ebay.com/itm/Ionos-Wattrel-231-217-Illustration-Rare-ME-Ascended-Heroes-Pokemon-Near-Mint-/298274196600",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            }
-          ]
+          "active_listings": []
         },
         "Cynthia's Spiritomb (IR)": {
           "card_number": "244/217",
