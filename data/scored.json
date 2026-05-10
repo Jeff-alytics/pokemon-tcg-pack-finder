@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-10 00:02 UTC",
+    "generated": "2026-05-10 12:04 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -2965,8 +2965,7 @@
         {
           "name": "Jacinthe (UR)",
           "card_number": "110/088",
-          "estimated_value_usd": 10,
-          "live_value_usd": 5.99
+          "estimated_value_usd": 10
         },
         {
           "name": "Mega Skarmory ex (UR)",

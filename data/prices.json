@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-10 00:02 UTC",
+    "last_updated": "2026-05-10 12:04 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -7090,11 +7090,11 @@
           "card_number": "110/088",
           "sold": {
             "query": "Pokemon Jacinthe 110/088 -lot -bundle -repack",
-            "median_price_usd": 5.99,
-            "avg_price_usd": 7.03,
-            "low_price_usd": 4.0,
-            "high_price_usd": 35.0,
-            "num_sales": 80,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []
@@ -7205,9 +7205,9 @@
         "name": "Evolving Skies Elite Trainer Box [Flareon/Jolteon/Umbreon/Leafeon]",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 777.0,
+        "price_usd": 788.5,
         "packs": 9,
-        "per_pack_usd": 86.33,
+        "per_pack_usd": 87.61,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/242434/pokemon-swsh07-evolving-skies-evolving-skies-elite-trainer-box-flareon-jolteon-umbreon-leafeon"
       },
       {
@@ -7223,9 +7223,9 @@
         "name": "Evolving Skies Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 3485.0,
+        "price_usd": 3492.0,
         "packs": 36,
-        "per_pack_usd": 96.81,
+        "per_pack_usd": 97.0,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/242436/pokemon-swsh07-evolving-skies-evolving-skies-booster-box"
       },
       {
@@ -7252,18 +7252,18 @@
         "name": "Prismatic Evolutions Elite Trainer Box and Pokeball (Sam's Club)",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 240.0,
+        "price_usd": 239.98,
         "packs": 9,
-        "per_pack_usd": 26.67,
+        "per_pack_usd": 26.66,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644852/pokemon-miscellaneous-cards-and-products-prismatic-evolutions-elite-trainer-box-and-pokeball-sams-club"
       },
       {
         "name": "Prismatic Evolutions Elite Trainer Box (Dollar General Exclusive)",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 250.0,
+        "price_usd": 293.0,
         "packs": 9,
-        "per_pack_usd": 27.78,
+        "per_pack_usd": 32.56,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/670607/pokemon-sv-prismatic-evolutions-prismatic-evolutions-elite-trainer-box-dollar-general-exclusive"
       }
     ],
@@ -7272,18 +7272,18 @@
         "name": "Brilliant Stars Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 180.0,
+        "price_usd": 183.0,
         "packs": 9,
-        "per_pack_usd": 20.0,
+        "per_pack_usd": 20.33,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/256138/pokemon-swsh09-brilliant-stars-brilliant-stars-elite-trainer-box"
       },
       {
         "name": "Brilliant Stars Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 747.5,
+        "price_usd": 750.0,
         "packs": 36,
-        "per_pack_usd": 20.76,
+        "per_pack_usd": 20.83,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/256141/pokemon-swsh09-brilliant-stars-brilliant-stars-booster-box"
       }
     ],
@@ -7300,15 +7300,6 @@
     ],
     "lost-origin": [
       {
-        "name": "Lost Origin Elite Trainer Box",
-        "product_type": "elite trainer box",
-        "label": "ETB",
-        "price_usd": 214.49,
-        "packs": 9,
-        "per_pack_usd": 23.83,
-        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box"
-      },
-      {
         "name": "Lost Origin Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
@@ -7316,6 +7307,15 @@
         "packs": 36,
         "per_pack_usd": 27.78,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/277324/pokemon-swsh11-lost-origin-lost-origin-booster-box"
+      },
+      {
+        "name": "Lost Origin Elite Trainer Box",
+        "product_type": "elite trainer box",
+        "label": "ETB",
+        "price_usd": 249.99,
+        "packs": 9,
+        "per_pack_usd": 27.78,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/277335/pokemon-swsh11-lost-origin-lost-origin-elite-trainer-box"
       }
     ],
     "crown-zenith": [
@@ -7323,18 +7323,18 @@
         "name": "Crown Zenith Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 406.98,
+        "price_usd": 428.49,
         "packs": 9,
-        "per_pack_usd": 45.22,
+        "per_pack_usd": 47.61,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/453470/pokemon-swsh-crown-zenith-crown-zenith-elite-trainer-box"
       },
       {
         "name": "Crown Zenith Pokemon Center Elite Trainer Box Plus",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 724.5,
+        "price_usd": 750.0,
         "packs": 9,
-        "per_pack_usd": 80.5,
+        "per_pack_usd": 83.33,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/454246/pokemon-swsh-crown-zenith-crown-zenith-pokemon-center-elite-trainer-box-plus"
       }
     ],
@@ -7343,27 +7343,27 @@
         "name": "Scarlet & Violet Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 349.99,
+        "price_usd": 331.49,
         "packs": 36,
-        "per_pack_usd": 9.72,
+        "per_pack_usd": 9.21,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/476452/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-booster-box"
       },
       {
         "name": "Scarlet & Violet Elite Trainer Box [Koraidon]",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 138.75,
+        "price_usd": 137.5,
         "packs": 9,
-        "per_pack_usd": 15.42,
+        "per_pack_usd": 15.28,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/478335/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-elite-trainer-box-koraidon"
       },
       {
         "name": "Scarlet & Violet Elite Trainer Box [Miraidon]",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 173.8,
+        "price_usd": 172.65,
         "packs": 9,
-        "per_pack_usd": 19.31,
+        "per_pack_usd": 19.18,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/478336/pokemon-sv01-scarlet-and-violet-base-set-scarlet-and-violet-elite-trainer-box-miraidon"
       },
       {
@@ -7390,18 +7390,18 @@
         "name": "Paldea Evolved Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 526.5,
+        "price_usd": 549.97,
         "packs": 36,
-        "per_pack_usd": 14.62,
+        "per_pack_usd": 15.28,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/493975/pokemon-sv02-paldea-evolved-paldea-evolved-booster-box"
       },
       {
         "name": "Paldea Evolved Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 249.99,
+        "price_usd": 252.09,
         "packs": 9,
-        "per_pack_usd": 27.78,
+        "per_pack_usd": 28.01,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/493974/pokemon-sv02-paldea-evolved-paldea-evolved-elite-trainer-box"
       }
     ],
@@ -7430,9 +7430,9 @@
         "name": "151 Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 759.5,
+        "price_usd": 777.77,
         "packs": 9,
-        "per_pack_usd": 84.39,
+        "per_pack_usd": 86.42,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/503313/pokemon-sv-scarlet-and-violet-151-151-elite-trainer-box"
       }
     ],
@@ -7468,16 +7468,16 @@
         "name": "Paradox Rift Elite Trainer Box [Iron Valiant]",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 249.99,
+        "price_usd": 224.98,
         "packs": 9,
-        "per_pack_usd": 27.78,
+        "per_pack_usd": 25.0,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/512813/pokemon-sv04-paradox-rift-paradox-rift-elite-trainer-box-iron-valiant"
       },
       {
         "name": "Paradox Rift Elite Trainer Boxes [Set of 2]",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 333.99,
+        "price_usd": 334.0,
         "packs": 9,
         "per_pack_usd": 37.11,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/512834/pokemon-sv04-paradox-rift-paradox-rift-elite-trainer-boxes-set-of-2"
@@ -7488,7 +7488,7 @@
         "name": "Paldean Fates Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 598.98,
+        "price_usd": 598.99,
         "packs": 9,
         "per_pack_usd": 66.55,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/528040/pokemon-sv-paldean-fates-paldean-fates-elite-trainer-box"
@@ -7517,7 +7517,7 @@
         "name": "Temporal Forces Elite Trainer Box [Iron Leaves ex]",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 124.99,
+        "price_usd": 124.98,
         "packs": 9,
         "per_pack_usd": 13.89,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/532848/pokemon-sv05-temporal-forces-temporal-forces-elite-trainer-box-iron-leaves-ex"
@@ -7526,9 +7526,9 @@
         "name": "Temporal Forces Elite Trainer Box [Walking Wake]",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 134.0,
+        "price_usd": 133.49,
         "packs": 9,
-        "per_pack_usd": 14.89,
+        "per_pack_usd": 14.83,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/532845/pokemon-sv05-temporal-forces-temporal-forces-elite-trainer-box-walking-wake"
       },
       {
@@ -7546,7 +7546,7 @@
         "name": "Twilight Masquerade Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 399.99,
+        "price_usd": 400.0,
         "packs": 36,
         "per_pack_usd": 11.11,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/543846/pokemon-sv06-twilight-masquerade-twilight-masquerade-booster-box"
@@ -7555,9 +7555,9 @@
         "name": "Twilight Masquerade Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 124.99,
+        "price_usd": 127.49,
         "packs": 9,
-        "per_pack_usd": 13.89,
+        "per_pack_usd": 14.17,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/543845/pokemon-sv06-twilight-masquerade-twilight-masquerade-elite-trainer-box"
       }
     ],
@@ -7577,9 +7577,9 @@
         "name": "Stellar Crown Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 350.0,
+        "price_usd": 396.31,
         "packs": 36,
-        "per_pack_usd": 9.72,
+        "per_pack_usd": 11.01,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/557354/pokemon-sv07-stellar-crown-stellar-crown-booster-box"
       },
       {
@@ -7595,9 +7595,9 @@
         "name": "Stellar Crown Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 140.0,
+        "price_usd": 139.99,
         "packs": 9,
-        "per_pack_usd": 15.56,
+        "per_pack_usd": 15.55,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/557350/pokemon-sv07-stellar-crown-stellar-crown-elite-trainer-box"
       }
     ],
@@ -7606,9 +7606,9 @@
         "name": "Surging Sparks Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 320.0,
+        "price_usd": 327.47,
         "packs": 36,
-        "per_pack_usd": 8.89,
+        "per_pack_usd": 9.1,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/565606/pokemon-sv08-surging-sparks-surging-sparks-booster-box"
       },
       {
@@ -7644,9 +7644,9 @@
         "name": "Journey Together Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 324.98,
+        "price_usd": 320.0,
         "packs": 36,
-        "per_pack_usd": 9.03,
+        "per_pack_usd": 8.89,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/610931/pokemon-sv09-journey-together-journey-together-booster-box"
       },
       {
@@ -7662,9 +7662,9 @@
         "name": "Journey Together Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 148.4,
+        "price_usd": 143.95,
         "packs": 9,
-        "per_pack_usd": 16.49,
+        "per_pack_usd": 15.99,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/610930/pokemon-sv09-journey-together-journey-together-elite-trainer-box"
       }
     ],
@@ -7682,22 +7682,31 @@
         "name": "Destined Rivals Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 799.98,
+        "price_usd": 878.0,
         "packs": 36,
-        "per_pack_usd": 22.22,
+        "per_pack_usd": 24.39,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/624679/pokemon-sv10-destined-rivals-destined-rivals-booster-box"
       },
       {
         "name": "Destined Rivals Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 283.94,
+        "price_usd": 300.0,
         "packs": 9,
-        "per_pack_usd": 31.55,
+        "per_pack_usd": 33.33,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/624676/pokemon-sv10-destined-rivals-destined-rivals-elite-trainer-box"
       }
     ],
     "mega-evolution": [
+      {
+        "name": "Mega Evolution Booster Box",
+        "product_type": "booster box",
+        "label": "Booster Box",
+        "price_usd": 349.99,
+        "packs": 36,
+        "per_pack_usd": 9.72,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644298/pokemon-me01-mega-evolution-mega-evolution-booster-box"
+      },
       {
         "name": "Mega Evolution Enhanced Booster Box",
         "product_type": "enhanced booster box",
@@ -7708,24 +7717,6 @@
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644300/pokemon-me01-mega-evolution-mega-evolution-enhanced-booster-box"
       },
       {
-        "name": "Mega Evolution Booster Box",
-        "product_type": "booster box",
-        "label": "Booster Box",
-        "price_usd": 369.97,
-        "packs": 36,
-        "per_pack_usd": 10.28,
-        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644298/pokemon-me01-mega-evolution-mega-evolution-booster-box"
-      },
-      {
-        "name": "Mega Evolution Elite Trainer Box [Mega Lucario]",
-        "product_type": "elite trainer box",
-        "label": "ETB",
-        "price_usd": 109.48,
-        "packs": 9,
-        "per_pack_usd": 12.16,
-        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario"
-      },
-      {
         "name": "Mega Evolution Elite Trainer Box [Mega Gardevoir]",
         "product_type": "elite trainer box",
         "label": "ETB",
@@ -7733,6 +7724,15 @@
         "packs": 9,
         "per_pack_usd": 12.22,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/644279/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-gardevoir"
+      },
+      {
+        "name": "Mega Evolution Elite Trainer Box [Mega Lucario]",
+        "product_type": "elite trainer box",
+        "label": "ETB",
+        "price_usd": 109.99,
+        "packs": 9,
+        "per_pack_usd": 12.22,
+        "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/648394/pokemon-me01-mega-evolution-mega-evolution-elite-trainer-box-mega-lucario"
       },
       {
         "name": "Mega Evolution Half Booster Box",
@@ -7760,9 +7760,9 @@
         "name": "Perfect Order Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 235.0,
+        "price_usd": 237.48,
         "packs": 36,
-        "per_pack_usd": 6.53,
+        "per_pack_usd": 6.6,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/672394/pokemon-me03-perfect-order-perfect-order-booster-box"
       },
       {
@@ -7789,27 +7789,27 @@
         "name": "Chaos Rising Booster Box",
         "product_type": "booster box",
         "label": "Booster Box",
-        "price_usd": 274.96,
+        "price_usd": 275.74,
         "packs": 36,
-        "per_pack_usd": 7.64,
+        "per_pack_usd": 7.66,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/684444/pokemon-me04-chaos-rising-chaos-rising-booster-box"
       },
       {
         "name": "Chaos Rising Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 106.11,
+        "price_usd": 106.89,
         "packs": 9,
-        "per_pack_usd": 11.79,
+        "per_pack_usd": 11.88,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/684450/pokemon-me04-chaos-rising-chaos-rising-elite-trainer-box"
       },
       {
         "name": "Chaos Rising Pokemon Center Elite Trainer Box",
         "product_type": "elite trainer box",
         "label": "ETB",
-        "price_usd": 440.36,
+        "price_usd": 500.0,
         "packs": 9,
-        "per_pack_usd": 48.93,
+        "per_pack_usd": 55.56,
         "url": "https://partner.tcgplayer.com/c/4914634/1780961/21018?subId1=pkmboxprice&u=https://www.tcgplayer.com/product/684452/pokemon-me04-chaos-rising-chaos-rising-pokemon-center-elite-trainer-box"
       }
     ]
