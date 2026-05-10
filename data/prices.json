@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-09 12:04 UTC",
+    "last_updated": "2026-05-10 00:02 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -7090,11 +7090,11 @@
           "card_number": "110/088",
           "sold": {
             "query": "Pokemon Jacinthe 110/088 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 5.99,
+            "avg_price_usd": 7.03,
+            "low_price_usd": 4.0,
+            "high_price_usd": 35.0,
+            "num_sales": 80,
             "period_days": 30
           },
           "active_listings": []
