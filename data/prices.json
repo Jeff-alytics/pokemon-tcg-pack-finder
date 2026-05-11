@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-10 12:04 UTC",
+    "last_updated": "2026-05-11 00:07 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -6908,11 +6908,11 @@
           "card_number": "120/088",
           "sold": {
             "query": "Pokemon Mega Zygarde ex 120/088 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 100.0,
+            "avg_price_usd": 106.43,
+            "low_price_usd": 65.0,
+            "high_price_usd": 190.76,
+            "num_sales": 80,
             "period_days": 30
           },
           "active_listings": []
