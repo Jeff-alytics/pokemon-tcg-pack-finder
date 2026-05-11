@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-11 00:07 UTC",
+    "generated": "2026-05-11 14:02 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -2871,10 +2871,10 @@
       "top_chase_card": "Mega Zygarde ex (MHR)",
       "top_chase_card_number": "124/088",
       "pull_rate_top_chase": "1 in 1786",
-      "expected_value_per_pack": 0.46,
+      "expected_value_per_pack": 0.45,
       "packs_to_50_card": 296,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -95.9,
+      "etb_roi_pct": -96.0,
       "num_chase_cards": 23,
       "chase_cards": [
         {
@@ -2895,8 +2895,7 @@
         {
           "name": "Mega Zygarde ex (SIR)",
           "card_number": "120/088",
-          "estimated_value_usd": 80,
-          "live_value_usd": 100.0
+          "estimated_value_usd": 80
         },
         {
           "name": "Jacinthe (SIR)",
