@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-11 14:02 UTC",
+    "last_updated": "2026-05-12 00:12 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -5586,11 +5586,11 @@
           "card_number": "190/182",
           "sold": {
             "query": "Pokemon Ethan's Typhlosion 190/182 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 29.99,
+            "avg_price_usd": 67.59,
+            "low_price_usd": 19.99,
+            "high_price_usd": 374.95,
+            "num_sales": 80,
             "period_days": 30
           },
           "active_listings": []

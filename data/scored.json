@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-11 14:02 UTC",
+    "generated": "2026-05-12 00:12 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -1707,7 +1707,8 @@
         {
           "name": "Ethan's Typhlosion (IR)",
           "card_number": "190/182",
-          "estimated_value_usd": 31.68
+          "estimated_value_usd": 31.68,
+          "live_value_usd": 29.99
         },
         {
           "name": "Arven's Mabosstiff ex (SIR)",
