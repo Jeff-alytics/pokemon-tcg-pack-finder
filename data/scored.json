@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-13 00:27 UTC",
+    "generated": "2026-05-13 13:25 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -3487,7 +3487,8 @@
         {
           "name": "Mega Lucario ex (UR)",
           "card_number": "160/132",
-          "estimated_value_usd": 15.85
+          "estimated_value_usd": 15.85,
+          "live_value_usd": 16.95
         },
         {
           "name": "Marshadow (IR)",
