@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-12 13:19 UTC",
+    "last_updated": "2026-05-13 00:27 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -7006,7 +7006,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Pokemon Mega Evolution Perfect Order - Master Set",
+              "price_usd": 10.0,
+              "url": "https://www.ebay.com/itm/Pokemon-Mega-Evolution-Perfect-Order-Master-Set-/147265077444?var=445707569872",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon TCG Perfect Order Mega Starmie EX 102/088 Secret Rare Pack Fresh Mint!💎",
+              "price_usd": 12.49,
+              "url": "https://www.ebay.com/itm/Pokemon-TCG-Perfect-Order-Mega-Starmie-EX-102-088-Secret-Rare-Pack-Fresh-Mint-/257429437534",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon ME03 Perfect Order Ultra Rare - 102/088 Mega Starmie ex",
+              "price_usd": 12.95,
+              "url": "https://www.ebay.com/itm/Pokemon-ME03-Perfect-Order-Ultra-Rare-102-088-Mega-Starmie-ex-/267637155976",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Mega Zygarde ex (UR)": {
           "card_number": "104/088",
