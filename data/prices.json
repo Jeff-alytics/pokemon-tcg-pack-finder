@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-13 13:25 UTC",
+    "last_updated": "2026-05-14 00:11 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -2712,11 +2712,11 @@
           "card_number": "186/182",
           "sold": {
             "query": "Pokemon Magby 186/182 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 16.0,
+            "avg_price_usd": 27.46,
+            "low_price_usd": 9.99,
+            "high_price_usd": 159.05,
+            "num_sales": 79,
             "period_days": 30
           },
           "active_listings": []
@@ -3826,11 +3826,11 @@
           "card_number": "198/167",
           "sold": {
             "query": "Pokemon Greninja ex 198/167 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 14.32,
+            "avg_price_usd": 19.03,
+            "low_price_usd": 8.0,
+            "high_price_usd": 179.99,
+            "num_sales": 79,
             "period_days": 30
           },
           "active_listings": []
@@ -6018,11 +6018,11 @@
           "card_number": "160/132",
           "sold": {
             "query": "Pokemon Mega Lucario ex 160/132 -lot -bundle -repack",
-            "median_price_usd": 16.95,
-            "avg_price_usd": 33.08,
-            "low_price_usd": 10.82,
-            "high_price_usd": 129.0,
-            "num_sales": 80,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []

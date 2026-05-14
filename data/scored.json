@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-13 13:25 UTC",
+    "generated": "2026-05-14 00:11 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -1904,7 +1904,8 @@
         {
           "name": "Greninja ex (UR)",
           "card_number": "198/167",
-          "estimated_value_usd": 15.21
+          "estimated_value_usd": 15.21,
+          "live_value_usd": 14.32
         },
         {
           "name": "Pinsir (IR)",
@@ -2367,7 +2368,8 @@
         {
           "name": "Magby (IR)",
           "card_number": "186/182",
-          "estimated_value_usd": 17.83
+          "estimated_value_usd": 17.83,
+          "live_value_usd": 16.0
         },
         {
           "name": "Parasol Lady (SIR)",
@@ -3487,8 +3489,7 @@
         {
           "name": "Mega Lucario ex (UR)",
           "card_number": "160/132",
-          "estimated_value_usd": 15.85,
-          "live_value_usd": 16.95
+          "estimated_value_usd": 15.85
         },
         {
           "name": "Marshadow (IR)",
