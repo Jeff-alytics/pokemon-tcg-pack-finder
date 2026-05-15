@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-14 12:38 UTC",
+    "generated": "2026-05-15 00:11 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -770,10 +770,10 @@
       "top_chase_card": "Basic Darkness Energy (HR)",
       "top_chase_card_number": "98/64",
       "pull_rate_top_chase": "1 in 335",
-      "expected_value_per_pack": 0.44,
+      "expected_value_per_pack": 0.47,
       "packs_to_50_card": 436,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -96.1,
+      "etb_roi_pct": -95.8,
       "num_chase_cards": 26,
       "chase_cards": [
         {
@@ -799,8 +799,7 @@
         {
           "name": "Dusclops (IR)",
           "card_number": "69/64",
-          "estimated_value_usd": 49.76,
-          "live_value_usd": 6.01
+          "estimated_value_usd": 49.76
         },
         {
           "name": "Fezandipiti ex (SIR)",

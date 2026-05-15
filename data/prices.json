@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-14 12:38 UTC",
+    "last_updated": "2026-05-15 00:11 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -2576,32 +2576,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "Choose Your Card from Pokemon \"Paradox Rift\" DR/UR/IR/SIR/HR Only !",
-              "price_usd": 10.99,
-              "url": "https://www.ebay.com/itm/Choose-Your-Card-Pokemon-Paradox-Rift-DR-UR-IR-SIR-HR-Only-/404586195453?var=674592255325",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "POKEMON TCG PARADOX RIFT-CHOOSE YOUR DOUBLE RARE EX, AND FULL ART CARD!",
-              "price_usd": 13.95,
-              "url": "https://www.ebay.com/itm/POKEMON-TCG-PARADOX-RIFT-CHOOSE-YOUR-DOUBLE-RARE-EX-AND-FULL-ART-CARD-/285596572842?var=587579094621",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 1.99
-            },
-            {
-              "title": "Pokemon TCG Scarlet & Violet Paradox Rift Singles - Choose your Card.",
-              "price_usd": 19.99,
-              "url": "https://www.ebay.com/itm/Pokemon-TCG-Scarlet-Violet-Paradox-Rift-Singles-Choose-your-Card-/134800986938?var=434288183677",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.94
-            }
-          ]
+          "active_listings": []
         },
         "Morpeko (IR)": {
           "card_number": "206/182",
@@ -4023,11 +3998,11 @@
           "card_number": "69/64",
           "sold": {
             "query": "Pokemon Dusclops 69/64 -lot -bundle -repack",
-            "median_price_usd": 6.01,
-            "avg_price_usd": 12.0,
-            "low_price_usd": 4.99,
-            "high_price_usd": 24.99,
-            "num_sales": 3,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []
