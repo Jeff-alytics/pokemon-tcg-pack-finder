@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-15 13:07 UTC",
+    "last_updated": "2026-05-16 00:10 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -6941,7 +6941,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Mega Starmie ex 118/088 ME03: Perfect Order Pokemon Card NM",
+              "price_usd": 3.61,
+              "url": "https://www.ebay.com/itm/Mega-Starmie-ex-118-088-ME03-Perfect-Order-Pokemon-Card-NM-/137171164230",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 25.26
+            },
+            {
+              "title": "Pokemon Perfect Order Mega Starmie ex Full Art Holo #118/088 SIR",
+              "price_usd": 74.98,
+              "url": "https://www.ebay.com/itm/Pokemon-Perfect-Order-Mega-Starmie-ex-Full-Art-Holo-118-088-SIR-/137300709463",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon TCG - Mega Starmie ex 118/088 Special Illustration Rare Perfect Order",
+              "price_usd": 78.99,
+              "url": "https://www.ebay.com/itm/Pokemon-TCG-Mega-Starmie-ex-118-088-Special-Illustration-Rare-Perfect-Order-/318276252858",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Mega Clefable ex (SIR)": {
           "card_number": "119/088",
