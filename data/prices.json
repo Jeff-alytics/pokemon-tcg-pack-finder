@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-16 12:04 UTC",
+    "last_updated": "2026-05-17 00:06 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -2209,32 +2209,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "(JP) sv2a -Pokemon 151: Scarlet & Violet",
-              "price_usd": 2.0,
-              "url": "https://www.ebay.com/itm/JP-sv2a-Pokemon-151-Scarlet-Violet-/405570012937?var=676552280252",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Pokemon 151 Japanese - Pick Your Card Complete Your Set Holo Rare, RR AR, HR,SAR",
-              "price_usd": 4.69,
-              "url": "https://www.ebay.com/itm/Pokemon-151-Japanese-Pick-Your-Card-Complete-Your-Set-Holo-Rare-RR-AR-HR-SAR-/166411815120?var=466058540103",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.99
-            },
-            {
-              "title": "Pokemon Scarlet & Violet 151 - Pick Your Card Complete Your Set Rare, IR, HR,SIR",
-              "price_usd": 5.0,
-              "url": "https://www.ebay.com/itm/Pokemon-Scarlet-Violet-151-Pick-Your-Card-Complete-Your-Set-Rare-IR-HR-SIR-/167042574193?var=466762672145",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 1.3
-            }
-          ]
+          "active_listings": []
         },
         "Dragonair (IR)": {
           "card_number": "181/165",
@@ -4475,7 +4450,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Pokemon TCG SV07: Stellar Crown - Pick Your Cards",
+              "price_usd": 0.99,
+              "url": "https://www.ebay.com/itm/Pokemon-TCG-SV07-Stellar-Crown-Pick-Your-Cards-/187614948580?var=695440762776",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.74
+            },
+            {
+              "title": "(PLZ READ DESCRIPTIONS) Choose Your Card from Pokemon TCG SCR-EN \"Stellar Crown\"",
+              "price_usd": 4.29,
+              "url": "https://www.ebay.com/itm/PLZ-READ-DESCRIPTIONS-Choose-Your-Card-Pokemon-TCG-SCR-EN-Stellar-Crown-/405226291341?var=675363667436",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Gulpin 154/142 Stellar Crown Full Art Ultra Rare Holo Pokemon Card DMG",
+              "price_usd": 5.99,
+              "url": "https://www.ebay.com/itm/Gulpin-154-142-Stellar-Crown-Full-Art-Ultra-Rare-Holo-Pokemon-Card-DMG-/198297291790",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Zeraora (IR)": {
           "card_number": "151/142",
