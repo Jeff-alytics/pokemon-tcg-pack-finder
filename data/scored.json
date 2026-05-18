@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-17 12:13 UTC",
+    "generated": "2026-05-18 00:10 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -2841,7 +2841,14 @@
           "estimated_value_usd": 10.85
         }
       ],
-      "cheapest_pack_listing": null
+      "cheapest_pack_listing": {
+        "title": "Stella Miracle  Booster Pack SV7 - Japanese Stellar Crown Pokemon Factory Sealed",
+        "price_usd": 3.99,
+        "url": "https://www.ebay.com/itm/Stella-Miracle-Booster-Pack-SV7-Japanese-Stellar-Crown-Pokemon-Factory-Sealed-/277541002817",
+        "seller": "eBay",
+        "listing_type": "buy_it_now",
+        "shipping_usd": 0.0
+      }
     },
     {
       "id": "perfect-order",
