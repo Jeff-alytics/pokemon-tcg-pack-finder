@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-18 14:43 UTC",
+    "last_updated": "2026-05-19 00:18 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -773,11 +773,11 @@
           "card_number": "GG43/70",
           "sold": {
             "query": "Pokemon Zeraora VSTAR GG43/70 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 15.95,
+            "avg_price_usd": 15.95,
+            "low_price_usd": 15.95,
+            "high_price_usd": 15.95,
+            "num_sales": 1,
             "period_days": 30
           },
           "active_listings": []
@@ -6782,7 +6782,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Sprigatito ex 251/217 - Ultra Rare Ascended Heroes Pokemon NM",
+              "price_usd": 3.99,
+              "url": "https://www.ebay.com/itm/Sprigatito-ex-251-217-Ultra-Rare-Ascended-Heroes-Pokemon-NM-/800027695966",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Sprigatito ex 251/217 Ultra Rare Ascended Heroes Pokemon Holo Near Mint",
+              "price_usd": 3.5,
+              "url": "https://www.ebay.com/itm/Sprigatito-ex-251-217-Ultra-Rare-Ascended-Heroes-Pokemon-Holo-Near-Mint-/127844146954",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.5
+            },
+            {
+              "title": "Sprigatito ex 251/217 Ultra Rare ME: Ascended Heroes Pokemon TCG NM",
+              "price_usd": 4.5,
+              "url": "https://www.ebay.com/itm/Sprigatito-ex-251-217-Ultra-Rare-ME-Ascended-Heroes-Pokemon-TCG-NM-/178095999510",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Budew (IR)": {
           "card_number": "221/217",
