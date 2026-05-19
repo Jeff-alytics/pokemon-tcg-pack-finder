@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-19 00:18 UTC",
+    "generated": "2026-05-19 14:10 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -1061,8 +1061,7 @@
         {
           "name": "Zeraora VSTAR",
           "card_number": "GG43/70",
-          "estimated_value_usd": 20.58,
-          "live_value_usd": 15.95
+          "estimated_value_usd": 20.58
         },
         {
           "name": "Lumineon V",
@@ -1850,7 +1849,8 @@
         {
           "name": "Bloodmoon Ursaluna ex (SIR)",
           "card_number": "216/167",
-          "estimated_value_usd": 42.22
+          "estimated_value_usd": 42.22,
+          "live_value_usd": 39.48
         },
         {
           "name": "Lana's Aid (SIR)",
