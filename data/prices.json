@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-19 14:10 UTC",
+    "last_updated": "2026-05-20 00:19 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -1371,7 +1371,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Choose Your Card from Pokemon \"Paldea Evolved\" ! DR/UR/IR/SIR/HR only!",
+              "price_usd": 14.99,
+              "url": "https://www.ebay.com/itm/Choose-Your-Card-Pokemon-Paldea-Evolved-DR-UR-IR-SIR-HR-only-/404362981863?var=674295183559",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon TCG Paldea Evolved Full Arts Holo RH & More Cards  - You Pick Free Ship!",
+              "price_usd": 17.0,
+              "url": "https://www.ebay.com/itm/Pokemon-TCG-Paldea-Evolved-Full-Arts-Holo-RH-More-Cards-You-Pick-Free-Ship-/405032506401?var=675707073174",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon TCG Scarlet Violet Paldea Evolved Pick Cards Full Arts Holo Reverse Holo",
+              "price_usd": 19.99,
+              "url": "https://www.ebay.com/itm/Pokemon-TCG-Scarlet-Violet-Paldea-Evolved-Pick-Cards-Full-Arts-Holo-Reverse-Holo-/225615279346?var=524737983952",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Marill (IR)": {
           "card_number": "204/193",
@@ -3683,11 +3708,11 @@
           "card_number": "216/167",
           "sold": {
             "query": "Pokemon Bloodmoon Ursaluna ex 216/167 -lot -bundle -repack",
-            "median_price_usd": 39.48,
-            "avg_price_usd": 52.23,
-            "low_price_usd": 5.0,
-            "high_price_usd": 170.0,
-            "num_sales": 48,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []
@@ -6496,7 +6521,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Pokemon TCG Card Psyduck ASC Illustration Rare 226/217 NM",
+              "price_usd": 4.99,
+              "url": "https://www.ebay.com/itm/Pokemon-TCG-Card-Psyduck-ASC-Illustration-Rare-226-217-NM-/236720472873",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon Extended Art Insert for PSA Slab- Psyduck 226/217 ART ONLY",
+              "price_usd": 18.49,
+              "url": "https://www.ebay.com/itm/Pokemon-Extended-Art-Insert-PSA-Slab-Psyduck-226-217-ART-ONLY-/257357507122",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 5.0
+            },
+            {
+              "title": "Psyduck 226/217 Ascended Heroes Pokemon Extended Artwork For PSA CGC BGS or TAG",
+              "price_usd": 25.0,
+              "url": "https://www.ebay.com/itm/Psyduck-226-217-Ascended-Heroes-Pokemon-Extended-Artwork-PSA-CGC-BGS-TAG-/157735864886?var=0",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 5.5
+            }
+          ]
         },
         "Mega Eelektross ex (AR)": {
           "card_number": "266/217",
