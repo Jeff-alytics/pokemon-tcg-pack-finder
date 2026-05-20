@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-20 00:19 UTC",
+    "generated": "2026-05-20 13:51 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -3398,10 +3398,10 @@
       "top_chase_card": "Mega Lucario ex (HR)",
       "top_chase_card_number": "188/132",
       "pull_rate_top_chase": "1 in 2520",
-      "expected_value_per_pack": 0.82,
+      "expected_value_per_pack": 0.81,
       "packs_to_50_card": 213,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -92.7,
+      "etb_roi_pct": -92.8,
       "num_chase_cards": 19,
       "chase_cards": [
         {
@@ -3452,7 +3452,8 @@
         {
           "name": "Acerola's Mischief (SIR)",
           "card_number": "183/132",
-          "estimated_value_usd": 36.17
+          "estimated_value_usd": 36.17,
+          "live_value_usd": 30.0
         },
         {
           "name": "Bulbasaur (IR)",
