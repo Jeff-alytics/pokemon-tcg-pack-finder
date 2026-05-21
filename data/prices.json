@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-20 13:51 UTC",
+    "last_updated": "2026-05-21 00:20 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -1306,32 +1306,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "Magikarp IR 203/193 Paldea Evolved Pokemon Extended Artwork Case",
-              "price_usd": 12.0,
-              "url": "https://www.ebay.com/itm/Magikarp-IR-203-193-Paldea-Evolved-Pokemon-Extended-Artwork-Case-/157414178303",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 5.0
-            },
-            {
-              "title": "Magikarp IR 203/193 Paldea Evolved Pokemon  Extended Art Case",
-              "price_usd": 12.0,
-              "url": "https://www.ebay.com/itm/Magikarp-IR-203-193-Paldea-Evolved-Pokemon-Extended-Art-Case-/157573566908",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 5.0
-            },
-            {
-              "title": "Magikarp IR 203/193 Paldea Evolved Pokemon Extended Art Case",
-              "price_usd": 12.0,
-              "url": "https://www.ebay.com/itm/Magikarp-IR-203-193-Paldea-Evolved-Pokemon-Extended-Art-Case-/157573605216",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 5.0
-            }
-          ]
+          "active_listings": []
         },
         "Raichu (IR)": {
           "card_number": "211/193",
@@ -3754,7 +3729,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Pokemon Scarlet & Violet Twilight Masquerade Reverse Holo and Holo - You Pick!",
+              "price_usd": 0.99,
+              "url": "https://www.ebay.com/itm/Pokemon-Scarlet-Violet-Twilight-Masquerade-Reverse-Holo-and-Holo-You-Pick-/389169031279?var=656474262070",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Hisuian Growlithe 181/167 Twilight Masquerade Illustration Rare Pokemon NM/MINT",
+              "price_usd": 15.99,
+              "url": "https://www.ebay.com/itm/Hisuian-Growlithe-181-167-Twilight-Masquerade-Illustration-Rare-Pokemon-NM-MINT-/365999418713",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon Hisuian Growlithe Illustration Rare  SV06: Twilight Masquerade 181/167 N",
+              "price_usd": 16.68,
+              "url": "https://www.ebay.com/itm/Pokemon-Hisuian-Growlithe-Illustration-Rare-SV06-Twilight-Masquerade-181-167-N-/297847564126",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Sinistcha ex (SIR)": {
           "card_number": "210/167",
@@ -4277,7 +4277,24 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Cufant 76/64 Near Mint Illustration Rare Full Shrouded Fable Pokemon Tcg Holo",
+              "price_usd": 19.99,
+              "url": "https://www.ebay.com/itm/Cufant-76-64-Near-Mint-Illustration-Rare-Full-Shrouded-Fable-Pokemon-Tcg-Holo-/197648189144",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Cufant 76/64 Pokemon TCG Shrouded Fable Special Illustration Rare NM/M Condition",
+              "price_usd": 20.0,
+              "url": "https://www.ebay.com/itm/Cufant-76-64-Pokemon-TCG-Shrouded-Fable-Special-Illustration-Rare-NM-M-Condition-/406889653867",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Fraxure (IR)": {
           "card_number": "77/64",
@@ -5952,11 +5969,11 @@
           "card_number": "183/132",
           "sold": {
             "query": "Pokemon Acerola's Mischief 183/132 -lot -bundle -repack",
-            "median_price_usd": 30.0,
-            "avg_price_usd": 39.57,
-            "low_price_usd": 20.0,
-            "high_price_usd": 185.0,
-            "num_sales": 80,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []
