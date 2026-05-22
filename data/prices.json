@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-21 14:30 UTC",
+    "last_updated": "2026-05-22 00:16 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -3125,7 +3125,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Carte pokemon Ramoloss Slowpoke PAF 116/91 SHINY IT",
+              "price_usd": 11.61,
+              "url": "https://www.ebay.com/itm/Carte-pokemon-Ramoloss-Slowpoke-PAF-116-91-SHINY-/396400012996",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 5.22
+            },
+            {
+              "title": "Slowpoke Slowbro Slowking Pokemon Card! Holo/Reverse Holo EX  V Full Art Cards!",
+              "price_usd": 16.99,
+              "url": "https://www.ebay.com/itm/Slowpoke-Slowbro-Slowking-Pokemon-Card-Holo-Reverse-Holo-EX-V-Full-Art-Cards-/156797692263?var=458826308264",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon SV Paldean Fates Shiny Ultra Rare Choose Your Card Shiny ex Near Mint",
+              "price_usd": 17.0,
+              "url": "https://www.ebay.com/itm/Pokemon-SV-Paldean-Fates-Shiny-Ultra-Rare-Choose-Your-Card-Shiny-ex-Near-Mint-/395333511497?var=664301658432",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Riolu (Shiny)": {
           "card_number": "173/91",
@@ -7155,6 +7180,100 @@
           "card_number": "21/088",
           "sold": {
             "query": "Pokemon Mega Starmie ex 21/088 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        }
+      }
+    },
+    "chaos-rising": {
+      "booster_pack": {
+        "sold": {
+          "query": "Pokemon Chaos Rising booster pack sealed -lot -bundle -repack",
+          "median_price_usd": null,
+          "avg_price_usd": null,
+          "low_price_usd": null,
+          "high_price_usd": null,
+          "num_sales": 0,
+          "period_days": 30
+        },
+        "active_listings": []
+      },
+      "chase_singles": {
+        "Mega Greninja ex (MHR)": {
+          "card_number": "122/086",
+          "sold": {
+            "query": "Pokemon Mega Greninja ex 122/086 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mega Greninja ex (SIR)": {
+          "card_number": "114/086",
+          "sold": {
+            "query": "Pokemon Mega Greninja ex 114/086 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mega Pyroar ex (SIR)": {
+          "card_number": "112/086",
+          "sold": {
+            "query": "Pokemon Mega Pyroar ex 112/086 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mega Greninja ex (AR)": {
+          "card_number": "116/086",
+          "sold": {
+            "query": "Pokemon Mega Greninja ex 116/086 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mega Dragalge ex (SIR)": {
+          "card_number": "115/086",
+          "sold": {
+            "query": "Pokemon Mega Dragalge ex 115/086 -lot -bundle -repack",
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
+            "period_days": 30
+          },
+          "active_listings": []
+        },
+        "Mega Dragalge ex (AR)": {
+          "card_number": "118/086",
+          "sold": {
+            "query": "Pokemon Mega Dragalge ex 118/086 -lot -bundle -repack",
             "median_price_usd": null,
             "avg_price_usd": null,
             "low_price_usd": null,
