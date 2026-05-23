@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-22 13:46 UTC",
+    "last_updated": "2026-05-23 00:20 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -4320,32 +4320,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "Pokemon TCG SV07: Stellar Crown - Pick Your Cards",
-              "price_usd": 0.99,
-              "url": "https://www.ebay.com/itm/Pokemon-TCG-SV07-Stellar-Crown-Pick-Your-Cards-/187614948580?var=695440762765",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Pokemon TCG: Bulbasaur 143/142 Extended Art Insert for PSA / Graded Guard",
-              "price_usd": 15.0,
-              "url": "https://www.ebay.com/itm/Pokemon-TCG-Bulbasaur-143-142-Extended-Art-Insert-PSA-Graded-Guard-/146954388574?var=0",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Pokemon TCG: Bulbasaur 143/142 Extended Art Insert for PSA / Graded Guard",
-              "price_usd": 15.0,
-              "url": "https://www.ebay.com/itm/Pokemon-TCG-Bulbasaur-143-142-Extended-Art-Insert-PSA-Graded-Guard-/146954388574?var=445488954784",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            }
-          ]
+          "active_listings": []
         },
         "Dachsbun ex (SIR)": {
           "card_number": "169/142",
@@ -5894,7 +5869,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Pokemon TCG Mega Venusaur ex 177/132 ME01 Holo EX Stage 2 HP 380 EN",
+              "price_usd": 129.5,
+              "url": "https://www.ebay.com/itm/Pokemon-TCG-Mega-Venusaur-ex-177-132-ME01-Holo-EX-Stage-2-HP-380-/327171075460",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Mega Venusaur ex SIR 177/132 Mega Evolution Pokemon TCG",
+              "price_usd": 129.99,
+              "url": "https://www.ebay.com/itm/Mega-Venusaur-ex-SIR-177-132-Mega-Evolution-Pokemon-TCG-/157524809913",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Mega Venusaur ex 177/132 ME01: Mega Evolution Special Illustration Rare Pokemon",
+              "price_usd": 129.99,
+              "url": "https://www.ebay.com/itm/Mega-Venusaur-ex-177-132-ME01-Mega-Evolution-Special-Illustration-Rare-Pokemon-/227292152815",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Mega Latias ex (SIR)": {
           "card_number": "181/132",
@@ -6063,7 +6063,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Pokemon Marshadow - ME01: Mega Evolution 2025 146/132 NM",
+              "price_usd": 12.49,
+              "url": "https://www.ebay.com/itm/Pokemon-Marshadow-ME01-Mega-Evolution-2025-146-132-NM-/298069980466",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Marshadow 146/132 ME01: Mega Evolution Illustration Rare Pokemon Card",
+              "price_usd": 12.99,
+              "url": "https://www.ebay.com/itm/Marshadow-146-132-ME01-Mega-Evolution-Illustration-Rare-Pokemon-Card-/227312240288",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Marshadow 146/132 Illustration Rare Mega Evolution Pokemon Near Mint",
+              "price_usd": 13.99,
+              "url": "https://www.ebay.com/itm/Marshadow-146-132-Illustration-Rare-Mega-Evolution-Pokemon-Near-Mint-/188242050124",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Mega Venusaur ex (UR)": {
           "card_number": "155/132",
@@ -6833,32 +6858,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "Pokemon TCG Choose Your Full Art/AR/IR",
-              "price_usd": 2.99,
-              "url": "https://www.ebay.com/itm/Pokemon-TCG-Choose-Your-Full-Art-AR-IR-/358510386558?var=626688170049",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Slurpuff ME: Ascended Heroes 236/217 Illustration Rare MP Pokemon",
-              "price_usd": 8.99,
-              "url": "https://www.ebay.com/itm/Slurpuff-ME-Ascended-Heroes-236-217-Illustration-Rare-MP-Pokemon-/117120100823",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Slurpuff Holo Pokemon ME: Ascended Heroes 236/217 NM",
-              "price_usd": 9.39,
-              "url": "https://www.ebay.com/itm/Slurpuff-Holo-Pokemon-ME-Ascended-Heroes-236-217-NM-/257516925244",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            }
-          ]
+          "active_listings": []
         },
         "Mawile (IR)": {
           "card_number": "246/217",
