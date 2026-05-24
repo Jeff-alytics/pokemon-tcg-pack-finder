@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-24 00:12 UTC",
+    "generated": "2026-05-24 12:13 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -2871,10 +2871,10 @@
       "top_chase_card": "Mega Zygarde ex (MHR)",
       "top_chase_card_number": "124/088",
       "pull_rate_top_chase": "1 in 1786",
-      "expected_value_per_pack": 0.42,
+      "expected_value_per_pack": 0.45,
       "packs_to_50_card": 296,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -96.3,
+      "etb_roi_pct": -96.0,
       "num_chase_cards": 23,
       "chase_cards": [
         {
@@ -2885,8 +2885,7 @@
         {
           "name": "Rosa's Encouragement (SIR)",
           "card_number": "123/088",
-          "estimated_value_usd": 152,
-          "live_value_usd": 77.0
+          "estimated_value_usd": 152
         },
         {
           "name": "Meowth ex (SIR)",
