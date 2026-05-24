@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-23 12:14 UTC",
+    "last_updated": "2026-05-24 00:12 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -4239,7 +4239,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Fezandipiti ex - Holo SV6PT5 Shrouded Fable 84/64 NM Pokemon",
+              "price_usd": 15.91,
+              "url": "https://www.ebay.com/itm/Fezandipiti-ex-Holo-SV6PT5-Shrouded-Fable-84-64-NM-Pokemon-/227329948301",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 2.17
+            },
+            {
+              "title": "Fezandipiti ex 84/64 Shrouded Fable Pokemon TCG NM",
+              "price_usd": 17.99,
+              "url": "https://www.ebay.com/itm/Fezandipiti-ex-84-64-Shrouded-Fable-Pokemon-TCG-NM-/127785562821",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Fezandipiti Ex 84/64 Shrouded Fable Pokemon (Shipped In Top Loader)",
+              "price_usd": 13.43,
+              "url": "https://www.ebay.com/itm/Fezandipiti-Ex-84-64-Shrouded-Fable-Pokemon-Shipped-Top-Loader-/366277341985",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Cufant (IR)": {
           "card_number": "76/64",
@@ -6882,11 +6907,11 @@
           "card_number": "123/088",
           "sold": {
             "query": "Pokemon Rosa's Encouragement 123/088 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 77.0,
+            "avg_price_usd": 108.16,
+            "low_price_usd": 60.0,
+            "high_price_usd": 1376.69,
+            "num_sales": 80,
             "period_days": 30
           },
           "active_listings": []
