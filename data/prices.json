@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-24 12:13 UTC",
+    "last_updated": "2026-05-25 00:13 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -3060,7 +3060,16 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Pokemon Special Illustration Rare - Choose Your Card Full Art Ultra Rare NM",
+              "price_usd": 30.0,
+              "url": "https://www.ebay.com/itm/Pokemon-Special-Illustration-Rare-Choose-Your-Card-Full-Art-Ultra-Rare-NM-/394832193442?var=665038860182",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Entei (Shiny)": {
           "card_number": "112/91",
