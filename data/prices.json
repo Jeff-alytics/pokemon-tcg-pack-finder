@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-25 14:13 UTC",
+    "last_updated": "2026-05-26 00:18 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -2118,32 +2118,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "(JP) sv2a -Pokemon 151: Scarlet & Violet",
-              "price_usd": 2.0,
-              "url": "https://www.ebay.com/itm/JP-sv2a-Pokemon-151-Scarlet-Violet-/405570012937?var=676552280254",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Squirtle AR 170/165 SV2a Pokemon Card Pokemon 151 Japanese from Japan",
-              "price_usd": 10.97,
-              "url": "https://www.ebay.com/itm/Squirtle-AR-170-165-SV2a-Pokemon-Card-Pokemon-151-Japanese-Japan-/127104840111",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 3.0
-            },
-            {
-              "title": "Squirtle - 170/165 SV2a Japanese 151 AR Pokemon - NM/MINT",
-              "price_usd": 13.99,
-              "url": "https://www.ebay.com/itm/Squirtle-170-165-SV2a-Japanese-151-AR-Pokemon-NM-MINT-/365999411775",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            }
-          ]
+          "active_listings": []
         },
         "Pikachu (IR)": {
           "card_number": "173/165",
@@ -4296,11 +4271,11 @@
           "card_number": "73/64",
           "sold": {
             "query": "Pokemon Fezandipiti 73/64 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 7.55,
+            "avg_price_usd": 7.96,
+            "low_price_usd": 5.75,
+            "high_price_usd": 10.99,
+            "num_sales": 4,
             "period_days": 30
           },
           "active_listings": []

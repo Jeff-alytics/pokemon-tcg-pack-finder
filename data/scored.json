@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-25 14:13 UTC",
+    "generated": "2026-05-26 00:18 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -773,7 +773,7 @@
       "expected_value_per_pack": 0.47,
       "packs_to_50_card": 436,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -95.8,
+      "etb_roi_pct": -95.9,
       "num_chase_cards": 26,
       "chase_cards": [
         {
@@ -904,7 +904,8 @@
         {
           "name": "Fezandipiti (IR)",
           "card_number": "73/64",
-          "estimated_value_usd": 10.06
+          "estimated_value_usd": 10.06,
+          "live_value_usd": 7.55
         }
       ],
       "cheapest_pack_listing": null
