@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "generated": "2026-05-27 14:41 UTC",
-    "num_sets": 23
+    "generated": "2026-05-27 20:53 UTC",
+    "num_sets": 24
   },
   "sets": [
     {
@@ -1344,6 +1344,103 @@
           "name": "Erika's Invitation (UR)",
           "card_number": "196/165",
           "estimated_value_usd": 11.28
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "black-bolt",
+      "name": "Black Bolt",
+      "set_code": "BB",
+      "release_date": "2025-07-18",
+      "set_type": "special",
+      "in_print": true,
+      "in_print_note": "Special SV10.5 set (Unova themed). In print, widely available.",
+      "total_cards": 173,
+      "pack_value_score": 48.6,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 42.0,
+        "pull_odds": 84.6,
+        "hit_density": 20.3
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 731,
+      "top_chase_card": "Victini (BWR)",
+      "top_chase_card_number": "171/086",
+      "pull_rate_top_chase": "1 in 500",
+      "expected_value_per_pack": 2.35,
+      "packs_to_50_card": 91,
+      "etb_price_usd": 101.03,
+      "etb_roi_pct": -79.1,
+      "num_chase_cards": 12,
+      "chase_cards": [
+        {
+          "name": "Victini (BWR)",
+          "card_number": "171/086",
+          "estimated_value_usd": 731
+        },
+        {
+          "name": "Zekrom ex (BWR)",
+          "card_number": "172/086",
+          "estimated_value_usd": 550
+        },
+        {
+          "name": "Zekrom ex (SIR)",
+          "card_number": "166/086",
+          "estimated_value_usd": 221
+        },
+        {
+          "name": "Seismitoad (IR)",
+          "card_number": "105/086",
+          "estimated_value_usd": 197
+        },
+        {
+          "name": "Kyurem ex (SIR)",
+          "card_number": "165/086",
+          "estimated_value_usd": 71
+        },
+        {
+          "name": "N's Plan (SIR)",
+          "card_number": "170/086",
+          "estimated_value_usd": 65
+        },
+        {
+          "name": "Haxorus (IR)",
+          "card_number": "147/086",
+          "estimated_value_usd": 61
+        },
+        {
+          "name": "Genesect ex (SIR)",
+          "card_number": "169/086",
+          "estimated_value_usd": 54
+        },
+        {
+          "name": "Serperior ex (SIR)",
+          "card_number": "164/086",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Lilligant (IR)",
+          "card_number": "092/086",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Krookodile (IR)",
+          "card_number": "137/086",
+          "estimated_value_usd": 48
+        },
+        {
+          "name": "Meloetta ex (SIR)",
+          "card_number": "167/086",
+          "estimated_value_usd": 44
         }
       ],
       "cheapest_pack_listing": null

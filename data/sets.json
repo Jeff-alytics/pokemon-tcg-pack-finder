@@ -3462,6 +3462,103 @@
         "price_date": "2026-05-02",
         "sources": "TCGPlayer market data via PittPokeResearch, Dawnglare, retailer checks"
       }
+    },
+    {
+      "id": "black-bolt",
+      "name": "Black Bolt",
+      "set_code": "BB",
+      "release_date": "2025-07-18",
+      "total_cards": 173,
+      "base_cards": 86,
+      "secret_rares": 87,
+      "set_type": "special",
+      "in_print": true,
+      "in_print_note": "Special SV10.5 set (Unova themed). In print, widely available.",
+      "top_chase_cards": [
+        {
+          "name": "Victini (BWR)",
+          "card_number": "171/086",
+          "estimated_value_usd": 731
+        },
+        {
+          "name": "Zekrom ex (BWR)",
+          "card_number": "172/086",
+          "estimated_value_usd": 550
+        },
+        {
+          "name": "Zekrom ex (SIR)",
+          "card_number": "166/086",
+          "estimated_value_usd": 221
+        },
+        {
+          "name": "Seismitoad (IR)",
+          "card_number": "105/086",
+          "estimated_value_usd": 197
+        },
+        {
+          "name": "Kyurem ex (SIR)",
+          "card_number": "165/086",
+          "estimated_value_usd": 71
+        },
+        {
+          "name": "N's Plan (SIR)",
+          "card_number": "170/086",
+          "estimated_value_usd": 65
+        },
+        {
+          "name": "Haxorus (IR)",
+          "card_number": "147/086",
+          "estimated_value_usd": 61
+        },
+        {
+          "name": "Genesect ex (SIR)",
+          "card_number": "169/086",
+          "estimated_value_usd": 54
+        },
+        {
+          "name": "Serperior ex (SIR)",
+          "card_number": "164/086",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Lilligant (IR)",
+          "card_number": "092/086",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Krookodile (IR)",
+          "card_number": "137/086",
+          "estimated_value_usd": 48
+        },
+        {
+          "name": "Meloetta ex (SIR)",
+          "card_number": "167/086",
+          "estimated_value_usd": 44
+        }
+      ],
+      "pull_rates": {
+        "any_hit": "1 in 6",
+        "any_chase_rare": "1 in 76",
+        "top_chase_specific": "1 in 500",
+        "notes": "BWR (Black White Rare) is the top rarity at ~1 in 500. SIRs ~1 in 76. IRs ~1 in 6. Victini BWR is the flagship chase."
+      },
+      "pull_rate_sources": [
+        {
+          "url": "https://www.cardrake.com/expansions/zsv10pt5",
+          "date_checked": "2026-05-27",
+          "notes": "Cardrake master set guide, community pull rate data"
+        }
+      ],
+      "pricing": {
+        "pack_price_usd": 4.99,
+        "booster_box_price_usd": null,
+        "etb_price_usd": 50.0,
+        "booster_bundle_price_usd": 28.0,
+        "booster_bundle_packs": 6,
+        "price_note": "Special set (SV10.5), no standard booster box. ETB has 9 packs, bundle has 6.",
+        "price_date": "2026-05-27",
+        "sources": "TCGPlayer market data, Dawnglare, retailer checks"
+      }
     }
   ]
 }

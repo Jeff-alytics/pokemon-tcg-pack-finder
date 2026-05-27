@@ -43,6 +43,7 @@ SET_KEYWORDS = {
     "ascended-heroes": ["ascended heroes"],
     "perfect-order": ["perfect order"],
     "chaos-rising": ["chaos rising"],
+    "black-bolt": ["black bolt"],
 }
 
 # Products we care about and their pack counts
