@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-27 20:53 UTC",
+    "last_updated": "2026-05-27 21:04 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -30,28 +30,13 @@
         "title": "Prismatic hunt. Don't do it.",
         "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i2i5dy/prismatic_hunt_dont_do_it/",
         "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i2i5dy/prismatic_hunt_dont_do_it/",
-        "score": 7,
+        "score": 8,
         "num_comments": 2,
         "flair": "general deals discussion",
         "created_utc": "2025-01-16 05:43 UTC",
         "author": "LeftFootRightFood",
         "price_mentioned": null,
         "matched_sets": [],
-        "source_store": null
-      },
-      {
-        "title": "Sea & Sky Boxes available online @ SAMS Club - 39.99 per [14x Crown Zenith]",
-        "url": "https://www.samsclub.com/p/pokemon-crown-zenith-sea-sky-premium-collection/P990345457",
-        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i9nmc8/sea_sky_boxes_available_online_sams_club_3999_per/",
-        "score": 6,
-        "num_comments": 0,
-        "flair": "deals in us",
-        "created_utc": "2025-01-25 14:05 UTC",
-        "author": "fite_me_irl",
-        "price_mentioned": null,
-        "matched_sets": [
-          "crown-zenith"
-        ],
         "source_store": null
       },
       {
@@ -68,40 +53,25 @@
         "source_store": "pokemon center"
       },
       {
-        "title": "Pokemon Center Drops Happening today - Perfect Order",
-        "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7f173/pokemon_center_drops_happening_today_perfect_order/",
-        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7f173/pokemon_center_drops_happening_today_perfect_order/",
-        "score": 4,
-        "num_comments": 3,
-        "flair": "general deals discussion",
-        "created_utc": "2026-01-08 15:40 UTC",
-        "author": "Left-Gur6444",
-        "price_mentioned": null,
-        "matched_sets": [
-          "perfect-order"
-        ],
-        "source_store": "pokemon center"
-      },
-      {
-        "title": "Pokemon Walmart drop tonight at 9 PM EST to include Mega Venusaur box!",
-        "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1pdimxk/pokemon_walmart_drop_tonight_at_9_pm_est_to/",
-        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1pdimxk/pokemon_walmart_drop_tonight_at_9_pm_est_to/",
-        "score": 4,
-        "num_comments": 1,
+        "title": "Sea & Sky Boxes available online @ SAMS Club - 39.99 per [14x Crown Zenith]",
+        "url": "https://www.samsclub.com/p/pokemon-crown-zenith-sea-sky-premium-collection/P990345457",
+        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i9nmc8/sea_sky_boxes_available_online_sams_club_3999_per/",
+        "score": 5,
+        "num_comments": 0,
         "flair": "deals in us",
-        "created_utc": "2025-12-03 22:29 UTC",
-        "author": "ReasonableBandit",
+        "created_utc": "2025-01-25 14:05 UTC",
+        "author": "fite_me_irl",
         "price_mentioned": null,
         "matched_sets": [
-          "mega-evolution"
+          "crown-zenith"
         ],
-        "source_store": "walmart"
+        "source_store": null
       },
       {
         "title": "Potential Walmart drop tonight",
         "url": "/r/CardboardCollective/comments/1qk7cbf/potential_walmart_drop_tonight/",
         "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1qk7tx8/potential_walmart_drop_tonight/",
-        "score": 3,
+        "score": 4,
         "num_comments": 0,
         "flair": "deals in us",
         "created_utc": "2026-01-22 21:46 UTC",
@@ -109,6 +79,19 @@
         "price_mentioned": null,
         "matched_sets": [],
         "source_store": "walmart"
+      },
+      {
+        "title": "151 Mini Tin bundle dropping IN-STORE ONLY tomorrow at Sam’s Club",
+        "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ozlcbg/151_mini_tin_bundle_dropping_instore_only/",
+        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ozlcbg/151_mini_tin_bundle_dropping_instore_only/",
+        "score": 4,
+        "num_comments": 6,
+        "flair": "deals in us",
+        "created_utc": "2025-11-17 16:48 UTC",
+        "author": "Left-Gur6444",
+        "price_mentioned": null,
+        "matched_sets": [],
+        "source_store": null
       },
       {
         "title": "Pokemon Trading Card Game: Prismatic Evolutions Premium Figure Collection - $109.99 usd",
@@ -124,6 +107,21 @@
           "prismatic-evolutions"
         ],
         "source_store": null
+      },
+      {
+        "title": "Pokemon Center Drops Happening today - Perfect Order",
+        "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7f173/pokemon_center_drops_happening_today_perfect_order/",
+        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7f173/pokemon_center_drops_happening_today_perfect_order/",
+        "score": 3,
+        "num_comments": 3,
+        "flair": "general deals discussion",
+        "created_utc": "2026-01-08 15:40 UTC",
+        "author": "Left-Gur6444",
+        "price_mentioned": null,
+        "matched_sets": [
+          "perfect-order"
+        ],
+        "source_store": "pokemon center"
       },
       {
         "title": "Pokemon TCG: Collector Chest (Fall 2025) - Walmart",
@@ -150,32 +148,6 @@
         "price_mentioned": null,
         "matched_sets": [],
         "source_store": "walmart"
-      },
-      {
-        "title": "151 Mini Tin bundle dropping IN-STORE ONLY tomorrow at Sam’s Club",
-        "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ozlcbg/151_mini_tin_bundle_dropping_instore_only/",
-        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ozlcbg/151_mini_tin_bundle_dropping_instore_only/",
-        "score": 3,
-        "num_comments": 6,
-        "flair": "deals in us",
-        "created_utc": "2025-11-17 16:48 UTC",
-        "author": "Left-Gur6444",
-        "price_mentioned": null,
-        "matched_sets": [],
-        "source_store": null
-      },
-      {
-        "title": "Where’s everyone finding the new Pokémon TCG releases lately?",
-        "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1l4tmpc/wheres_everyone_finding_the_new_pokémon_tcg/",
-        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1l4tmpc/wheres_everyone_finding_the_new_pokémon_tcg/",
-        "score": 3,
-        "num_comments": 3,
-        "flair": "deals in us",
-        "created_utc": "2025-06-06 14:20 UTC",
-        "author": "Odd_Ranger_1349",
-        "price_mentioned": null,
-        "matched_sets": [],
-        "source_store": null
       },
       {
         "title": "Hidden Potential Tin (2x Lost Origin and 2x Fusion Strike + Foil) for £19.99",
@@ -218,8 +190,24 @@
         "author": "Dazzling_Elevator254",
         "price_mentioned": null,
         "matched_sets": [
-          "paldea-evolved",
-          "paldean-fates"
+          "paldean-fates",
+          "paldea-evolved"
+        ],
+        "source_store": "amazon"
+      },
+      {
+        "title": "Surging Sparks 18 Booster Pack Box for £70.24 @ Amazon",
+        "url": "https://amzn.to/4aBrHrQ",
+        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1icvok2/surging_sparks_18_booster_pack_box_for_7024_amazon/",
+        "score": 3,
+        "num_comments": 0,
+        "flair": "deals in uk",
+        "created_utc": "2025-01-29 15:00 UTC",
+        "author": "Dazzling_Elevator254",
+        "price_mentioned": null,
+        "matched_sets": [
+          "paradox-rift",
+          "surging-sparks"
         ],
         "source_store": "amazon"
       },
@@ -310,8 +298,8 @@
         "author": "havocs13",
         "price_mentioned": 18.99,
         "matched_sets": [
-          "surging-sparks",
-          "paradox-rift"
+          "paradox-rift",
+          "surging-sparks"
         ],
         "source_store": "amazon"
       },
@@ -414,6 +402,21 @@
           "perfect-order"
         ],
         "source_store": "pokemon center"
+      },
+      {
+        "title": "Pokemon Walmart drop tonight at 9 PM EST to include Mega Venusaur box!",
+        "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1pdimxk/pokemon_walmart_drop_tonight_at_9_pm_est_to/",
+        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1pdimxk/pokemon_walmart_drop_tonight_at_9_pm_est_to/",
+        "score": 2,
+        "num_comments": 1,
+        "flair": "deals in us",
+        "created_utc": "2025-12-03 22:29 UTC",
+        "author": "ReasonableBandit",
+        "price_mentioned": null,
+        "matched_sets": [
+          "mega-evolution"
+        ],
+        "source_store": "walmart"
       },
       {
         "title": "Pokemon Center UK - Combined Powers Collection",
@@ -532,6 +535,19 @@
         "source_store": "pokemon center"
       },
       {
+        "title": "Where’s everyone finding the new Pokémon TCG releases lately?",
+        "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1l4tmpc/wheres_everyone_finding_the_new_pokémon_tcg/",
+        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1l4tmpc/wheres_everyone_finding_the_new_pokémon_tcg/",
+        "score": 2,
+        "num_comments": 3,
+        "flair": "deals in us",
+        "created_utc": "2025-06-06 14:20 UTC",
+        "author": "Odd_Ranger_1349",
+        "price_mentioned": null,
+        "matched_sets": [],
+        "source_store": null
+      },
+      {
         "title": "Announcement** New Country Tags Added",
         "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1kxn79c/announcement_new_country_tags_added/",
         "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1kxn79c/announcement_new_country_tags_added/",
@@ -599,22 +615,6 @@
         "source_store": null
       },
       {
-        "title": "Surging Sparks 18 Booster Pack Box for £70.24 @ Amazon",
-        "url": "https://amzn.to/4aBrHrQ",
-        "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1icvok2/surging_sparks_18_booster_pack_box_for_7024_amazon/",
-        "score": 2,
-        "num_comments": 0,
-        "flair": "deals in uk",
-        "created_utc": "2025-01-29 15:00 UTC",
-        "author": "Dazzling_Elevator254",
-        "price_mentioned": null,
-        "matched_sets": [
-          "surging-sparks",
-          "paradox-rift"
-        ],
-        "source_store": "amazon"
-      },
-      {
         "title": "Armarouge ex Premium Collection for $29.95 @ Amazon",
         "url": "https://amzn.to/4aiOGrs",
         "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i1xkyh/armarouge_ex_premium_collection_for_2995_amazon/",
@@ -655,8 +655,8 @@
         "author": "Dazzling_Elevator254",
         "price_mentioned": null,
         "matched_sets": [
-          "surging-sparks",
-          "paradox-rift"
+          "paradox-rift",
+          "surging-sparks"
         ],
         "source_store": "amazon"
       },
@@ -686,8 +686,8 @@
         "author": "havocs13",
         "price_mentioned": 29.0,
         "matched_sets": [
-          "paldea-evolved",
-          "paldean-fates"
+          "paldean-fates",
+          "paldea-evolved"
         ],
         "source_store": "amazon"
       },
@@ -717,8 +717,8 @@
         "author": "havocs13",
         "price_mentioned": 37.0,
         "matched_sets": [
-          "surging-sparks",
-          "paradox-rift"
+          "paradox-rift",
+          "surging-sparks"
         ],
         "source_store": "amazon"
       },
@@ -733,8 +733,8 @@
         "author": "havocs13",
         "price_mentioned": 60.0,
         "matched_sets": [
-          "surging-sparks",
-          "paradox-rift"
+          "paradox-rift",
+          "surging-sparks"
         ],
         "source_store": "amazon"
       },
@@ -749,8 +749,8 @@
         "author": "havocs13",
         "price_mentioned": 21.0,
         "matched_sets": [
-          "surging-sparks",
-          "paradox-rift"
+          "paradox-rift",
+          "surging-sparks"
         ],
         "source_store": "amazon"
       }
@@ -761,7 +761,7 @@
           "title": "Sea & Sky Boxes available online @ SAMS Club - 39.99 per [14x Crown Zenith]",
           "url": "https://www.samsclub.com/p/pokemon-crown-zenith-sea-sky-premium-collection/P990345457",
           "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i9nmc8/sea_sky_boxes_available_online_sams_club_3999_per/",
-          "score": 6,
+          "score": 5,
           "num_comments": 0,
           "flair": "deals in us",
           "created_utc": "2025-01-25 14:05 UTC",
@@ -801,195 +801,6 @@
             "crown-zenith"
           ],
           "source_store": "amazon"
-        }
-      ],
-      "perfect-order": [
-        {
-          "title": "Pokemon Center Drops Happening today - Perfect Order",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7f173/pokemon_center_drops_happening_today_perfect_order/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7f173/pokemon_center_drops_happening_today_perfect_order/",
-          "score": 4,
-          "num_comments": 3,
-          "flair": "general deals discussion",
-          "created_utc": "2026-01-08 15:40 UTC",
-          "author": "Left-Gur6444",
-          "price_mentioned": null,
-          "matched_sets": [
-            "perfect-order"
-          ],
-          "source_store": "pokemon center"
-        },
-        {
-          "title": "Pokemon Center - Perfect Order - Canada Link",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7h68a/pokemon_center_perfect_order_canada_link/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7h68a/pokemon_center_perfect_order_canada_link/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in canada",
-          "created_utc": "2026-01-08 16:59 UTC",
-          "author": "Left-Gur6444",
-          "price_mentioned": null,
-          "matched_sets": [
-            "perfect-order"
-          ],
-          "source_store": "pokemon center"
-        },
-        {
-          "title": "Pokemon Center - Perfect Order - US Link",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7h8q3/pokemon_center_perfect_order_us_link/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7h8q3/pokemon_center_perfect_order_us_link/",
-          "score": 0,
-          "num_comments": 16,
-          "flair": "deals in us",
-          "created_utc": "2026-01-08 17:02 UTC",
-          "author": "Left-Gur6444",
-          "price_mentioned": null,
-          "matched_sets": [
-            "perfect-order"
-          ],
-          "source_store": "pokemon center"
-        }
-      ],
-      "mega-evolution": [
-        {
-          "title": "Pokemon Walmart drop tonight at 9 PM EST to include Mega Venusaur box!",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1pdimxk/pokemon_walmart_drop_tonight_at_9_pm_est_to/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1pdimxk/pokemon_walmart_drop_tonight_at_9_pm_est_to/",
-          "score": 4,
-          "num_comments": 1,
-          "flair": "deals in us",
-          "created_utc": "2025-12-03 22:29 UTC",
-          "author": "ReasonableBandit",
-          "price_mentioned": null,
-          "matched_sets": [
-            "mega-evolution"
-          ],
-          "source_store": "walmart"
-        },
-        {
-          "title": "Pokemon Center Mega Evolution Ascended Heroes Elite Trainer Box has been revealed!",
-          "url": "https://www.pokebeach.com/2025/11/ascended-heroes-special-set-revealed-for-january",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p26g2m/pokemon_center_mega_evolution_ascended_heroes/",
-          "score": 2,
-          "num_comments": 1,
-          "flair": "general deals discussion",
-          "created_utc": "2025-11-20 15:43 UTC",
-          "author": "ReasonableBandit",
-          "price_mentioned": null,
-          "matched_sets": [
-            "ascended-heroes",
-            "mega-evolution"
-          ],
-          "source_store": "pokemon center"
-        },
-        {
-          "title": "Pokémon Mega Evolution Phantasmal Flames Booster Bundle",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ow6qw8/pokémon_mega_evolution_phantasmal_flames_booster/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ow6qw8/pokémon_mega_evolution_phantasmal_flames_booster/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in canada",
-          "created_utc": "2025-11-13 17:11 UTC",
-          "author": "Left-Gur6444",
-          "price_mentioned": null,
-          "matched_sets": [
-            "mega-evolution"
-          ],
-          "source_store": null
-        },
-        {
-          "title": "Pokemon Center Mega Evolution Phantasmal Flames dropped, but Ultra Premium Collection didn't drop.",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nkrnrt/pokemon_center_mega_evolution_phantasmal_flames/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nkrnrt/pokemon_center_mega_evolution_phantasmal_flames/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "general deals discussion",
-          "created_utc": "2025-09-19 02:29 UTC",
-          "author": "havocs13",
-          "price_mentioned": null,
-          "matched_sets": [
-            "mega-evolution",
-            "prismatic-evolutions"
-          ],
-          "source_store": "pokemon center"
-        },
-        {
-          "title": "Pokemon Mega Evolution Phantasmal Flames Elite Trainer Box - $104 CAD",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p6uckk/pokemon_mega_evolution_phantasmal_flames_elite/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p6uckk/pokemon_mega_evolution_phantasmal_flames_elite/",
-          "score": 1,
-          "num_comments": 1,
-          "flair": "deals in canada",
-          "created_utc": "2025-11-26 01:10 UTC",
-          "author": "Left-Gur6444",
-          "price_mentioned": 104.0,
-          "matched_sets": [
-            "mega-evolution"
-          ],
-          "source_store": null
-        },
-        {
-          "title": "Pokemon: Mega Evolution - Phantasmal Flames - Booster Box - $279.97",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ow6wwi/pokemon_mega_evolution_phantasmal_flames_booster/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ow6wwi/pokemon_mega_evolution_phantasmal_flames_booster/",
-          "score": 1,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2025-11-13 17:18 UTC",
-          "author": "Left-Gur6444",
-          "price_mentioned": 279.97,
-          "matched_sets": [
-            "mega-evolution"
-          ],
-          "source_store": null
-        },
-        {
-          "title": "Mega Evolution booster Bundle and Surging Sparks elite trainer boxes are available at GameStop today",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
-          "score": 1,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2025-10-04 15:25 UTC",
-          "author": "havocs13",
-          "price_mentioned": null,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift",
-            "mega-evolution"
-          ],
-          "source_store": "gamestop"
-        },
-        {
-          "title": "Mega Charizard Ultra Premium Collection is expected to drop on 11/28  at Costco online",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p8rffb/mega_charizard_ultra_premium_collection_is/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p8rffb/mega_charizard_ultra_premium_collection_is/",
-          "score": 0,
-          "num_comments": 3,
-          "flair": "deals in us",
-          "created_utc": "2025-11-28 10:16 UTC",
-          "author": "ReasonableBandit",
-          "price_mentioned": null,
-          "matched_sets": [
-            "mega-evolution",
-            "prismatic-evolutions"
-          ],
-          "source_store": "costco"
-        },
-        {
-          "title": "Mega Evolution Phantasmal Flames Elite Trainer Boxes dropped today!",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ni7cgy/mega_evolution_phantasmal_flames_elite_trainer/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ni7cgy/mega_evolution_phantasmal_flames_elite_trainer/",
-          "score": 0,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2025-09-16 03:57 UTC",
-          "author": "havocs13",
-          "price_mentioned": null,
-          "matched_sets": [
-            "mega-evolution"
-          ],
-          "source_store": null
         }
       ],
       "prismatic-evolutions": [
@@ -1361,6 +1172,53 @@
           "source_store": "amazon"
         }
       ],
+      "perfect-order": [
+        {
+          "title": "Pokemon Center Drops Happening today - Perfect Order",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7f173/pokemon_center_drops_happening_today_perfect_order/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7f173/pokemon_center_drops_happening_today_perfect_order/",
+          "score": 3,
+          "num_comments": 3,
+          "flair": "general deals discussion",
+          "created_utc": "2026-01-08 15:40 UTC",
+          "author": "Left-Gur6444",
+          "price_mentioned": null,
+          "matched_sets": [
+            "perfect-order"
+          ],
+          "source_store": "pokemon center"
+        },
+        {
+          "title": "Pokemon Center - Perfect Order - Canada Link",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7h68a/pokemon_center_perfect_order_canada_link/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7h68a/pokemon_center_perfect_order_canada_link/",
+          "score": 2,
+          "num_comments": 0,
+          "flair": "deals in canada",
+          "created_utc": "2026-01-08 16:59 UTC",
+          "author": "Left-Gur6444",
+          "price_mentioned": null,
+          "matched_sets": [
+            "perfect-order"
+          ],
+          "source_store": "pokemon center"
+        },
+        {
+          "title": "Pokemon Center - Perfect Order - US Link",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7h8q3/pokemon_center_perfect_order_us_link/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1q7h8q3/pokemon_center_perfect_order_us_link/",
+          "score": 0,
+          "num_comments": 16,
+          "flair": "deals in us",
+          "created_utc": "2026-01-08 17:02 UTC",
+          "author": "Left-Gur6444",
+          "price_mentioned": null,
+          "matched_sets": [
+            "perfect-order"
+          ],
+          "source_store": "pokemon center"
+        }
+      ],
       "lost-origin": [
         {
           "title": "Hidden Potential Tin (2x Lost Origin and 2x Fusion Strike + Foil) for £19.99",
@@ -1378,7 +1236,7 @@
           "source_store": null
         }
       ],
-      "paldea-evolved": [
+      "paldean-fates": [
         {
           "title": "Paldean Fates Iron Treads Tin (4 Paldean Fates Booster Packs + Promo) for £19.99",
           "url": "https://amzn.to/4gwOmqx",
@@ -1390,8 +1248,8 @@
           "author": "Dazzling_Elevator254",
           "price_mentioned": null,
           "matched_sets": [
-            "paldea-evolved",
-            "paldean-fates"
+            "paldean-fates",
+            "paldea-evolved"
           ],
           "source_store": "amazon"
         },
@@ -1406,8 +1264,42 @@
           "author": "havocs13",
           "price_mentioned": 29.0,
           "matched_sets": [
-            "paldea-evolved",
-            "paldean-fates"
+            "paldean-fates",
+            "paldea-evolved"
+          ],
+          "source_store": "amazon"
+        }
+      ],
+      "paldea-evolved": [
+        {
+          "title": "Paldean Fates Iron Treads Tin (4 Paldean Fates Booster Packs + Promo) for £19.99",
+          "url": "https://amzn.to/4gwOmqx",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1imz7vq/paldean_fates_iron_treads_tin_4_paldean_fates/",
+          "score": 3,
+          "num_comments": 0,
+          "flair": "deals in uk",
+          "created_utc": "2025-02-11 14:01 UTC",
+          "author": "Dazzling_Elevator254",
+          "price_mentioned": null,
+          "matched_sets": [
+            "paldean-fates",
+            "paldea-evolved"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Paldean fates tins are in stock at Amazon for $29",
+          "url": "https://amzn.to/3C2L2p8",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hz8djr/pokemon_paldean_fates_tins_are_in_stock_at_amazon/",
+          "score": 2,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2025-01-11 22:59 UTC",
+          "author": "havocs13",
+          "price_mentioned": 29.0,
+          "matched_sets": [
+            "paldean-fates",
+            "paldea-evolved"
           ],
           "source_store": "amazon"
         },
@@ -1427,36 +1319,380 @@
           "source_store": "amazon"
         }
       ],
-      "paldean-fates": [
+      "paradox-rift": [
         {
-          "title": "Paldean Fates Iron Treads Tin (4 Paldean Fates Booster Packs + Promo) for £19.99",
-          "url": "https://amzn.to/4gwOmqx",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1imz7vq/paldean_fates_iron_treads_tin_4_paldean_fates/",
+          "title": "Surging Sparks 18 Booster Pack Box for £70.24 @ Amazon",
+          "url": "https://amzn.to/4aBrHrQ",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1icvok2/surging_sparks_18_booster_pack_box_for_7024_amazon/",
           "score": 3,
           "num_comments": 0,
           "flair": "deals in uk",
-          "created_utc": "2025-02-11 14:01 UTC",
+          "created_utc": "2025-01-29 15:00 UTC",
           "author": "Dazzling_Elevator254",
           "price_mentioned": null,
           "matched_sets": [
-            "paldea-evolved",
-            "paldean-fates"
+            "paradox-rift",
+            "surging-sparks"
           ],
           "source_store": "amazon"
         },
         {
-          "title": "Pokemon Paldean fates tins are in stock at Amazon for $29",
-          "url": "https://amzn.to/3C2L2p8",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hz8djr/pokemon_paldean_fates_tins_are_in_stock_at_amazon/",
+          "title": "Pokemon Grand Adventure collection is on sale at Amazon for $18.99 (34% off) comes with Surging Sparks!",
+          "url": "https://amzn.to/3ZQQDqu",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hmvcrd/pokemon_grand_adventure_collection_is_on_sale_at/",
+          "score": 3,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2024-12-26 19:05 UTC",
+          "author": "havocs13",
+          "price_mentioned": 18.99,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Surging Sparks ETB for £44.99 (10% off) @ Amazon UK",
+          "url": "https://amzn.to/3Wl2cVJ",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i16p88/surging_sparks_etb_for_4499_10_off_amazon_uk/",
+          "score": 2,
+          "num_comments": 0,
+          "flair": "deals in uk",
+          "created_utc": "2025-01-14 14:01 UTC",
+          "author": "Dazzling_Elevator254",
+          "price_mentioned": null,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Surging Sparks Booster Bundle is in stock at Amazon for $37 ",
+          "url": "https://amzn.to/3BEkTwM",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hrdry9/pokemon_surging_sparks_booster_bundle_is_in_stock/",
           "score": 2,
           "num_comments": 0,
           "flair": "deals in us",
-          "created_utc": "2025-01-11 22:59 UTC",
+          "created_utc": "2025-01-01 22:01 UTC",
           "author": "havocs13",
-          "price_mentioned": 29.0,
+          "price_mentioned": 37.0,
           "matched_sets": [
-            "paldea-evolved",
-            "paldean-fates"
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Surging Sparks Elite trainer box ETB is in stock at Amazon for $60",
+          "url": "https://amzn.to/4iW80ii",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hqlkjl/pokemon_surging_sparks_elite_trainer_box_etb_is/",
+          "score": 2,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2024-12-31 19:03 UTC",
+          "author": "havocs13",
+          "price_mentioned": 60.0,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Surging Sparks 3 pack Zapdos edition is on sale at Amazon for $21 ",
+          "url": "https://amzn.to/4gBfup9",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hpxpkw/pokemon_surging_sparks_3_pack_zapdos_edition_is/",
+          "score": 2,
+          "num_comments": 1,
+          "flair": "deals in us",
+          "created_utc": "2024-12-30 21:15 UTC",
+          "author": "havocs13",
+          "price_mentioned": 21.0,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Mega Evolution booster Bundle and Surging Sparks elite trainer boxes are available at GameStop today",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
+          "score": 1,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2025-10-04 15:25 UTC",
+          "author": "havocs13",
+          "price_mentioned": null,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks",
+            "mega-evolution"
+          ],
+          "source_store": "gamestop"
+        },
+        {
+          "title": "Pokemon Surging Sparks Booster Bundle is on sale at Amazon UK for $28 each when you buy 2. Available to ship to US",
+          "url": "https://www.amazon.co.uk/dp/B0DJ9DRX1W",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i39t3m/pokemon_surging_sparks_booster_bundle_is_on_sale/",
+          "score": 1,
+          "num_comments": 1,
+          "flair": "deals in us",
+          "created_utc": "2025-01-17 05:55 UTC",
+          "author": "havocs13",
+          "price_mentioned": 28.0,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Amazon has Surging sparks booster bundle for $39.99 (6 Pokemon Surging sparks) ",
+          "url": "https://amzn.to/4abQDpS",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hwex6y/amazon_has_surging_sparks_booster_bundle_for_3999/",
+          "score": 1,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2025-01-08 08:03 UTC",
+          "author": "havocs13",
+          "price_mentioned": 39.99,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Grand Adventure collection is in stock at Amazon for $18.99 comes with 2 Surging Sparks, stellar crown and Obsidian flames ",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hst5qa/pokemon_grand_adventure_collection_is_in_stock_at/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hst5qa/pokemon_grand_adventure_collection_is_in_stock_at/",
+          "score": 1,
+          "num_comments": 1,
+          "flair": "deals in us",
+          "created_utc": "2025-01-03 18:23 UTC",
+          "author": "havocs13",
+          "price_mentioned": 18.99,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks",
+            "stellar-crown",
+            "obsidian-flames"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Surging Sparks Elite Trainer box is in stock at Amazon for $60",
+          "url": "https://amzn.to/3ZUvcF1",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hnvcmo/pokemon_surging_sparks_elite_trainer_box_is_in/",
+          "score": 1,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2024-12-28 02:11 UTC",
+          "author": "havocs13",
+          "price_mentioned": 60.0,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Battle Partners SV9 Japanese Booster Box Pre-order",
+          "url": "https://pokbox.com/products/pokemon-battle-partners-sv9-japanese-booster-box",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i89evm/pokemon_battle_partners_sv9_japanese_booster_box/",
+          "score": 0,
+          "num_comments": 4,
+          "flair": "deals in canada",
+          "created_utc": "2025-01-23 17:55 UTC",
+          "author": "LeftFootRightFood",
+          "price_mentioned": null,
+          "matched_sets": [
+            "paradox-rift",
+            "prismatic-evolutions"
+          ],
+          "source_store": null
+        }
+      ],
+      "surging-sparks": [
+        {
+          "title": "Surging Sparks 18 Booster Pack Box for £70.24 @ Amazon",
+          "url": "https://amzn.to/4aBrHrQ",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1icvok2/surging_sparks_18_booster_pack_box_for_7024_amazon/",
+          "score": 3,
+          "num_comments": 0,
+          "flair": "deals in uk",
+          "created_utc": "2025-01-29 15:00 UTC",
+          "author": "Dazzling_Elevator254",
+          "price_mentioned": null,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Grand Adventure collection is on sale at Amazon for $18.99 (34% off) comes with Surging Sparks!",
+          "url": "https://amzn.to/3ZQQDqu",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hmvcrd/pokemon_grand_adventure_collection_is_on_sale_at/",
+          "score": 3,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2024-12-26 19:05 UTC",
+          "author": "havocs13",
+          "price_mentioned": 18.99,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Surging Sparks ETB for £44.99 (10% off) @ Amazon UK",
+          "url": "https://amzn.to/3Wl2cVJ",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i16p88/surging_sparks_etb_for_4499_10_off_amazon_uk/",
+          "score": 2,
+          "num_comments": 0,
+          "flair": "deals in uk",
+          "created_utc": "2025-01-14 14:01 UTC",
+          "author": "Dazzling_Elevator254",
+          "price_mentioned": null,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Surging Sparks Booster Bundle is in stock at Amazon for $37 ",
+          "url": "https://amzn.to/3BEkTwM",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hrdry9/pokemon_surging_sparks_booster_bundle_is_in_stock/",
+          "score": 2,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2025-01-01 22:01 UTC",
+          "author": "havocs13",
+          "price_mentioned": 37.0,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Surging Sparks Elite trainer box ETB is in stock at Amazon for $60",
+          "url": "https://amzn.to/4iW80ii",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hqlkjl/pokemon_surging_sparks_elite_trainer_box_etb_is/",
+          "score": 2,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2024-12-31 19:03 UTC",
+          "author": "havocs13",
+          "price_mentioned": 60.0,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Surging Sparks 3 pack Zapdos edition is on sale at Amazon for $21 ",
+          "url": "https://amzn.to/4gBfup9",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hpxpkw/pokemon_surging_sparks_3_pack_zapdos_edition_is/",
+          "score": 2,
+          "num_comments": 1,
+          "flair": "deals in us",
+          "created_utc": "2024-12-30 21:15 UTC",
+          "author": "havocs13",
+          "price_mentioned": 21.0,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Mega Evolution booster Bundle and Surging Sparks elite trainer boxes are available at GameStop today",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
+          "score": 1,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2025-10-04 15:25 UTC",
+          "author": "havocs13",
+          "price_mentioned": null,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks",
+            "mega-evolution"
+          ],
+          "source_store": "gamestop"
+        },
+        {
+          "title": "Pokemon Surging Sparks Booster Bundle is on sale at Amazon UK for $28 each when you buy 2. Available to ship to US",
+          "url": "https://www.amazon.co.uk/dp/B0DJ9DRX1W",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i39t3m/pokemon_surging_sparks_booster_bundle_is_on_sale/",
+          "score": 1,
+          "num_comments": 1,
+          "flair": "deals in us",
+          "created_utc": "2025-01-17 05:55 UTC",
+          "author": "havocs13",
+          "price_mentioned": 28.0,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Amazon has Surging sparks booster bundle for $39.99 (6 Pokemon Surging sparks) ",
+          "url": "https://amzn.to/4abQDpS",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hwex6y/amazon_has_surging_sparks_booster_bundle_for_3999/",
+          "score": 1,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2025-01-08 08:03 UTC",
+          "author": "havocs13",
+          "price_mentioned": 39.99,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Grand Adventure collection is in stock at Amazon for $18.99 comes with 2 Surging Sparks, stellar crown and Obsidian flames ",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hst5qa/pokemon_grand_adventure_collection_is_in_stock_at/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hst5qa/pokemon_grand_adventure_collection_is_in_stock_at/",
+          "score": 1,
+          "num_comments": 1,
+          "flair": "deals in us",
+          "created_utc": "2025-01-03 18:23 UTC",
+          "author": "havocs13",
+          "price_mentioned": 18.99,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks",
+            "stellar-crown",
+            "obsidian-flames"
+          ],
+          "source_store": "amazon"
+        },
+        {
+          "title": "Pokemon Surging Sparks Elite Trainer box is in stock at Amazon for $60",
+          "url": "https://amzn.to/3ZUvcF1",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hnvcmo/pokemon_surging_sparks_elite_trainer_box_is_in/",
+          "score": 1,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2024-12-28 02:11 UTC",
+          "author": "havocs13",
+          "price_mentioned": 60.0,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks"
           ],
           "source_store": "amazon"
         }
@@ -1507,384 +1743,6 @@
           "price_mentioned": null,
           "matched_sets": [
             "pokemon-151",
-            "prismatic-evolutions"
-          ],
-          "source_store": null
-        }
-      ],
-      "surging-sparks": [
-        {
-          "title": "Pokemon Grand Adventure collection is on sale at Amazon for $18.99 (34% off) comes with Surging Sparks!",
-          "url": "https://amzn.to/3ZQQDqu",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hmvcrd/pokemon_grand_adventure_collection_is_on_sale_at/",
-          "score": 3,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2024-12-26 19:05 UTC",
-          "author": "havocs13",
-          "price_mentioned": 18.99,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Surging Sparks 18 Booster Pack Box for £70.24 @ Amazon",
-          "url": "https://amzn.to/4aBrHrQ",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1icvok2/surging_sparks_18_booster_pack_box_for_7024_amazon/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in uk",
-          "created_utc": "2025-01-29 15:00 UTC",
-          "author": "Dazzling_Elevator254",
-          "price_mentioned": null,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Surging Sparks ETB for £44.99 (10% off) @ Amazon UK",
-          "url": "https://amzn.to/3Wl2cVJ",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i16p88/surging_sparks_etb_for_4499_10_off_amazon_uk/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in uk",
-          "created_utc": "2025-01-14 14:01 UTC",
-          "author": "Dazzling_Elevator254",
-          "price_mentioned": null,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Surging Sparks Booster Bundle is in stock at Amazon for $37 ",
-          "url": "https://amzn.to/3BEkTwM",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hrdry9/pokemon_surging_sparks_booster_bundle_is_in_stock/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2025-01-01 22:01 UTC",
-          "author": "havocs13",
-          "price_mentioned": 37.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Surging Sparks Elite trainer box ETB is in stock at Amazon for $60",
-          "url": "https://amzn.to/4iW80ii",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hqlkjl/pokemon_surging_sparks_elite_trainer_box_etb_is/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2024-12-31 19:03 UTC",
-          "author": "havocs13",
-          "price_mentioned": 60.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Surging Sparks 3 pack Zapdos edition is on sale at Amazon for $21 ",
-          "url": "https://amzn.to/4gBfup9",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hpxpkw/pokemon_surging_sparks_3_pack_zapdos_edition_is/",
-          "score": 2,
-          "num_comments": 1,
-          "flair": "deals in us",
-          "created_utc": "2024-12-30 21:15 UTC",
-          "author": "havocs13",
-          "price_mentioned": 21.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Mega Evolution booster Bundle and Surging Sparks elite trainer boxes are available at GameStop today",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
-          "score": 1,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2025-10-04 15:25 UTC",
-          "author": "havocs13",
-          "price_mentioned": null,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift",
-            "mega-evolution"
-          ],
-          "source_store": "gamestop"
-        },
-        {
-          "title": "Pokemon Surging Sparks Booster Bundle is on sale at Amazon UK for $28 each when you buy 2. Available to ship to US",
-          "url": "https://www.amazon.co.uk/dp/B0DJ9DRX1W",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i39t3m/pokemon_surging_sparks_booster_bundle_is_on_sale/",
-          "score": 1,
-          "num_comments": 1,
-          "flair": "deals in us",
-          "created_utc": "2025-01-17 05:55 UTC",
-          "author": "havocs13",
-          "price_mentioned": 28.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Amazon has Surging sparks booster bundle for $39.99 (6 Pokemon Surging sparks) ",
-          "url": "https://amzn.to/4abQDpS",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hwex6y/amazon_has_surging_sparks_booster_bundle_for_3999/",
-          "score": 1,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2025-01-08 08:03 UTC",
-          "author": "havocs13",
-          "price_mentioned": 39.99,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Grand Adventure collection is in stock at Amazon for $18.99 comes with 2 Surging Sparks, stellar crown and Obsidian flames ",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hst5qa/pokemon_grand_adventure_collection_is_in_stock_at/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hst5qa/pokemon_grand_adventure_collection_is_in_stock_at/",
-          "score": 1,
-          "num_comments": 1,
-          "flair": "deals in us",
-          "created_utc": "2025-01-03 18:23 UTC",
-          "author": "havocs13",
-          "price_mentioned": 18.99,
-          "matched_sets": [
-            "surging-sparks",
-            "obsidian-flames",
-            "paradox-rift",
-            "stellar-crown"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Surging Sparks Elite Trainer box is in stock at Amazon for $60",
-          "url": "https://amzn.to/3ZUvcF1",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hnvcmo/pokemon_surging_sparks_elite_trainer_box_is_in/",
-          "score": 1,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2024-12-28 02:11 UTC",
-          "author": "havocs13",
-          "price_mentioned": 60.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        }
-      ],
-      "paradox-rift": [
-        {
-          "title": "Pokemon Grand Adventure collection is on sale at Amazon for $18.99 (34% off) comes with Surging Sparks!",
-          "url": "https://amzn.to/3ZQQDqu",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hmvcrd/pokemon_grand_adventure_collection_is_on_sale_at/",
-          "score": 3,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2024-12-26 19:05 UTC",
-          "author": "havocs13",
-          "price_mentioned": 18.99,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Surging Sparks 18 Booster Pack Box for £70.24 @ Amazon",
-          "url": "https://amzn.to/4aBrHrQ",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1icvok2/surging_sparks_18_booster_pack_box_for_7024_amazon/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in uk",
-          "created_utc": "2025-01-29 15:00 UTC",
-          "author": "Dazzling_Elevator254",
-          "price_mentioned": null,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Surging Sparks ETB for £44.99 (10% off) @ Amazon UK",
-          "url": "https://amzn.to/3Wl2cVJ",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i16p88/surging_sparks_etb_for_4499_10_off_amazon_uk/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in uk",
-          "created_utc": "2025-01-14 14:01 UTC",
-          "author": "Dazzling_Elevator254",
-          "price_mentioned": null,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Surging Sparks Booster Bundle is in stock at Amazon for $37 ",
-          "url": "https://amzn.to/3BEkTwM",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hrdry9/pokemon_surging_sparks_booster_bundle_is_in_stock/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2025-01-01 22:01 UTC",
-          "author": "havocs13",
-          "price_mentioned": 37.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Surging Sparks Elite trainer box ETB is in stock at Amazon for $60",
-          "url": "https://amzn.to/4iW80ii",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hqlkjl/pokemon_surging_sparks_elite_trainer_box_etb_is/",
-          "score": 2,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2024-12-31 19:03 UTC",
-          "author": "havocs13",
-          "price_mentioned": 60.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Surging Sparks 3 pack Zapdos edition is on sale at Amazon for $21 ",
-          "url": "https://amzn.to/4gBfup9",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hpxpkw/pokemon_surging_sparks_3_pack_zapdos_edition_is/",
-          "score": 2,
-          "num_comments": 1,
-          "flair": "deals in us",
-          "created_utc": "2024-12-30 21:15 UTC",
-          "author": "havocs13",
-          "price_mentioned": 21.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Mega Evolution booster Bundle and Surging Sparks elite trainer boxes are available at GameStop today",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
-          "score": 1,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2025-10-04 15:25 UTC",
-          "author": "havocs13",
-          "price_mentioned": null,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift",
-            "mega-evolution"
-          ],
-          "source_store": "gamestop"
-        },
-        {
-          "title": "Pokemon Surging Sparks Booster Bundle is on sale at Amazon UK for $28 each when you buy 2. Available to ship to US",
-          "url": "https://www.amazon.co.uk/dp/B0DJ9DRX1W",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i39t3m/pokemon_surging_sparks_booster_bundle_is_on_sale/",
-          "score": 1,
-          "num_comments": 1,
-          "flair": "deals in us",
-          "created_utc": "2025-01-17 05:55 UTC",
-          "author": "havocs13",
-          "price_mentioned": 28.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Amazon has Surging sparks booster bundle for $39.99 (6 Pokemon Surging sparks) ",
-          "url": "https://amzn.to/4abQDpS",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hwex6y/amazon_has_surging_sparks_booster_bundle_for_3999/",
-          "score": 1,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2025-01-08 08:03 UTC",
-          "author": "havocs13",
-          "price_mentioned": 39.99,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Grand Adventure collection is in stock at Amazon for $18.99 comes with 2 Surging Sparks, stellar crown and Obsidian flames ",
-          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hst5qa/pokemon_grand_adventure_collection_is_in_stock_at/",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hst5qa/pokemon_grand_adventure_collection_is_in_stock_at/",
-          "score": 1,
-          "num_comments": 1,
-          "flair": "deals in us",
-          "created_utc": "2025-01-03 18:23 UTC",
-          "author": "havocs13",
-          "price_mentioned": 18.99,
-          "matched_sets": [
-            "surging-sparks",
-            "obsidian-flames",
-            "paradox-rift",
-            "stellar-crown"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Surging Sparks Elite Trainer box is in stock at Amazon for $60",
-          "url": "https://amzn.to/3ZUvcF1",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1hnvcmo/pokemon_surging_sparks_elite_trainer_box_is_in/",
-          "score": 1,
-          "num_comments": 0,
-          "flair": "deals in us",
-          "created_utc": "2024-12-28 02:11 UTC",
-          "author": "havocs13",
-          "price_mentioned": 60.0,
-          "matched_sets": [
-            "surging-sparks",
-            "paradox-rift"
-          ],
-          "source_store": "amazon"
-        },
-        {
-          "title": "Pokemon Battle Partners SV9 Japanese Booster Box Pre-order",
-          "url": "https://pokbox.com/products/pokemon-battle-partners-sv9-japanese-booster-box",
-          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1i89evm/pokemon_battle_partners_sv9_japanese_booster_box/",
-          "score": 0,
-          "num_comments": 4,
-          "flair": "deals in canada",
-          "created_utc": "2025-01-23 17:55 UTC",
-          "author": "LeftFootRightFood",
-          "price_mentioned": null,
-          "matched_sets": [
-            "paradox-rift",
             "prismatic-evolutions"
           ],
           "source_store": null
@@ -1987,6 +1845,148 @@
           "source_store": "walmart"
         }
       ],
+      "mega-evolution": [
+        {
+          "title": "Pokemon Walmart drop tonight at 9 PM EST to include Mega Venusaur box!",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1pdimxk/pokemon_walmart_drop_tonight_at_9_pm_est_to/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1pdimxk/pokemon_walmart_drop_tonight_at_9_pm_est_to/",
+          "score": 2,
+          "num_comments": 1,
+          "flair": "deals in us",
+          "created_utc": "2025-12-03 22:29 UTC",
+          "author": "ReasonableBandit",
+          "price_mentioned": null,
+          "matched_sets": [
+            "mega-evolution"
+          ],
+          "source_store": "walmart"
+        },
+        {
+          "title": "Pokemon Center Mega Evolution Ascended Heroes Elite Trainer Box has been revealed!",
+          "url": "https://www.pokebeach.com/2025/11/ascended-heroes-special-set-revealed-for-january",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p26g2m/pokemon_center_mega_evolution_ascended_heroes/",
+          "score": 2,
+          "num_comments": 1,
+          "flair": "general deals discussion",
+          "created_utc": "2025-11-20 15:43 UTC",
+          "author": "ReasonableBandit",
+          "price_mentioned": null,
+          "matched_sets": [
+            "ascended-heroes",
+            "mega-evolution"
+          ],
+          "source_store": "pokemon center"
+        },
+        {
+          "title": "Pokémon Mega Evolution Phantasmal Flames Booster Bundle",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ow6qw8/pokémon_mega_evolution_phantasmal_flames_booster/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ow6qw8/pokémon_mega_evolution_phantasmal_flames_booster/",
+          "score": 2,
+          "num_comments": 0,
+          "flair": "deals in canada",
+          "created_utc": "2025-11-13 17:11 UTC",
+          "author": "Left-Gur6444",
+          "price_mentioned": null,
+          "matched_sets": [
+            "mega-evolution"
+          ],
+          "source_store": null
+        },
+        {
+          "title": "Pokemon Center Mega Evolution Phantasmal Flames dropped, but Ultra Premium Collection didn't drop.",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nkrnrt/pokemon_center_mega_evolution_phantasmal_flames/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nkrnrt/pokemon_center_mega_evolution_phantasmal_flames/",
+          "score": 2,
+          "num_comments": 0,
+          "flair": "general deals discussion",
+          "created_utc": "2025-09-19 02:29 UTC",
+          "author": "havocs13",
+          "price_mentioned": null,
+          "matched_sets": [
+            "mega-evolution",
+            "prismatic-evolutions"
+          ],
+          "source_store": "pokemon center"
+        },
+        {
+          "title": "Pokemon Mega Evolution Phantasmal Flames Elite Trainer Box - $104 CAD",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p6uckk/pokemon_mega_evolution_phantasmal_flames_elite/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p6uckk/pokemon_mega_evolution_phantasmal_flames_elite/",
+          "score": 1,
+          "num_comments": 1,
+          "flair": "deals in canada",
+          "created_utc": "2025-11-26 01:10 UTC",
+          "author": "Left-Gur6444",
+          "price_mentioned": 104.0,
+          "matched_sets": [
+            "mega-evolution"
+          ],
+          "source_store": null
+        },
+        {
+          "title": "Pokemon: Mega Evolution - Phantasmal Flames - Booster Box - $279.97",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ow6wwi/pokemon_mega_evolution_phantasmal_flames_booster/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ow6wwi/pokemon_mega_evolution_phantasmal_flames_booster/",
+          "score": 1,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2025-11-13 17:18 UTC",
+          "author": "Left-Gur6444",
+          "price_mentioned": 279.97,
+          "matched_sets": [
+            "mega-evolution"
+          ],
+          "source_store": null
+        },
+        {
+          "title": "Mega Evolution booster Bundle and Surging Sparks elite trainer boxes are available at GameStop today",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1nxwwkf/mega_evolution_booster_bundle_and_surging_sparks/",
+          "score": 1,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2025-10-04 15:25 UTC",
+          "author": "havocs13",
+          "price_mentioned": null,
+          "matched_sets": [
+            "paradox-rift",
+            "surging-sparks",
+            "mega-evolution"
+          ],
+          "source_store": "gamestop"
+        },
+        {
+          "title": "Mega Charizard Ultra Premium Collection is expected to drop on 11/28  at Costco online",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p8rffb/mega_charizard_ultra_premium_collection_is/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1p8rffb/mega_charizard_ultra_premium_collection_is/",
+          "score": 0,
+          "num_comments": 3,
+          "flair": "deals in us",
+          "created_utc": "2025-11-28 10:16 UTC",
+          "author": "ReasonableBandit",
+          "price_mentioned": null,
+          "matched_sets": [
+            "mega-evolution",
+            "prismatic-evolutions"
+          ],
+          "source_store": "costco"
+        },
+        {
+          "title": "Mega Evolution Phantasmal Flames Elite Trainer Boxes dropped today!",
+          "url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ni7cgy/mega_evolution_phantasmal_flames_elite_trainer/",
+          "reddit_url": "https://www.reddit.com/r/PokemonTCGDeals/comments/1ni7cgy/mega_evolution_phantasmal_flames_elite_trainer/",
+          "score": 0,
+          "num_comments": 0,
+          "flair": "deals in us",
+          "created_utc": "2025-09-16 03:57 UTC",
+          "author": "havocs13",
+          "price_mentioned": null,
+          "matched_sets": [
+            "mega-evolution"
+          ],
+          "source_store": null
+        }
+      ],
       "destined-rivals": [
         {
           "title": "POKEMON SV10 DESTINED RIVALS BOOSTER",
@@ -2080,10 +2080,10 @@
           "author": "havocs13",
           "price_mentioned": 18.99,
           "matched_sets": [
-            "surging-sparks",
-            "obsidian-flames",
             "paradox-rift",
-            "stellar-crown"
+            "surging-sparks",
+            "stellar-crown",
+            "obsidian-flames"
           ],
           "source_store": "amazon"
         }
@@ -2100,10 +2100,10 @@
           "author": "havocs13",
           "price_mentioned": 18.99,
           "matched_sets": [
-            "surging-sparks",
-            "obsidian-flames",
             "paradox-rift",
-            "stellar-crown"
+            "surging-sparks",
+            "stellar-crown",
+            "obsidian-flames"
           ],
           "source_store": "amazon"
         }
