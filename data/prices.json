@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-26 14:07 UTC",
+    "last_updated": "2026-05-27 00:17 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -2491,11 +2491,11 @@
           "card_number": "253/182",
           "sold": {
             "query": "Pokemon Altaria ex 253/182 -lot -bundle -repack",
-            "median_price_usd": 59.99,
-            "avg_price_usd": 94.0,
-            "low_price_usd": 24.99,
-            "high_price_usd": 400.0,
-            "num_sales": 79,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []
@@ -4430,11 +4430,11 @@
           "card_number": "174/142",
           "sold": {
             "query": "Pokemon Area Zero Underdepths 174/142 -lot -bundle -repack",
-            "median_price_usd": 9.99,
-            "avg_price_usd": 11.83,
-            "low_price_usd": 2.0,
-            "high_price_usd": 59.95,
-            "num_sales": 78,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []

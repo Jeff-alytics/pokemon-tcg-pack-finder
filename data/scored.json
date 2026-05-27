@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-26 14:07 UTC",
+    "generated": "2026-05-27 00:17 UTC",
     "num_sets": 23
   },
   "sets": [
@@ -2271,7 +2271,7 @@
       "expected_value_per_pack": 0.86,
       "packs_to_50_card": 464,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -92.3,
+      "etb_roi_pct": -92.4,
       "num_chase_cards": 29,
       "chase_cards": [
         {
@@ -2282,8 +2282,7 @@
         {
           "name": "Altaria ex (SIR)",
           "card_number": "253/182",
-          "estimated_value_usd": 54.59,
-          "live_value_usd": 59.99
+          "estimated_value_usd": 54.59
         },
         {
           "name": "Plusle (IR)",
@@ -2824,8 +2823,7 @@
         {
           "name": "Area Zero Underdepths (HR)",
           "card_number": "174/142",
-          "estimated_value_usd": 12.32,
-          "live_value_usd": 9.99
+          "estimated_value_usd": 12.32
         },
         {
           "name": "Gulpin (IR)",
