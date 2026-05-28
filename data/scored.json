@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-27 21:04 UTC",
+    "generated": "2026-05-28 00:15 UTC",
     "num_sets": 24
   },
   "sets": [
@@ -2484,7 +2484,8 @@
         {
           "name": "Gimmighoul (IR)",
           "card_number": "198/182",
-          "estimated_value_usd": 13.94
+          "estimated_value_usd": 13.94,
+          "live_value_usd": 13.61
         },
         {
           "name": "Garchomp ex (HR)",
