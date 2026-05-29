@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-28 14:52 UTC",
+    "generated": "2026-05-29 00:27 UTC",
     "num_sets": 24
   },
   "sets": [
@@ -3120,10 +3120,10 @@
       "top_chase_card": "Lillie's Clefairy ex (SIR)",
       "top_chase_card_number": "184/159",
       "pull_rate_top_chase": "1 in 500",
-      "expected_value_per_pack": 0.53,
+      "expected_value_per_pack": 0.54,
       "packs_to_50_card": 275,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -95.3,
+      "etb_roi_pct": -95.2,
       "num_chase_cards": 11,
       "chase_cards": [
         {
@@ -3139,8 +3139,7 @@
         {
           "name": "N's Zoroark ex (SIR)",
           "card_number": "185/159",
-          "estimated_value_usd": 57.51,
-          "live_value_usd": 50.0
+          "estimated_value_usd": 57.51
         },
         {
           "name": "Iono's Bellibolt ex (SIR)",

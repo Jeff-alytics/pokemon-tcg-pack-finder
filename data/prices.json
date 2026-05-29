@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-28 14:52 UTC",
+    "last_updated": "2026-05-29 00:27 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -5284,11 +5284,11 @@
           "card_number": "185/159",
           "sold": {
             "query": "Pokemon N's Zoroark ex 185/159 -lot -bundle -repack",
-            "median_price_usd": 50.0,
-            "avg_price_usd": 70.21,
-            "low_price_usd": 40.0,
-            "high_price_usd": 208.0,
-            "num_sales": 80,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []
