@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-30 00:25 UTC",
+    "generated": "2026-05-30 12:20 UTC",
     "num_sets": 24
   },
   "sets": [
@@ -577,8 +577,7 @@
         {
           "name": "Mega Froslass ex (AR)",
           "card_number": "265/217",
-          "estimated_value_usd": 25,
-          "live_value_usd": 16.99
+          "estimated_value_usd": 25
         },
         {
           "name": "Mega Diancie ex (AR)",
@@ -2043,99 +2042,6 @@
       "cheapest_pack_listing": null
     },
     {
-      "id": "evolving-skies",
-      "name": "Evolving Skies",
-      "set_code": "EVS",
-      "release_date": "2021-08-27",
-      "set_type": "main",
-      "in_print": false,
-      "in_print_note": "Out of print. Most valuable SWSH set.",
-      "total_cards": 237,
-      "pack_value_score": 40.1,
-      "component_scores": {
-        "cost_efficiency": 50.0,
-        "chase_magnitude": 25.8,
-        "pull_odds": 76.2,
-        "hit_density": 10.8
-      },
-      "pack_price_usd": 4.49,
-      "best_deal": {
-        "product": "booster-pack",
-        "total_price": 4.49,
-        "per_pack": 4.49,
-        "source": "",
-        "label": "Booster Pack"
-      },
-      "top_chase_value_usd": 474.23,
-      "top_chase_card": "Umbreon VMAX (Alt Art)",
-      "top_chase_card_number": "215/203",
-      "pull_rate_top_chase": "1 in 700",
-      "expected_value_per_pack": 2.6,
-      "packs_to_50_card": 82,
-      "etb_price_usd": 89.8,
-      "etb_roi_pct": -76.8,
-      "num_chase_cards": 11,
-      "chase_cards": [
-        {
-          "name": "Umbreon VMAX (Alt Art)",
-          "card_number": "215/203",
-          "estimated_value_usd": 450
-        },
-        {
-          "name": "Rayquaza VMAX (Alt Art)",
-          "card_number": "218/203",
-          "estimated_value_usd": 250
-        },
-        {
-          "name": "Glaceon VMAX (Alt Art)",
-          "card_number": "209/203",
-          "estimated_value_usd": 150,
-          "live_value_usd": 474.23
-        },
-        {
-          "name": "Sylveon VMAX (Alt Art)",
-          "card_number": "212/203",
-          "estimated_value_usd": 130
-        },
-        {
-          "name": "Dragonite V (Alt Art)",
-          "card_number": "192/203",
-          "estimated_value_usd": 100
-        },
-        {
-          "name": "Espeon VMAX (Alt Art)",
-          "card_number": "270/203",
-          "estimated_value_usd": 80
-        },
-        {
-          "name": "Leafeon VMAX (Alt Art)",
-          "card_number": "205/203",
-          "estimated_value_usd": 70
-        },
-        {
-          "name": "Jolteon VMAX (Alt Art)",
-          "card_number": "214/203",
-          "estimated_value_usd": 50
-        },
-        {
-          "name": "Vaporeon VMAX (Alt Art)",
-          "card_number": "208/203",
-          "estimated_value_usd": 45
-        },
-        {
-          "name": "Flareon VMAX (Alt Art)",
-          "card_number": "211/203",
-          "estimated_value_usd": 40
-        },
-        {
-          "name": "Gyarados VMAX (Alt Art)",
-          "card_number": "207/203",
-          "estimated_value_usd": 30
-        }
-      ],
-      "cheapest_pack_listing": null
-    },
-    {
       "id": "pokemon-go",
       "name": "Pokemon Go",
       "set_code": "PGO",
@@ -2243,7 +2149,7 @@
       "expected_value_per_pack": 0.94,
       "packs_to_50_card": 270,
       "etb_price_usd": 101.03,
-      "etb_roi_pct": -91.7,
+      "etb_roi_pct": -91.6,
       "num_chase_cards": 18,
       "chase_cards": [
         {
@@ -2299,8 +2205,7 @@
         {
           "name": "Jasmine's Gaze (SIR)",
           "card_number": "245/191",
-          "estimated_value_usd": 21.05,
-          "live_value_usd": 19.99
+          "estimated_value_usd": 21.05
         },
         {
           "name": "Ceruledge (IR)",
@@ -2336,6 +2241,98 @@
           "name": "Slakoth (IR)",
           "card_number": "212/191",
           "estimated_value_usd": 10.59
+        }
+      ],
+      "cheapest_pack_listing": null
+    },
+    {
+      "id": "evolving-skies",
+      "name": "Evolving Skies",
+      "set_code": "EVS",
+      "release_date": "2021-08-27",
+      "set_type": "main",
+      "in_print": false,
+      "in_print_note": "Out of print. Most valuable SWSH set.",
+      "total_cards": 237,
+      "pack_value_score": 39.7,
+      "component_scores": {
+        "cost_efficiency": 50.0,
+        "chase_magnitude": 24.2,
+        "pull_odds": 76.2,
+        "hit_density": 10.8
+      },
+      "pack_price_usd": 4.49,
+      "best_deal": {
+        "product": "booster-pack",
+        "total_price": 4.49,
+        "per_pack": 4.49,
+        "source": "",
+        "label": "Booster Pack"
+      },
+      "top_chase_value_usd": 450,
+      "top_chase_card": "Umbreon VMAX (Alt Art)",
+      "top_chase_card_number": "215/203",
+      "pull_rate_top_chase": "1 in 700",
+      "expected_value_per_pack": 2.11,
+      "packs_to_50_card": 82,
+      "etb_price_usd": 89.8,
+      "etb_roi_pct": -81.2,
+      "num_chase_cards": 11,
+      "chase_cards": [
+        {
+          "name": "Umbreon VMAX (Alt Art)",
+          "card_number": "215/203",
+          "estimated_value_usd": 450
+        },
+        {
+          "name": "Rayquaza VMAX (Alt Art)",
+          "card_number": "218/203",
+          "estimated_value_usd": 250
+        },
+        {
+          "name": "Glaceon VMAX (Alt Art)",
+          "card_number": "209/203",
+          "estimated_value_usd": 150
+        },
+        {
+          "name": "Sylveon VMAX (Alt Art)",
+          "card_number": "212/203",
+          "estimated_value_usd": 130
+        },
+        {
+          "name": "Dragonite V (Alt Art)",
+          "card_number": "192/203",
+          "estimated_value_usd": 100
+        },
+        {
+          "name": "Espeon VMAX (Alt Art)",
+          "card_number": "270/203",
+          "estimated_value_usd": 80
+        },
+        {
+          "name": "Leafeon VMAX (Alt Art)",
+          "card_number": "205/203",
+          "estimated_value_usd": 70
+        },
+        {
+          "name": "Jolteon VMAX (Alt Art)",
+          "card_number": "214/203",
+          "estimated_value_usd": 50
+        },
+        {
+          "name": "Vaporeon VMAX (Alt Art)",
+          "card_number": "208/203",
+          "estimated_value_usd": 45
+        },
+        {
+          "name": "Flareon VMAX (Alt Art)",
+          "card_number": "211/203",
+          "estimated_value_usd": 40
+        },
+        {
+          "name": "Gyarados VMAX (Alt Art)",
+          "card_number": "207/203",
+          "estimated_value_usd": 30
         }
       ],
       "cheapest_pack_listing": null
