@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-29 14:23 UTC",
+    "last_updated": "2026-05-30 00:25 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -59,11 +59,11 @@
           "card_number": "209/203",
           "sold": {
             "query": "Pokemon Glaceon VMAX 209/203 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 474.23,
+            "avg_price_usd": 430.15,
+            "low_price_usd": 15.99,
+            "high_price_usd": 849.95,
+            "num_sales": 80,
             "period_days": 30
           },
           "active_listings": []
@@ -754,7 +754,16 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "CYNTHIA'S AMBITION GG60/70 | NM | CROWN ZENITH GALARIAN GALLERY | POKEMON",
+              "price_usd": 28.95,
+              "url": "https://www.ebay.com/itm/CYNTHIAS-AMBITION-GG60-70-NM-CROWN-ZENITH-GALARIAN-GALLERY-POKEMON-/136721124701",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Lapras": {
           "card_number": "GG05/70",
@@ -2771,32 +2780,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "Choose Your Card from Pokemon \"Paradox Rift\" DR/UR/IR/SIR/HR Only !",
-              "price_usd": 8.49,
-              "url": "https://www.ebay.com/itm/Choose-Your-Card-Pokemon-Paradox-Rift-DR-UR-IR-SIR-HR-Only-/404586195453?var=674580455501",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Gimmighoul - 198/182 Paradox Rift Illustration Rare Pokemon - NM Holo",
-              "price_usd": 10.0,
-              "url": "https://www.ebay.com/itm/Gimmighoul-198-182-Paradox-Rift-Illustration-Rare-Pokemon-NM-Holo-/137197641529",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Pokemon Paradox Rift - Pick Your Card Complete Your Set Rare, DR, UR, IR, SIR HR",
-              "price_usd": 9.99,
-              "url": "https://www.ebay.com/itm/Pokemon-Paradox-Rift-Pick-Your-Card-Complete-Your-Set-Rare-DR-UR-IR-SIR-HR-/166418231019?var=466065253155",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.99
-            }
-          ]
+          "active_listings": []
         },
         "Garchomp ex (HR)": {
           "card_number": "260/182",
@@ -4653,11 +4637,11 @@
           "card_number": "245/191",
           "sold": {
             "query": "Pokemon Jasmine's Gaze 245/191 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 19.99,
+            "avg_price_usd": 27.76,
+            "low_price_usd": 14.99,
+            "high_price_usd": 143.01,
+            "num_sales": 75,
             "period_days": 30
           },
           "active_listings": []
@@ -6449,11 +6433,11 @@
           "card_number": "265/217",
           "sold": {
             "query": "Pokemon Mega Froslass ex 265/217 -lot -bundle -repack",
-            "median_price_usd": null,
-            "avg_price_usd": null,
-            "low_price_usd": null,
-            "high_price_usd": null,
-            "num_sales": 0,
+            "median_price_usd": 16.99,
+            "avg_price_usd": 19.78,
+            "low_price_usd": 9.95,
+            "high_price_usd": 200.0,
+            "num_sales": 80,
             "period_days": 30
           },
           "active_listings": []
