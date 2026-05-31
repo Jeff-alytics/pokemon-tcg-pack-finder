@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-05-30 12:20 UTC",
+    "last_updated": "2026-05-31 00:18 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -910,7 +910,24 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "MILTANK GG24/70 HOLO | NM | CROWN ZENITH GALARIAN GALLERY | POKEMON",
+              "price_usd": 7.99,
+              "url": "https://www.ebay.com/itm/MILTANK-GG24-70-HOLO-NM-CROWN-ZENITH-GALARIAN-GALLERY-POKEMON-/136721124698",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon TCG Miltank GG24/70 SWSH Crown Zenith Ultra Rare Holo EN",
+              "price_usd": 12.0,
+              "url": "https://www.ebay.com/itm/Pokemon-TCG-Miltank-GG24-70-SWSH-Crown-Zenith-Ultra-Rare-Holo-/236809882086",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Gardenia's Vigor (UR)": {
           "card_number": "GG61/70",
@@ -4937,7 +4954,32 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": []
+          "active_listings": [
+            {
+              "title": "Pokemon TCG SV: Prismatic Evolutions - Pick Your Cards",
+              "price_usd": 0.99,
+              "url": "https://www.ebay.com/itm/Pokemon-TCG-SV-Prismatic-Evolutions-Pick-Your-Cards-/187614948587?var=695440763436",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.74
+            },
+            {
+              "title": "Pokemon Pikachu EX Hyper Rare 179/131 | PSA Slab Insert + Case | NO CARD",
+              "price_usd": 29.03,
+              "url": "https://www.ebay.com/itm/Pokemon-Pikachu-EX-Hyper-Rare-179-131-PSA-Slab-Insert-Case-NO-CARD-/287292331154",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            },
+            {
+              "title": "Pokemon Pikachu EX Hyper Rare 179/131 | PSA Slab Insert + Case | NO CARD",
+              "price_usd": 29.03,
+              "url": "https://www.ebay.com/itm/Pokemon-Pikachu-EX-Hyper-Rare-179-131-PSA-Slab-Insert-Case-NO-CARD-/287295848940",
+              "seller": "eBay",
+              "listing_type": "buy_it_now",
+              "shipping_usd": 0.0
+            }
+          ]
         },
         "Raging Bolt ex (SIR)": {
           "card_number": "159/131",
