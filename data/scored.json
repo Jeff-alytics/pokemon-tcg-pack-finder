@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-05-31 12:26 UTC",
+    "generated": "2026-06-01 00:21 UTC",
     "num_sets": 24
   },
   "sets": [
@@ -1308,7 +1308,8 @@
         {
           "name": "Omanyte (IR)",
           "card_number": "180/165",
-          "estimated_value_usd": 19.98
+          "estimated_value_usd": 19.98,
+          "live_value_usd": 9.55
         },
         {
           "name": "Caterpie (IR)",
