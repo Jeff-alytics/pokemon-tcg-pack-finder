@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-06-01 16:54 UTC",
+    "generated": "2026-06-02 00:28 UTC",
     "num_sets": 24
   },
   "sets": [
@@ -1328,7 +1328,8 @@
         {
           "name": "Ninetales ex (UR)",
           "card_number": "186/165",
-          "estimated_value_usd": 17.18
+          "estimated_value_usd": 17.18,
+          "live_value_usd": 15.0
         },
         {
           "name": "Alakazam ex (UR)",
