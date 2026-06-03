@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-06-02 15:07 UTC",
+    "last_updated": "2026-06-03 00:41 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
@@ -1933,32 +1933,7 @@
             "num_sales": 0,
             "period_days": 30
           },
-          "active_listings": [
-            {
-              "title": "Pokemon TCG - Obsidian Flames: Choose Your Card! - All Cards! Master Set NM",
-              "price_usd": 1.29,
-              "url": "https://www.ebay.com/itm/Pokemon-TCG-Obsidian-Flames-Choose-Your-Card-All-Cards-Master-Set-NM-/226829384231?var=525988988513",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            },
-            {
-              "title": "Pokemon TCG Obsidian Flames - Pick Your Card ! RH - EX - Hyper - Plus More",
-              "price_usd": 7.0,
-              "url": "https://www.ebay.com/itm/Pokemon-TCG-Obsidian-Flames-Pick-Your-Card-RH-EX-Hyper-Plus-More-/175943449663?var=475366199448",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.87
-            },
-            {
-              "title": "Choose Your Card !! from Pokemon Obsidian Flames ! DR/IR/UR/SIR/HR Only !",
-              "price_usd": 7.99,
-              "url": "https://www.ebay.com/itm/Choose-Your-Card-Pokemon-Obsidian-Flames-DR-IR-UR-SIR-HR-Only-/404429282895?var=674381533143",
-              "seller": "eBay",
-              "listing_type": "buy_it_now",
-              "shipping_usd": 0.0
-            }
-          ]
+          "active_listings": []
         },
         "Gloom (IR)": {
           "card_number": "198/197",
@@ -6540,11 +6515,11 @@
           "card_number": "235/217",
           "sold": {
             "query": "Pokemon Togekiss 235/217 -lot -bundle -repack",
-            "median_price_usd": 7.99,
-            "avg_price_usd": 16.56,
-            "low_price_usd": 4.8,
-            "high_price_usd": 200.0,
-            "num_sales": 80,
+            "median_price_usd": null,
+            "avg_price_usd": null,
+            "low_price_usd": null,
+            "high_price_usd": null,
+            "num_sales": 0,
             "period_days": 30
           },
           "active_listings": []

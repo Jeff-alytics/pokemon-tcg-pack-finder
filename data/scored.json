@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated": "2026-06-02 15:07 UTC",
+    "generated": "2026-06-03 00:41 UTC",
     "num_sets": 24
   },
   "sets": [
@@ -612,8 +612,7 @@
         {
           "name": "Togekiss (IR)",
           "card_number": "235/217",
-          "estimated_value_usd": 18,
-          "live_value_usd": 7.99
+          "estimated_value_usd": 18
         },
         {
           "name": "Dreepy (IR)",
