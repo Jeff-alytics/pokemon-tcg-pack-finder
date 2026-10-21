@@ -1,7 +1,7 @@
 {
   "_meta": {
     "description": "Scraped pricing data — updated by the pipeline",
-    "last_updated": "2026-10-20 15:49 UTC",
+    "last_updated": "2026-10-21 01:32 UTC",
     "scraper_version": "2.1.0",
     "sources": [
       "tcgplayer",
